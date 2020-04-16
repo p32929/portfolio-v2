@@ -7,8 +7,8 @@ import avatarImage from "../assets/avatar2.png";
 
 const styles = {
     listGridParent: {
-        maxHeight: '100%',
-        height: '100%',
+        maxHeight: '85%',
+        height: '85%',
         overflowY: 'auto',
         marginRight: 8,
         marginLeft: 8,
@@ -27,8 +27,7 @@ const styles = {
 
 const About = () => {
     return (
-        <Grid style={styles.listGridParent} container xs item direction='column' alignItems='center'
-              justify='center'>
+        <Grid style={styles.listGridParent} container xs item direction='column' alignItems='center' justify='space-around'>
 
             <Grid item>
                 <Avatar variant='square' style={styles.avatar}

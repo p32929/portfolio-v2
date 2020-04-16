@@ -93,7 +93,8 @@ const LeftPart = () => {
                                 return <IconButton size='small' href={item.link}>
                                     <SvgHelper
                                         path={item.svgPath}
-                                        size={20} styles={{margin: 3}}/>
+                                        color={primaryColor}
+                                        size={18} styles={{margin: 3}}/>
                                 </IconButton>
                             })
                         }

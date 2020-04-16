@@ -21,7 +21,7 @@ const TypographyMultiLineWithIcon = (props) => {
                     color: "#757575"
                 }}>{props.children}</Typography>
 
-                <Paper elevation={2} style={{marginTop: 8}}>
+                <Paper elevation={4} style={{marginTop: 8}}>
                     <Typography style={{
                         margin: 16,
                         fontSize: 14,
