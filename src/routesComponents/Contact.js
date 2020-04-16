@@ -1,6 +1,8 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import ListItem from "../components/ListItem";
+import {socialLinks} from "../vars/ContactItems";
+import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
 
 const styles = {
     listGridParent: {
@@ -9,22 +11,19 @@ const styles = {
         marginRight: 8,
         marginLeft: 8,
     },
+    listGridInner: {}
 }
-
-const arr = [
-    'a',
-    'a',
-    'a',
-    'a',
-
-]
 
 const Contact = () => {
     return (
         <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
-            {
-                arr.map(item => <ListItem/>)
-            }
+
+            <TypographyWithIcon>Contact me</TypographyWithIcon>
+            <Grid style={{marginBottom: 16}} container direction='row'>
+                {
+                    socialLinks.map(item => <ListItem perLine={2} item={item}/>)
+                }
+            </Grid>
         </Grid>
     );
 };
