@@ -18,13 +18,25 @@ const Skills = () => {
     return (
         <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
             <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
-            <Grid container direction='row'>
+            <Grid style={{marginBottom: 16}} container direction='row'>
                 {
                     languages.map(item => <ListItem/>)
                 }
             </Grid>
 
-            <p>HELLO</p>
+            <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
+            <Grid style={{marginBottom: 16}} container direction='row'>
+                {
+                    languages.map(item => <ListItem/>)
+                }
+            </Grid>
+
+            <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
+            <Grid style={{marginBottom: 16}} container direction='row'>
+                {
+                    languages.map(item => <ListItem/>)
+                }
+            </Grid>
         </Grid>
     );
 };

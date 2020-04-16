@@ -8,7 +8,8 @@ import IconButton from "@material-ui/core/IconButton";
 
 const styles = {
     parent: {
-        cursor: 'pointer'
+        cursor: 'pointer',
+        margin: 2
     },
     avatar: {
         margin: 16,
@@ -36,7 +37,7 @@ const ListItem = (props) => {
     } = props;
     return (
         <Grid item xs={xs}>
-            <Paper style={styles.parent}>
+            <Paper elevation={4} style={styles.parent}>
                 <Grid container wrap="nowrap">
                     <Grid item>
                         <Avatar style={styles.avatar}
