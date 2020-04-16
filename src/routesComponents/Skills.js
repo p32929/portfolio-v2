@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import ListItem from "../components/ListItem";
-import {languages} from "../vars/SkillsItems";
+import {frameworks, languages, others} from "../vars/SkillsItems";
 import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
 
 const styles = {
@@ -20,21 +20,21 @@ const Skills = () => {
             <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    languages.map(item => <ListItem/>)
+                    languages.map(item => <ListItem item={item}/>)
                 }
             </Grid>
 
             <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    languages.map(item => <ListItem/>)
+                    frameworks.map(item => <ListItem item={item}/>)
                 }
             </Grid>
 
             <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    languages.map(item => <ListItem/>)
+                    others.map(item => <ListItem item={item}/>)
                 }
             </Grid>
         </Grid>
