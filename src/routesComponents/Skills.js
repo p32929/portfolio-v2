@@ -24,14 +24,14 @@ const Skills = () => {
                 }
             </Grid>
 
-            <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
+            <TypographyWithIcon>Libraries/Frameworks</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
                     frameworks.map(item => <ListItem item={item}/>)
                 }
             </Grid>
 
-            <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
+            <TypographyWithIcon>Others</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
                     others.map(item => <ListItem item={item}/>)
