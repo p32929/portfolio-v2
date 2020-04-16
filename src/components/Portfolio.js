@@ -30,6 +30,7 @@ const styles = {
 }
 
 const Portfolio = () => {
+
     return (
         <Grid container style={styles.parent}>
             <Paper elevation={16} style={styles.paper}>

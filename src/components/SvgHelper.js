@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const SvgHelper = props => {
-    const {size = 48, color = "#6F6F6F", path, styles = {margin: 16}} = props;
+    const {size = 48, color = "#6F6F6F", path, styles = {}} = props;
 
     return (
         <svg onClick={() =>{
