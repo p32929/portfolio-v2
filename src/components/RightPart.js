@@ -69,34 +69,30 @@ const routerComponents = [
 
 const RightPart = (props) => {
     let location = useLocation();
-    return (
-        <Switch>
-            <Grid style={{height: '100%'}} container xs item direction='row' alignContent='flex-start'>
-                <Grid style={styles.upperPart} container direction='row'>
-                    <Grid>
-                        <Button disabled style={styles.currentRoute}>
-                            {
-                                location.pathname ? "About" :
-                                    location.pathname.replace("/", "")
-                            }
-                        </Button>
-                        <Divider orientation="horizontal" style={styles.divider} flexItem/>
-                    </Grid>
-                </Grid>
-                {/*<Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>*/}
-                {/*    {*/}
-                {/*        arr.map(item => <ListItem/>)*/}
-                {/*    }*/}
-                {/*</Grid>*/}
+    console.log(location.pathname);
 
+    return (
+
+        <Grid style={{height: '100%'}} container xs item direction='row' alignContent='flex-start'>
+            <Grid style={styles.upperPart} container direction='row'>
+                <Grid>
+                    <Button disabled style={styles.currentRoute}>
+                        {
+                            location.pathname.replace("/", "")
+                        }
+                    </Button>
+                    <Divider orientation="horizontal" style={styles.divider} flexItem/>
+                </Grid>
+            </Grid>
+
+            <Switch>
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/skills" component={Skills}/>
                 <Route exact path="/projects" component={Projects}/>
                 <Route exact path="/contact" component={Contact}/>
                 <Route exact path="/blogs" component={Blogs}/>
-
-            </Grid>
-        </Switch>
+            </Switch>
+        </Grid>
     );
 };
 

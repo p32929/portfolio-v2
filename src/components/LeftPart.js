@@ -8,7 +8,7 @@ import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import SvgHelper from "./SvgHelper";
-import {myImageLink, myName, myOccupation, navContactIcons, navItems} from '../vars/mainItems.js'
+import {myImageLink, myName, myOccupation, navContactIcons, navItems} from '../vars/MainItems.js'
 import {NavLink} from "react-router-dom";
 
 const styles = {

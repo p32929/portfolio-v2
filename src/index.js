@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {myName} from "./vars/mainItems";
+import {myName} from "./vars/MainItems";
 
 ReactDOM.render(
   <React.StrictMode>
