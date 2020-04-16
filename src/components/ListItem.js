@@ -36,7 +36,7 @@ const ListItem = (props) => {
             <Paper elevation={4} style={styles.parent}>
                 <Grid container wrap="nowrap" direction='row'>
                     <Grid item>
-                        <Avatar style={styles.avatar}
+                        <Avatar variant='square' style={styles.avatar}
                                 src={item.logo || demoImage}></Avatar>
                     </Grid>
                     <Grid item xs style={styles.textContainer} container alignItems='flex-start' direction='column'>

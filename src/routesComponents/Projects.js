@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import ListItem from "../components/ListItem";
-import {androidApps} from "../vars/ProjectItems";
+import {androidApps, desktopApps, webApps} from "../vars/ProjectItems";
 import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
 
 const styles = {
@@ -24,6 +24,19 @@ const Projects = () => {
                 }
             </Grid>
 
+            <TypographyWithIcon>WebApps</TypographyWithIcon>
+            <Grid style={{marginBottom: 16}} container direction='row'>
+                {
+                    webApps.map(item => <ListItem perLine={1} item={item}/>)
+                }
+            </Grid>
+
+            <TypographyWithIcon>Desktop Apps</TypographyWithIcon>
+            <Grid style={{marginBottom: 16}} container direction='row'>
+                {
+                    desktopApps.map(item => <ListItem perLine={1} item={item}/>)
+                }
+            </Grid>
 
         </Grid>
     );
