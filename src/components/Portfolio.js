@@ -4,7 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import LeftPart from "./LeftPart";
 import RightPart from "./RightPart";
 import {primaryColor} from '../vars/MainItems'
-import {BrowserRouter as Router, Redirect} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 
 var topBottomMargins = 84;
 var leftRightMargins = 158;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import ListItem from "../components/ListItem";
+import ListItem from "../helperComponents/ListItem";
 import {socialLinks} from "../vars/ContactItems";
 import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
 
@@ -24,6 +24,9 @@ const Contact = () => {
                     socialLinks.map(item => <ListItem perLine={2} item={item}/>)
                 }
             </Grid>
+
+            <TypographyWithIcon>Thank you for visiting my Portfolio</TypographyWithIcon>
+
         </Grid>
     );
 };

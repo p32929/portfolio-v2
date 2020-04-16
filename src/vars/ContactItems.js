@@ -1,5 +1,3 @@
-export var email = 'p32929@gmail.com'
-
 export var socialLinks = [
     {
         title: 'Skype',

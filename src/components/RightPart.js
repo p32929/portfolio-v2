@@ -34,32 +34,6 @@ const styles = {
     }
 }
 
-const arr = [
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-    'a',
-]
-
 const RightPart = (props) => {
     let location = useLocation();
     console.log(location.pathname);

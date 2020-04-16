@@ -57,8 +57,6 @@ const styles = {
     },
 }
 
-const currentRoute = 0;
-
 const LeftPart = () => {
     return (
         <Grid container item xs={2}>

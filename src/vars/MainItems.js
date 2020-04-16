@@ -16,7 +16,7 @@ export const navItems = [
     "Skills",
     "Projects",
     "Contact",
-    "Blogs"
+    // "Blogs"
 ]
 
 export const navContactIcons = [

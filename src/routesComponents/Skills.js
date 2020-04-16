@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import ListItem from "../components/ListItem";
+import ListItem from "../helperComponents/ListItem";
 import {frameworks, languages, others} from "../vars/SkillsItems";
 import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
 
