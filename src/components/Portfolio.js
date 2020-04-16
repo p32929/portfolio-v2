@@ -31,7 +31,6 @@ const styles = {
 }
 
 const Portfolio = () => {
-
     return (
         <Router>
             <Grid container style={styles.parent}>

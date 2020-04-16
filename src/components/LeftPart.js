@@ -9,7 +9,7 @@ import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import SvgHelper from "./SvgHelper";
 import {myImageLink, myName, myOccupation, navContactIcons, navItems} from '../vars/mainItems.js'
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 const styles = {
     avatar: {
@@ -80,13 +80,8 @@ const LeftPart = () => {
                         {
                             navItems.map((item, index) => {
                                 return (
-                                    <Button style={
-                                        index == currentRoute ? styles.selectedRoute : styles.notSelectedRoute
-                                    } size='small'><Link style={
-                                        index == currentRoute ? styles.selectedRoute : styles.notSelectedRoute
-                                    } to={item}>
-                                        {item}
-                                    </Link></Button>
+                                    <Button activeStyle={styles.selectedRoute} component={NavLink}
+                                            to={item} size='small'>{item}</Button>
                                 )
                             })
                         }
