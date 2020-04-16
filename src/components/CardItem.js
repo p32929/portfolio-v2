@@ -24,7 +24,7 @@ const styles = {
 const CardItem = (props) => {
     return (
         <Grid item xs={4}>
-            <Card raised={true} style={styles.parent}>
+            <Card style={styles.parent}>
                 <CardMedia
                     style={styles.media}
                     image={
