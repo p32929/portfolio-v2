@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import LeftPart from "./LeftPart";
 import RightPart from "./RightPart";
+import {primaryColor} from '../vars/MainItems'
 import {BrowserRouter as Router, Redirect} from "react-router-dom";
 
 var topBottomMargins = 84;
@@ -10,9 +11,9 @@ var leftRightMargins = 158;
 
 const styles = {
     parent: {
-        backgroundColor: "#CDDC39",
-        height: window.innerHeight,
-        width: window.innerWidth
+        backgroundColor: primaryColor,
+        maxHeight: window.innerHeight,
+        maxWidth: window.innerWidth
     },
     paper: {
         marginTop: topBottomMargins,
@@ -24,6 +25,7 @@ const styles = {
     content: {
         flex: 1,
         height: window.innerHeight - topBottomMargins * 2,
+        maxHeight: window.innerHeight - topBottomMargins * 2,
     },
     checker: {
         background: "#FFF"
@@ -32,17 +34,17 @@ const styles = {
 
 const Portfolio = () => {
     return (
-        <Router>
-            <Redirect from="/" to="about"/>
-            <Grid container style={styles.parent}>
+        <Grid container style={styles.parent}>
+            <Router>
+                {/*<Redirect from="/" to="about"/>*/}
                 <Paper elevation={16} style={styles.paper}>
                     <Grid style={styles.content} container direction='row'>
                         <LeftPart/>
                         <RightPart/>
                     </Grid>
                 </Paper>
-            </Grid>
-        </Router>
+            </Router>
+        </Grid>
     );
 };
 

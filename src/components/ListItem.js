@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
-import SvgHelper from "./SvgHelper";
+import SvgHelper from "../helperComponents/SvgHelper";
 import IconButton from "@material-ui/core/IconButton";
 
 const styles = {

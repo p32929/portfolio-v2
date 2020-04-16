@@ -7,8 +7,8 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
-import SvgHelper from "./SvgHelper";
-import {myImageLink, myName, myOccupation, navContactIcons, navItems} from '../vars/MainItems.js'
+import SvgHelper from "../helperComponents/SvgHelper";
+import {myImageLink, myName, myOccupation, navContactIcons, navItems, primaryColor} from '../vars/MainItems.js'
 import {NavLink} from "react-router-dom";
 
 const styles = {
@@ -36,10 +36,10 @@ const styles = {
         margin: 16,
         width: 90,
         alignSelf: 'center',
-        backgroundColor: '#CDDC39'
+        backgroundColor: primaryColor
     },
     selectedRoute: {
-        backgroundColor: "#CDDC39",
+        backgroundColor: primaryColor,
         color: "#FFF",
         marginLeft: 8,
         marginRight: 8,

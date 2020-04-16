@@ -9,6 +9,7 @@ import Skills from "../routesComponents/Skills";
 import Projects from "../routesComponents/Projects";
 import Route from "react-router-dom/es/Route";
 import Blogs from "../routesComponents/Blogs";
+import {primaryColor} from '../vars/MainItems'
 
 const styles = {
     upperPart: {
@@ -18,7 +19,7 @@ const styles = {
         height: 1,
         width: 200,
         marginTop: 8,
-        backgroundColor: '#CDDC39'
+        backgroundColor: primaryColor
     },
     listGridParent: {
         maxHeight: '85%',
@@ -59,20 +60,11 @@ const arr = [
     'a',
 ]
 
-const routerComponents = [
-    <About/>,
-    <Skills/>,
-    <Projects/>,
-    <Contact/>,
-
-]
-
 const RightPart = (props) => {
     let location = useLocation();
     console.log(location.pathname);
 
     return (
-
         <Grid style={{height: '100%'}} container xs item direction='row' alignContent='flex-start'>
             <Grid style={styles.upperPart} container direction='row'>
                 <Grid>
