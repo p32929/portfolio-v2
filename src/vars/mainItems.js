@@ -8,7 +8,7 @@ const navItems = [
     "Skills",
     "Projects",
     "Contact",
-    "Blog"
+    "Blogs"
 ]
 
 // Icons

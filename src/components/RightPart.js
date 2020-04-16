@@ -2,9 +2,13 @@ import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
-import ListItem from "./ListItem";
-import {Switch} from "react-router-dom";
-import {navItems} from '../vars/mainItems.js'
+import {Switch, useLocation} from "react-router-dom";
+import About from "../routesComponents/About";
+import Contact from "../routesComponents/Contact";
+import Skills from "../routesComponents/Skills";
+import Projects from "../routesComponents/Projects";
+import Route from "react-router-dom/es/Route";
+import Blogs from "../routesComponents/Blogs";
 
 const styles = {
     upperPart: {
@@ -55,35 +59,41 @@ const arr = [
     'a',
 ]
 
-function getCurrentIndex(link) {
-    for (var i = 0; i < navItems.length; i++) {
-        if (navItems[i].toLowerCase() == link.toLowerCase().replace("/", "")) {
-            console.log("CI: " + i);
-            return i;
-        }
-    }
-}
+const routerComponents = [
+    <About/>,
+    <Skills/>,
+    <Projects/>,
+    <Contact/>,
+
+]
 
 const RightPart = (props) => {
+    let location = useLocation();
     return (
         <Switch>
             <Grid style={{height: '100%'}} container xs item direction='row' alignContent='flex-start'>
                 <Grid style={styles.upperPart} container direction='row'>
                     <Grid>
                         <Button disabled style={styles.currentRoute}>
-                            {/*{*/}
-                            {/*    location.pathname.replace("/", "")*/}
-                            {/*}*/}
+                            {
+                                location.pathname ? "About" :
+                                    location.pathname.replace("/", "")
+                            }
                         </Button>
                         <Divider orientation="horizontal" style={styles.divider} flexItem/>
                     </Grid>
                 </Grid>
+                {/*<Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>*/}
+                {/*    {*/}
+                {/*        arr.map(item => <ListItem/>)*/}
+                {/*    }*/}
+                {/*</Grid>*/}
 
-                <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
-                    {
-                        arr.map(item => <ListItem/>)
-                    }
-                </Grid>
+                <Route exact path="/about" component={About}/>
+                <Route exact path="/skills" component={Skills}/>
+                <Route exact path="/projects" component={Projects}/>
+                <Route exact path="/contact" component={Contact}/>
+                <Route exact path="/blogs" component={Blogs}/>
 
             </Grid>
         </Switch>
