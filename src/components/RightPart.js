@@ -14,8 +14,10 @@ const styles = {
         marginTop: 8
     },
     listGridParent: {
-        height: '100%',
-        overflowY: 'scroll'
+        height: '85%',
+        overflowY: 'scroll',
+        marginRight: 8,
+        marginLeft: 8,
     }
 }
 
@@ -23,12 +25,13 @@ const arr = [
     'a',
     'a',
     'a',
+    'a',
 ]
 
 const RightPart = () => {
     return (
-        <Grid container xs item direction='row'>
-            <Grid style={styles.upperPart} container direction='row' justify="space-between">
+        <Grid style={{height: '100%'}} container xs item direction='row'>
+            <Grid style={styles.upperPart} container direction='row'>
                 <Grid>
                     <Button disabled style={{color: "#CDDC39"}}>
                         CURRENT ROUTE
@@ -37,6 +40,13 @@ const RightPart = () => {
                 </Grid>
             </Grid>
 
+            <Grid spacing={2} style={styles.listGridParent} container direction='row'>
+                {
+                    arr.map(item => {
+                        return <CardItem/>
+                    })
+                }
+            </Grid>
 
         </Grid>
     );

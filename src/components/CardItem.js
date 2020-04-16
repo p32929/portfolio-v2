@@ -8,7 +8,6 @@ import Button from "@material-ui/core/Button";
 const styles = {
     parent: {
         padding: 12,
-        margin: 8,
         borderRadius: 6,
     },
     media: {
