@@ -22,18 +22,19 @@ const styles = {
     },
     subtitle: {
         fontSize: 12,
-        color: "#212121"
+        color: "#212121",
+        fontWeight: 'bold'
     },
     avaratAndText: {
         marginTop: 24,
-        marginBottom: 24
+        marginBottom: 16
     },
     divider: {
         height: 1,
         margin: 16,
         width: 90,
         alignSelf: 'center',
-        backgroundColor: '#aaaaaa'
+        backgroundColor: '#CDDC39'
     },
     selectedRoute: {
         backgroundColor: "#CDDC39",
