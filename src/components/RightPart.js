@@ -11,13 +11,19 @@ const styles = {
     divider: {
         height: 1,
         width: 200,
-        marginTop: 8
+        marginTop: 8,
+        backgroundColor: '#CDDC39'
     },
     listGridParent: {
-        height: '85%',
+        maxHeight: '85%',
         overflowY: 'scroll',
         marginRight: 8,
         marginLeft: 8,
+    },
+    currentRoute: {
+        color: "#212121",
+        fontSize: 14,
+        fontWeight: 'bold'
     }
 }
 
@@ -33,7 +39,7 @@ const RightPart = () => {
         <Grid style={{height: '100%'}} container xs item direction='row'>
             <Grid style={styles.upperPart} container direction='row'>
                 <Grid>
-                    <Button disabled style={{color: "#CDDC39"}}>
+                    <Button disabled style={styles.currentRoute}>
                         CURRENT ROUTE
                     </Button>
                     <Divider orientation="horizontal" style={styles.divider} flexItem/>
