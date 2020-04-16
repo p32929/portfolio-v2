@@ -4,7 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import LeftPart from "./LeftPart";
 import RightPart from "./RightPart";
 import {primaryColor} from '../vars/MainItems'
-import {BrowserRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router, Redirect} from "react-router-dom";
 
 var topBottomMargins = 84;
 var leftRightMargins = 158;
@@ -36,7 +36,7 @@ const Portfolio = () => {
     return (
         <Grid container style={styles.parent}>
             <Router>
-                {/*<Redirect from="/" to="about"/>*/}
+                <Redirect from="/" to="about"/>
                 <Paper elevation={16} style={styles.paper}>
                     <Grid style={styles.content} container direction='row'>
                         <LeftPart/>

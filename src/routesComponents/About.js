@@ -1,6 +1,9 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
+import TypographyMultiLineWithIcon from "../helperComponents/TypographyMultiLineWithIcon";
+import {myDetails} from '../vars/MainItems'
+import Avatar from "@material-ui/core/Avatar";
+import avatarImage from "../assets/avatar2.png";
 
 const styles = {
     listGridParent: {
@@ -16,13 +19,27 @@ const styles = {
         marginLeft: 16,
         marginRight: 16
     },
+    avatar: {
+        height: 124,
+        width: 124,
+    },
 }
 
 const About = () => {
     return (
-        <Grid style={styles.listGridParent} container xs item direction='row' alignItems='flex-start'
-              justify='flex-start' alignContent='flex-start'>
-            <TypographyWithIcon>About me</TypographyWithIcon>
+        <Grid style={styles.listGridParent} container xs item direction='column' alignItems='center'
+              justify='center'>
+
+            <Grid item>
+                <Avatar variant='square' style={styles.avatar}
+                        src={avatarImage}></Avatar>
+            </Grid>
+
+            <Grid item>
+                <TypographyMultiLineWithIcon desc={myDetails}>
+                    About me
+                </TypographyMultiLineWithIcon>
+            </Grid>
 
         </Grid>
     );

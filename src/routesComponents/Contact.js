@@ -25,8 +25,6 @@ const Contact = () => {
                 }
             </Grid>
 
-            <TypographyWithIcon>Thank you for visiting my Portfolio</TypographyWithIcon>
-
         </Grid>
     );
 };
