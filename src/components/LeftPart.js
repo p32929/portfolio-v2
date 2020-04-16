@@ -1,31 +1,39 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import Avatar from "@material-ui/core/Avatar";
-
-import cartoonAvatar from './../assets/avatar.png'
 import Paper from "@material-ui/core/Paper";
-import Button from "@material-ui/core/Button";
-import SvgHelper from "./SvgHelper";
-import IconButton from "@material-ui/core/IconButton";
-import Divider from "@material-ui/core/Divider";
+import Avatar from "@material-ui/core/Avatar";
+import cartoonAvatar from '../assets/avatar.png'
 import Typography from "@material-ui/core/Typography";
-
-const leftRightMargin = 48;
-const topBottomMargin = 36;
+import Button from "@material-ui/core/Button";
+import Divider from "@material-ui/core/Divider";
+import IconButton from "@material-ui/core/IconButton";
+import SvgHelper from "./SvgHelper";
 
 const styles = {
     avatar: {
         height: 125,
         width: 125,
-        marginTop: topBottomMargin,
-        marginLeft: leftRightMargin,
-        marginRight: leftRightMargin,
+    },
+    title: {
+        fontSize: 16,
+        color: "#212121",
+        marginTop: 24,
+        fontWeight: 'bold'
+    },
+    subtitle: {
+        fontSize: 12,
+        color: "#212121"
+    },
+    avaratAndText: {
+        marginTop: 24,
+        marginBottom: 24
     },
     divider: {
         height: 1,
         margin: 16,
         width: 90,
-        alignSelf: 'center'
+        alignSelf: 'center',
+        backgroundColor: '#aaaaaa'
     },
     selectedRoute: {
         backgroundColor: "#CDDC39",
@@ -38,7 +46,10 @@ const styles = {
         color: "#212121",
         marginLeft: 8,
         marginRight: 8
-    }
+    },
+    paper: {
+        width: '100%'
+    },
 }
 
 const navItems = [
@@ -53,18 +64,22 @@ const currentRoute = 2;
 
 const LeftPart = () => {
     return (
-        <Grid container item xs={3}>
-            <Paper component='item' elevation={12}>
+        <Grid container item xs={2}>
+            <Paper style={styles.paper} elevation={12}>
                 <Grid style={{height: '100%'}} container direction="column" justify="space-between" alignItems="center">
 
-                    <Avatar style={styles.avatar} src={cartoonAvatar}></Avatar>
+                    {/*AT*/}
+                    <Grid style={styles.avaratAndText} container direction="column" justify="center"
+                          alignItems="center">
+                        <Avatar style={styles.avatar} src={cartoonAvatar}></Avatar>
 
-                    <Typography style={{fontSize: 16, marginTop: 8, marginBottom: -8, color: "#757575"}}>FAYAZ BIN
-                        SALAM</Typography>
+                        <Typography style={styles.title}>FAYAZ BIN SALAM</Typography>
+                        <Typography style={styles.subtitle}>CEO at Rich IT</Typography>
+                    </Grid>
 
-                    <Divider orientation="horizontal" style={styles.divider} flexItem/>
-
+                    {/*MENUS*/}
                     <Grid container item direction='column' justify='center' alignContent='stretch'>
+                        <Divider orientation="horizontal" style={styles.divider} flexItem/>
                         {
                             navItems.map((item, index) => {
                                 return <Button style={
@@ -72,9 +87,8 @@ const LeftPart = () => {
                                 } size='small'>{item}</Button>
                             })
                         }
+                        <Divider orientation="horizontal" style={styles.divider} flexItem/>
                     </Grid>
-
-                    <Divider orientation="horizontal" style={styles.divider} flexItem/>
 
                     <Grid container direction='row' justify='center' style={{padding: 12}}>
                         {

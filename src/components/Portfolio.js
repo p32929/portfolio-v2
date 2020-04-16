@@ -28,7 +28,7 @@ const Portfolio = () => {
     return (
         <Grid container style={styles.parent}>
             <Paper elevation={16} style={styles.contents}>
-                <Grid style={{height: '100%'}} container direction='row'>
+                <Grid style={{height: '100%', width: '100%'}} container direction='row'>
                     <LeftPart/>
                 </Grid>
             </Paper>
