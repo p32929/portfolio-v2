@@ -20,9 +20,10 @@ const Projects = () => {
             <TypographyWithIcon>Android Apps</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    androidApps.map(item => <ListItem item={item}/>)
+                    androidApps.map(item => <ListItem perLine={1} item={item}/>)
                 }
             </Grid>
+
 
         </Grid>
     );
