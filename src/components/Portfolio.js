@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import LeftPart from "./LeftPart";
 import RightPart from "./RightPart";
+import {BrowserRouter as Router} from "react-router-dom";
 
 var topBottomMargins = 84;
 var leftRightMargins = 158;
@@ -32,14 +33,16 @@ const styles = {
 const Portfolio = () => {
 
     return (
-        <Grid container style={styles.parent}>
-            <Paper elevation={16} style={styles.paper}>
-                <Grid style={styles.content} container direction='row'>
-                    <LeftPart/>
-                    <RightPart/>
-                </Grid>
-            </Paper>
-        </Grid>
+        <Router>
+            <Grid container style={styles.parent}>
+                <Paper elevation={16} style={styles.paper}>
+                    <Grid style={styles.content} container direction='row'>
+                        <LeftPart/>
+                        <RightPart/>
+                    </Grid>
+                </Paper>
+            </Grid>
+        </Router>
     );
 };
 

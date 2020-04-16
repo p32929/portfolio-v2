@@ -9,6 +9,7 @@ import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import SvgHelper from "./SvgHelper";
 import {myImageLink, myName, myOccupation, navContactIcons, navItems} from '../vars/mainItems.js'
+import {Link} from "react-router-dom";
 
 const styles = {
     avatar: {
@@ -16,7 +17,7 @@ const styles = {
         width: 125,
     },
     title: {
-        fontSize: 16,
+        fontSize: 14,
         color: "#212121",
         marginTop: 24,
         fontWeight: 'bold'
@@ -41,16 +42,18 @@ const styles = {
         backgroundColor: "#CDDC39",
         color: "#FFF",
         marginLeft: 8,
-        marginRight: 8
+        marginRight: 8,
+        textDecoration: 'none'
     },
     notSelectedRoute: {
         backgroundColor: "#FFF",
         color: "#212121",
         marginLeft: 8,
-        marginRight: 8
+        marginRight: 8,
+        textDecoration: 'none'
     },
     paper: {
-        width: '100%'
+        width: '100%',
     },
 }
 
@@ -76,15 +79,22 @@ const LeftPart = () => {
                         <Divider orientation="horizontal" style={styles.divider} flexItem/>
                         {
                             navItems.map((item, index) => {
-                                return <Button style={
-                                    index == currentRoute ? styles.selectedRoute : styles.notSelectedRoute
-                                } size='small'>{item}</Button>
+                                return (
+                                    <Button style={
+                                        index == currentRoute ? styles.selectedRoute : styles.notSelectedRoute
+                                    } size='small'><Link style={
+                                        index == currentRoute ? styles.selectedRoute : styles.notSelectedRoute
+                                    } to={item}>
+                                        {item}
+                                    </Link></Button>
+                                )
                             })
                         }
                         <Divider orientation="horizontal" style={styles.divider} flexItem/>
                     </Grid>
 
-                    <Grid container direction='row' justify='center' style={{padding: 12}}>
+                    <Grid style={{marginBottom: 8}} container direction='row' justify='center' alignItems='center'
+                          alignContent='center'>
                         {
                             navContactIcons.map((item) => {
                                 return <IconButton size='small' href={item.link}>
