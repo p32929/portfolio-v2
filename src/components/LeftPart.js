@@ -59,7 +59,7 @@ const styles = {
 
 const LeftPart = () => {
     return (
-        <Grid container item xs={11} sm={11} md={3} lg={2} xl={2}>
+        <Grid container item xs={11} sm={11} md={3} lg={3} xl={2}>
             <Paper style={styles.paper} elevation={12}>
                 <Grid style={{height: '100%'}} container direction="column" justify="space-between" alignItems="center">
 
