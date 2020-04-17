@@ -6,7 +6,7 @@ import {primaryColor} from '../vars/MainItems'
 
 const TypographyWithIcon = (props) => {
     return (
-        <Grid style={{padding: 8}} container direction='row' alignItems='center'>
+        <Grid style={{padding: 8}} container direction='row' alignItems='flex-start' alignContent='center'>
             <SvgHelper
                 size={18}
                 color={primaryColor}

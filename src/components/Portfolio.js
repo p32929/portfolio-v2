@@ -36,11 +36,11 @@ const Portfolio = () => {
     return (
         <Grid container style={styles.parent}>
             <Router>
-                <Redirect from="/" to="about"/>
+                {/*<Redirect from="/" to="about"/>*/}
                 <Paper elevation={16} style={styles.paper}>
                     <Grid style={styles.content} container direction='row'>
                         <LeftPart/>
-                        {/* <RightPart/> */}
+                        <RightPart/>
                     </Grid>
                 </Paper>
             </Router>
