@@ -21,8 +21,8 @@ const styles = {
         marginRight: 16
     },
     avatar: {
-        height: 124,
-        width: 124,
+        height: 136,
+        width: 136,
     },
 }
 

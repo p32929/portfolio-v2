@@ -19,17 +19,17 @@ const TypographyMultiLineWithIcon = (props) => {
             }} container item xs direction='column' justify='center'>
 
                 <Typography style={{
-                    fontSize: 14,
+                    fontSize: 16,
                     fontWeight: 'bold',
-                    color: "#757575"
+                    color: "#212121"
                 }}>{props.children}</Typography>
 
                 <Typography style={{
-                    fontSize: 12,
+                    fontSize: 14,
                     color: "#757575",
                     marginTop: 4,
+                    lineHeight: 1.25,
                     paddingRight: 48,
-                    fontWeight: 'bold',
                 }}>{props.desc}</Typography>
 
             </Grid>
