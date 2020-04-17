@@ -9,6 +9,7 @@ import Redirect from "react-router-dom/es/Redirect";
 import {useTheme} from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import {setDrawerState} from "../vars/ReduxStates";
+import {getHeightWidthObject} from "../vars/SomeLazyFunctions";
 
 var topBottomMargins = 84;
 var leftRightMargins = 158;
@@ -58,17 +59,7 @@ const Portfolio = (props) => {
                     <Redirect to="/about"/>
                 </Route>
                 <Grid container justify='center' alignItems='center' alignContent='center'>
-                    <Paper elevation={16} style={{
-                        flex: 1,
-                        marginLeft: leftRightMargins,
-                        marginRight: leftRightMargins,
-                        marginTop: topBottomMargins,
-                        marginBottom: topBottomMargins,
-                        maxHeight: window.innerHeight - topBottomMargins * 2,
-                        maxWidth: window.innerWidth - leftRightMargins * 2,
-                        height: window.innerHeight - topBottomMargins * 2,
-                        width: window.innerWidth - leftRightMargins * 2
-                    }}>
+                    <Paper elevation={16} style={getHeightWidthObject(matches, true)}>
 
                         <Grid container direction='row'>
                             {

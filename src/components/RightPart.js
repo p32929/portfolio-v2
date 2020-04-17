@@ -18,6 +18,7 @@ import {BlockPicker} from 'react-color'
 import {setPrimaryColor} from '../vars/ReduxStates'
 import {useTheme} from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
+import {getHeightWidthObject} from "../vars/SomeLazyFunctions";
 
 const styles = {
     upperPart: {
@@ -56,12 +57,7 @@ const RightPart = (props) => {
     }
 
     return (
-        <Grid style={{
-            maxHeight: window.innerHeight - topBottomMargins * 2,
-            maxWidth: window.innerWidth - leftRightMargins * 2,
-            height: window.innerHeight - topBottomMargins * 2,
-            width: window.innerWidth - leftRightMargins * 2
-        }} container xs item direction='row' alignContent='flex-start'>
+        <Grid style={getHeightWidthObject(matches)} container xs item direction='row' alignContent='flex-start'>
             <Grid style={styles.upperPart} container direction='row' justify='space-between'>
                 <Grid item>
                     <Button disabled style={styles.currentRoute}>

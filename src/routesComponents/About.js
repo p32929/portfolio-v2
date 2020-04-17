@@ -28,7 +28,8 @@ const styles = {
 
 const About = () => {
     return (
-        <Grid style={styles.listGridParent} container xs item direction='column' alignItems='center' justify='space-around'>
+        <Grid style={styles.listGridParent} container xs item direction='column' alignItems='center'
+              justify='space-around'>
 
             <Grid item>
                 <Avatar variant='square' style={styles.avatar}

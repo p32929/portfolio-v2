@@ -14,9 +14,7 @@ import {NavLink} from "react-router-dom";
 import {connect} from "react-redux";
 import {useTheme} from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-
-var topBottomMargins = 84;
-var leftRightMargins = 158;
+import {getHeightWidthObject} from '../vars/SomeLazyFunctions'
 
 const styles = {
     avatar: {
@@ -65,18 +63,9 @@ const styles = {
 const LeftPart = (props) => {
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.down('sm'));
-    if (matches) {
-        topBottomMargins = 24
-        leftRightMargins = 24
-    }
 
     return (
-        <Grid style={{
-            maxHeight: window.innerHeight - topBottomMargins * 2,
-            maxWidth: window.innerWidth - leftRightMargins * 2,
-            height: window.innerHeight - topBottomMargins * 2,
-            width: window.innerWidth - leftRightMargins * 2
-        }} container item xs={11} sm={11} md={3} lg={3} xl={2}>
+        <Grid style={getHeightWidthObject(matches)} container item xs={11} sm={11} md={3} lg={3} xl={2}>
             <Paper style={styles.paper} elevation={12}>
                 <Grid style={{height: '100%'}} container direction="column" justify="space-between" alignItems="center">
 
