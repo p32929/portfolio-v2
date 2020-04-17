@@ -19,11 +19,9 @@ const styles = {
         maxWidth: window.innerWidth
     },
     paper: {
-        marginTop: topBottomMargins,
-        marginBottom: topBottomMargins,
-        marginLeft: leftRightMargins,
-        marginRight: leftRightMargins,
         flex: 1,
+        height: '100%',
+        width: "100%"
     },
     checker: {
         background: "#FFF"
@@ -49,7 +47,10 @@ const Portfolio = (props) => {
 
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.down('sm'));
-    if (!matches) {
+    if (matches) {
+        topBottomMargins = 24
+        leftRightMargins = 24
+    } else {
         setDrawerState(true)
     }
 
@@ -59,11 +60,17 @@ const Portfolio = (props) => {
                 <Route exact path="/">
                     <Redirect to="/about"/>
                 </Route>
-                <Paper elevation={16} style={styles.paper}>
+                <Paper elevation={16} style={{
+                    ...styles.paper, marginTop: topBottomMargins,
+                    marginBottom: topBottomMargins,
+                    marginLeft: leftRightMargins,
+                    marginRight: leftRightMargins
+                }}>
+
                     <Grid style={{
                         flex: 1,
                         height: window.innerHeight - topBottomMargins * 2,
-                        maxHeight: window.innerHeight - matches ? topBottomMargins * 8 : topBottomMargins * 2,
+                        maxHeight: window.innerHeight - topBottomMargins * 2,
                     }} container direction='row'>
                         {
                             props.drawerState && <LeftPart/>
