@@ -41,7 +41,6 @@ const styles = {
 
 const RightPart = (props) => {
     let location = useLocation();
-    console.log(location.pathname);
     const [showDialog, setShowDialog] = useState(false);
 
     return (
@@ -81,8 +80,9 @@ const RightPart = (props) => {
             }}>
                 <DialogContent>
                     <BlockPicker color={props.primaryColor}
-                                 onSwatchHover={(color, event) => {
+                                 onChange={(color, event) => {
                                      setPrimaryColor(color.hex);
+                                     setShowDialog(false);
                                  }}
                                  colors={['#D50000', '#C51162', '#AA00FF', '#6200EA', '#304FFE', '#2962FF', '#0091EA', '#00B8D4', '#00BFA5', '#00C853', '#64DD17', '#AEEA00', '#FFD600', '#FFAB00', '#FF6D00', '#DD2C00', '']}/>
                 </DialogContent>

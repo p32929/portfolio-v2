@@ -41,7 +41,6 @@ export const setDrawerState = (state) => {
 }
 
 export const setPrimaryColor = (color) => {
-    console.log("L1: " + color);
     reducer.dispatch({
         type: SET_PRIMARY_COLOR,
         state: color
