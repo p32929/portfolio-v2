@@ -16,6 +16,7 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogContent from "@material-ui/core/DialogContent";
 import {BlockPicker} from 'react-color'
 import {setPrimaryColor} from '../vars/ReduxStates'
+import {Hidden} from "@material-ui/core";
 
 const styles = {
     upperPart: {

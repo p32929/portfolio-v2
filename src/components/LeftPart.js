@@ -12,7 +12,8 @@ import {myImageLink, myName, myOccupation, navContactIcons, navItems} from '../v
 import {setDrawerState} from '../vars/ReduxStates'
 import {NavLink} from "react-router-dom";
 import {connect} from "react-redux";
-import {Hidden} from "@material-ui/core";
+import {useTheme} from "@material-ui/core/styles";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const styles = {
     avatar: {
@@ -59,6 +60,9 @@ const styles = {
 }
 
 const LeftPart = (props) => {
+    const theme = useTheme();
+    const matches = useMediaQuery(theme.breakpoints.down('sm'));
+
     return (
         <Grid container item xs={11} sm={11} md={3} lg={3} xl={2}>
             <Paper style={styles.paper} elevation={12}>
@@ -76,15 +80,15 @@ const LeftPart = (props) => {
                     {/*MENUS*/}
                     <Grid container item xs sm md lg xl direction='column' justify='center' alignContent='stretch'>
 
-                        <Hidden mdUp>
-                            <IconButton size='small' onClick={()=> {
+                        {
+                            matches && <IconButton size='small' onClick={() => {
                                 setDrawerState(false)
                             }}>
                                 <SvgHelper
                                     path='M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z'
                                     size={18} styles={{margin: 3}}/>
                             </IconButton>
-                        </Hidden>
+                        }
 
                         <Divider orientation="horizontal"
                                  style={{backgroundColor: props.primaryColor, ...styles.divider}}
