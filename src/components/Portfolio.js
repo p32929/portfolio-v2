@@ -40,7 +40,7 @@ const Portfolio = () => {
                 <Paper elevation={16} style={styles.paper}>
                     <Grid style={styles.content} container direction='row'>
                         <LeftPart/>
-                        <RightPart/>
+                        {/* <RightPart/> */}
                     </Grid>
                 </Paper>
             </Router>

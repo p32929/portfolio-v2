@@ -59,12 +59,12 @@ const styles = {
 
 const LeftPart = () => {
     return (
-        <Grid container item xs={2}>
+        <Grid container item xs={11} sm={11} md={3} lg={2} xl={2}>
             <Paper style={styles.paper} elevation={12}>
                 <Grid style={{height: '100%'}} container direction="column" justify="space-between" alignItems="center">
 
                     {/*AT*/}
-                    <Grid style={styles.avaratAndText} container direction="column" justify="center"
+                    <Grid item xs sm md lg xl style={styles.avaratAndText} container direction="column" justify="center"
                           alignItems="center">
                         <Avatar style={styles.avatar} src={myImageLink ? myImageLink : cartoonAvatar}></Avatar>
 
@@ -73,7 +73,7 @@ const LeftPart = () => {
                     </Grid>
 
                     {/*MENUS*/}
-                    <Grid container item direction='column' justify='center' alignContent='stretch'>
+                    <Grid container item xs sm md lg xl direction='column' justify='center' alignContent='stretch'>
                         <Divider orientation="horizontal" style={styles.divider} flexItem/>
                         {
                             navItems.map((item, index) => {
@@ -86,7 +86,7 @@ const LeftPart = () => {
                         <Divider orientation="horizontal" style={styles.divider} flexItem/>
                     </Grid>
 
-                    <Grid style={{marginBottom: 8}} container direction='row' justify='center' alignItems='center'
+                    <Grid style={{marginBottom: 8, width: '100%'}} container direction='row' justify='center' alignItems='center'
                           alignContent='center'>
                         {
                             navContactIcons.map((item) => {
