@@ -97,9 +97,13 @@ const LeftPart = (props) => {
                         {
                             navItems.map((item, index) => {
                                 return (
-                                    <Button activeStyle={{backgroundColor: props.primaryColor, ...styles.selectedRoute}}
-                                            component={NavLink}
-                                            to={item.toLowerCase()} size='small'>{item}</Button>
+                                    <Button
+                                        onClick={() => {
+                                            setDrawerState(false)
+                                        }}
+                                        activeStyle={{backgroundColor: props.primaryColor, ...styles.selectedRoute}}
+                                        component={NavLink}
+                                        to={item.toLowerCase()} size='small'>{item}</Button>
                                 )
                             })
                         }
