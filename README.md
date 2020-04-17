@@ -26,7 +26,6 @@ If you don't have them installed, install them from here: https://nodejs.org/en/
 7. To edit the Contact section, edit the variables inside `src/vars/contactItems.js` file.
 8. Inside package.json, change the value of homepage to `https://your-github-username.github.io/`
 9. Run this command: `npm run deploy`
-10. Go the the repository settings page > Github Pages > Source and set it to `master` branch
 
 Volla!! Now, you can check your portfolio LIVE version in `github pages` using `homepage` URL. Github may take a while to update the `github page` into your `homepage` URL
 
