@@ -59,7 +59,7 @@ const Portfolio = (props) => {
                     <Redirect to="/about"/>
                 </Route>
                 <Grid container justify='center' alignItems='center' alignContent='center'>
-                    <Paper elevation={16} style={getHeightWidthObject(matches, true)}>
+                    <Paper elevation={16} style={getHeightWidthObject(matches)}>
 
                         <Grid container direction='row'>
                             {

@@ -1,6 +1,6 @@
 export function getHeightWidthObject(matches, parent = false) {
-    var topBottomMargins = 84;
-    var leftRightMargins = 158;
+    var topBottomMargins;
+    var leftRightMargins;
 
     if (matches) {
         topBottomMargins = 24
