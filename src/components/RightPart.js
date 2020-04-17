@@ -54,14 +54,16 @@ const RightPart = (props) => {
             <Grid style={styles.upperPart} container direction='row' justify='space-between'>
                 <Grid item>
                     <Grid>
-                        <IconButton size='small' onClick={() => {
-                            setDrawerState(true);
-                        }}>
-                            <SvgHelper
-                                path='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z'
-                                styles={{padding: 8}}
-                                size={36}/>
-                        </IconButton>
+                        {
+                            matches && <IconButton size='small' onClick={() => {
+                                setDrawerState(true);
+                            }}>
+                                <SvgHelper
+                                    path='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z'
+                                    styles={{padding: 8}}
+                                    size={36}/>
+                            </IconButton>
+                        }
                         <Button disabled style={styles.currentRoute}>
                             {
                                 location.pathname.replace("/", "")
