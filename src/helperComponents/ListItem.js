@@ -10,7 +10,7 @@ import {connect} from "react-redux";
 
 const styles = {
     parent: {
-        margin: 2
+        margin: 2,
     },
     avatar: {
         margin: 16,
@@ -31,10 +31,10 @@ const styles = {
 }
 
 const ListItem = (props) => {
-    const {item, perLine} = props;
+    const {item, height = 76} = props;
     return (
-        <Grid item xs={perLine ? 12 / perLine : 4}>
-            <Paper elevation={4} style={styles.parent}>
+        <Grid item xs={12} sm={12} md={6} lg={6} xl={3}>
+            <Paper elevation={4} style={{height: height, ...styles.parent}}>
                 <Grid container wrap="nowrap" direction='row'>
                     <Grid item>
                         <Avatar variant='square' style={styles.avatar}

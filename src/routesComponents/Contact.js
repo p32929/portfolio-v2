@@ -22,7 +22,7 @@ const Contact = () => {
             <TypographyWithIcon>Contact me</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    socialLinks.map(item => <ListItem perLine={2} item={item}/>)
+                    socialLinks.map(item => <ListItem  item={item}/>)
                 }
             </Grid>
 
