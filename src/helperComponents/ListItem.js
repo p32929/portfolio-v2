@@ -6,6 +6,7 @@ import Avatar from "@material-ui/core/Avatar";
 import SvgHelper from "./SvgHelper";
 import IconButton from "@material-ui/core/IconButton";
 import demoImage from '../assets/avatar.png'
+import {connect} from "react-redux";
 
 const styles = {
     parent: {
@@ -59,4 +60,9 @@ const ListItem = (props) => {
     );
 };
 
-export default ListItem;
+const mapStateToProps = state => ({
+    primaryColor: state.primaryColor,
+    drawerState: state.drawerState,
+})
+
+export default connect(mapStateToProps)(ListItem);

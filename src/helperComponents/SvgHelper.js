@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {connect} from "react-redux";
 
 const SvgHelper = props => {
     const {size = 48, color = "#6F6F6F", path, styles = {}} = props;
@@ -19,4 +20,9 @@ SvgHelper.propTypes = {
     styles: PropTypes.object
 };
 
-export default SvgHelper;
+const mapStateToProps = state => ({
+    primaryColor: state.primaryColor,
+    drawerState: state.drawerState,
+})
+
+export default connect(mapStateToProps)(SvgHelper);

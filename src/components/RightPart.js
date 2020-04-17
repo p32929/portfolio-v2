@@ -9,14 +9,13 @@ import Skills from "../routesComponents/Skills";
 import Projects from "../routesComponents/Projects";
 import Route from "react-router-dom/es/Route";
 import Blogs from "../routesComponents/Blogs";
-import {primaryColor} from '../vars/MainItems'
 import SvgHelper from "../helperComponents/SvgHelper";
 import IconButton from "@material-ui/core/IconButton";
 import {connect} from "react-redux";
 import Dialog from "@material-ui/core/Dialog";
 import DialogContent from "@material-ui/core/DialogContent";
 import {BlockPicker} from 'react-color'
-import {setPrimaryColor, setDrawerState} from '../vars/ReduxStates'
+import {setPrimaryColor} from '../vars/ReduxStates'
 
 const styles = {
     upperPart: {
@@ -26,7 +25,6 @@ const styles = {
         height: 1,
         width: 200,
         marginTop: 8,
-        backgroundColor: primaryColor
     },
     listGridParent: {
         maxHeight: '85%',
@@ -55,7 +53,8 @@ const RightPart = (props) => {
                             location.pathname.replace("/", "")
                         }
                     </Button>
-                    <Divider orientation="horizontal" style={styles.divider} flexItem/>
+                    <Divider orientation="horizontal" style={{backgroundColor: props.primaryColor, ...styles.divider}}
+                             flexItem/>
                 </Grid>
 
                 <IconButton size='small' onClick={() => {

@@ -10,6 +10,7 @@ import IconButton from "@material-ui/core/IconButton";
 import SvgHelper from "../helperComponents/SvgHelper";
 import {myImageLink, myName, myOccupation, navContactIcons, navItems, primaryColor} from '../vars/MainItems.js'
 import {NavLink} from "react-router-dom";
+import {connect} from "react-redux";
 
 const styles = {
     avatar: {
@@ -106,4 +107,9 @@ const LeftPart = () => {
     );
 };
 
-export default LeftPart;
+const mapStateToProps = state => ({
+    primaryColor: state.primaryColor,
+    drawerState: state.drawerState,
+})
+
+export default connect(mapStateToProps)(LeftPart);

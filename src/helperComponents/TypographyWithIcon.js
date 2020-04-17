@@ -3,6 +3,7 @@ import SvgHelper from "./SvgHelper";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import {primaryColor} from '../vars/MainItems'
+import {connect} from "react-redux";
 
 const TypographyWithIcon = (props) => {
     return (
@@ -22,4 +23,9 @@ const TypographyWithIcon = (props) => {
     );
 };
 
-export default TypographyWithIcon;
+const mapStateToProps = state => ({
+    primaryColor: state.primaryColor,
+    drawerState: state.drawerState,
+})
+
+export default connect(mapStateToProps)(TypographyWithIcon);
