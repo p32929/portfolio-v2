@@ -73,7 +73,8 @@ const LeftPart = (props) => {
 
                     {/*MENUS*/}
                     <Grid container item xs sm md lg xl direction='column' justify='center' alignContent='stretch'>
-                        <Divider orientation="horizontal" style={{backgroundColor: props.primaryColor, ...styles.divider}}
+                        <Divider orientation="horizontal"
+                                 style={{backgroundColor: props.primaryColor, ...styles.divider}}
                                  flexItem/>
                         {
                             navItems.map((item, index) => {
@@ -84,7 +85,8 @@ const LeftPart = (props) => {
                                 )
                             })
                         }
-                        <Divider orientation="horizontal" style={{backgroundColor: props.primaryColor, ...styles.divider}}
+                        <Divider orientation="horizontal"
+                                 style={{backgroundColor: props.primaryColor, ...styles.divider}}
                                  flexItem/>
                     </Grid>
 
@@ -93,7 +95,7 @@ const LeftPart = (props) => {
                           alignContent='center'>
                         {
                             navContactIcons.map((item) => {
-                                return <IconButton size='small' href={item.link}>
+                                return <IconButton size='small' target="_blank" href={item.link}>
                                     <SvgHelper
                                         path={item.svgPath}
                                         size={18} styles={{margin: 3}}/>
