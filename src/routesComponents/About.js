@@ -4,6 +4,7 @@ import TypographyMultiLineWithIcon from "../helperComponents/TypographyMultiLine
 import {myDetails} from '../vars/MainItems'
 import Avatar from "@material-ui/core/Avatar";
 import avatarImage from "../assets/avatar2.png";
+import {connect} from "react-redux";
 
 const styles = {
     listGridParent: {
@@ -44,4 +45,9 @@ const About = () => {
     );
 };
 
-export default About;
+const mapStateToProps = state => ({
+    primaryColor: state.primaryColor,
+    drawerState: state.drawerState,
+})
+
+export default connect(mapStateToProps)(About);

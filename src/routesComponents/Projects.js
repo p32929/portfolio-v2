@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import ListItem from "../helperComponents/ListItem";
 import {androidApps, desktopApps, webApps} from "../vars/ProjectItems";
 import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
+import {connect} from "react-redux";
 
 const styles = {
     listGridParent: {
@@ -42,4 +43,9 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+const mapStateToProps = state => ({
+    primaryColor: state.primaryColor,
+    drawerState: state.drawerState,
+})
+
+export default connect(mapStateToProps)(Projects);

@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import ListItem from "../helperComponents/ListItem";
 import {frameworks, languages, others} from "../vars/SkillsItems";
 import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
+import {connect} from "react-redux";
 
 const styles = {
     listGridParent: {
@@ -41,4 +42,9 @@ const Skills = () => {
     );
 };
 
-export default Skills;
+const mapStateToProps = state => ({
+    primaryColor: state.primaryColor,
+    drawerState: state.drawerState,
+})
+
+export default connect(mapStateToProps)(Skills);

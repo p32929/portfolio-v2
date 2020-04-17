@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import ListItem from "../helperComponents/ListItem";
 import {socialLinks} from "../vars/ContactItems";
 import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
+import {connect} from "react-redux";
 
 const styles = {
     listGridParent: {
@@ -29,4 +30,9 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+const mapStateToProps = state => ({
+    primaryColor: state.primaryColor,
+    drawerState: state.drawerState,
+})
+
+export default connect(mapStateToProps)(Contact);
