@@ -15,7 +15,7 @@ import {connect} from "react-redux";
 import Dialog from "@material-ui/core/Dialog";
 import DialogContent from "@material-ui/core/DialogContent";
 import {BlockPicker} from 'react-color'
-import {setPrimaryColor} from '../vars/ReduxStates'
+import {setDrawerState, setPrimaryColor} from '../vars/ReduxStates'
 import {useTheme} from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import {getHeightWidthObject} from "../vars/SomeLazyFunctions";
@@ -53,11 +53,21 @@ const RightPart = (props) => {
         <Grid style={getHeightWidthObject(matches)} container xs item direction='row' alignContent='flex-start'>
             <Grid style={styles.upperPart} container direction='row' justify='space-between'>
                 <Grid item>
-                    <Button disabled style={styles.currentRoute}>
-                        {
-                            location.pathname.replace("/", "")
-                        }
-                    </Button>
+                    <Grid>
+                        <IconButton size='small' onClick={() => {
+                            setDrawerState(true);
+                        }}>
+                            <SvgHelper
+                                path='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z'
+                                styles={{padding: 8}}
+                                size={36}/>
+                        </IconButton>
+                        <Button disabled style={styles.currentRoute}>
+                            {
+                                location.pathname.replace("/", "")
+                            }
+                        </Button>
+                    </Grid>
                     <Divider orientation="horizontal" style={{backgroundColor: props.primaryColor, ...styles.divider}}
                              flexItem/>
                 </Grid>
