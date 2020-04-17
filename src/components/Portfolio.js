@@ -16,12 +16,9 @@ var leftRightMargins = 158;
 const styles = {
     parent: {
         maxHeight: window.innerHeight,
-        maxWidth: window.innerWidth
-    },
-    paper: {
-        flex: 1,
-        height: '100%',
-        width: "100%"
+        maxWidth: window.innerWidth,
+        height: window.innerHeight,
+        width: window.innerWidth
     },
     checker: {
         background: "#FFF"
@@ -60,26 +57,29 @@ const Portfolio = (props) => {
                 <Route exact path="/">
                     <Redirect to="/about"/>
                 </Route>
-                <Paper elevation={16} style={{
-                    ...styles.paper, marginTop: topBottomMargins,
-                    marginBottom: topBottomMargins,
-                    marginLeft: leftRightMargins,
-                    marginRight: leftRightMargins
-                }}>
-
-                    <Grid style={{
+                <Grid container justify='center' alignItems='center' alignContent='center'>
+                    <Paper elevation={16} style={{
                         flex: 1,
-                        height: window.innerHeight - topBottomMargins * 2,
+                        marginLeft: leftRightMargins,
+                        marginRight: leftRightMargins,
+                        marginTop: topBottomMargins,
+                        marginBottom: topBottomMargins,
                         maxHeight: window.innerHeight - topBottomMargins * 2,
-                    }} container direction='row'>
-                        {
-                            props.drawerState && <LeftPart/>
-                        }
-                        {
-                            getRightPartComponent(matches, props.drawerState)
-                        }
-                    </Grid>
-                </Paper>
+                        maxWidth: window.innerWidth - leftRightMargins * 2,
+                        height: window.innerHeight - topBottomMargins * 2,
+                        width: window.innerWidth - leftRightMargins * 2
+                    }}>
+
+                        <Grid container direction='row'>
+                            {
+                                props.drawerState && <LeftPart/>
+                            }
+                            {
+                                getRightPartComponent(matches, props.drawerState)
+                            }
+                        </Grid>
+                    </Paper>
+                </Grid>
             </Router>
         </Grid>
     );
