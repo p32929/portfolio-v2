@@ -1,4 +1,4 @@
-export function getHeightWidthObject(matches, parent = false) {
+export function getHeightWidthObject(matches) {
     var topBottomMargins;
     var leftRightMargins;
 
@@ -10,23 +10,11 @@ export function getHeightWidthObject(matches, parent = false) {
         leftRightMargins = 158;
     }
 
-    if (parent) {
-        return {
-            flex: 1,
-            marginLeft: leftRightMargins,
-            marginRight: leftRightMargins,
-            marginTop: topBottomMargins,
-            marginBottom: topBottomMargins,
-            maxHeight: window.innerHeight - topBottomMargins * 2,
-            maxWidth: window.innerWidth - leftRightMargins * 2,
-            height: window.innerHeight - topBottomMargins * 2,
-            width: window.innerWidth - leftRightMargins * 2
-        }
-    } else
-        return {
-            maxHeight: window.innerHeight - topBottomMargins * 2,
-            maxWidth: window.innerWidth - leftRightMargins * 2,
-            height: window.innerHeight - topBottomMargins * 2,
-            width: window.innerWidth - leftRightMargins * 2
-        }
+    return {
+        maxHeight: window.innerHeight - topBottomMargins * 2,
+        maxWidth: window.innerWidth - leftRightMargins * 2,
+        height: window.innerHeight - topBottomMargins * 2,
+        width: window.innerWidth - leftRightMargins * 2
+    }
+
 }
