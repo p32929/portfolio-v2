@@ -21,21 +21,21 @@ const Projects = () => {
             <TypographyWithIcon>Android Apps</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    androidApps.map(item => <ListItem item={item}/>)
+                    androidApps.map(item => <ListItem height={110} item={item}/>)
                 }
             </Grid>
 
             <TypographyWithIcon>WebApps</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    webApps.map(item => <ListItem item={item}/>)
+                    webApps.map(item => <ListItem height={110} item={item}/>)
                 }
             </Grid>
 
             <TypographyWithIcon>Desktop Apps</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    desktopApps.map(item => <ListItem item={item}/>)
+                    desktopApps.map(item => <ListItem height={110} item={item}/>)
                 }
             </Grid>
 
