@@ -26,7 +26,7 @@ import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import RightPart from "./RightPart";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {MemoryRouter, Route} from "react-router-dom";
 import {connect} from 'react-redux'
 import LeftPart from "./LeftPart";
 import Redirect from "react-router-dom/es/Redirect";
@@ -72,7 +72,7 @@ const Portfolio = (props) => {
 
     return (
         <Grid container style={{backgroundColor: props.primaryColor, ...styles.parent}}>
-            <Router>
+            <MemoryRouter>
                 <Route exact path="/">
                     <Redirect to="/about"/>
                 </Route>
@@ -89,7 +89,7 @@ const Portfolio = (props) => {
                         </Grid>
                     </Paper>
                 </Grid>
-            </Router>
+            </MemoryRouter>
         </Grid>
     );
 };
