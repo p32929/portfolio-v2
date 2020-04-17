@@ -224,3 +224,6 @@ fabric.properties
 .idea/
 
 # End of https://www.gitignore.io/api/node,react,webstorm,visualstudiocode
+
+pnpm-lock.yaml
+package-lock.json
