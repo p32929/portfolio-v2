@@ -11,9 +11,6 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 import {setDrawerState} from "../vars/ReduxStates";
 import {getHeightWidthObject} from "../vars/SomeLazyFunctions";
 
-var topBottomMargins = 84;
-var leftRightMargins = 158;
-
 const styles = {
     parent: {
         maxHeight: window.innerHeight,
@@ -45,10 +42,7 @@ const Portfolio = (props) => {
 
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.down('sm'));
-    if (matches) {
-        topBottomMargins = 24
-        leftRightMargins = 24
-    } else {
+    if (!matches) {
         setDrawerState(true)
     }
 

@@ -42,19 +42,12 @@ const styles = {
     }
 }
 
-var topBottomMargins = 84;
-var leftRightMargins = 158;
-
 const RightPart = (props) => {
     let location = useLocation();
     const [showDialog, setShowDialog] = useState(false);
 
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.down('sm'));
-    if (matches) {
-        topBottomMargins = 24
-        leftRightMargins = 24
-    }
 
     return (
         <Grid style={getHeightWidthObject(matches)} container xs item direction='row' alignContent='flex-start'>
