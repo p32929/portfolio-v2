@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import {connect} from "react-redux";
 
 const SvgHelper = props => {
-    const {size = 48, color = "#6F6F6F", path, styles = {}} = props;
+    const {size = 48, primaryColor, path, styles = {}} = props;
 
     return (
         <svg style={{width: size, height: size, ...styles}} viewBox="0 0 24 24">
-            <path fill={color}
+            <path fill={primaryColor}
                   d={path}/>
         </svg>
     );
@@ -15,7 +15,6 @@ const SvgHelper = props => {
 
 SvgHelper.propTypes = {
     size: PropTypes.number,
-    color: PropTypes.string,
     path: PropTypes.string,
     styles: PropTypes.object
 };

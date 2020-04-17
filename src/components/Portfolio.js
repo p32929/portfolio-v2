@@ -2,7 +2,6 @@ import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import RightPart from "./RightPart";
-import {primaryColor} from '../vars/MainItems'
 import {BrowserRouter as Router} from "react-router-dom";
 import {connect} from 'react-redux'
 import LeftPart from "./LeftPart";
@@ -12,7 +11,6 @@ var leftRightMargins = 158;
 
 const styles = {
     parent: {
-        backgroundColor: primaryColor,
         maxHeight: window.innerHeight,
         maxWidth: window.innerWidth
     },
@@ -36,7 +34,7 @@ const styles = {
 const Portfolio = (props) => {
 
     return (
-        <Grid container style={styles.parent}>
+        <Grid container style={{backgroundColor: props.primaryColor, ...styles.parent}}>
             <Router>
                 {/*<Redirect from="/" to="about"/>*/}
                 <Paper elevation={16} style={styles.paper}>
