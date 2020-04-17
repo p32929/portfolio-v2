@@ -28,7 +28,10 @@ If you don't have them installed, install them from here: https://nodejs.org/en/
 9. Run this command: `npm run deploy`
 10. Go the the repository settings page > Github Pages > Source and set it to `master` branch
 
-Volla!! Now your portfolio can be accessed using the url written in the `homepage` of `package.json`
+Volla!! Now, you can check your portfolio LIVE version in `github pages` using `homepage` URL. Github may take a while to update the `github page` into your `homepage` URL
+
+## Thanks
+Thanks to everyone for visiting. Special thanks to [Facebook](https://www.facebook.com/) for the [ReactJS](https://reactjs.org/) library, [mui-org](https://github.com/mui-org/) for the [Material-UI](https://material-ui.com/) Components, [casesandberg](https://github.com/casesandberg) for the [react-color](https://casesandberg.github.io/react-color/) library, [Plabon Dey](https://github.com/plabon5150) for the Dynamic Color idea :P and [Github pages](https://pages.github.com/) for letting me host it for free. Am I missing anyone? If yes, Let me know via facebook: https://www.facebook.com/p32929/ 
 
 ## LICENSE
 ```
