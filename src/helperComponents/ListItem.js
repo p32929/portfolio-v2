@@ -42,7 +42,8 @@ const styles = {
     textContainer: {
         marginTop: 16,
         marginBottom: 16,
-        marginRight: 16
+        marginRight: 16,
+        overflow: 'hidden',
     },
     title: {
         fontSize: 16,
@@ -52,7 +53,8 @@ const styles = {
     desc: {
         fontSize: 14,
         color: "#757575",
-        lineHeight: 1.25
+        lineHeight: 1.25,
+        overflow: 'hidden',
     }
 }
 
@@ -68,9 +70,7 @@ const ListItem = (props) => {
                     </Grid>
                     <Grid item xs style={styles.textContainer} container justify='center' direction='column'>
                         <Typography style={styles.title}>{item.title}</Typography>
-                        {
-                            item.desc && <Typography style={styles.desc}>{item.desc}</Typography>
-                        }
+                        <Typography style={styles.desc}>{item.desc || item.link}</Typography>
                     </Grid>
                     {
                         item.link && <IconButton href={item.link} size='small'>
