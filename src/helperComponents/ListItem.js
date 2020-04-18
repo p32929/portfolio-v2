@@ -46,11 +46,13 @@ const styles = {
     },
     title: {
         fontSize: 16,
-        color: "#212121"
+        color: "#212121",
+        lineHeight: 1.25
     },
     desc: {
         fontSize: 14,
-        color: "#757575"
+        color: "#757575",
+        lineHeight: 1.25
     }
 }
 

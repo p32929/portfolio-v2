@@ -59,7 +59,7 @@ const Projects = () => {
             <TypographyWithIcon>Desktop Apps</TypographyWithIcon>
             <Grid style={{marginBottom: 16}} container direction='row'>
                 {
-                    desktopApps.map(item => <ListItem height={124} item={item}/>)
+                    desktopApps.map(item => <ListItem height={110} item={item}/>)
                 }
             </Grid>
 
