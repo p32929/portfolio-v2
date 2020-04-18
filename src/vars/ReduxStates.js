@@ -36,26 +36,24 @@ var store = {
 export const reducer = createStore(function reducer(state = store, action) {
     switch (action.type) {
         case SET_DRAWER_STATE:
-            console.log(SET_PRIMARY_COLOR+ " " + JSON.stringify(state))
+            console.log(SET_PRIMARY_COLOR + " " + JSON.stringify(state))
             return {
                 ...state,
                 drawerState: action.state
             }
-            break;
 
         case SET_PRIMARY_COLOR:
-            console.log(SET_PRIMARY_COLOR+ " " + JSON.stringify(state))
+            console.log(SET_PRIMARY_COLOR + " " + JSON.stringify(state))
             return {
                 ...state,
                 primaryColor: action.state
             }
-            break;
 
         default:
             console.log("DEFAULT")
             return state;
     }
-}, );
+},);
 
 export const setDrawerState = (state) => {
     reducer.dispatch({
