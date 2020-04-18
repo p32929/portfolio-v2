@@ -29,9 +29,9 @@ export var socialLinks = [
         link: 'p32929'
     },
     {
-        title: 'WhatApp',
-        logo: 'https://image.flaticon.com/icons/svg/174/174879.svg',
-        link: 'https://api.whatsapp.com/send?phone=8801796306262'
+        title: 'Fiverr',
+        logo: 'https://assetsv2.fiverrcdn.com/assets/v2_globals/fiverr-logo-new-green-64920d4e75a1e04f4fc7988365357c16.png',
+        link: 'https://www.fiverr.com/users/fayazbinsalam/'
     },
     {
         title: 'LinkedIn',
@@ -44,12 +44,20 @@ export var socialLinks = [
         link: 'https://www.reddit.com/user/p32929'
     },
     {
+        title: 'Twitter',
+        logo: 'https://image.flaticon.com/icons/svg/733/733579.svg',
+        link: 'https://twitter.com/p32929'
+    },
+    {
+        title: 'Instagram',
+        logo: 'https://image.flaticon.com/icons/svg/2111/2111463.svg',
+        link: 'https://www.instagram.com/p32929/'
+    },
+    {
         title: 'Google Play',
         logo: 'https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg',
         link: 'https://play.google.com/store/apps/developer?id=Rich+IT&hl=en'
     },
-
-
 ]
 
 export var bottom1stTest = 'Thank you';

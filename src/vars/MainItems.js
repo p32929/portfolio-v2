@@ -54,7 +54,7 @@ export const navContactIcons = [
     {
         svgPath: whatsappIcon,
         link: 'https://api.whatsapp.com/send?phone=8801796306262'
-    },
+    }
 ]
 
 //
