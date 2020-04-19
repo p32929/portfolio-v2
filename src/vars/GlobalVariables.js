@@ -505,13 +505,13 @@ export const projects = [
         arr: [
             {
                 title: 'PotatoTimer',
-                logo: 'https://cdn0.iconfinder.com/data/icons/vegetables-ii-color/290/18-512.png',
+                logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
                 desc: 'A pomotodo app that forces you to take a break - created using ElectronJS',
                 link: 'https://github.com/p32929/Electron-Pomotodo'
             },
             {
                 title: 'Shortcut-Virus-Remover',
-                logo: 'https://image.flaticon.com/icons/svg/1547/1547475.svg',
+                logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
                 desc: 'Shortcut virus remover app for Windows',
                 link: 'https://github.com/p32929/Shortcut-Virus-Remover'
             },
@@ -523,17 +523,10 @@ export const projects = [
             },
             {
                 title: 'MoodyLauncher',
-                logo: 'https://image.flaticon.com/icons/svg/977/977657.svg',
+                logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
                 desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
                 link: 'https://github.com/p32929/MoodyLauncher'
             },
-            {
-                title: 'UVA_Solutions',
-                logo: 'https://image.flaticon.com/icons/svg/977/977657.svg',
-                desc: 'Some UVA solutions',
-                link: 'https://github.com/p32929/UVA_Solutions'
-            },
-
         ]
     },
     {
@@ -681,7 +674,12 @@ export const projects = [
                 desc: 'A boilerplate for ReactJS + materialUI',
                 link: 'https://github.com/p32929/React-Materialui-Boilerplate'
             },
-
+            {
+                title: 'UVA_Solutions',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                desc: 'Some UVA solutions',
+                link: 'https://github.com/p32929/UVA_Solutions'
+            },
         ]
     }
 ]

@@ -43,7 +43,7 @@ const Projects = () => {
         <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
             {
                 projects.map((item) => {
-                    return getTextAndList(item, 100);
+                    return getTextAndList(item, 110);
                 })
             }
         </Grid>
