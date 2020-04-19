@@ -22,6 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
 
+import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
+import Grid from "@material-ui/core/Grid";
+import ListItem from "../helperComponents/ListItem";
+import React from "react";
+
 export function getHeightWidthObject(matches) {
     var topBottomMargins;
     var leftRightMargins;
@@ -40,5 +45,23 @@ export function getHeightWidthObject(matches) {
         height: window.innerHeight - topBottomMargins * 2,
         width: window.innerWidth - leftRightMargins * 2
     }
+}
 
+export const getTextAndList = (item, height = 76) => {
+    if (item) {
+        return (
+            <Grid style={{width: '100%'}}>
+                {
+                    item.text && <TypographyWithIcon>{item.text}</TypographyWithIcon>
+                }
+                {
+                    item.arr && item.arr.length > 0 && <Grid style={{marginBottom: 16}} container direction='row'>
+                        {
+                            item.arr.map(item => <ListItem height={height} item={item}/>)
+                        }
+                    </Grid>
+                }
+            </Grid>
+        )
+    }
 }

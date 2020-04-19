@@ -24,10 +24,9 @@ SOFTWARE.
 
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import ListItem from "../helperComponents/ListItem";
 import {skills} from "../vars/GlobalVariables";
-import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
 import {connect} from "react-redux";
+import {getTextAndList} from '../vars/SomeLazyFunctions'
 
 const styles = {
     listGridParent: {
@@ -37,25 +36,6 @@ const styles = {
         marginLeft: 8,
     },
     listGridInner: {}
-}
-
-const getTextAndList = (item) => {
-    if (item) {
-        return (
-            <div>
-                {
-                    item.text && <TypographyWithIcon>{item.text}</TypographyWithIcon>
-                }
-                {
-                    item.arr && item.arr.length > 0 && <Grid style={{marginBottom: 16}} container direction='row'>
-                        {
-                            item.arr.map(item => <ListItem item={item}/>)
-                        }
-                    </Grid>
-                }
-            </div>
-        )
-    }
 }
 
 const Skills = () => {
