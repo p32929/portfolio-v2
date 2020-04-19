@@ -24,10 +24,9 @@ SOFTWARE.
 
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import ListItem from "../helperComponents/ListItem";
-import {socialLinks} from "../vars/ContactItems";
-import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
 import {connect} from "react-redux";
+import {contactInfos} from "../vars/GlobalVariables";
+import {getTextAndList} from "../vars/SomeLazyFunctions";
 
 const styles = {
     listGridParent: {
@@ -42,14 +41,11 @@ const styles = {
 const Contact = () => {
     return (
         <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
-
-            <TypographyWithIcon>Contact me</TypographyWithIcon>
-            <Grid style={{marginBottom: 16}} container direction='row'>
-                {
-                    socialLinks.map(item => <ListItem height={84} item={item}/>)
-                }
-            </Grid>
-
+            {
+                contactInfos.map((item) => {
+                    return getTextAndList(item, 80);
+                })
+            }
         </Grid>
     );
 };
