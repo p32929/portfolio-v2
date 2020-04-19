@@ -412,7 +412,13 @@ export const projects = [
                 title: 'My Portfolio',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'Created using ReactJS',
-                link: 'https://github.com/p32929/Electron-Pomotodo'
+                link: 'https://github.com/p32929/Portfolio'
+            },
+            {
+                title: 'My Portfolio V2',
+                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                desc: 'V2 of my Portfolio - Created using ReactJS',
+                link: 'https://github.com/p32929/p32929.github.io'
             },
             {
                 title: 'IndecisionApp',
@@ -479,6 +485,19 @@ export const projects = [
                 desc: 'A simple about screen library for Android for a Team of people',
                 link: 'https://github.com/p32929/OfficeAbout'
             },
+            {
+                title: 'JsonViewerAndroid',
+                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                desc: 'A simple JSON Viewer for Android',
+                link: 'https://github.com/p32929/JsonViewerAndroid'
+            },
+            {
+                title: 'Android-Receivers-Library',
+                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                desc: 'A library for simpler BroadcastReceiver implementations',
+                link: 'https://github.com/p32929/Android-Receivers-Library'
+            },
+
         ]
     },
     {
@@ -507,6 +526,12 @@ export const projects = [
                 logo: 'https://image.flaticon.com/icons/svg/977/977657.svg',
                 desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
                 link: 'https://github.com/p32929/MoodyLauncher'
+            },
+            {
+                title: 'UVA_Solutions',
+                logo: 'https://image.flaticon.com/icons/svg/977/977657.svg',
+                desc: 'Some UVA solutions',
+                link: 'https://github.com/p32929/UVA_Solutions'
             },
 
         ]
@@ -550,7 +575,12 @@ export const projects = [
                 desc: '---',
                 link: 'about:blank'
             },
-
+            {
+                title: 'And More...',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                desc: '---',
+                link: 'about:blank'
+            }
         ]
     },
     {
@@ -614,7 +644,43 @@ export const projects = [
                 logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
                 desc: 'A collection of gitignore files that I use',
                 link: 'https://github.com/p32929/.gitignore'
-            }
+            },
+            {
+                title: 'ReactHtmlBoilerplate',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                desc: 'A boilerplate for normal ReactJS and HTML',
+                link: 'https://github.com/p32929/ReactHtmlBoilerplate'
+            },
+            {
+                title: 'electron-cra-boilerplate',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                desc: 'A boilerplate for Electron + Create React App',
+                link: 'https://github.com/p32929/electron-cra-boilerplate'
+            },
+            {
+                title: 'NodeJS_Express_MongoDB_OAuth2_Boilerplate',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
+                link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
+            },
+            {
+                title: 'flutter_state_management_test',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                desc: 'A state management demo for Flutter',
+                link: 'https://github.com/p32929/flutter_state_management_test'
+            },
+            {
+                title: 'ReduxCounter',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                desc: 'A demo for ReactJS and Redux',
+                link: 'https://github.com/p32929/ReduxCounter'
+            },
+            {
+                title: 'React-Materialui-Boilerplate',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                desc: 'A boilerplate for ReactJS + materialUI',
+                link: 'https://github.com/p32929/React-Materialui-Boilerplate'
+            },
 
         ]
     }
@@ -663,5 +729,13 @@ export const contactInfos = [
     },
     {
         text: "Thank you for visiting my portfolio",
+        arr: [
+            {
+                title: "Click on the link",
+                desc: 'To create your own portfolio. It will only take 3 minutes',
+                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                link: 'https://github.com/p32929/p32929.github.io/'
+            }
+        ]
     }
 ]
