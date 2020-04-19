@@ -25,7 +25,7 @@ SOFTWARE.
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import ListItem from "../helperComponents/ListItem";
-import {frameworks, languages, others} from "../vars/SkillsItems";
+import {skills} from "../vars/GlobalVariables";
 import TypographyWithIcon from "../helperComponents/TypographyWithIcon";
 import {connect} from "react-redux";
 
@@ -39,29 +39,33 @@ const styles = {
     listGridInner: {}
 }
 
+const getTextAndList = (item) => {
+    if (item) {
+        return (
+            <div>
+                {
+                    item.text && <TypographyWithIcon>{item.text}</TypographyWithIcon>
+                }
+                {
+                    item.arr && item.arr.length > 0 && <Grid style={{marginBottom: 16}} container direction='row'>
+                        {
+                            item.arr.map(item => <ListItem item={item}/>)
+                        }
+                    </Grid>
+                }
+            </div>
+        )
+    }
+}
+
 const Skills = () => {
     return (
         <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
-            <TypographyWithIcon>Programming/Markup Languages</TypographyWithIcon>
-            <Grid style={{marginBottom: 16}} container direction='row'>
-                {
-                    languages.map(item => <ListItem item={item}/>)
-                }
-            </Grid>
-
-            <TypographyWithIcon>Libraries/Frameworks</TypographyWithIcon>
-            <Grid style={{marginBottom: 16}} container direction='row'>
-                {
-                    frameworks.map(item => <ListItem item={item}/>)
-                }
-            </Grid>
-
-            <TypographyWithIcon>Others</TypographyWithIcon>
-            <Grid style={{marginBottom: 16}} container direction='row'>
-                {
-                    others.map(item => <ListItem item={item}/>)
-                }
-            </Grid>
+            {
+                skills.map((item) => {
+                    return getTextAndList(item);
+                })
+            }
         </Grid>
     );
 };
