@@ -36,8 +36,6 @@ import {myImageLink, myName, myOccupation, navContactIcons, navItems} from '../v
 import {setDrawerState} from '../vars/ReduxStates'
 import {NavLink} from "react-router-dom";
 import {connect} from "react-redux";
-import {useTheme} from "@material-ui/core/styles";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 import {getHeightWidthObject} from '../vars/SomeLazyFunctions'
 
 const styles = {
@@ -88,7 +86,8 @@ const LeftPart = (props) => {
     const {widthLowerThanBreakpoint} = props;
 
     return (
-        <Grid style={getHeightWidthObject(widthLowerThanBreakpoint)} container item xs={11} sm={11} md={3} lg={3} xl={2}>
+        <Grid style={getHeightWidthObject(widthLowerThanBreakpoint)} container item xs={11} sm={11} md={3} lg={3}
+              xl={2}>
             <Paper style={styles.paper} elevation={12}>
                 <Grid style={{height: '100%'}} container direction="column" justify="space-between" alignItems="center">
 

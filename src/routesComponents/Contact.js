@@ -34,16 +34,17 @@ const styles = {
         overflowY: 'auto',
         marginRight: 8,
         marginLeft: 8,
-    },
-    listGridInner: {}
+    }
 }
 
-const Contact = () => {
+const Contact = (props) => {
+    const {widthLowerThanBreakpoint} = props;
+
     return (
         <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
             {
                 contactInfos.map((item) => {
-                    return getTextAndList(item, 80);
+                    return getTextAndList(item, widthLowerThanBreakpoint ? 90 : 80);
                 })
             }
         </Grid>

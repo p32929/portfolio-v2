@@ -34,8 +34,7 @@ const styles = {
         overflowY: 'auto',
         marginRight: 8,
         marginLeft: 8,
-    },
-    listGridInner: {}
+    }
 }
 
 const Projects = () => {

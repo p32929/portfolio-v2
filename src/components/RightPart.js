@@ -40,8 +40,6 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogContent from "@material-ui/core/DialogContent";
 import {BlockPicker} from 'react-color'
 import {setDrawerState, setPrimaryColor} from '../vars/ReduxStates'
-import {useTheme} from "@material-ui/core/styles";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 import {getHeightWidthObject} from "../vars/SomeLazyFunctions";
 
 const styles = {
@@ -72,9 +70,10 @@ const RightPart = (props) => {
     const {widthLowerThanBreakpoint} = props;
 
     return (
-        <Grid style={getHeightWidthObject(widthLowerThanBreakpoint)} container xs item direction='row' alignContent='flex-start'>
+        <Grid style={getHeightWidthObject(widthLowerThanBreakpoint)} container xs item direction='row'
+              alignContent='flex-start'>
             <Grid style={styles.upperPart} container direction='row' justify='space-between'>
-                <Grid item>
+                <Grid>
                     <Grid>
                         {
                             widthLowerThanBreakpoint && <IconButton size='small' onClick={() => {

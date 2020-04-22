@@ -23,12 +23,12 @@ SOFTWARE.
  */
 
 import React from 'react';
-import Grid from "@material-ui/core/Grid";
-import TypographyMultiLineWithIcon from "../helperComponents/TypographyMultiLineWithIcon";
-import {myDetails} from '../vars/MainItems'
-import Avatar from "@material-ui/core/Avatar";
-import avatarImage from "../assets/avatar2.png";
 import {connect} from "react-redux";
+import Grid from "@material-ui/core/Grid";
+import avatarImage from '../assets/avatar2.png'
+import Avatar from "@material-ui/core/Avatar";
+import {myDetails} from '../vars/MainItems'
+import TypographyMultiLineWithIcon from "../helperComponents/TypographyMultiLineWithIcon";
 
 const styles = {
     listGridParent: {
@@ -53,7 +53,7 @@ const styles = {
 const About = () => {
     return (
         <Grid style={styles.listGridParent} container xs item direction='column' alignItems='center'
-              justify='space-around'>
+              justify='space-evenly' alignContent='space-between'>
 
             <Grid item>
                 <Avatar variant='square' style={styles.avatar}
