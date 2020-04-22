@@ -46,6 +46,7 @@ SvgHelper.propTypes = {
 const mapStateToProps = state => ({
     primaryColor: state.primaryColor,
     drawerState: state.drawerState,
+    widthLowerThanBreakpoint: state.widthLowerThanBreakpoint
 })
 
 export default connect(mapStateToProps)(SvgHelper);

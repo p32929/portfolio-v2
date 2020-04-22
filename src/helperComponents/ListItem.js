@@ -100,6 +100,7 @@ const ListItem = (props) => {
 const mapStateToProps = state => ({
     primaryColor: state.primaryColor,
     drawerState: state.drawerState,
+    widthLowerThanBreakpoint: state.widthLowerThanBreakpoint
 })
 
 export default connect(mapStateToProps)(ListItem);
