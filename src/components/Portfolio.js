@@ -32,7 +32,7 @@ import LeftPart from "./LeftPart";
 import Redirect from "react-router-dom/es/Redirect";
 import {useTheme} from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import {setDrawerState} from "../vars/ReduxStates";
+import {setDrawerState, setWidthLowerThanBreakpoint} from "../vars/ReduxStates";
 import {getHeightWidthObject} from "../vars/SomeLazyFunctions";
 
 const styles = {
@@ -69,6 +69,7 @@ const Portfolio = (props) => {
     if (!matches) {
         setDrawerState(true)
     }
+    setWidthLowerThanBreakpoint(matches);
 
     return (
         <Grid container style={{backgroundColor: props.primaryColor, ...styles.parent}}>

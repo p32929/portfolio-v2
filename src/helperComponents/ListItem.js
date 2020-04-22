@@ -76,6 +76,7 @@ function getLinkIcon(url) {
 
 const ListItem = (props) => {
     const {item, height = 76} = props;
+
     return (
         <Grid item xs={12} sm={12} md={6} lg={6} xl={3}>
             <Paper elevation={4} style={{height: height, ...styles.parent}}>

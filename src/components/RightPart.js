@@ -69,17 +69,15 @@ const styles = {
 const RightPart = (props) => {
     let location = useLocation();
     const [showDialog, setShowDialog] = useState(false);
-
-    const theme = useTheme();
-    const matches = useMediaQuery(theme.breakpoints.down('sm'));
+    const {widthLowerThanBreakpoint} = props;
 
     return (
-        <Grid style={getHeightWidthObject(matches)} container xs item direction='row' alignContent='flex-start'>
+        <Grid style={getHeightWidthObject(widthLowerThanBreakpoint)} container xs item direction='row' alignContent='flex-start'>
             <Grid style={styles.upperPart} container direction='row' justify='space-between'>
                 <Grid item>
                     <Grid>
                         {
-                            matches && <IconButton size='small' onClick={() => {
+                            widthLowerThanBreakpoint && <IconButton size='small' onClick={() => {
                                 setDrawerState(true);
                             }}>
                                 <SvgHelper

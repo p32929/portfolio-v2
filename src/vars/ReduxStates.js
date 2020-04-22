@@ -27,7 +27,7 @@ import {primaryColor} from '../vars/MainItems'
 
 const SET_DRAWER_STATE = 'SET_DRAWER_STATE';
 const SET_PRIMARY_COLOR = 'SET_PRIMARY_COLOR';
-const SET_WITH_LOWER_THAN_BREAKPOINT = 'SET_PRIMARY_COLOR';
+const SET_WITH_LOWER_THAN_BREAKPOINT = 'SET_WITH_LOWER_THAN_BREAKPOINT';
 
 var store = {
     primaryColor: primaryColor,

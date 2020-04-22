@@ -85,11 +85,10 @@ const styles = {
 }
 
 const LeftPart = (props) => {
-    const theme = useTheme();
-    const matches = useMediaQuery(theme.breakpoints.down('sm'));
+    const {widthLowerThanBreakpoint} = props;
 
     return (
-        <Grid style={getHeightWidthObject(matches)} container item xs={11} sm={11} md={3} lg={3} xl={2}>
+        <Grid style={getHeightWidthObject(widthLowerThanBreakpoint)} container item xs={11} sm={11} md={3} lg={3} xl={2}>
             <Paper style={styles.paper} elevation={12}>
                 <Grid style={{height: '100%'}} container direction="column" justify="space-between" alignItems="center">
 
@@ -106,7 +105,7 @@ const LeftPart = (props) => {
                     <Grid container item xs sm md lg xl direction='column' justify='center' alignContent='stretch'>
 
                         {
-                            matches && <IconButton size='small' onClick={() => {
+                            widthLowerThanBreakpoint && <IconButton size='small' onClick={() => {
                                 setDrawerState(false)
                             }}>
                                 <SvgHelper
