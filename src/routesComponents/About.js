@@ -42,11 +42,12 @@ const styles = {
         fontSize: 16,
         color: "#212121",
         marginLeft: 16,
-        marginRight: 16
+        marginRight: 16,
     },
     avatar: {
         height: 136,
         width: 136,
+        margin: 16
     },
 }
 
@@ -54,7 +55,7 @@ const About = (props) => {
     const {widthLowerThanBreakpoint} = props;
     return (
         <Grid style={styles.listGridParent} container xs item direction='column' alignItems='center'
-              justify='space-around'>
+              justify='flex-end'>
 
             {
                 !widthLowerThanBreakpoint && <Grid item>
@@ -63,7 +64,7 @@ const About = (props) => {
                 </Grid>
             }
 
-            <Grid item>
+            <Grid item style={{marginBottom: 16}}>
                 <TypographyMultiLineWithIcon desc={myDetails}>
                     About me
                 </TypographyMultiLineWithIcon>
