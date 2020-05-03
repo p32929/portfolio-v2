@@ -76,7 +76,7 @@ const RightPart = (props) => {
 
             <Grid style={styles.upperPart} container direction='row' justify='space-between'>
 
-                <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+                <Grid item xs={7} sm={7} md={7} lg={7} xl={7}>
                     <Grid>
                         {
                             widthLowerThanBreakpoint && <IconButton size='small' onClick={() => {
