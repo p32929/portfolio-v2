@@ -31,7 +31,7 @@ import {connect} from "react-redux";
 
 const TypographyWithIcon = (props) => {
     return (
-        <Grid style={{padding: 8}} container direction='row' alignItems='flex-start' alignContent='center'>
+        <Grid style={{padding: 8}} container direction='row' justify='flex-start' alignItems='center' alignContent='center'>
             <SvgHelper
                 size={18}
                 color={primaryColor}
