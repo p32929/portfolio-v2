@@ -56,6 +56,7 @@ const TypographyMultiLineWithIcon = (props) => {
                 lineHeight: 1.25,
                 marginLeft: 32,
                 paddingRight: 48,
+                fontSize: 14,
             }}>{props.desc}</Typography>
 
         </Grid>

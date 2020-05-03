@@ -34,7 +34,6 @@ const styles = {
     listGridParent: {
         maxHeight: '85%',
         height: '85%',
-        overflowY: 'auto',
         marginRight: 8,
         marginLeft: 8,
     },
@@ -64,7 +63,7 @@ const About = (props) => {
                 </Grid>
             }
 
-            <Grid item style={{marginBottom: 16}}>
+            <Grid item style={{marginBottom: 16, overflow: 'auto',}}>
                 <TypographyMultiLineWithIcon desc={myDetails}>
                     About me
                 </TypographyMultiLineWithIcon>
