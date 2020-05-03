@@ -49,7 +49,6 @@ const styles = {
     },
     divider: {
         height: 1,
-        width: 200,
         marginTop: 8,
     },
     listGridParent: {
@@ -94,7 +93,10 @@ const RightPart = (props) => {
                             }
                         </Button>
                     </Grid>
-                    <Divider orientation="horizontal" style={{backgroundColor: props.primaryColor, ...styles.divider}}
+                    <Divider orientation="horizontal" style={{
+                        backgroundColor: props.primaryColor, ...styles.divider,
+                        width: widthLowerThanBreakpoint ? 150 : 200
+                    }}
                              flexItem/>
                 </Grid>
 
