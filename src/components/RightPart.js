@@ -95,7 +95,7 @@ const RightPart = (props) => {
                     </Grid>
                     <Divider orientation="horizontal" style={{
                         backgroundColor: props.primaryColor, ...styles.divider,
-                        width: widthLowerThanBreakpoint ? 150 : 200
+                        width: widthLowerThanBreakpoint ? 160 : 200
                     }}
                              flexItem/>
                 </Grid>
