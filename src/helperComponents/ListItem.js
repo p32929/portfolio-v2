@@ -75,7 +75,11 @@ function getLinkIcon(url) {
 }
 
 const ListItem = (props) => {
-    const {item, height = 76} = props;
+    const {item, widthLowerThanBreakpoint} = props;
+    var {height = 76} = props;
+    if (widthLowerThanBreakpoint) {
+        height = 'auto'
+    }
 
     return (
         <Grid item xs={12} sm={12} md={6} lg={6} xl={3}>
