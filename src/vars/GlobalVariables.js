@@ -706,6 +706,11 @@ export const contactInfos = [
                 link: 'https://www.instagram.com/p32929/'
             },
             {
+                title: 'WhatsApp',
+                logo: 'https://image.flaticon.com/icons/svg/733/733585.svg',
+                link: 'https://api.whatsapp.com/send?phone=8801796306262'
+            },
+            {
                 title: 'Google Play',
                 logo: 'https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg',
                 link: 'https://play.google.com/store/apps/developer?id=Rich+IT&hl=en'

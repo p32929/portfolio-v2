@@ -33,7 +33,6 @@ import Contact from "../routesComponents/Contact";
 import Skills from "../routesComponents/Skills";
 import Projects from "../routesComponents/Projects";
 import Route from "react-router-dom/es/Route";
-import Blogs from "../routesComponents/Blogs";
 import SvgHelper from "../helperComponents/SvgHelper";
 import IconButton from "@material-ui/core/IconButton";
 import {connect} from "react-redux";
@@ -125,7 +124,6 @@ const RightPart = (props) => {
                 <Route exact path="/skills" component={Skills}/>
                 <Route exact path="/projects" component={Projects}/>
                 <Route exact path="/contact" component={Contact}/>
-                <Route exact path="/blogs" component={Blogs}/>
             </Switch>
 
             <Dialog open={showDialog} keepMounted={false} aria-labelledby="alert-dialog-slide-title" onClose={() => {
