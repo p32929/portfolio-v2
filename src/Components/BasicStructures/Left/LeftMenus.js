@@ -35,9 +35,6 @@ const LeftMenus = () => {
 
     return (
         <Grid container item xs sm md lg xl direction='column' justify='center' alignContent='stretch'>
-            <Divider orientation="horizontal"
-                     style={{backgroundColor: state.primaryColor, ...styles.divider}}
-                     flexItem/>
 
             {/*         CROSS BUTTON        */}
             {
@@ -49,6 +46,10 @@ const LeftMenus = () => {
                         size={18} styles={{margin: 3}}/>
                 </IconButton>
             }
+
+            <Divider orientation="horizontal"
+                     style={{backgroundColor: state.primaryColor, ...styles.divider}}
+                     flexItem/>
 
             {/*     MENUS       */}
             {
