@@ -13,8 +13,8 @@ const SmallBottomLinks = () => {
               alignItems='center'
               alignContent='center'>
             {
-                navContactIcons.map((item) => {
-                    return <IconButton size='small' target="_blank" href={item.link}>
+                navContactIcons.map((item, index) => {
+                    return <IconButton key={index} size='small' target="_blank" href={item.link}>
                         <SvgHelper
                             path={item.svgPath}
                             size={18} styles={{margin: 3}}/>

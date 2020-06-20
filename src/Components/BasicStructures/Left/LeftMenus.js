@@ -56,6 +56,7 @@ const LeftMenus = () => {
                 navItems.map((item, index) => {
                     return (
                         <Button
+                            key={index}
                             onClick={() => {
                                 if (state.belowSm) {
                                     actions.setDrawerState(false)
