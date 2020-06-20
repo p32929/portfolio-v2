@@ -9,6 +9,7 @@ import ProjectsRoute from "./Right/Routes/ProjectsRoute";
 import SkillsRoute from "./Right/Routes/SkillsRoute";
 import ContactRoute from "./Right/Routes/ContactRoute";
 import AboutRoute from "./Right/Routes/AboutRoute";
+import ColorPickerDialog from "../Dialogs/ColorPickerDialog";
 
 const styles = {
     upperPart: {
@@ -60,6 +61,8 @@ const RightPart = () => {
                     <Route exact path="/contact" component={ContactRoute}/>
                 </Switch>
             </Grid>
+
+            <ColorPickerDialog/>
         </Grid>
     );
 };
