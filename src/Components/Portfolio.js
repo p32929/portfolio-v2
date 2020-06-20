@@ -21,6 +21,21 @@ const styles = {
     }
 }
 
+const getRightPartComponent = (state) => {
+    if (state.belowSm) {
+        if (state.drawerState) {
+            console.log("NOT SHOWING RIGHT1")
+            return null;
+        } else {
+            console.log("SHOWING RIGHT1")
+            return <RightPart/>
+        }
+    } else {
+        console.log("SHOWING RIGHT2")
+        return <RightPart/>
+    }
+}
+
 const Portfolio = () => {
     const {state, actions} = useOvermind()
     const theme = useTheme()
@@ -41,7 +56,9 @@ const Portfolio = () => {
                             {
                                 state.drawerState && <LeftPart/>
                             }
-                            <RightPart/>
+                            {
+                                getRightPartComponent(state)
+                            }
                         </Grid>
                     </Paper>
                 </Grid>
