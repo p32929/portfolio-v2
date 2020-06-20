@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../../../../Others/OvermindHelper";
 import Avatar from "@material-ui/core/Avatar";
-import avatarImage from '../../../../Images/avatar.png'
+import avatarImage from '../../../../Images/avatar2.png'
 import TypographyMultilinedWithIcon from "../../../Helpers/TypographyMultilinedWithIcon";
 import {myDetails} from "../../../../Others/MainItems";
 

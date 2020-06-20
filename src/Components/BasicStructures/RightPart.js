@@ -44,7 +44,8 @@ const RightPart = () => {
     }, [])
 
     return (
-        <Grid id='right-container' style={getContainerHeight(state.belowSm)} container xs item direction='row'
+        <Grid id='right-container' style={{...getContainerHeight(state.belowSm), width: '100%'}} container xs item
+              direction='row'
               alignContent='flex-start'>
 
             {/*     TOP PART        */}

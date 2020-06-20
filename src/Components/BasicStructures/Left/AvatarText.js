@@ -11,10 +11,6 @@ const styles = {
         height: 125,
         width: 125,
     },
-    avaratAndText: {
-        paddingTop: 24,
-        paddingBottom: 16
-    },
     title: {
         fontSize: 14,
         color: "#212121",
@@ -32,7 +28,7 @@ const AvatarText = () => {
     const {state, actions} = useOvermind()
 
     return (
-        <Grid item xs sm md lg xl style={styles.avaratAndText} container direction="column" justify="center"
+        <Grid item xs sm md lg xl container direction="column" justify="center"
               alignItems="center">
             <Avatar style={styles.avatar} src={myImageLink ? myImageLink : avatarImage}></Avatar>
 

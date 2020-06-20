@@ -15,12 +15,13 @@ const LeftPart = () => {
               md={3} lg={3}
               xl={2}>
             <Paper elevation={12} style={{...getContainerHeight(state.belowSm), width: '100%'}}>
-                <Grid style={{height: '100%', width: '100%'}} container direction="column"
-                      justify="space-between" alignItems="center">
+                <Grid style={{...getContainerHeight(state.belowSm), width: '100%'}} container direction="column"
+                      justify="space-around" alignContent='center' alignItems="center">
 
                     <AvatarText/>
                     <LeftMenus/>
                     <SmallBottomLinks/>
+
                 </Grid>
             </Paper>
         </Grid>
