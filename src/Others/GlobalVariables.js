@@ -49,6 +49,10 @@ export const skills = [
                 logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
             },
             {
+                title: 'Rust',
+                logo: 'https://www.rust-lang.org/static/images/rust-logo-blk.svg',
+            },
+            {
                 title: 'SQL',
                 logo: 'https://www.svgrepo.com/show/255832/sql.svg',
             },
@@ -218,6 +222,19 @@ export const skills = [
                 title: 'Proton Native',
                 logo: 'https://img.stackshare.io/service/8517/eE3nAsW.png'
             },
+            {
+                title: 'Tauri',
+                logo: 'https://user-images.githubusercontent.com/2774845/75100245-79e51600-55cb-11ea-8ea3-2b12063e41fa.png'
+            },
+            {
+                title: 'Material-UI',
+                logo: 'https://camo.githubusercontent.com/cf05625198fe7b6ad8a302d1ce16bc99b93ec2ac/68747470733a2f2f6d6174657269616c2d75692e636f6d2f7374617469632f6c6f676f2e737667'
+            },
+            {
+                title: 'Node GUI',
+                logo: 'https://raw.githubusercontent.com/nodegui/nodegui/master/extras/logo/nodegui.png'
+            },
+
         ]
     },
     {
