@@ -1,15 +1,12 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../../../../Others/OvermindHelper";
+import {getTextAndList} from "../../../../Others/GlobalMethods";
+import {projects} from "../../../../Others/GlobalVariables";
 
 const styles = {
     listGridParent: {
-        height: '85%',
-        maxHeight: '85%',
-        overflowY: 'auto',
-        marginRight: 8,
-        marginLeft: 8,
-        backgroundColor: 'red'
+        height: '100%',
     }
 }
 
@@ -18,7 +15,11 @@ const ProjectsRoute = () => {
 
     return (
         <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
-            ProjectsRoute
+            {
+                projects.map((item) => {
+                    return getTextAndList(item);
+                })
+            }
         </Grid>
     );
 };
