@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../../Others/OvermindHelper";
 import TopLeftInfos from "./Right/TopInfoAndButtons";
 import TopRightButtons from "./Right/TopRightButtons";
-import {Route, Switch} from "react-router-dom";
+import {Route, Switch, useLocation} from "react-router-dom";
 import {getContainerHeight} from "../../Others/GlobalMethods";
 import ProjectsRoute from "./Right/Routes/ProjectsRoute";
 import SkillsRoute from "./Right/Routes/SkillsRoute";
@@ -37,11 +37,17 @@ const getBottomElementsHeight = (state) => {
 const RightPart = () => {
     const {state, actions} = useOvermind()
     const [bottomElementStyle, setBottomElementStyle] = useState(null)
+    let location = useLocation();
+
     useEffect(() => {
         if (!bottomElementStyle) {
             setBottomElementStyle(getBottomElementsHeight(state))
         }
     }, [])
+
+    useEffect(() => {
+        document.getElementById('right-bottom-elements').scroll(0, 0)
+    }, [location])
 
     return (
         <Grid id='right-container' style={{...getContainerHeight(state.belowSm), width: '100%'}} container xs item

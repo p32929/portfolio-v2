@@ -38,3 +38,7 @@ code {
       outline: '1px solid slategrey'
     }
 */
+
+#right-bottom-elements {
+    scroll-behavior: smooth;
+}
