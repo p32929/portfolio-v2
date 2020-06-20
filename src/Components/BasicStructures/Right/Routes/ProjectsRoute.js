@@ -17,7 +17,7 @@ const ProjectsRoute = () => {
         <Grid spacing={1} style={styles.listGridParent} container xs item direction='row'>
             {
                 projects.map((item) => {
-                    return getTextAndList(item);
+                    return getTextAndList(item, 96);
                 })
             }
         </Grid>
