@@ -7,7 +7,7 @@ const RightPart = () => {
     const {state, actions} = useOvermind()
 
     return (
-        <Grid style={{...getContainerHeight(state.belowSm), backgroundColor: 'green'}} container xs item direction='row'
+        <Grid style={getContainerHeight(state.belowSm)} container xs item direction='row'
               alignContent='flex-start'>
 
         </Grid>
