@@ -25,15 +25,18 @@ SOFTWARE.
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {myName} from "./vars/MainItems";
 import CssBaseline from "@material-ui/core/CssBaseline";
+import Portfolio from "./Components/Portfolio";
+import {Provider} from "overmind-react";
+import {overmind} from './Others/OvermindHelper'
 
 ReactDOM.render(
     <React.StrictMode>
-        <CssBaseline/>
-        <App/>
+        <Provider value={overmind}>
+            <CssBaseline/>
+            <Portfolio/>
+        </Provider>
     </React.StrictMode>,
     document.getElementById('root')
 );
@@ -42,5 +45,3 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-console.log(`HELLO ${myName}`);
