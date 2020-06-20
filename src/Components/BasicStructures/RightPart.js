@@ -14,14 +14,18 @@ const styles = {
     upperPart: {
         padding: 16,
     },
+    content: {
+        flexGrow: 1,
+        paddingLeft: 8,
+        paddingBottom: 8
+    }
 }
 
 const RightPart = () => {
     const {state, actions} = useOvermind()
 
     return (
-        <Grid style={getContainerHeight(state.belowSm)} container xs item direction='row'
-              alignContent='flex-start'>
+        <Grid style={{...getContainerHeight(state.belowSm), ...styles.parent}} xs item>
 
             {/*     TOP PART        */}
             <Grid style={styles.upperPart} container direction='row' justify='space-between'>
@@ -29,12 +33,15 @@ const RightPart = () => {
                 <TopRightButtons/>
             </Grid>
 
-            <Switch>
-                <Route exact path="/about" component={AboutRoute}/>
-                <Route exact path="/skills" component={SkillsRoute}/>
-                <Route exact path="/projects" component={ProjectsRoute}/>
-                <Route exact path="/contact" component={ContactRoute}/>
-            </Switch>
+            {/*     Info part       */}
+            <Grid style={styles.content}>
+                <Switch>
+                    <Route exact path="/about" component={AboutRoute}/>
+                    <Route exact path="/skills" component={SkillsRoute}/>
+                    <Route exact path="/projects" component={ProjectsRoute}/>
+                    <Route exact path="/contact" component={ContactRoute}/>
+                </Switch>
+            </Grid>
         </Grid>
     );
 };
