@@ -12,6 +12,7 @@ export const overmind = createOvermind({
         primaryColor: primaryColor,
         drawerState: true,
         belowSm: false,
+        showColorPickerDialog: false
     },
     actions: {
         increase({state}, number) {
@@ -25,6 +26,9 @@ export const overmind = createOvermind({
         },
         setDrawerState({state}, b) {
             state.drawerState = b
+        },
+        setShowColorPickerDialog({state}, b) {
+            state.showColorPickerDialog = b
         }
     }
 });
