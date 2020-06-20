@@ -6,6 +6,9 @@ import TopRightButtons from "./Right/TopRightButtons";
 import {Route, Switch} from "react-router-dom";
 import {getContainerHeight} from "../../Others/GlobalMethods";
 import ProjectsRoute from "./Right/Routes/ProjectsRoute";
+import SkillsRoute from "./Right/Routes/SkillsRoute";
+import ContactRoute from "./Right/Routes/ContactRoute";
+import AboutRoute from "./Right/Routes/AboutRoute";
 
 const styles = {
     upperPart: {
@@ -51,7 +54,10 @@ const RightPart = () => {
 
             <Grid id='right-bottom-elements' style={{...bottomElementStyle, ...styles.content}}>
                 <Switch>
+                    <Route exact path="/about" component={AboutRoute}/>
+                    <Route exact path="/skills" component={SkillsRoute}/>
                     <Route exact path="/projects" component={ProjectsRoute}/>
+                    <Route exact path="/contact" component={ContactRoute}/>
                 </Switch>
             </Grid>
         </Grid>
