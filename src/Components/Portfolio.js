@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../Others/OvermindHelper";
 import {MemoryRouter, Redirect, Route} from "react-router-dom";
@@ -26,12 +26,11 @@ const Portfolio = () => {
     const theme = useTheme()
     const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
 
-    useEffect(() => {
-        actions.setBelowSm(belowSm)
-    }, [])
-
     return (
         <Grid container style={{backgroundColor: state.primaryColor, ...styles.parent}}>
+            {
+                actions.setBelowSm(belowSm)
+            }
             <MemoryRouter>
                 <Route exact path="/">
                     <Redirect to="/about"/>
