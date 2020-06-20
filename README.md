@@ -20,8 +20,8 @@ If you don't have them installed, install them from here: https://nodejs.org/en/
 1. Fork the repository
 2. Change the repository name to `https://your-github-username.github.io/` by going into settings
 3. Clone the repository
-4. To modify the First Visible page infos (Like your name, image etc), edit `src/vars/MainItems.js` file.
-5. To modify everything else, edit `src/vars/GlobalVariables.js` file constants. For instance: Skills are in the `skills` constant. 
+4. To modify the First Visible page infos (Like your name, image etc), edit `src/Others/MainItems.js` file.
+5. To modify everything else, edit `src/Others/GlobalVariables.js` file constants. For instance: Skills are in the `skills` constant. 
 6. Run this command: `npm run deploy`
 
 Volla!! Now, you can check your portfolio LIVE version in `github pages` using `homepage` URL. Github may take a while to update the `github page` into your `homepage` URL
