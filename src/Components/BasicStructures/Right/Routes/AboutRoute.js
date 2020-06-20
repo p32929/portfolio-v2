@@ -19,7 +19,7 @@ const AboutRoute = () => {
 
     return (
         <Grid container xs item direction='column' alignItems='center'
-              justify='center'>
+              justify={state.belowSm ? 'flex-start' : 'center'} alignContent='center'>
 
             <Grid item>
                 <Avatar variant='square' style={styles.avatar}
