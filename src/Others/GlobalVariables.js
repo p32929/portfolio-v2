@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
 
+import {giftIcon} from './MainItems'
 
 export const skills = [
     {
@@ -557,7 +558,7 @@ export const projects = [
             },
             {
                 title: 'And More...',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: '---',
                 link: 'about:blank'
             }
@@ -579,91 +580,91 @@ export const projects = [
         arr: [
             {
                 title: 'CGPA_Calculator',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'CGPA Calculator made using C',
                 link: 'https://github.com/p32929/CGPA_Calculator'
             },
             {
                 title: 'PersonalDiary',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A personal diary writer created using C',
                 link: 'https://github.com/p32929/PersonalDiary'
             },
             {
                 title: 'PaGeHe',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'Password generators created using C++',
                 link: 'https://github.com/p32929/PaGeHe'
             },
             {
                 title: 'MathBlitz',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'Simple math game created using C',
                 link: 'https://github.com/p32929/MathBlitz'
             },
             {
                 title: 'PaGeHa',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'Password generator created using C',
                 link: 'https://github.com/p32929/PaGeHa'
             },
             {
                 title: 'TicTacToe',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A TicTacToe game made using C ',
                 link: 'https://github.com/p32929/TicTacToe'
             },
             {
                 title: 'Server_up_down_checker_and_notifier',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'Server up-down checker created using python',
                 link: 'https://github.com/p32929/MyPython3Scripts/blob/master/Server_up_down_checker_and_notifier.py'
             },
             {
                 title: '.gitignore',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A collection of gitignore files that I use',
                 link: 'https://github.com/p32929/.gitignore'
             },
             {
                 title: 'ReactHtmlBoilerplate',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A boilerplate for normal ReactJS and HTML',
                 link: 'https://github.com/p32929/ReactHtmlBoilerplate'
             },
             {
                 title: 'electron-cra-boilerplate',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A boilerplate for Electron + Create React App',
                 link: 'https://github.com/p32929/electron-cra-boilerplate'
             },
             {
                 title: 'NodeJS_Express_MongoDB_OAuth2_Boilerplate',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
                 link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
             },
             {
                 title: 'flutter_state_management_test',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A state management demo for Flutter',
                 link: 'https://github.com/p32929/flutter_state_management_test'
             },
             {
                 title: 'ReduxCounter',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A demo for ReactJS and Redux',
                 link: 'https://github.com/p32929/ReduxCounter'
             },
             {
                 title: 'React-Materialui-Boilerplate',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'A boilerplate for ReactJS + materialUI',
                 link: 'https://github.com/p32929/React-Materialui-Boilerplate'
             },
             {
                 title: 'UVA_Solutions',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 desc: 'Some UVA solutions',
                 link: 'https://github.com/p32929/UVA_Solutions'
             },
@@ -723,7 +724,7 @@ export const contactInfos = [
             {
                 title: "Click on the link",
                 desc: 'To create your own portfolio. It will only take 3 minutes',
-                logo: 'https://image.flaticon.com/icons/svg/1867/1867817.svg',
+                logo: giftIcon,
                 link: 'https://github.com/p32929/p32929.github.io/'
             }
         ]
