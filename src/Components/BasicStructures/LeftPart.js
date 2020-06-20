@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../../Others/OvermindHelper";
 import {getContainerHeight} from '../../Others/GlobalMethods'
 import Paper from "@material-ui/core/Paper";
+import AvatarText from "./Left/AvatarText";
 
 const LeftPart = () => {
     const {state, actions} = useOvermind()
@@ -15,7 +16,7 @@ const LeftPart = () => {
                 <Grid style={{height: '100%', width: '100%'}} container direction="column"
                       justify="space-between" alignItems="center">
 
-
+                    <AvatarText/>
 
                 </Grid>
             </Paper>
