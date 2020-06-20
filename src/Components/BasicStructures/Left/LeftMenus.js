@@ -56,7 +56,9 @@ const LeftMenus = () => {
                     return (
                         <Button
                             onClick={() => {
-                                actions.setDrawerState(false)
+                                if (state.belowSm) {
+                                    actions.setDrawerState(false)
+                                }
                             }}
                             activeStyle={{backgroundColor: state.primaryColor, ...styles.selectedRoute}}
                             component={NavLink}
