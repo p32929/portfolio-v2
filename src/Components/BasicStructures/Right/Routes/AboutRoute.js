@@ -19,14 +19,14 @@ const AboutRoute = () => {
 
     return (
         <Grid container xs item direction='column' alignItems='center'
-              justify='center' alignContent='center'>
+              justify={state.belowSm ? 'center' : 'flex-end'} alignContent='center'>
 
             <Grid item>
                 <Avatar variant='square' style={styles.avatar}
                         src={avatarImage}></Avatar>
             </Grid>
 
-            <Grid item style={{marginBottom: 16, overflow: 'auto'}}>
+            <Grid item style={{marginBottom: 8, overflow: 'auto'}}>
                 <TypographyMultilinedWithIcon desc={myDetails}>
                     About me
                 </TypographyMultilinedWithIcon>
