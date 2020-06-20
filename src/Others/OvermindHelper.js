@@ -22,6 +22,9 @@ export const overmind = createOvermind({
         },
         setBelowSm({state}, b) {
             state.belowSm = b
+        },
+        setDrawerState({state}, b) {
+            state.drawerState = b
         }
     }
 });

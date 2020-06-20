@@ -12,8 +12,8 @@ const styles = {
         width: 125,
     },
     avaratAndText: {
-        marginTop: 24,
-        marginBottom: 16
+        paddingTop: 24,
+        paddingBottom: 16
     },
     title: {
         fontSize: 14,

@@ -4,6 +4,8 @@ import {useOvermind} from "../../Others/OvermindHelper";
 import {getContainerHeight} from '../../Others/GlobalMethods'
 import Paper from "@material-ui/core/Paper";
 import AvatarText from "./Left/AvatarText";
+import LeftMenus from "./Left/LeftMenus";
+import SmallBottomLinks from "./Left/SmallBottomLinks";
 
 const LeftPart = () => {
     const {state, actions} = useOvermind()
@@ -17,7 +19,8 @@ const LeftPart = () => {
                       justify="space-between" alignItems="center">
 
                     <AvatarText/>
-
+                    <LeftMenus/>
+                    <SmallBottomLinks/>
                 </Grid>
             </Paper>
         </Grid>
