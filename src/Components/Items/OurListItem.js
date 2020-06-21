@@ -56,7 +56,7 @@ const OurListItem = (props) => {
     }
 
     return (
-        <Grid item xs={12} sm={12} md={6} lg={6} xl={3}>
+        <Grid item xs={12} sm={12} md={6} lg={6} xl={4}>
             <Paper elevation={4} style={{height: height, ...styles.parent}}>
                 <Grid container wrap="nowrap" direction='row'>
                     <Grid item>
