@@ -77,6 +77,10 @@ export const skills = [
                 logo: 'https://cdn0.iconfinder.com/data/icons/software-4/24/console_command_prompt_shell_program-512.png',
             },
             {
+                title: 'Bash/Shell/PowerShell',
+                logo: 'https://docs.microsoft.com/en-us/powershell/media/index/powershell_128.svg',
+            },
+            {
                 title: 'TypeScript',
                 logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
             },
@@ -107,6 +111,10 @@ export const skills = [
             {
                 title: 'C#',
                 logo: "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
+            },
+            {
+                title: 'QML',
+                logo: "https://lh3.googleusercontent.com/proxy/DyGWHiVXicxszEFbRQ5FTGJS-v06T8ovM3xbxL3vcXqC0Mz0YRPW6qXjLlPgfSqbQr0rDv0wd-hF2gip0XAVjtmaJkQRGS6VM83VT46EuyKAXp296oWiqVjy_HEaqjgZ0A"
             },
 
         ]
@@ -151,12 +159,16 @@ export const skills = [
                 logo: 'https://images.opencollective.com/proxy/images?src=https%3A%2F%2Fopencollective-production.s3-us-west-1.amazonaws.com%2F7a00cdd0-fae4-11e7-ae09-7f36f712693a.png&height=640'
             },
             {
+                title: 'OAuth2',
+                logo: 'https://oauth.net/images/oauth-logo-square.png'
+            },
+            {
                 title: 'Gatsby',
                 logo: 'https://www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png'
             },
             {
                 title: 'NextJS',
-                logo: 'data:image/png;base64,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'
+                logo: 'https://foxundermoon.gallerycdn.vsassets.io/extensions/foxundermoon/next-js/0.0.2/1507561739278/Microsoft.VisualStudio.Services.Icons.Default'
             },
             {
                 title: 'OpenCV',
@@ -233,6 +245,26 @@ export const skills = [
             {
                 title: 'Node GUI',
                 logo: 'https://raw.githubusercontent.com/nodegui/nodegui/master/extras/logo/nodegui.png'
+            },
+            {
+                title: 'GSON',
+                logo: 'https://s.appbrain.com/static/201904161618755/blob/sdk-logos/google_gson.png'
+            },
+            {
+                title: 'Babel',
+                logo: 'https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg'
+            },
+            {
+                title: 'Bootstrap',
+                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png'
+            },
+            {
+                title: 'Adonis JS',
+                logo: 'https://www.vectorlogo.zone/logos/adonisjs/adonisjs-icon.svg'
+            },
+            {
+                title: 'VueJS',
+                logo: 'https://vuejs.org/images/logo.png'
             },
 
         ]
@@ -321,25 +353,26 @@ export const skills = [
                 logo: 'http://deployd.com/img/bucket/modular.png'
             },
             {
-                title: 'GSON',
-                logo: 'https://s.appbrain.com/static/201904161618755/blob/sdk-logos/google_gson.png'
-            },
-            {
-                title: 'Babel',
-                logo: 'https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg'
-            },
-            {
-                title: 'Bootstrap',
-                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png'
-            },
-            {
-                title: 'Adonis JS',
-                logo: 'https://www.vectorlogo.zone/logos/adonisjs/adonisjs-icon.svg'
-            },
-            {
                 title: 'npm',
                 logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg'
             },
+            {
+                title: 'Greasemonkey',
+                logo: 'https://addons.cdn.mozilla.net/user-media/addon_icons/0/748-64.png?modified=1531822767'
+            },
+            {
+                title: 'Tampermonkey',
+                logo: 'https://addons.cdn.mozilla.net/user-media/addon_icons/683/683490-64.png?modified=1565719090'
+            },
+            {
+                title: 'Linux',
+                logo: 'https://www.freepnglogos.com/uploads/linux-png/file-icons-flat-linux-svg-wikimedia-commons-6.png'
+            },
+            {
+                title: 'Adobe Photoshop',
+                logo: 'https://www.adobe.com/content/dam/cc/icons/photoshop-mobile.svg'
+            },
+
         ]
     },
 ]
@@ -352,31 +385,31 @@ export const projects = [
                 title: 'Desplash',
                 logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
                 desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
-                link: 'https://play.google.com/store/apps/details?id=p32929.desplash'
+                link: 'https://apkpure.com/desplash-beautiful-automatic-unsplash-wallpapers/p32929.desplash'
             },
             {
                 title: 'The Great Postman',
                 logo: 'https://lh3.googleusercontent.com/ni-lk3b2nTMZyC7r1wYBW6cm9eYqGAN-t6fXV-kD0lSyw1lO3kenC1We71fZjSryvFII=s180',
                 desc: 'Powerful, Lightweight REST API client for Android',
-                link: 'https://play.google.com/store/apps/details?id=p32929.greatpostman'
+                link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
             },
             {
                 title: 'Sleepy - Addiction Remover',
                 logo: 'https://lh3.googleusercontent.com/vvp6Ev33xPerWBBOtIRyAHl7k5c4wQ72hGwG3EU4JC-BTjfvb5DSJDeMABaRg0fy_KI=s180',
                 desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
-                link: 'https://play.google.com/store/apps/details?id=p32929.lazyphone'
+                link: 'https://apkpure.com/sleepy-phone-addiction-controller/p32929.lazyphone'
             },
             {
-                title: 'CGPA Calculator',
+                title: 'Best CGPA Calculator',
                 logo: 'https://lh3.googleusercontent.com/trpGkuBRWnBXNDNyts-7ePwmPtTLQ_8pKoMWi-6Iy8eBomjZ8XrVi4zQcEWrmoGLKA=s180',
                 desc: 'A simple yet effective CGPA Calculator for University students',
-                link: 'https://play.google.com/store/apps/details?id=p32929.cgpa_calculator'
+                link: 'https://apkpure.com/best-cgpa-calculator/p32929.cgpa_calculator2'
             },
             {
                 title: 'Buy Sell BD',
-                logo: 'https://i.ibb.co/RSHT7z4/icon.png',
+                logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmJ1eXNlbGxiZF9pY29uXzE1NTkyOTQ5NjVfMDYz/icon.png?w=170&fakeurl=1',
                 desc: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
-                link: 'https://play.google.com/store/apps/details?id=p32929.buysellbd'
+                link: 'https://apkpure.com/p/p32929.buysellbd'
             },
             {
                 title: 'ExIn',
@@ -388,13 +421,49 @@ export const projects = [
                 title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮ - (Discontinued)',
                 logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
                 desc: 'FIFA Worldcup 2018 All In One ',
-                link: 'https://play.google.com/store/apps/details?id=p32929.worldcup2018'
+                link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
             },
             {
                 title: 'I am free',
                 logo: 'https://lh3.googleusercontent.com/LIgX0ABT8z3MFILXFfrXK7vNO9j0hTxJ2aSdGwdcsdJUtViMWAsKXEiG65g94dV_i7JE=s180',
                 desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
-                link: 'https://play.google.com/store/apps/details?id=p32929.imfree'
+                link: 'https://apkpure.com/i-am-free/p32929.imfree'
+            },
+            {
+                title: 'Awesome NCTB',
+                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5uY3RiX2ljb25fMTU3NjU3MjcwNF8wMjI/icon.png?fakeurl=1',
+                desc: 'Download NCTB Books easily and Free',
+                link: 'https://apkpure.com/awesome-nctb/org.richit.nctb'
+            },
+            {
+                title: 'বৃক্ষ ( Brikkho )',
+                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
+                desc: 'Learn about trees in your fingertips',
+                link: 'https://apkpure.com/p/org.richit.brikkho'
+            },
+            {
+                title: 'IQQuiz',
+                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
+                desc: 'A simple IQ game',
+                link: 'https://apkpure.com/p/org.richit.iqquizapp'
+            },
+            {
+                title: 'BirdsLover',
+                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5iaXJkc2xvdmVyX2ljb25fMTU3MjAwNDIxNl8wOTE/icon.png?fakeurl=1',
+                desc: 'Learn about birds in your fingertips',
+                link: 'https://apkpure.com/birdslover/org.richit.birdslover'
+            },
+            {
+                title: 'Animal Lover',
+                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5hbmltYWxfaWNvbl8xNTc3MjkyMzIzXzAyMw/icon.png?fakeurl=1',
+                desc: 'Learn about birds in your fingertips',
+                link: 'https://apkpure.com/p/org.richit.animal'
+            },
+            {
+                title: 'Jibanananda Recitation (Abritti)',
+                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5qaWJvbmFuZG9rb2JpdGFzb21vZ3JvX2ljb25fMTU3MDEwNDExNF8wNDc/icon.png?fakeurl=1',
+                desc: '50+ poems of Jibanananda Das with audio recitation',
+                link: 'https://apkpure.com/jibanananda-recitation-abritti/org.richit.jibonandokobitasomogro'
             },
             {
                 title: 'MyEyes',
@@ -539,37 +608,55 @@ export const projects = [
         arr: [
             {
                 title: 'Shajao',
-                logo: 'https://image.flaticon.com/icons/svg/511/511139.svg',
+                logo: giftIcon,
                 desc: '---',
                 link: 'about:blank'
             },
             {
                 title: 'Thamao',
-                logo: 'https://image.flaticon.com/icons/svg/511/511140.svg',
+                logo: giftIcon,
                 desc: '---',
                 link: 'about:blank'
             },
             {
                 title: 'GeenPunt',
-                logo: 'https://image.flaticon.com/icons/svg/511/511127.svg',
+                logo: giftIcon,
                 desc: '---',
                 link: 'about:blank'
             },
             {
                 title: 'AdsHacker',
-                logo: 'https://image.flaticon.com/icons/svg/511/511121.svg',
+                logo: giftIcon,
                 desc: '---',
                 link: 'about:blank'
             },
             {
                 title: 'Fast English Academy',
-                logo: 'https://image.flaticon.com/icons/svg/511/511126.svg',
+                logo: giftIcon,
                 desc: '---',
                 link: 'about:blank'
             },
             {
                 title: 'Konika',
-                logo: 'https://image.flaticon.com/icons/svg/511/511131.svg',
+                logo: giftIcon,
+                desc: '---',
+                link: 'about:blank'
+            },
+            {
+                title: 'GiftApps',
+                logo: giftIcon,
+                desc: '---',
+                link: 'about:blank'
+            },
+            {
+                title: 'NumberredPaste',
+                logo: giftIcon,
+                desc: '---',
+                link: 'about:blank'
+            },
+            {
+                title: 'ClockedAdmin',
+                logo: giftIcon,
                 desc: '---',
                 link: 'about:blank'
             },
@@ -589,6 +676,41 @@ export const projects = [
                 logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg',
                 desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
                 link: 'https://pub.dev/packages/easiestdb'
+            },
+        ]
+    },
+    {
+        text: "Boilerplates",
+        arr: [
+            {
+                title: 'ReactHtmlBoilerplate',
+                logo: giftIcon,
+                desc: 'A boilerplate for normal ReactJS and HTML',
+                link: 'https://github.com/p32929/ReactHtmlBoilerplate'
+            },
+            {
+                title: 'electron-cra-boilerplate',
+                logo: giftIcon,
+                desc: 'A boilerplate for Electron + Create React App',
+                link: 'https://github.com/p32929/electron-cra-boilerplate'
+            },
+            {
+                title: 'NodeJS_Express_MongoDB_OAuth2_Boilerplate',
+                logo: giftIcon,
+                desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
+                link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
+            },
+            {
+                title: 'React-Materialui-Boilerplate',
+                logo: giftIcon,
+                desc: 'A boilerplate for ReactJS + materialUI',
+                link: 'https://github.com/p32929/React-Materialui-Boilerplate'
+            },
+            {
+                title: 'Reactron - P32929',
+                logo: giftIcon,
+                desc: 'A tiny Electron + React + React Router + Material UI + Overmind boilerplate',
+                link: 'https://github.com/p32929/React-Materialui-Boilerplate'
             },
         ]
     },
@@ -644,24 +766,6 @@ export const projects = [
                 link: 'https://github.com/p32929/.gitignore'
             },
             {
-                title: 'ReactHtmlBoilerplate',
-                logo: giftIcon,
-                desc: 'A boilerplate for normal ReactJS and HTML',
-                link: 'https://github.com/p32929/ReactHtmlBoilerplate'
-            },
-            {
-                title: 'electron-cra-boilerplate',
-                logo: giftIcon,
-                desc: 'A boilerplate for Electron + Create React App',
-                link: 'https://github.com/p32929/electron-cra-boilerplate'
-            },
-            {
-                title: 'NodeJS_Express_MongoDB_OAuth2_Boilerplate',
-                logo: giftIcon,
-                desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
-                link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
-            },
-            {
                 title: 'flutter_state_management_test',
                 logo: giftIcon,
                 desc: 'A state management demo for Flutter',
@@ -674,10 +778,16 @@ export const projects = [
                 link: 'https://github.com/p32929/ReduxCounter'
             },
             {
-                title: 'React-Materialui-Boilerplate',
+                title: 'ReduxCounter',
                 logo: giftIcon,
-                desc: 'A boilerplate for ReactJS + materialUI',
-                link: 'https://github.com/p32929/React-Materialui-Boilerplate'
+                desc: 'A demo for ReactJS state management libraries',
+                link: 'https://github.com/p32929/react-state-management'
+            },
+            {
+                title: 'YandexDirectLinkGenerator',
+                logo: giftIcon,
+                desc: 'Yandex Disk Direct Link Generator - BATCH',
+                link: 'https://github.com/p32929/YandexDirectLinkGenerator'
             },
             {
                 title: 'UVA_Solutions',
@@ -697,6 +807,11 @@ export const contactInfos = [
                 title: 'Skype',
                 logo: 'https://image.flaticon.com/icons/svg/174/174869.svg',
                 link: 'p32929'
+            },
+            {
+                title: 'WhatsApp',
+                logo: 'https://image.flaticon.com/icons/svg/733/733585.svg',
+                link: 'https://api.whatsapp.com/send?phone=8801796306262'
             },
             {
                 title: 'Fiverr',
@@ -724,15 +839,30 @@ export const contactInfos = [
                 link: 'https://www.instagram.com/p32929/'
             },
             {
-                title: 'WhatsApp',
-                logo: 'https://image.flaticon.com/icons/svg/733/733585.svg',
-                link: 'https://api.whatsapp.com/send?phone=8801796306262'
-            },
-            {
                 title: 'Google Play',
                 logo: 'https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg',
                 link: 'https://play.google.com/store/apps/developer?id=Rich+IT&hl=en'
             },
+            {
+                title: 'Facebook',
+                logo: 'https://image.flaticon.com/icons/svg/124/124010.svg',
+                link: 'https://www.facebook.com/p32929'
+            },
+            {
+                title: 'GitHub',
+                logo: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
+                link: 'https://www.facebook.com/p32929'
+            },
+            {
+                title: 'Wordpress',
+                logo: 'https://s.w.org/style/images/about/simplified.png',
+                link: 'https://p32929.wordpress.com/'
+            },
+            {
+                title: 'Anywhere on the internet',
+                logo: 'https://www.graphicsprings.com/filestorage/stencils/46f2b6c8e3e465373fe21ed7c2db566b.png?width=200&height=200',
+                link: '@p32929'
+            }
         ]
     },
     {
