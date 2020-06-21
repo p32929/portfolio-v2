@@ -37,7 +37,9 @@ const styles = {
 function getLinkIcon(url) {
     if (url) {
         if (url.toString().includes('http')) {
-            return <IconButton target="_blank" href={url} size='small'>
+            return <IconButton style={{display: 'flex', flexDirection: 'column', alignSelf: 'center'}} target="_blank"
+                               href={url}
+                               size='small'>
                 <SvgHelper
                     path={linkIcon}
                     styles={{padding: 8}}
@@ -58,7 +60,7 @@ const OurListItem = (props) => {
     return (
         <Grid item xs={12} sm={12} md={6} lg={6} xl={4}>
             <Paper elevation={4} style={{height: height, ...styles.parent}}>
-                <Grid container wrap="nowrap" direction='row'>
+                <Grid container wrap="nowrap" direction='row' justify='center'>
                     <Grid item>
                         <Avatar variant='square' style={styles.avatar}
                                 src={item.logo || giftIcon}></Avatar>

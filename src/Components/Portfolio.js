@@ -48,7 +48,7 @@ const Portfolio = () => {
             }
             <MemoryRouter>
                 <Route exact path="/">
-                    <Redirect to="/about"/>
+                    <Redirect to="/projects"/>
                 </Route>
                 <Grid container justify='center' alignItems='center' alignContent='center'>
                     <Paper elevation={16} style={getContainerHeight(belowSm)}>
