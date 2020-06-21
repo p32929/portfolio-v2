@@ -819,26 +819,6 @@ export const contactInfos = [
                 link: 'https://www.fiverr.com/users/fayazbinsalam/'
             },
             {
-                title: 'LinkedIn',
-                logo: 'https://image.flaticon.com/icons/svg/174/174857.svg',
-                link: 'https://www.linkedin.com/in/p32929/'
-            },
-            {
-                title: 'Reddit',
-                logo: 'https://image.flaticon.com/icons/svg/174/174866.svg',
-                link: 'https://www.reddit.com/user/p32929'
-            },
-            {
-                title: 'Twitter',
-                logo: 'https://image.flaticon.com/icons/svg/733/733579.svg',
-                link: 'https://twitter.com/p32929'
-            },
-            {
-                title: 'Instagram',
-                logo: 'https://image.flaticon.com/icons/svg/2111/2111463.svg',
-                link: 'https://www.instagram.com/p32929/'
-            },
-            {
                 title: 'Google Play',
                 logo: 'https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg',
                 link: 'https://play.google.com/store/apps/developer?id=Rich+IT&hl=en'
@@ -863,6 +843,31 @@ export const contactInfos = [
                 logo: 'https://www.graphicsprings.com/filestorage/stencils/46f2b6c8e3e465373fe21ed7c2db566b.png?width=200&height=200',
                 link: '@p32929'
             }
+        ]
+    },
+    {
+        text: "Apps I rarely use",
+        arr: [
+            {
+                title: 'LinkedIn',
+                logo: 'https://image.flaticon.com/icons/svg/174/174857.svg',
+                link: 'https://www.linkedin.com/in/p32929/'
+            },
+            {
+                title: 'Reddit',
+                logo: 'https://image.flaticon.com/icons/svg/174/174866.svg',
+                link: 'https://www.reddit.com/user/p32929'
+            },
+            {
+                title: 'Twitter',
+                logo: 'https://image.flaticon.com/icons/svg/733/733579.svg',
+                link: 'https://twitter.com/p32929'
+            },
+            {
+                title: 'Instagram',
+                logo: 'https://image.flaticon.com/icons/svg/2111/2111463.svg',
+                link: 'https://www.instagram.com/p32929/'
+            },
         ]
     },
     {
