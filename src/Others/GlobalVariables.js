@@ -482,6 +482,13 @@ export const projects = [
     {
         text: "WebApps",
         arr: [
+
+            {
+                title: 'SendMoney2Me',
+                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                desc: 'Ways to send me money directly',
+                link: 'https://p32929.github.io/SendMoney2Me/'
+            },
             {
                 title: 'My Portfolio',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
