@@ -493,25 +493,25 @@ export const projects = [
                 title: 'My Portfolio',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'Created using ReactJS',
-                link: 'https://github.com/p32929/Portfolio'
+                link: 'https://p32929.github.io/Portfolio'
             },
             {
                 title: 'My Portfolio V2',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'V2 of my Portfolio - Created using ReactJS',
-                link: 'https://github.com/p32929/p32929.github.io'
+                link: 'https://p32929.github.io'
             },
             {
                 title: 'IndecisionApp',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'My first ReactJS app',
-                link: 'https://github.com/p32929/IndecisionApp'
+                link: 'https://p32929.github.io/IndecisionApp'
             },
             {
                 title: 'Sha1ToMd5',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
-                link: 'https://github.com/p32929/Sha1ToMd5'
+                link: 'https://p32929.github.io/Sha1ToMd5'
             },
         ]
     },
