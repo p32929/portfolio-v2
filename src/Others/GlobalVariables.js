@@ -836,13 +836,18 @@ export const contactInfos = [
                 link: 'https://www.facebook.com/p32929'
             },
             {
+                title: 'YouTube',
+                logo: 'https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc',
+                link: 'https://www.youtube.com/channel/UCFucp3uZ96IBYxG8755AniQ'
+            },
+            {
                 title: 'GitHub',
                 logo: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
                 link: 'https://www.facebook.com/p32929'
             },
             {
                 title: 'Wordpress',
-                logo: 'https://s.w.org/style/images/about/simplified.png',
+                logo: 'https://lh3.googleusercontent.com/FKoZImII3S1CKxDwudC2k1EW8NMDi8FyWRk0_AufAQcixOd-kdll5H32L2lKvGIbVWIB',
                 link: 'https://p32929.wordpress.com/'
             },
             {
