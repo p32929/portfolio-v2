@@ -19,7 +19,7 @@ const styles = {
     }
 }
 
-const TopInfoAndButtons = () => {
+const TopLeftInfos = () => {
     let location = useLocation();
     const {state, actions} = useOvermind()
 
@@ -49,4 +49,4 @@ const TopInfoAndButtons = () => {
     );
 };
 
-export default TopInfoAndButtons;
+export default TopLeftInfos;

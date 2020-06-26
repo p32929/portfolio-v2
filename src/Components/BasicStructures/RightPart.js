@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../../Others/OvermindHelper";
-import TopLeftInfos from "./Right/TopInfoAndButtons";
+import TopLeftInfos from "./Right/TopLeftInfos";
 import TopRightButtons from "./Right/TopRightButtons";
 import {Route, Switch, useLocation} from "react-router-dom";
 import {getContainerHeight} from "../../Others/GlobalMethods";
