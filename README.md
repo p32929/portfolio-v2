@@ -58,10 +58,10 @@ SOFTWARE.
 ```
 
 # FAQ
-* Can I use it for any commercial project?
--> Yes. But don't change the `fork icon` and the `URL it redirects to` at the `TOP-RIGHT corner`. So that, others can also benefit from the repository.
+* Can I use it for any personal/commercial project?
+-> Yes. But don't change/remove the `fork icon` and the `URL it redirects to` at the `TOP-RIGHT corner`. So that, others can also benefit from the repository.
 
-* Can I use it for making my personal portfolio? 
+* Can I use it for making my personal/commercial portfolio? 
 -> Definitely. But make sure you FORK it while doing it :)
 
 * Can I share your portfolio link with my friends?
