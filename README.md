@@ -7,7 +7,7 @@ The 2nd iteration of My Personal Portfolio - created using ReactJS, Overmind, Ma
 Visit Live: https://p32929.github.io/
 
 ## Share
-Sharing with your friends is just one click away from here
+Sharing this repository with your friends is just one click away from here
 
 [![facebook](https://image.flaticon.com/icons/png/32/124/124010.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/p32929.github.io/)
 [![twitter](https://image.flaticon.com/icons/png/32/124/124021.png)](https://twitter.com/intent/tweet?source=https://github.com/p32929/p32929.github.io/)
@@ -17,6 +17,18 @@ Sharing with your friends is just one click away from here
 [![reddit](https://image.flaticon.com/icons/png/32/2111/2111589.png)](https://www.reddit.com/submit?url=https://github.com/p32929/p32929.github.io/)
 [![linkedin](https://image.flaticon.com/icons/png/32/1409/1409945.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/p32929.github.io/)
 [![whatsapp](https://image.flaticon.com/icons/png/32/733/733585.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/p32929.github.io/)
+
+or Share my portfolio link ( https://p32929.github.io/ ) with your friends in just a click
+
+[![facebook](https://image.flaticon.com/icons/png/32/124/124010.png)](https://www.facebook.com/sharer/sharer.php?u=https://p32929.github.io/)
+[![twitter](https://image.flaticon.com/icons/png/32/124/124021.png)](https://twitter.com/intent/tweet?source=https://p32929.github.io/)
+[![tumblr](https://image.flaticon.com/icons/png/32/124/124012.png)](https://www.tumblr.com/share?v=3&u=https://p32929.github.io/)
+[![pocket](https://image.flaticon.com/icons/png/32/732/732238.png)](https://getpocket.com/save?url=https://p32929.github.io/)
+[![pinterest](https://image.flaticon.com/icons/png/32/124/124039.png)](https://pinterest.com/pin/create/button/?url=https://p32929.github.io/)
+[![reddit](https://image.flaticon.com/icons/png/32/2111/2111589.png)](https://www.reddit.com/submit?url=https://p32929.github.io/)
+[![linkedin](https://image.flaticon.com/icons/png/32/1409/1409945.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://p32929.github.io/)
+[![whatsapp](https://image.flaticon.com/icons/png/32/733/733585.png)](https://api.whatsapp.com/send?text=https://p32929.github.io/)
+
 
 # How to use
 ## Prerequisites
