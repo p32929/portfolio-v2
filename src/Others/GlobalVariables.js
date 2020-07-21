@@ -114,8 +114,13 @@ export const skills = [
             },
             {
                 title: 'QML',
-                logo: "https://lh3.googleusercontent.com/proxy/DyGWHiVXicxszEFbRQ5FTGJS-v06T8ovM3xbxL3vcXqC0Mz0YRPW6qXjLlPgfSqbQr0rDv0wd-hF2gip0XAVjtmaJkQRGS6VM83VT46EuyKAXp296oWiqVjy_HEaqjgZ0A"
+                logo: "https://s3-eu-west-1.amazonaws.com/qt-showroom/uploads/2014/08/qml_creator_icon512-300x300.png"
             },
+            {
+                title: 'R',
+                logo: "https://www.r-project.org/Rlogo.png"
+            },
+
 
         ]
     },
@@ -266,6 +271,18 @@ export const skills = [
                 title: 'VueJS',
                 logo: 'https://vuejs.org/images/logo.png'
             },
+            {
+                title: 'Pandas',
+                logo: 'https://pandas.pydata.org/static/img/pandas.svg'
+            },
+            {
+                title: 'Matplotlib',
+                logo: 'https://matplotlib.org/3.1.0/_images/sphx_glr_logos2_001.png'
+            },
+            {
+                title: 'Ionic',
+                logo: 'https://ionicframework.com/blog/wp-content/uploads/2015/05/cropped-logo.png'
+            },
 
         ]
     },
@@ -371,6 +388,10 @@ export const skills = [
             {
                 title: 'Adobe Photoshop',
                 logo: 'https://www.adobe.com/content/dam/cc/icons/photoshop-mobile.svg'
+            },
+            {
+                title: 'Netify',
+                logo: 'https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg'
             },
 
         ]
@@ -482,7 +503,6 @@ export const projects = [
     {
         text: "WebApps",
         arr: [
-
             {
                 title: 'SendMoney2Me',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
@@ -490,22 +510,10 @@ export const projects = [
                 link: 'https://p32929.github.io/SendMoney2Me/'
             },
             {
-                title: 'My Portfolio',
-                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'Created using ReactJS',
-                link: 'https://p32929.github.io/Portfolio'
-            },
-            {
-                title: 'My Portfolio V2',
+                title: 'My Portfolio (V2)',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'V2 of my Portfolio - Created using ReactJS',
                 link: 'https://p32929.github.io'
-            },
-            {
-                title: 'IndecisionApp',
-                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'My first ReactJS app',
-                link: 'https://p32929.github.io/IndecisionApp'
             },
             {
                 title: 'Sha1ToMd5',
@@ -513,6 +521,25 @@ export const projects = [
                 desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
                 link: 'https://p32929.github.io/Sha1ToMd5'
             },
+            {
+                title: 'BadgesGenerator',
+                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                desc: 'Badge generator for your github readme.',
+                link: 'https://p32929.github.io/Badges/'
+            },
+            {
+                title: 'My Portfolio (V1)',
+                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                desc: 'Created using ReactJS',
+                link: 'https://p32929.github.io/Portfolio'
+            },
+            {
+                title: 'IndecisionApp',
+                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                desc: 'My first ReactJS app',
+                link: 'https://p32929.github.io/IndecisionApp'
+            },
+
         ]
     },
     {
