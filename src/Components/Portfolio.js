@@ -5,17 +5,12 @@ import {MemoryRouter, Redirect, Route} from "react-router-dom";
 import Paper from "@material-ui/core/Paper";
 import {useTheme} from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import {getContainerHeight} from '../Others/GlobalMethods'
+import {getContentHeightWidth, getParentHeightWidth} from '../Others/GlobalMethods'
 import LeftPart from "./BasicStructures/LeftPart";
 import RightPart from "./BasicStructures/RightPart";
 
 const styles = {
-    parent: {
-        maxHeight: window.innerHeight,
-        maxWidth: window.innerWidth,
-        height: window.innerHeight,
-        width: window.innerWidth
-    },
+    parent: getParentHeightWidth(),
     checker: {
         background: "#FFF"
     }
@@ -51,7 +46,7 @@ const Portfolio = () => {
                     <Redirect to="/about"/>
                 </Route>
                 <Grid container justify='center' alignItems='center' alignContent='center'>
-                    <Paper elevation={16} style={getContainerHeight(belowSm)}>
+                    <Paper elevation={16} style={getContentHeightWidth(belowSm)}>
                         <Grid container direction='row'>
                             {
                                 state.drawerState && <LeftPart/>

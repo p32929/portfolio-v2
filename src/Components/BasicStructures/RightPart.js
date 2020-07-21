@@ -4,7 +4,7 @@ import {useOvermind} from "../../Others/OvermindHelper";
 import TopLeftInfos from "./Right/TopLeftInfos";
 import TopRightButtons from "./Right/TopRightButtons";
 import {Route, Switch, useLocation} from "react-router-dom";
-import {getContainerHeight} from "../../Others/GlobalMethods";
+import {getContentHeightWidth} from "../../Others/GlobalMethods";
 import ProjectsRoute from "./Right/Routes/ProjectsRoute";
 import SkillsRoute from "./Right/Routes/SkillsRoute";
 import ContactRoute from "./Right/Routes/ContactRoute";
@@ -25,7 +25,7 @@ const styles = {
 
 const getBottomElementsHeight = (state) => {
     var topElementHeight = document.getElementById('right-top-elements').clientHeight
-    var containerHeight = getContainerHeight(state.belowSm).height
+    var containerHeight = getContentHeightWidth(state.belowSm).height
     var bottomElementHeight = containerHeight - topElementHeight;
 
     return {
@@ -50,7 +50,7 @@ const RightPart = () => {
     }, [location])
 
     return (
-        <Grid id='right-container' style={{...getContainerHeight(state.belowSm), width: '100%'}} container xs item
+        <Grid id='right-container' style={{...getContentHeightWidth(state.belowSm), width: '100%'}} container xs item
               direction='row'
               alignContent='flex-start'>
 
