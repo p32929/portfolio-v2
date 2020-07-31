@@ -287,6 +287,52 @@ export const skills = [
         ]
     },
     {
+        text: "Human Languages",
+        arr: [
+            {
+                title: 'Bengali',
+                desc: "Native",
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097000.svg',
+            },
+            {
+                title: 'Chittagonian',
+                desc: "Native",
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097008.svg',
+            },
+            {
+                title: 'English',
+                desc: "Fluent",
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097023.svg',
+            },
+            {
+                title: 'Arabic',
+                desc: "Mediocre",
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3096/3096991.svg',
+            },
+
+            {
+                title: 'Hindi',
+                desc: "Conversational",
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097042.svg',
+            },
+            {
+                title: 'Urdu',
+                desc: "Conversational",
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097115.svg',
+            },
+            {
+                title: 'Korean',
+                desc: "Beginner",
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097055.svg',
+            },
+            {
+                title: 'Mandarin',
+                desc: "Beginner",
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097067.svg',
+            },
+        ]
+    },
+    {
         text: "Others",
         arr: [
             {
