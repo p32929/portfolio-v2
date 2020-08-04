@@ -413,7 +413,7 @@ export const skills = [
             },
             {
                 title: 'Deployd',
-                logo: 'http://deployd.com/img/bucket/modular.png'
+                logo: 'https://deployd.com/img/bucket/modular.png'
             },
             {
                 title: 'npm',
