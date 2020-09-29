@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../Others/OvermindHelper";
 import {MemoryRouter, Redirect, Route} from "react-router-dom";
@@ -59,12 +59,16 @@ const Portfolio = () => {
     const {state, actions} = useOvermind()
     const theme = useTheme()
     const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
+    const bigDevice = useMediaQuery(theme.breakpoints.up(1500))
+
+    useEffect(() => {
+        actions.setBelowSm(belowSm)
+        actions.setBigDevice(bigDevice)
+    }, [bigDevice, belowSm])
 
     return (
         <Grid container style={{backgroundColor: state.primaryColor, ...styles.parent}}>
-            {
-                actions.setBelowSm(belowSm)
-            }
+
             <MemoryRouter>
                 <Route exact path="/">
                     <Redirect to="/about"/>

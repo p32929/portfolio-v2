@@ -46,7 +46,11 @@ const AboutRoute = () => {
               justify={state.belowSm ? 'center' : 'flex-end'} alignContent='center'>
 
             <Grid item>
-                <Avatar variant='square' style={styles.avatar}
+                <Avatar variant='square' style={{
+                    height: state.bigDevice ? 400 : 136,
+                    width: state.bigDevice ? 400 : 136,
+                    margin: 16
+                }}
                         src={avatarImage}></Avatar>
             </Grid>
 

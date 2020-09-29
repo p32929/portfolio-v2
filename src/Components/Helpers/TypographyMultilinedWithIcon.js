@@ -48,7 +48,7 @@ const TypographyMultilinedWithIcon = (props) => {
                 <Typography variant='h6' style={{
                     fontWeight: 'bold',
                     color: "#212121",
-                    fontSize: 20
+                    fontSize: state.bigDevice ? 24 : 20
                 }}>{props.children}</Typography>
 
             </Grid>
@@ -58,7 +58,7 @@ const TypographyMultilinedWithIcon = (props) => {
                 lineHeight: 1.15,
                 marginLeft: 8,
                 paddingRight: 8,
-                fontSize: 16,
+                fontSize: state.bigDevice ? 20 : 16,
             }}>{props.desc}</Typography>
 
         </Grid>
