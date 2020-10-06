@@ -47,7 +47,7 @@ const AboutRoute = () => {
 
             <Grid item>               
                 <Avatar variant='square' style={{
-                    height: state.bigDevice ? 440 : 136,
+                    height: state.bigDevice ? 440 : 160,
                     width: state.bigDevice ? 400 : 136,
                     margin: 16
                 }}
