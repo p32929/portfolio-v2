@@ -45,9 +45,9 @@ const AboutRoute = () => {
         <Grid container xs item direction='column' alignItems='center'
               justify={state.belowSm ? 'center' : 'flex-end'} alignContent='center'>
 
-            <Grid item>
+            <Grid item>               
                 <Avatar variant='square' style={{
-                    height: state.bigDevice ? 400 : 136,
+                    height: state.bigDevice ? 440 : 136,
                     width: state.bigDevice ? 400 : 136,
                     margin: 16
                 }}
