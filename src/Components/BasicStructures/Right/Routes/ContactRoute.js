@@ -32,7 +32,7 @@ const ContactRoute = () => {
     const {state, actions} = useOvermind()
 
     return (
-        <Grid spacing={1} container xs item direction='row'>
+        <Grid spacing={1} container xs item>
             {
                 contactInfos.map((item) => {
                     return getTextAndListGrid(item, state.belowSm ? 90 : 80);

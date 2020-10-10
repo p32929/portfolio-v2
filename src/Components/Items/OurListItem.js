@@ -60,7 +60,7 @@ const styles = {
 
 function getLinkIcon(url) {
     if (url) {
-        if (url.toString().includes('http')) {
+        if (url.toString().includes('http') || url.toString().includes('skype:') ) {
             return <IconButton style={{display: 'flex', flexDirection: 'column', alignSelf: 'center'}} target="_blank"
                                href={url}
                                size='small'>

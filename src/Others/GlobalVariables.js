@@ -886,7 +886,8 @@ export const contactInfos = [
             {
                 title: 'Skype',
                 logo: 'https://image.flaticon.com/icons/svg/174/174869.svg',
-                link: 'p32929'
+                desc: 'p32929',
+                link: 'skype:p32929?chat'
             },
             {
                 title: 'WhatsApp',
@@ -895,13 +896,8 @@ export const contactInfos = [
             },
             {
                 title: 'Fiverr',
-                logo: 'https://assetsv2.fiverrcdn.com/assets/v2_globals/fiverr-logo-new-green-64920d4e75a1e04f4fc7988365357c16.png',
+                logo: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/09/fiverr-2018.png?auto=format&q=60&fit=max&w=200',
                 link: 'https://www.fiverr.com/users/fayazbinsalam/'
-            },
-            {
-                title: 'Google Play',
-                logo: 'https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg',
-                link: 'https://play.google.com/store/apps/developer?id=Rich+IT&hl=en'
             },
             {
                 title: 'Facebook',
@@ -909,10 +905,15 @@ export const contactInfos = [
                 link: 'https://www.facebook.com/p32929'
             },
             {
-                title: 'YouTube',
-                logo: 'https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc',
-                link: 'https://www.youtube.com/channel/UCFucp3uZ96IBYxG8755AniQ'
-            },
+                title: 'Anywhere on the internet',
+                logo: 'https://www.graphicsprings.com/filestorage/stencils/46f2b6c8e3e465373fe21ed7c2db566b.png?width=200&height=200',
+                link: '@p32929'
+            }
+        ]
+    },
+    {
+        text: "Website Profiles",
+        arr: [
             {
                 title: 'GitHub',
                 logo: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
@@ -924,10 +925,15 @@ export const contactInfos = [
                 link: 'https://p32929.wordpress.com/'
             },
             {
-                title: 'Anywhere on the internet',
-                logo: 'https://www.graphicsprings.com/filestorage/stencils/46f2b6c8e3e465373fe21ed7c2db566b.png?width=200&height=200',
-                link: '@p32929'
-            }
+                title: 'YouTube',
+                logo: 'https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc',
+                link: 'https://www.youtube.com/channel/UCFucp3uZ96IBYxG8755AniQ'
+            },
+            {
+                title: 'Google Play',
+                logo: 'https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg',
+                link: 'https://play.google.com/store/apps/developer?id=Rich+IT&hl=en'
+            },
         ]
     },
     {
@@ -953,13 +959,18 @@ export const contactInfos = [
                 logo: 'https://image.flaticon.com/icons/svg/2111/2111463.svg',
                 link: 'https://www.instagram.com/p32929/'
             },
+            {
+                title: "Freelancer",
+                logo: "https://lh3.googleusercontent.com/EXMdy4ai6HHl_Ze8vxC7pdQzfS0HFiZ70F2IdPq_VuYropTkrUFyPPlftbPKEbhISg",
+                link: "https://www.freelancer.com/u/p32929"
+            }
         ]
     },
     {
         text: "Thank you for visiting my portfolio",
         arr: [
             {
-                title: "Click on the link",
+                title: "Click on the link button",
                 desc: 'To create your own portfolio. It will only take 3 minutes',
                 logo: giftIcon,
                 link: 'https://github.com/p32929/p32929.github.io/'
