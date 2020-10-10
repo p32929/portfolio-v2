@@ -895,18 +895,13 @@ export const contactInfos = [
                 link: 'https://api.whatsapp.com/send?phone=8801796306262'
             },
             {
-                title: 'Fiverr',
-                logo: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/09/fiverr-2018.png?auto=format&q=60&fit=max&w=200',
-                link: 'https://www.fiverr.com/users/fayazbinsalam/'
-            },
-            {
                 title: 'Facebook',
                 logo: 'https://image.flaticon.com/icons/svg/124/124010.svg',
                 link: 'https://www.facebook.com/p32929'
             },
             {
                 title: 'Anywhere on the internet',
-                logo: 'https://www.graphicsprings.com/filestorage/stencils/46f2b6c8e3e465373fe21ed7c2db566b.png?width=200&height=200',
+                logo: 'https://www.flaticon.com/svg/static/icons/svg/1034/1034456.svg',
                 link: '@p32929'
             }
         ]
@@ -958,6 +953,11 @@ export const contactInfos = [
                 title: 'Instagram',
                 logo: 'https://image.flaticon.com/icons/svg/2111/2111463.svg',
                 link: 'https://www.instagram.com/p32929/'
+            },
+            {
+                title: 'Fiverr',
+                logo: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/09/fiverr-2018.png?auto=format&q=60&fit=max&w=200',
+                link: 'https://www.fiverr.com/users/fayazbinsalam/'
             },
             {
                 title: "Freelancer",
