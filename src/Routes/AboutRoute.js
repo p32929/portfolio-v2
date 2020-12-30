@@ -25,39 +25,38 @@ SOFTWARE.
 import React, {useEffect, useState} from 'react';
 import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../Utils/OvermindHelper";
-import Avatar from "@material-ui/core/Avatar";
-import avatarImage from '../Assets/avatar2.png'
+import AvatarText from "../SubComponents/Helpers/AvatarText";
 import TypographyMultilinedWithIcon from "../SubComponents/ListItems/TypographyMultilinedWithIcon";
 import {myDetails} from "../Utils/MainItems";
+import avatarImage from "../Assets/avatar2.png";
+
+const aboveSmAvatarSize = {height: '100%'}
+const belowSmAvatarSize = {height: 175}
 
 const AboutRoute = () => {
     const {state, actions} = useOvermind()
-    const [avatarStyle, setAvatarStyle] = useState({
-        height: 0,
-        width: 0,
-        margin: 16
-    })
+    const [avatarGridHeight, setAvatarGridHeight] = useState({})
     useEffect(() => {
-        var aboutTexts = document.getElementById("aboutTexts")
-        console.log(aboutTexts.offsetHeight)
+        if (!state.belowSm) {
+            var aboutGridSize = document.getElementById('aboutGrid').offsetHeight
+            var aboutMeTextGridSize = document.getElementById('aboutMeTextGrid').offsetHeight
 
+            setAvatarGridHeight(aboutGridSize - aboutMeTextGridSize - 40)
+        }
     }, [window.innerHeight])
 
     return (
-        <Grid container xs item direction='column' alignItems='center'
-              justify={state.belowSm ? 'center' : 'flex-end'} alignContent='center'>
-
-            <Grid item>
-                <Avatar variant='square' style={avatarStyle}
-                        src={avatarImage}/>
+        <Grid id='aboutGrid' container direction='column' justify='flex-end' alignItems='center' alignContent='center'>
+            <Grid style={{height: avatarGridHeight}} id='avatarImageGrid' item xs container justify='center'
+                  alignItems='center' alignContent='center'>
+                <img style={state.belowSm ? belowSmAvatarSize : aboveSmAvatarSize} src={avatarImage}/>
             </Grid>
 
-            <Grid id="aboutTexts" item style={{marginBottom: 8, overflow: 'auto'}}>
+            <Grid id='aboutMeTextGrid' item style={{marginBottom: 8, overflow: 'auto'}}>
                 <TypographyMultilinedWithIcon desc={myDetails}>
                     About me
                 </TypographyMultilinedWithIcon>
             </Grid>
-
         </Grid>
     );
 };
