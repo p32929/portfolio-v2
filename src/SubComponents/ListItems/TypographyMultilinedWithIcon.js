@@ -52,7 +52,7 @@ const TypographyMultilinedWithIcon = (props) => {
 
             </Grid>
 
-            <Typography variant='h6' style={{
+            <Typography variant={state.belowSm ? 'body1' : 'h6'} style={{
                 color: "#212121",
                 lineHeight: 0.95,
                 marginLeft: 8,
