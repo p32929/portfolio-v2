@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../Utils/OvermindHelper";
 import Avatar from "@material-ui/core/Avatar";
@@ -30,31 +30,29 @@ import avatarImage from '../Assets/avatar2.png'
 import TypographyMultilinedWithIcon from "../SubComponents/ListItems/TypographyMultilinedWithIcon";
 import {myDetails} from "../Utils/MainItems";
 
-const styles = {
-    avatar: {
-        height: 136,
-        width: 136,
-        margin: 16
-    },
-}
-
 const AboutRoute = () => {
     const {state, actions} = useOvermind()
+    const [avatarStyle, setAvatarStyle] = useState({
+        height: 0,
+        width: 0,
+        margin: 16
+    })
+    useEffect(() => {
+        var aboutTexts = document.getElementById("aboutTexts")
+        console.log(aboutTexts.offsetHeight)
+
+    }, [window.innerHeight])
 
     return (
         <Grid container xs item direction='column' alignItems='center'
               justify={state.belowSm ? 'center' : 'flex-end'} alignContent='center'>
 
             <Grid item>
-                <Avatar variant='square' style={{
-                    height: state.bigDevice ? 440 : 160,
-                    width: state.bigDevice ? 400 : 136,
-                    margin: 16
-                }}
-                        src={avatarImage}></Avatar>
+                <Avatar variant='square' style={avatarStyle}
+                        src={avatarImage}/>
             </Grid>
 
-            <Grid item style={{marginBottom: 8, overflow: 'auto'}}>
+            <Grid id="aboutTexts" item style={{marginBottom: 8, overflow: 'auto'}}>
                 <TypographyMultilinedWithIcon desc={myDetails}>
                     About me
                 </TypographyMultilinedWithIcon>

@@ -43,14 +43,14 @@ const styles = {
 const getRightPartComponent = (state) => {
     if (state.belowSm) {
         if (state.drawerState) {
-            console.log("NOT SHOWING RIGHT1")
+            // console.log("NOT SHOWING RIGHT1")
             return null;
         } else {
-            console.log("SHOWING RIGHT1")
+            // console.log("SHOWING RIGHT1")
             return <RightPart/>
         }
     } else {
-        console.log("SHOWING RIGHT2")
+        // console.log("SHOWING RIGHT2")
         return <RightPart/>
     }
 }
