@@ -36,14 +36,15 @@ const belowSmAvatarSize = {height: 175}
 const AboutRoute = () => {
     const {state, actions} = useOvermind()
     const [avatarGridHeight, setAvatarGridHeight] = useState({})
+    const [aboutGridSizeState, setAboutGridSizeState] = useState()
     useEffect(() => {
+        var aboutGridSize = document.getElementById('aboutGrid').offsetHeight
+        var aboutMeTextGridSize = document.getElementById('aboutMeTextGrid').offsetHeight
         if (!state.belowSm) {
-            var aboutGridSize = document.getElementById('aboutGrid').offsetHeight
-            var aboutMeTextGridSize = document.getElementById('aboutMeTextGrid').offsetHeight
-
             setAvatarGridHeight(aboutGridSize - aboutMeTextGridSize - 40)
         }
-    }, [window.innerHeight])
+        setAboutGridSizeState(aboutGridSize)
+    }, [aboutGridSizeState])
 
     return (
         <Grid id='aboutGrid' container direction='column' justify='flex-end' alignItems='center' alignContent='center'>
