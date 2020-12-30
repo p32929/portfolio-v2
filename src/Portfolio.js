@@ -24,14 +24,14 @@ SOFTWARE.
 
 import React, {useEffect} from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../Others/OvermindHelper";
+import {useOvermind} from "./Utils/OvermindHelper";
 import {MemoryRouter, Redirect, Route} from "react-router-dom";
 import Paper from "@material-ui/core/Paper";
 import {useTheme} from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import {getContentHeightWidth, getParentHeightWidth} from '../Others/GlobalMethods'
-import LeftPart from "./BasicStructures/LeftPart";
-import RightPart from "./BasicStructures/RightPart";
+import {getContentHeightWidth, getParentHeightWidth} from './Utils/GlobalMethods'
+import LeftPart from "./Components/LeftPart";
+import RightPart from "./Components/RightPart";
 
 const styles = {
     parent: getParentHeightWidth(),

@@ -24,8 +24,8 @@ SOFTWARE.
 
 import Grid from "@material-ui/core/Grid";
 import React from "react";
-import TypographyWithIcon from "../Components/Helpers/TypographyWithIcon";
-import OurListItem from "../Components/Items/OurListItem";
+import TypographyWithIcon from "../SubComponents/ListItems/TypographyWithIcon";
+import OurListItem from "../SubComponents/ListItems/OurListItem";
 
 export function getParentHeightWidth() {
     var height = window.innerHeight;

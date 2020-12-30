@@ -24,12 +24,12 @@ SOFTWARE.
 
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../Others/OvermindHelper";
-import {getContentHeightWidth} from '../../Others/GlobalMethods'
+import {useOvermind} from "../Utils/OvermindHelper";
+import {getContentHeightWidth} from '../Utils/GlobalMethods'
 import Paper from "@material-ui/core/Paper";
-import AvatarText from "./Left/AvatarText";
-import LeftMenus from "./Left/LeftMenus";
-import SmallBottomLinks from "./Left/SmallBottomLinks";
+import AvatarText from "../SubComponents/Helpers/AvatarText";
+import LeftMenus from "../SubComponents/Helpers/LeftMenus";
+import SmallBottomLinks from "../SubComponents/Merged/SmallBottomLinks";
 
 const LeftPart = () => {
     const {state, actions} = useOvermind()

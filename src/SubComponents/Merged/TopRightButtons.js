@@ -1,8 +1,8 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../../Others/OvermindHelper";
+import {useOvermind} from "../../Utils/OvermindHelper";
 import IconButton from "@material-ui/core/IconButton";
-import SvgHelper from "../../Helpers/SvgHelper";
+import SvgHelper from "../Helpers/SvgHelper";
 
 const TopRightButtons = () => {
     const {state, actions} = useOvermind()
@@ -14,7 +14,7 @@ const TopRightButtons = () => {
             ( https://github.com/p32929/p32929.github.io/ )
 
             YOU MAY USE THE SOURCE CODE HOWEVER YOU WANT, BUT PLEASE,
-            KEEP THE FORK-ICON-GITHUB-URL UNCHANGED,
+            KEEP THE FORK-ICON & the GITHUB-URL under the icon UNCHANGED,
             SO THAT OTHERS CAN ALSO BENIFIT FROM THE ORIGINAL REPOSITORY.
             THANKS... :)
             */}

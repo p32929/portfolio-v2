@@ -24,8 +24,8 @@ SOFTWARE.
 
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../Others/OvermindHelper";
-import SvgHelper from "./SvgHelper";
+import {useOvermind} from "../../Utils/OvermindHelper";
+import SvgHelper from "../Helpers/SvgHelper";
 import Typography from "@material-ui/core/Typography";
 
 const TypographyMultilinedWithIcon = (props) => {

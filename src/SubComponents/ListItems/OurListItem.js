@@ -24,11 +24,11 @@ SOFTWARE.
 
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../Others/OvermindHelper";
+import {useOvermind} from "../../Utils/OvermindHelper";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
-import {giftIcon, linkIcon} from '../../Others/MainItems'
+import {giftIcon, linkIcon} from '../../Utils/MainItems'
 import IconButton from "@material-ui/core/IconButton";
 import SvgHelper from "../Helpers/SvgHelper";
 

@@ -24,13 +24,13 @@ SOFTWARE.
 
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../../Others/OvermindHelper";
+import {useOvermind} from "../../Utils/OvermindHelper";
 import IconButton from "@material-ui/core/IconButton";
-import SvgHelper from "../../Helpers/SvgHelper";
+import SvgHelper from "./SvgHelper";
 import Divider from "@material-ui/core/Divider";
 import Button from "@material-ui/core/Button";
 import {NavLink} from "react-router-dom";
-import {navItems} from '../../../Others/MainItems'
+import {navItems} from '../../Utils/MainItems'
 
 const styles = {
     divider: {

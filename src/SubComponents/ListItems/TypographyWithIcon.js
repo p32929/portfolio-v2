@@ -24,44 +24,32 @@ SOFTWARE.
 
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../../../Others/OvermindHelper";
-import Avatar from "@material-ui/core/Avatar";
-import avatarImage from '../../../../Images/avatar2.png'
-import TypographyMultilinedWithIcon from "../../../Helpers/TypographyMultilinedWithIcon";
-import {myDetails} from "../../../../Others/MainItems";
+import {useOvermind} from "../../Utils/OvermindHelper";
+import SvgHelper from "../Helpers/SvgHelper";
+import Typography from "@material-ui/core/Typography";
 
-const styles = {
-    avatar: {
-        height: 136,
-        width: 136,
-        margin: 16
-    },
-}
-
-const AboutRoute = () => {
+const TypographyWithIcon = (props) => {
     const {state, actions} = useOvermind()
 
     return (
-        <Grid container xs item direction='column' alignItems='center'
-              justify={state.belowSm ? 'center' : 'flex-end'} alignContent='center'>
+        <Grid style={{padding: 8}} container direction='row' justify='flex-start' alignItems='center'
+              alignContent='center'>
+            <SvgHelper
+                size={18}
+                color={state.primaryColor}
+                path='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z'/>
 
-            <Grid item>               
-                <Avatar variant='square' style={{
-                    height: state.bigDevice ? 440 : 160,
-                    width: state.bigDevice ? 400 : 136,
-                    margin: 16
-                }}
-                        src={avatarImage}></Avatar>
-            </Grid>
-
-            <Grid item style={{marginBottom: 8, overflow: 'auto'}}>
-                <TypographyMultilinedWithIcon desc={myDetails}>
-                    About me
-                </TypographyMultilinedWithIcon>
-            </Grid>
-
+            <Typography style={{
+                marginLeft: 8,
+                marginRight: 8,
+                fontSize: 12,
+                fontWeight: 'bold',
+                color: "#757575"
+            }}>{props.children}</Typography>
         </Grid>
     );
 };
 
-export default AboutRoute;
+
+
+export default TypographyWithIcon;

@@ -27,9 +27,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import CssBaseline from "@material-ui/core/CssBaseline";
-import Portfolio from "./Components/Portfolio";
+import Portfolio from "./Portfolio";
 import {Provider} from "overmind-react";
-import {overmind} from './Others/OvermindHelper'
+import {overmind} from './Utils/OvermindHelper'
 
 ReactDOM.render(
     <React.StrictMode>

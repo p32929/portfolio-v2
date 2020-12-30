@@ -23,7 +23,7 @@ SOFTWARE.
 */
 
 import React from 'react';
-import {useOvermind} from "../../Others/OvermindHelper";
+import {useOvermind} from "../Utils/OvermindHelper";
 import Dialog from "@material-ui/core/Dialog";
 import DialogContent from "@material-ui/core/DialogContent";
 import {BlockPicker} from 'react-color'

@@ -24,9 +24,9 @@ SOFTWARE.
 
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../../../Others/OvermindHelper";
-import {getTextAndListGrid} from "../../../../Others/GlobalMethods";
-import {projects} from "../../../../Others/GlobalVariables";
+import {useOvermind} from "../Utils/OvermindHelper";
+import {getTextAndListGrid} from "../Utils/GlobalMethods";
+import {projects} from "../Utils/GlobalVariables";
 
 const ProjectsRoute = () => {
     const {state, actions} = useOvermind()

@@ -24,15 +24,15 @@ SOFTWARE.
 
 import React, {useEffect, useState} from 'react';
 import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../Others/OvermindHelper";
-import TopLeftInfos from "./Right/TopLeftInfos";
-import TopRightButtons from "./Right/TopRightButtons";
+import {useOvermind} from "../Utils/OvermindHelper";
+import TopLeftInfos from "../SubComponents/Merged/TopLeftInfos";
+import TopRightButtons from "../SubComponents/Merged/TopRightButtons";
 import {Route, Switch, useLocation} from "react-router-dom";
-import {getContentHeightWidth} from "../../Others/GlobalMethods";
-import ProjectsRoute from "./Right/Routes/ProjectsRoute";
-import SkillsRoute from "./Right/Routes/SkillsRoute";
-import ContactRoute from "./Right/Routes/ContactRoute";
-import AboutRoute from "./Right/Routes/AboutRoute";
+import {getContentHeightWidth} from "../Utils/GlobalMethods";
+import ProjectsRoute from "../Routes/ProjectsRoute";
+import SkillsRoute from "../Routes/SkillsRoute";
+import ContactRoute from "../Routes/ContactRoute";
+import AboutRoute from "../Routes/AboutRoute";
 import ColorPickerDialog from "../Dialogs/ColorPickerDialog";
 
 const styles = {

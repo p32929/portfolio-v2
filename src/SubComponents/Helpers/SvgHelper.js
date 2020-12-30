@@ -23,23 +23,26 @@ SOFTWARE.
 */
 
 import React from 'react';
-import Grid from "@material-ui/core/Grid";
-import {useOvermind} from "../../../../Others/OvermindHelper";
-import {getTextAndListGrid} from "../../../../Others/GlobalMethods";
-import {skills} from "../../../../Others/GlobalVariables";
+import {useOvermind} from "../../Utils/OvermindHelper";
+import PropTypes from "prop-types";
 
-const SkillsRoute = () => {
+
+const SvgHelper = props => {
     const {state, actions} = useOvermind()
+    const {size = 48, path, styles = {}} = props;
 
     return (
-        <Grid spacing={1} container xs item direction='row'>
-            {
-                skills.map((item) => {
-                    return getTextAndListGrid(item);
-                })
-            }
-        </Grid>
+        <svg style={{width: size, height: size, ...styles}} viewBox="0 0 24 24">
+            <path fill={state.primaryColor}
+                  d={path}/>
+        </svg>
     );
 };
 
-export default SkillsRoute;
+SvgHelper.propTypes = {
+    size: PropTypes.number,
+    path: PropTypes.string,
+    styles: PropTypes.object
+};
+
+export default SvgHelper;
