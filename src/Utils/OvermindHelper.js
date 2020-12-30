@@ -36,7 +36,7 @@ export const overmind = createOvermind({
         primaryColor: primaryColor,
         drawerState: true,
         belowSm: false,
-        bigDevice: false,
+        // bigDevice: false,
         showColorPickerDialog: false
     },
     actions: {
@@ -49,10 +49,10 @@ export const overmind = createOvermind({
         setBelowSm({state}, b) {
             state.belowSm = b
         },
-        setBigDevice({state}, b) {
-            state.bigDevice = b
-            console.log("BIG: " + state.bigDevice)
-        },
+        // setBigDevice({state}, b) {
+        //     state.bigDevice = b
+        //     console.log("BIG: " + state.bigDevice)
+        // },
         setDrawerState({state}, b) {
             state.drawerState = b
         },

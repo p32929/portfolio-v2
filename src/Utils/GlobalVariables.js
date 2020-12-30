@@ -556,9 +556,9 @@ export const projects = [
                 link: 'https://p32929.github.io/SendMoney2Me/'
             },
             {
-                title: 'My Portfolio (V2)',
+                title: 'My App (V2)',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'V2 of my Portfolio - Created using ReactJS',
+                desc: 'V2 of my App - Created using ReactJS',
                 link: 'https://p32929.github.io'
             },
             {
@@ -574,7 +574,7 @@ export const projects = [
                 link: 'https://p32929.github.io/Badges/'
             },
             {
-                title: 'My Portfolio (V1)',
+                title: 'My App (V1)',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'Created using ReactJS',
                 link: 'https://p32929.github.io/Portfolio'

@@ -55,16 +55,14 @@ const getRightPartComponent = (state) => {
     }
 }
 
-const Portfolio = () => {
+const App = () => {
     const {state, actions} = useOvermind()
     const theme = useTheme()
     const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
-    const bigDevice = useMediaQuery(theme.breakpoints.up(1500))
 
     useEffect(() => {
         actions.setBelowSm(belowSm)
-        actions.setBigDevice(bigDevice)
-    }, [bigDevice, belowSm])
+    }, [belowSm])
 
     return (
         <Grid container style={{backgroundColor: state.primaryColor, ...styles.parent}}>
@@ -90,4 +88,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default App;
