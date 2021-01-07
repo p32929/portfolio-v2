@@ -912,7 +912,7 @@ export const contactInfos = [
             {
                 title: 'GitHub',
                 logo: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
-                link: 'https://www.facebook.com/p32929'
+                link: 'https://github.com/p32929/'
             },
             {
                 title: 'Wordpress',
