@@ -1,13 +1,5 @@
 The 2nd iteration of My Personal App - created using ReactJS, Overmind, Material UI etc...
 
-* Desktop
-
-![portfoliov2 1](https://user-images.githubusercontent.com/6418354/87682979-4dac7a80-c7a2-11ea-85d3-98c0258e0bf1.gif)
-
-* Mobile
-
-![Untitled Project](https://user-images.githubusercontent.com/6418354/89376617-fc910600-d711-11ea-9a0a-152f967d680f.gif)
-
 [![](https://badgen.net/github/release/p32929/p32929.github.io)]() [![](https://badgen.net/github/release/p32929/p32929.github.io/stable)]() [![](https://badgen.net/github/tag/p32929/p32929.github.io)]() [![](https://badgen.net/github/watchers/p32929/p32929.github.io)]() [![](https://badgen.net/github/checks/p32929/p32929.github.io)]() [![](https://badgen.net/github/status/p32929/p32929.github.io)]() [![](https://badgen.net/github/stars/p32929/p32929.github.io)]() [![](https://badgen.net/github/forks/p32929/p32929.github.io)]() [![](https://badgen.net/github/issues/p32929/p32929.github.io)]() [![](https://badgen.net/github/open-issues/p32929/p32929.github.io)]() [![](https://badgen.net/github/closed-issues/p32929/p32929.github.io)]() [![](https://badgen.net/github/label-issues/p32929/p32929.github.io/help-wanted/open)]() [![](https://badgen.net/github/prs/p32929/p32929.github.io)]() [![](https://badgen.net/github/open-prs/p32929/p32929.github.io)]() [![](https://badgen.net/github/closed-prs/p32929/p32929.github.io)]() [![](https://badgen.net/github/merged-prs/p32929/p32929.github.io)]() [![](https://badgen.net/github/commits/p32929/p32929.github.io)]() [![](https://badgen.net/github/last-commit/p32929/p32929.github.io)]() [![](https://badgen.net/github/branches/p32929/p32929.github.io)]() [![](https://badgen.net/github/releases/p32929/p32929.github.io)]() [![](https://badgen.net/github/tags/p32929/p32929.github.io)]() [![](https://badgen.net/github/license/p32929/p32929.github.io)]() [![](https://badgen.net/github/contributors/p32929/p32929.github.io)]() [![](https://badgen.net/github/dependents-pkg/p32929/p32929.github.io)]() 
 
 Visit Live: https://p32929.github.io/
