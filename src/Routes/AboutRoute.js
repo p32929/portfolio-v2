@@ -34,8 +34,8 @@ const belowSmAvatarSize = {height: 175}
 
 const AboutRoute = () => {
     const {state, actions} = useOvermind()
-    const [avatarGridHeight, setAvatarGridHeight] = useState()
-    const [aboutGridSizeHeight, setAboutGridSizeHeight] = useState()
+    const [avatarGridHeight, setAvatarGridHeight] = useState(0)
+    const [aboutGridSizeHeight, setAboutGridSizeHeight] = useState(0)
 
     useEffect(() => {
         var currentAboutGridHeight = document.getElementById('aboutGrid').offsetHeight
