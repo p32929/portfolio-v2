@@ -25,7 +25,6 @@ SOFTWARE.
 import React, {useEffect, useState} from 'react';
 import Grid from "@material-ui/core/Grid";
 import {useOvermind} from "../Utils/OvermindHelper";
-import AvatarText from "../SubComponents/Helpers/AvatarText";
 import TypographyMultilinedWithIcon from "../SubComponents/ListItems/TypographyMultilinedWithIcon";
 import {myDetails} from "../Utils/MainItems";
 import avatarImage from "../Assets/avatar2.png";
@@ -35,16 +34,17 @@ const belowSmAvatarSize = {height: 175}
 
 const AboutRoute = () => {
     const {state, actions} = useOvermind()
-    const [avatarGridHeight, setAvatarGridHeight] = useState({})
-    const [aboutGridSizeState, setAboutGridSizeState] = useState()
+    const [avatarGridHeight, setAvatarGridHeight] = useState()
+    const [aboutGridSizeHeight, setAboutGridSizeHeight] = useState()
+
     useEffect(() => {
-        var aboutGridSize = document.getElementById('aboutGrid').offsetHeight
-        var aboutMeTextGridSize = document.getElementById('aboutMeTextGrid').offsetHeight
+        var currentAboutGridHeight = document.getElementById('aboutGrid').offsetHeight
+        var currentAboutMeTextGridHeight = document.getElementById('aboutMeTextGrid').offsetHeight
         if (!state.belowSm) {
-            setAvatarGridHeight(aboutGridSize - aboutMeTextGridSize - 40)
+            setAvatarGridHeight(currentAboutGridHeight - currentAboutMeTextGridHeight - 40)
         }
-        setAboutGridSizeState(aboutGridSize)
-    }, [aboutGridSizeState])
+        setAboutGridSizeHeight(currentAboutGridHeight)
+    }, [aboutGridSizeHeight])
 
     return (
         <Grid id='aboutGrid' container direction='column' justify='flex-end' alignItems='center' alignContent='center'>
