@@ -53,6 +53,9 @@ If you don't have them installed, install them from here: https://nodejs.org/en/
 
 Volla!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
 
+## Troubleshooting
+If the `portfolio` doesn't show ( but shows the readme file as the portfolio, in the portfolio link ), check the `settings` of your repository, and change the `source` of the `github pages` to `master` branch. 
+
 ## Thanks
 Thanks to everyone for your STARS, WATCHES, FORKS, & VISITS. Special thanks to [Facebook](https://www.facebook.com/) for the [ReactJS](https://reactjs.org/) library, [mui-org](https://github.com/mui-org/) for the [Material-UI](https://material-ui.com/) Components library, [casesandberg](https://github.com/casesandberg) for the [react-color](https://casesandberg.github.io/react-color/) library, [Plabon Dey](https://www.facebook.com/plabon.shuvo1) for the Dynamic Color idea :P and [Github pages](https://pages.github.com/) for letting me host it for free. Am I missing anyone? If yes, Let me know via facebook: https://www.facebook.com/p32929/ 
 
