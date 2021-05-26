@@ -29,7 +29,7 @@ const LeftPart: React.FC<Props> = (props) => {
 
     return <Grid container direction='column' item xs={11} sm={11} md={3} lg={3} xl={2}>
         <Paper elevation={12} className={classes.root}>
-            <Grid className={classes.root}>
+            <Grid className={classes.root} container direction="column" justify="space-around" alignContent='center' alignItems="center">
                 <AvatarText />
             </Grid>
         </Paper>
