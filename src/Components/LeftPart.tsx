@@ -2,6 +2,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Theme, Grid, Paper } from "@material-ui/core";
 import { useActions, useAppState } from '../Overmind/OvermindHelper';
+import AvatarText from './Left/AvatarText';
 
 interface Props {
 
@@ -9,7 +10,7 @@ interface Props {
 
 const getThemeObj = (theme: Theme) => {
     return {
-        paper: {
+        root: {
             height: '100%',
             width: '100%',
             margin: 0,
@@ -27,8 +28,10 @@ const LeftPart: React.FC<Props> = (props) => {
     const classes = useStyles();
 
     return <Grid container direction='column' item xs={11} sm={11} md={3} lg={3} xl={2}>
-        <Paper elevation={12} className={classes.paper}>
-            HAHAHA
+        <Paper elevation={12} className={classes.root}>
+            <Grid className={classes.root}>
+                <AvatarText />
+            </Grid>
         </Paper>
     </Grid>
 }
