@@ -7,7 +7,6 @@ import { ThemeProvider } from '@material-ui/core';
 import { createOvermind } from 'overmind'
 import { config } from './Overmind/OvermindHelper'
 import { theme } from "./Others/Theme";
-import Counter from "./Components/Counter";
 import App from './App';
 
 const overmind = createOvermind(config)

@@ -42,13 +42,12 @@ const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const App: React.FC<Props> = (props) => {
   const { } = useActions()
-  const { } = useAppState()
+  const { primaryColor } = useAppState()
 
   const classes = useStyles();
 
   return <Grid container className={classes.root} justify='center' alignContent='center' alignItems='center'
-    direction='column'
-  >
+    direction='column' style={{ backgroundColor: primaryColor }}>
     <Paper className={classes.paper} elevation={16}>
       HELLO
     </Paper>

@@ -1,7 +1,9 @@
+import { GlobalVars } from "../Others/GlobalVars";
+
 export interface State {
-    counter: number,
+    primaryColor: string,
 }
 
 export const state: State = {
-    counter: 0
+    primaryColor: GlobalVars.primaryColor
 }
