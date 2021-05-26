@@ -2,27 +2,11 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Theme, Grid, Paper } from "@material-ui/core";
 import { useActions, useAppState } from './Overmind/OvermindHelper';
+import LeftPart from './Components/LeftPart';
+import { GlobalMethods } from './Others/GlobalMethods';
 
 interface Props {
 
-}
-
-const getHeightWidthWeb = () => {
-  console.debug("Web");
-
-  return {
-    width: `calc(100% - 316px)`,
-    height: `calc(100% - 168px)`
-  }
-}
-
-const getHeightWidthMobile = () => {
-  console.debug("Mobile");
-
-  return {
-    width: `calc(100% - 48px)`,
-    height: `calc(100% - 48px)`
-  }
 }
 
 const getThemeObj = (theme: Theme) => {
@@ -31,9 +15,13 @@ const getThemeObj = (theme: Theme) => {
       height: '100vh',
       maxHeight: '100vh',
     },
+    content: {
+      height: '100%',
+      width: '100%'
+    },
     paper: {
-      [theme.breakpoints.down('sm')]: getHeightWidthMobile(),
-      [theme.breakpoints.up('md')]: getHeightWidthWeb(),
+      [theme.breakpoints.down('sm')]: GlobalMethods.getHeightWidthMobile(),
+      [theme.breakpoints.up('md')]: GlobalMethods.getHeightWidthWeb(),
     }
   }
 }
@@ -49,7 +37,9 @@ const App: React.FC<Props> = (props) => {
   return <Grid container className={classes.root} justify='center' alignContent='center' alignItems='center'
     direction='column' style={{ backgroundColor: primaryColor }}>
     <Paper className={classes.paper} elevation={16}>
-      HELLO
+      <Grid container direction='row' className={classes.content}>
+        <LeftPart />
+      </Grid>
     </Paper>
   </Grid>
 }
