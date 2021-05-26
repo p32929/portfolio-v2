@@ -8,6 +8,8 @@ interface Props {
 }
 
 const getHeightWidthWeb = () => {
+  console.debug("Web");
+
   return {
     width: `calc(100% - 316px)`,
     height: `calc(100% - 168px)`
@@ -15,6 +17,8 @@ const getHeightWidthWeb = () => {
 }
 
 const getHeightWidthMobile = () => {
+  console.debug("Mobile");
+
   return {
     width: `calc(100% - 48px)`,
     height: `calc(100% - 48px)`
@@ -27,7 +31,10 @@ const getThemeObj = (theme: Theme) => {
       height: '100vh',
       maxHeight: '100vh',
     },
-    paper: theme.breakpoints.down('sm') ? getHeightWidthWeb() : getHeightWidthMobile()
+    paper: {
+      [theme.breakpoints.down('sm')]: getHeightWidthMobile(),
+      [theme.breakpoints.up('md')]: getHeightWidthWeb(),
+    }
   }
 }
 
