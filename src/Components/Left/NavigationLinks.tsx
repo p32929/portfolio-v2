@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const NavigationLinks: React.FC<Props> = (props) => {
     const { } = useActions()
-    const { } = useAppState()
+    const { primaryColor } = useAppState()
 
     const classes = useStyles();
 
@@ -45,7 +45,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
             </IconButton>
         </Hidden>
 
-        <Divider className={classes.divider} orientation="horizontal" flexItem />
+        <Divider style={{ backgroundColor: primaryColor }} className={classes.divider} orientation="horizontal" flexItem />
 
         {
             GlobalVars.navLinks.map((item, index) => {
@@ -63,7 +63,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
             })
         }
 
-        <Divider className={classes.divider} orientation="horizontal" flexItem />
+        <Divider style={{ backgroundColor: primaryColor }} className={classes.divider} orientation="horizontal" flexItem />
 
     </Grid>
 }

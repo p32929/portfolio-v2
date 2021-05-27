@@ -39,7 +39,7 @@ const AvatarText: React.FC<Props> = (props) => {
 
     return <Grid item xs sm md lg xl container direction="column" justify="center" alignItems="center">
         <Avatar alt={GlobalVars.myName + " - " + GlobalVars.myOccupation} src={LocalImages.avatar} className={classes.avatar} />
-        <Typography className={classes.title}>{GlobalVars.myName}</Typography>
+        <Typography className={classes.title}>{GlobalVars.myName.toUpperCase()}</Typography>
         <Typography className={classes.subtitle}>{GlobalVars.myOccupation}</Typography>
     </Grid>
 }
