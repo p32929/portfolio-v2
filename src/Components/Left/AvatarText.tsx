@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Theme, Grid, Avatar, Typography } from "@material-ui/core";
 import { useActions, useAppState } from '../../Overmind/OvermindHelper';
 import { GlobalVars } from '../../Others/GlobalVars';
+import { LocalImages } from '../../Others/Images';
 
 interface Props {
 
@@ -37,7 +38,7 @@ const AvatarText: React.FC<Props> = (props) => {
     const classes = useStyles();
 
     return <Grid item xs sm md lg xl container direction="column" justify="center" alignItems="center">
-        <Avatar alt={GlobalVars.myName + " - " + GlobalVars.myOccupation} src='/avatar.png' className={classes.avatar} />
+        <Avatar alt={GlobalVars.myName + " - " + GlobalVars.myOccupation} src={LocalImages.avatar} className={classes.avatar} />
         <Typography className={classes.title}>{GlobalVars.myName}</Typography>
         <Typography className={classes.subtitle}>{GlobalVars.myOccupation}</Typography>
     </Grid>
