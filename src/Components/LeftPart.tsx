@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Theme, Grid, Paper } from "@material-ui/core";
 import { useActions, useAppState } from '../Overmind/OvermindHelper';
 import AvatarText from './Left/AvatarText';
-import NavLinks from './Left/NavLinks';
+import NavigationLinks from './Left/NavigationLinks';
 
 interface Props {
 
@@ -32,7 +32,7 @@ const LeftPart: React.FC<Props> = (props) => {
         <Paper elevation={12} className={classes.root}>
             <Grid className={classes.root} container direction="column" justify="space-around" alignContent='center' alignItems="center">
                 <AvatarText />
-                <NavLinks />
+                <NavigationLinks />
             </Grid>
         </Paper>
     </Grid>
