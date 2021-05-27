@@ -1,9 +1,11 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-import { Button, Divider, Grid, Theme } from "@material-ui/core";
+import { Button, Divider, Grid, Hidden, IconButton, Theme } from "@material-ui/core";
 import { useActions, useAppState } from '../../Overmind/OvermindHelper';
 import { GlobalVars } from '../../Others/GlobalVars';
 import { NavLink } from "react-router-dom";
+import SvgHelper from '../../Helpers/SvgHelper';
+import { Icons } from '../../Others/Icons';
 
 interface Props {
 
@@ -34,6 +36,15 @@ const NavigationLinks: React.FC<Props> = (props) => {
     const classes = useStyles();
 
     return <Grid container item xs sm md lg xl direction='column' justify='center' alignContent='stretch'>
+
+        <Hidden mdUp>
+            <IconButton size='small' onClick={() => {
+
+            }}>
+                <SvgHelper size={18} path={Icons.close} />
+            </IconButton>
+        </Hidden>
+
         <Divider className={classes.divider} orientation="horizontal" flexItem />
 
         {
