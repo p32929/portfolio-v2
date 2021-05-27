@@ -4,6 +4,7 @@ import { Theme, Grid, Paper } from "@material-ui/core";
 import { useActions, useAppState } from '../Overmind/OvermindHelper';
 import AvatarText from './Left/AvatarText';
 import NavigationLinks from './Left/NavigationLinks';
+import BottomNavigationLinks from './Left/BottomNavigationLinks';
 
 interface Props {
 
@@ -33,6 +34,7 @@ const LeftPart: React.FC<Props> = (props) => {
             <Grid className={classes.root} container direction="column" justify="space-around" alignContent='center' alignItems="center">
                 <AvatarText />
                 <NavigationLinks />
+                <BottomNavigationLinks />
             </Grid>
         </Paper>
     </Grid>
