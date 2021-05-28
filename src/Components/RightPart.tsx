@@ -4,6 +4,7 @@ import { Theme, Grid } from "@material-ui/core";
 import { useActions, useAppState } from '../Overmind/OvermindHelper';
 import RouteLocation from './Right/Top/RouteLocation';
 import TopRightButtons from './Right/Top/TopRightButtons';
+import Skills from './Right/Routes/Skills';
 
 interface Props {
 
@@ -25,11 +26,12 @@ const RightPart: React.FC<Props> = (props) => {
 
   const classes = useStyles();
 
-  return <Grid container xs item direction='row' alignContent='flex-start'>
-    <Grid container direction='row' justify='space-between' className={classes.root} alignItems='flex-start' alignContent='flex-start'>
+  return <Grid container xs item direction='row' alignContent='flex-start' className={classes.root} >
+    <Grid container direction='row' justify='space-between' alignItems='flex-start' alignContent='flex-start'>
       <RouteLocation />
       <TopRightButtons />
     </Grid>
+    <Skills />
   </Grid>
 }
 

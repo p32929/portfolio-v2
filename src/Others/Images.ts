@@ -4,5 +4,5 @@ export class LocalImages {
 }
 
 export class WebImages {
-
+    
 }

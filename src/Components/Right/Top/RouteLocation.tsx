@@ -53,7 +53,7 @@ const RouteLocation: React.FC<Props> = (props) => {
             </Hidden>
 
             <Button variant='text' disabled className={classes.currentRoute}>
-                ABOUT
+                SKILLS
             </Button>
         </Grid>
         <Divider style={{

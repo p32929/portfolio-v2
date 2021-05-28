@@ -35,7 +35,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid container item xs sm md lg xl direction='column' justify='center' alignContent='stretch'>
+    return <Grid container item xs direction='column' justify='center' alignContent='stretch'>
 
         <Hidden mdUp>
             <IconButton size='small' onClick={() => {
