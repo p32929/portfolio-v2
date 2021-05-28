@@ -7,3 +7,7 @@ import { Context } from './OvermindHelper'
 export const setPrimaryColor = ({ state }: Context, value: string) => {
     state.primaryColor = value;
 }
+
+export const showLeftPart = ({ state }: Context, value: boolean) => {
+    state.isLeftShowing = value;
+}

@@ -5,6 +5,8 @@ import { useActions, useAppState } from './Overmind/OvermindHelper';
 import LeftPart from './Components/LeftPart';
 import { GlobalMethods } from './Others/GlobalMethods';
 import RightPart from './Components/RightPart';
+import { useTheme } from "@material-ui/core/styles";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 interface Props {
 
@@ -31,16 +33,43 @@ const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const App: React.FC<Props> = (props) => {
   const { } = useActions()
-  const { primaryColor } = useAppState()
-
+  const { primaryColor, isLeftShowing } = useAppState()
   const classes = useStyles();
+
+  const theme = useTheme()
+  const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
+
+  const getLeftPart = () => {
+    if (belowSm) {
+      if (isLeftShowing) {
+        return <LeftPart />
+      }
+    } else {
+      return <LeftPart />
+    }
+  }
+
+  const getRightPart = () => {
+    if (belowSm) {
+      if (!isLeftShowing) {
+        return <RightPart />
+      }
+    } else {
+      return <RightPart />
+    }
+  }
 
   return <Grid container className={classes.root} justify='center' alignContent='center' alignItems='center'
     direction='column' style={{ backgroundColor: primaryColor }}>
     <Paper className={classes.paper} elevation={16}>
       <Grid container direction='row' className={classes.content}>
-        <LeftPart />
-        <RightPart />
+        {
+          getLeftPart()
+        }
+
+        {
+          getRightPart()
+        }
       </Grid>
     </Paper>
   </Grid>

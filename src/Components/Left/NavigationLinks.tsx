@@ -30,7 +30,7 @@ const getThemeObj = (theme: Theme) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const NavigationLinks: React.FC<Props> = (props) => {
-    const { } = useActions()
+    const { showLeftPart } = useActions()
     const { primaryColor } = useAppState()
 
     const classes = useStyles();
@@ -39,7 +39,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
 
         <Hidden mdUp>
             <IconButton size='small' onClick={() => {
-
+                showLeftPart(false)
             }}>
                 <SvgHelper size={18} path={Icons.close} />
             </IconButton>
