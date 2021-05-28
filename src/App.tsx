@@ -61,7 +61,7 @@ const App: React.FC<Props> = (props) => {
 
   return <Grid container className={classes.root} justify='center' alignContent='center' alignItems='center'
     direction='column' style={{ backgroundColor: primaryColor }}>
-    <Paper className={classes.paper} elevation={16}>
+    <Paper id='container' className={classes.paper} elevation={16}>
       <Grid container direction='row' className={classes.content}>
         {
           getLeftPart()
