@@ -5,7 +5,7 @@ import { useActions, useAppState } from '../../Overmind/OvermindHelper';
 import { GlobalVars } from '../../Others/GlobalVars';
 import { NavLink } from "react-router-dom";
 import SvgHelper from '../../Helpers/SvgHelper';
-import { Icons } from '../../Others/Icons';
+import { OurIcons } from '../../Others/OurIcons';
 
 interface Props {
 
@@ -41,7 +41,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
             <IconButton size='small' onClick={() => {
                 showLeftPart(false)
             }}>
-                <SvgHelper size={18} path={Icons.close} />
+                <SvgHelper size={18} path={OurIcons.close} />
             </IconButton>
         </Hidden>
 

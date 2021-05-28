@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Button, Divider, Grid, Hidden, IconButton, Theme } from "@material-ui/core";
 import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
 import SvgHelper from '../../../Helpers/SvgHelper';
-import { Icons } from '../../../Others/Icons';
+import { OurIcons } from '../../../Others/OurIcons';
 // import { useLocation } from "react-router-dom";
 
 interface Props {
@@ -48,7 +48,7 @@ const RouteLocation: React.FC<Props> = (props) => {
                 <IconButton size='small' onClick={() => {
                     showLeftPart(true)
                 }}>
-                    <SvgHelper path={Icons.menu} styles={{ padding: 8 }} size={20} />
+                    <SvgHelper path={OurIcons.menu} styles={{ padding: 8 }} size={20} />
                 </IconButton>
             </Hidden>
 

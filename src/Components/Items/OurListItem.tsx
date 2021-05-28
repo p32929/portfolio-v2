@@ -3,9 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Avatar, Button, Divider, Grid, Paper, Theme, Typography } from "@material-ui/core";
 import { useActions, useAppState } from '../../Overmind/OvermindHelper';
 import { LocalImages } from '../../Others/Images';
+import { ListItemInterface } from '../../Others/Interfaces';
 
 interface Props {
-
+    item: ListItemInterface
 }
 
 const getThemeObj = (theme: Theme) => {

@@ -3,13 +3,13 @@ export interface navBottomLinksInterface {
     link: string,
 }
 
+export interface ListItemInterface {
+    title: string,
+    desc?: string,
+    logo: string,
+}
 
-
-export interface SkillInterface {
+export interface TitledListItemInterface {
     text: string,
-    arr: Array<{
-        title: string,
-        desc?: string,
-        logo: string,
-    }>
+    arr: Array<ListItemInterface>
 }

@@ -5,6 +5,7 @@ import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
 import { GlobalVars } from '../../../Others/GlobalVars';
 import OurListItem from '../../Items/OurListItem';
 import ListTitle from '../../Items/ListTitle';
+import ListItemWithIcon from '../../Items/ListItemWithIcon';
 
 interface Props {
 
@@ -25,7 +26,7 @@ const Skills: React.FC<Props> = (props) => {
     return <Grid spacing={1} container xs item direction='row'>
         {
             GlobalVars.skills.map((item, index) => {
-                return <ListTitle/>
+                return <ListItemWithIcon item={item} />
             })
         }
     </Grid>

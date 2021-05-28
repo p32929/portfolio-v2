@@ -1,5 +1,5 @@
-import { Icons } from "./Icons"
-import { navBottomLinksInterface, SkillInterface } from "./Interfaces"
+import { OurIcons } from "./OurIcons"
+import { navBottomLinksInterface, TitledListItemInterface } from "./Interfaces"
 
 export class GlobalVars {
 
@@ -18,20 +18,20 @@ export class GlobalVars {
 
     static navBottomLinks: Array<navBottomLinksInterface> = [
         {
-            svgPath: Icons.whatsappIcon,
+            svgPath: OurIcons.whatsappIcon,
             link: 'https://api.whatsapp.com/send?phone=8801796306262'
         },
         {
-            svgPath: Icons.skypeIcon,
+            svgPath: OurIcons.skypeIcon,
             link: 'skype:p32929?chat'
         },
         {
-            svgPath: Icons.facebookIcon,
+            svgPath: OurIcons.facebookIcon,
             link: 'https://facebook.com/p32929'
         }
     ]
 
-    static skills: Array<SkillInterface> = [
+    static skills: Array<TitledListItemInterface> = [
         {
             text: "Programming/Markup Languages",
             arr: [

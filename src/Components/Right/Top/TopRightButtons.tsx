@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Button, Divider, Grid, IconButton, Theme } from "@material-ui/core";
 import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
 import SvgHelper from '../../../Helpers/SvgHelper';
-import { Icons } from '../../../Others/Icons';
+import { OurIcons } from '../../../Others/OurIcons';
 
 interface Props {
 
@@ -29,14 +29,14 @@ const TopRightButtons: React.FC<Props> = (props) => {
         <IconButton size='small' target="_blank" href='https://github.com/p32929/p32929.github.io/'>
             <SvgHelper
                 styles={{ padding: 8 }}
-                path={Icons.fork}
+                path={OurIcons.fork}
                 size={20} />
         </IconButton>
 
         <IconButton size='small'>
             <SvgHelper
                 styles={{ padding: 8 }}
-                path={Icons.circle}
+                path={OurIcons.circle}
                 size={20} />
         </IconButton>
     </Grid>

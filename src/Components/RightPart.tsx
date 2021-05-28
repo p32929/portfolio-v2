@@ -15,6 +15,10 @@ const getThemeObj = (theme: Theme) => {
     root: {
       padding: 16,
     },
+    content: {
+      maxHeight: '100%',
+      maxWidth: '100%'
+    }
   }
 }
 
@@ -31,7 +35,9 @@ const RightPart: React.FC<Props> = (props) => {
       <RouteLocation />
       <TopRightButtons />
     </Grid>
-    <Skills />
+    <Grid container className={classes.content} >
+      <Skills />
+    </Grid>
   </Grid>
 }
 
