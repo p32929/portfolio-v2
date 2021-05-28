@@ -26,7 +26,7 @@ const RightPart: React.FC<Props> = (props) => {
   const classes = useStyles();
 
   return <Grid container xs item direction='row' alignContent='flex-start'>
-    <Grid container direction='row' justify='space-between' className={classes.root}>
+    <Grid container direction='row' justify='space-between' className={classes.root} alignItems='flex-start' alignContent='flex-start'>
       <RouteLocation />
       <TopRightButtons />
     </Grid>

@@ -45,10 +45,10 @@ const RouteLocation: React.FC<Props> = (props) => {
     return <Grid item xs direction='column' container justify='center'>
         <Grid container item xs direction='row'>
             <Hidden mdUp>
-                <IconButton onClick={() => {
+                <IconButton size='small' onClick={() => {
                     showLeftPart(true)
                 }}>
-                    <SvgHelper path={Icons.menu} size={18} />
+                    <SvgHelper path={Icons.menu} styles={{ padding: 8 }} size={20} />
                 </IconButton>
             </Hidden>
 
