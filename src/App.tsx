@@ -4,6 +4,7 @@ import { Theme, Grid, Paper } from "@material-ui/core";
 import { useActions, useAppState } from './Overmind/OvermindHelper';
 import LeftPart from './Components/LeftPart';
 import { GlobalMethods } from './Others/GlobalMethods';
+import RightPart from './Components/RightPart';
 
 interface Props {
 
@@ -39,6 +40,7 @@ const App: React.FC<Props> = (props) => {
     <Paper className={classes.paper} elevation={16}>
       <Grid container direction='row' className={classes.content}>
         <LeftPart />
+        <RightPart />
       </Grid>
     </Paper>
   </Grid>

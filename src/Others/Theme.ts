@@ -1,5 +1,5 @@
-import {createMuiTheme} from '@material-ui/core/styles';
-import {red} from '@material-ui/core/colors';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { red } from '@material-ui/core/colors';
 
 // Create a theme instance.
 export const theme = createMuiTheme({
@@ -16,5 +16,8 @@ export const theme = createMuiTheme({
         background: {
             default: '#fff',
         },
+        action: {
+            disabled: "#212121"
+        }
     },
 });
