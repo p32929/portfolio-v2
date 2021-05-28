@@ -8,6 +8,7 @@ import { createOvermind } from 'overmind'
 import { config } from './Overmind/OvermindHelper'
 import { theme } from "./Others/Theme";
 import App from './App';
+import { GlobalVars } from './Others/GlobalVars';
 
 const overmind = createOvermind(config)
 
@@ -26,3 +27,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+document.title = GlobalVars.myName;
