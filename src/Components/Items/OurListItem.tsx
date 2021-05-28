@@ -11,6 +11,9 @@ interface Props {
 
 const getThemeObj = (theme: Theme) => {
     return {
+        root: {
+            padding: 2,
+        },
         avatar: {
             margin: 16,
         },
@@ -49,7 +52,7 @@ const OurListItem: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid container item xs={12} sm={12} md={6} lg={6} xl={4} >
+    return <Grid container item xs={12} sm={12} md={6} lg={6} xl={4} className={classes.root}>
         <Paper elevation={4} style={{ width: '100%' }}>
             <Grid container direction='row' alignContent='center' alignItems='center'>
                 <Avatar variant='square' className={classes.avatar} />

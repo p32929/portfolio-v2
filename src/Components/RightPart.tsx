@@ -16,6 +16,7 @@ const getThemeObj = (theme: Theme) => {
       padding: 16,
     },
     content: {
+      paddingRight: 16,
       maxHeight: '100%',
       maxWidth: '100%'
     }
@@ -30,12 +31,12 @@ const RightPart: React.FC<Props> = (props) => {
 
   const classes = useStyles();
 
-  return <Grid container xs item direction='row' alignContent='flex-start' className={classes.root} >
-    <Grid container direction='row' justify='space-between' alignItems='flex-start' alignContent='flex-start'>
+  return <Grid container xs item direction='row' alignContent='flex-start'  >
+    <Grid container direction='row' className={classes.root} justify='space-between' alignItems='flex-start' alignContent='flex-start'>
       <RouteLocation />
       <TopRightButtons />
     </Grid>
-    <Grid container className={classes.content} >
+    <Grid item xs={12} container className={classes.content} >
       <Skills />
     </Grid>
   </Grid>

@@ -13,7 +13,11 @@ interface Props {
 const getThemeObj = (theme: Theme) => {
     return {
         root: {
-            marginTop: 24
+            marginTop: 4,
+            marginLeft: 8
+        },
+        itemRoot: {
+            marginTop: 8
         }
     }
 }
@@ -30,13 +34,13 @@ const ListItemWithIcon: React.FC<Props> = (props) => {
 
     return <Grid container direction='column' className={classes.root}>
         <ListTitle title={text} />
-        {/* <Grid container direction='row'>
+        <Grid container direction='row' className={classes.itemRoot}>
             {
                 arr.map((arrItem, index) => {
                     return <OurListItem item={arrItem} />
                 })
             }
-        </Grid> */}
+        </Grid>
     </Grid>
 
 }

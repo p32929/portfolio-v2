@@ -12,7 +12,7 @@ interface Props {
 const getThemeObj = (theme: Theme) => {
     return {
         root: {
-            paddingLeft: 4
+            paddingLeft: 8
         },
         text: {
             marginLeft: 8,
