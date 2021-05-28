@@ -45,6 +45,7 @@ const App: React.FC<Props> = (props) => {
         return <LeftPart />
       }
     } else {
+      showLeftPart(true)
       return <LeftPart />
     }
   }
