@@ -5,7 +5,8 @@ import { useActions, useAppState } from '../Overmind/OvermindHelper';
 
 interface Props {
     size: number,
-    path: string
+    path: string,
+    styles?: any,
 }
 
 const getThemeObj = (theme: Theme) => {
@@ -19,9 +20,9 @@ const SvgHelper: React.FC<Props> = (props) => {
     const { primaryColor } = useAppState()
 
     const classes = useStyles();
-    const { path, size } = props
+    const { path, size, styles } = props
 
-    return <svg style={{ width: size, height: size }} viewBox="0 0 24 24">
+    return <svg style={{ width: size, height: size, ...styles }} viewBox="0 0 24 24">
         <path fill={primaryColor}
             d={path} />
     </svg>

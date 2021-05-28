@@ -10,7 +10,11 @@ interface Props {
 }
 
 const getThemeObj = (theme: Theme) => {
-  return {}
+  return {
+    root: {
+      padding: 16
+    },
+  }
 }
 
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
@@ -22,7 +26,7 @@ const RightPart: React.FC<Props> = (props) => {
   const classes = useStyles();
 
   return <Grid container xs item direction='row' alignContent='flex-start'>
-    <Grid container direction='row' justify='space-between'>
+    <Grid container direction='row' justify='space-between' className={classes.root}>
       <RouteLocation />
       <TopRightButtons />
     </Grid>

@@ -40,8 +40,8 @@ const RouteLocation: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid container className={classes.root} item xs={7} sm={7} md={7} lg={7} xl={7} direction='row'>
-        <Grid container>
+    return <Grid item xs direction='column' container justify='center'>
+        <Grid container item xs>
             <Button variant='text' disabled className={classes.currentRoute}>
                 ABOUT
             </Button>
