@@ -1,7 +1,9 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-import { Button, Divider, Grid, Theme } from "@material-ui/core";
+import { Button, Divider, Grid, Hidden, IconButton, Theme } from "@material-ui/core";
 import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
+import SvgHelper from '../../../Helpers/SvgHelper';
+import { Icons } from '../../../Others/Icons';
 // import { useLocation } from "react-router-dom";
 
 interface Props {
@@ -34,14 +36,22 @@ const getThemeObj = (theme: Theme) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const RouteLocation: React.FC<Props> = (props) => {
-    const { } = useActions()
+    const { showLeftPart } = useActions()
     // let location = useLocation();
     const { primaryColor } = useAppState()
 
     const classes = useStyles();
 
     return <Grid item xs direction='column' container justify='center'>
-        <Grid container item xs>
+        <Grid container item xs direction='row'>
+            <Hidden mdUp>
+                <IconButton onClick={() => {
+                    showLeftPart(true)
+                }}>
+                    <SvgHelper path={Icons.menu} size={18} />
+                </IconButton>
+            </Hidden>
+
             <Button variant='text' disabled className={classes.currentRoute}>
                 ABOUT
             </Button>
