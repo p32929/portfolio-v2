@@ -40,10 +40,12 @@ const RightPart: React.FC<Props> = (props) => {
     const rt = document.getElementById('right-top')
     const rb = document.getElementById('right-bottom')
 
-    const height = rc?.offsetHeight - rt?.offsetHeight
-    console.log("Height: " + height);
+    if (rc && rt) {
+      const height = rc?.offsetHeight - rt?.offsetHeight
+      console.log("Height: " + height);
 
-    setContentHeight(height)
+      setContentHeight(height)
+    }
   }, [isLeftShowing, belowSm])
 
   return <Grid id='right-container' container xs item direction='row' alignContent='flex-start'  >
