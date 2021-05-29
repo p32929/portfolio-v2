@@ -176,7 +176,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Gatsby',
-                    logo: 'https://www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png'
+                    logo: 'https://seeklogo.com/images/G/gatsby-logo-1A245AD37F-seeklogo.com.png'
                 },
                 {
                     title: 'NextJS',
@@ -240,7 +240,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Neutralinojs',
-                    logo: 'https://neutralino.js.org/assets/img/logo'
+                    logo: 'https://camo.githubusercontent.com/bcd2e8e127e0587f421465b88ef9e6791a9d07764412c38211ae09ae51a933c6/68747470733a2f2f63646e2e7261776769742e636f6d2f6e65757472616c696e6f6a732f6e65757472616c696e6f6a732e6769746875622e696f2f62363637663263322f646f63732f6e6c6c6f676f2e706e67'
                 },
                 {
                     title: 'Proton Native',
@@ -260,7 +260,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'GSON',
-                    logo: 'https://s.appbrain.com/static/201904161618755/blob/sdk-logos/google_gson.png'
+                    logo: 'https://s.appbrain.com/static/202105261605665/blob/sdk-logos/google_gson.png'
                 },
                 {
                     title: 'Babel',

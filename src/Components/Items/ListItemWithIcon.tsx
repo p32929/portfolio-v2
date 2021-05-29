@@ -14,7 +14,8 @@ const getThemeObj = (theme: Theme) => {
     return {
         root: {
             marginTop: 4,
-            marginLeft: 8
+            marginLeft: 8,
+            marginBottom: 16
         },
         itemRoot: {
             marginTop: 8

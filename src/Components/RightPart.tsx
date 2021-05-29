@@ -19,7 +19,6 @@ const getThemeObj = (theme: Theme) => {
       paddingRight: 16,
       maxHeight: '100vh',
       maxWidth: '100%',
-      paddingBottom: 8
     }
   }
 }

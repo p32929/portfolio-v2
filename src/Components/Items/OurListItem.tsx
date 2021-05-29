@@ -51,15 +51,17 @@ const OurListItem: React.FC<Props> = (props) => {
     const { } = useAppState()
 
     const classes = useStyles();
+    const { item } = props
+    const { logo, title, desc } = item
 
     return <Grid container item xs={12} sm={12} md={6} lg={6} xl={4} className={classes.root}>
         <Paper elevation={4} style={{ width: '100%' }}>
             <Grid container direction='row' alignContent='center' alignItems='center'>
-                <Avatar variant='square' className={classes.avatar} />
+                <Avatar variant='square' className={classes.avatar} src={logo} />
 
                 <Grid container direction='column' item xs>
-                    <Typography variant='body1' className={classes.title}>HELLO WORLD</Typography>
-                    <Typography variant='body2' className={classes.desc}>HELLO WORLD</Typography>
+                    <Typography variant='body1' className={classes.title}>{title}</Typography>
+                    <Typography variant='body2' className={classes.desc}>{desc}</Typography>
                 </Grid>
 
             </Grid>
