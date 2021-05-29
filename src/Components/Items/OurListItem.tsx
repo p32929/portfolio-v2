@@ -20,6 +20,7 @@ const getThemeObj = (theme: Theme) => {
             paddingTop: 16,
             paddingBottom: 16,
             overflow: 'hidden',
+            alignSelf: 'center'
         },
         avatar: {
             margin: 16,
@@ -68,7 +69,9 @@ const OurListItem: React.FC<Props> = (props) => {
 
                 <Grid container direction='column' item xs className={classes.textContainer}>
                     <Typography variant='body1' className={classes.title}>{title}</Typography>
-                    <Typography variant='body2' className={classes.desc}>{desc}</Typography>
+                    {
+                        (desc || link) && <Typography variant='body2' className={classes.desc}>{desc || link}</Typography>
+                    }
                 </Grid>
 
                 {

@@ -5,6 +5,8 @@ import { useActions, useAppState } from '../Overmind/OvermindHelper';
 import RouteLocation from './Right/Top/RouteLocation';
 import TopRightButtons from './Right/Top/TopRightButtons';
 import ProjectsRoute from './Right/Routes/ProjectsRoute';
+import ContactRoute from './Right/Routes/ContactRoute';
+import SkillsRoute from './Right/Routes/SkillsRoute';
 
 interface Props {
 
@@ -53,7 +55,7 @@ const RightPart: React.FC<Props> = (props) => {
       <TopRightButtons />
     </Grid>
     <Grid id='right-bottom' style={{ height: contentHeight, maxHeight: contentHeight, overflowY: 'auto', }} item xs={12} container className={classes.content} >
-      <ProjectsRoute />
+      <SkillsRoute />
     </Grid>
   </Grid>
 }
