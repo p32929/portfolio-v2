@@ -784,7 +784,7 @@ export class GlobalVars {
                     link: 'https://github.com/p32929/electron-cra-boilerplate'
                 },
                 {
-                    title: 'NodeJS Boilerplate',
+                    title: 'NodeJS_Express_MongoDB_OAuth2_Boilerplate',
                     logo: WebImages.giftIcon,
                     desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
                     link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
