@@ -15,7 +15,7 @@ const getThemeObj = (theme: Theme) => {
 
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
-const Projects: React.FC<Props> = (props) => {
+const ProjectsRoute: React.FC<Props> = (props) => {
     const { } = useActions()
     const { } = useAppState()
 
@@ -31,4 +31,4 @@ const Projects: React.FC<Props> = (props) => {
 
 }
 
-export default Projects;
+export default ProjectsRoute;

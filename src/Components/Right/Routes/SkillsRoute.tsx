@@ -15,7 +15,7 @@ const getThemeObj = (theme: Theme) => {
 
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
-const Skills: React.FC<Props> = (props) => {
+const SkillsRoute: React.FC<Props> = (props) => {
     const { } = useActions()
     const { } = useAppState()
 
@@ -31,4 +31,4 @@ const Skills: React.FC<Props> = (props) => {
 
 }
 
-export default Skills;
+export default SkillsRoute;

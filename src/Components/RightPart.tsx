@@ -4,8 +4,7 @@ import { Theme, Grid, useMediaQuery, useTheme } from "@material-ui/core";
 import { useActions, useAppState } from '../Overmind/OvermindHelper';
 import RouteLocation from './Right/Top/RouteLocation';
 import TopRightButtons from './Right/Top/TopRightButtons';
-import Skills from './Right/Routes/Skills';
-import Projects from './Right/Routes/Projects';
+import ProjectsRoute from './Right/Routes/ProjectsRoute';
 
 interface Props {
 
@@ -54,7 +53,7 @@ const RightPart: React.FC<Props> = (props) => {
       <TopRightButtons />
     </Grid>
     <Grid id='right-bottom' style={{ height: contentHeight, maxHeight: contentHeight, overflowY: 'auto', }} item xs={12} container className={classes.content} >
-      <Projects />
+      <ProjectsRoute />
     </Grid>
   </Grid>
 }
