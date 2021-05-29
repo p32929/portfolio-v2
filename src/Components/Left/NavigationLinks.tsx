@@ -6,6 +6,8 @@ import { GlobalVars } from '../../Others/GlobalVars';
 import { NavLink } from "react-router-dom";
 import SvgHelper from '../../Helpers/SvgHelper';
 import { OurIcons } from '../../Others/OurIcons';
+import { useTheme } from "@material-ui/core/styles";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 interface Props {
 
@@ -32,8 +34,10 @@ const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 const NavigationLinks: React.FC<Props> = (props) => {
     const { showLeftPart } = useActions()
     const { primaryColor } = useAppState()
-
     const classes = useStyles();
+
+    const theme = useTheme()
+    const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
 
     return <Grid container item xs direction='column' justify='center' alignContent='stretch'>
 
@@ -50,14 +54,17 @@ const NavigationLinks: React.FC<Props> = (props) => {
         {
             GlobalVars.navLinks.map((item, index) => {
                 return <Button
+                    activeStyle={{ backgroundColor: primaryColor, color: "white" }}
                     className={classes.link}
                     key={index}
                     onClick={() => {
-
+                        if (belowSm) {
+                            showLeftPart(false)
+                        }
                     }}
                     size='small'
-                // component={NavLink}
-                // to={item.toLowerCase()}
+                    component={NavLink}
+                    to={item.toLowerCase()}
                 >{item}</Button>
 
             })

@@ -7,6 +7,7 @@ import { GlobalMethods } from './Others/GlobalMethods';
 import RightPart from './Components/RightPart';
 import { useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { MemoryRouter, Route, Redirect } from 'react-router-dom';
 
 interface Props {
 
@@ -63,15 +64,21 @@ const App: React.FC<Props> = (props) => {
   return <Grid container className={classes.root} justify='center' alignContent='center' alignItems='center'
     direction='column' style={{ backgroundColor: primaryColor }}>
     <Paper id='container' className={classes.paper} elevation={16}>
-      <Grid container direction='row' className={classes.content}>
-        {
-          getLeftPart()
-        }
+      <MemoryRouter>
+        <Route exact path="/">
+          <Redirect to="/about" />
+        </Route>
 
-        {
-          getRightPart()
-        }
-      </Grid>
+        <Grid container direction='row' className={classes.content}>
+          {
+            getLeftPart()
+          }
+
+          {
+            getRightPart()
+          }
+        </Grid>
+      </MemoryRouter>
     </Paper>
   </Grid>
 }

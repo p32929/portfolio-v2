@@ -7,6 +7,15 @@ import TopRightButtons from './Right/Top/TopRightButtons';
 import ProjectsRoute from './Right/Routes/ProjectsRoute';
 import ContactRoute from './Right/Routes/ContactRoute';
 import SkillsRoute from './Right/Routes/SkillsRoute';
+import AboutRoute from './Right/Routes/AboutRoute';
+import { GlobalVars } from '../Others/GlobalVars';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useLocation
+} from "react-router-dom";
 
 interface Props {
 
@@ -25,6 +34,13 @@ const getThemeObj = (theme: Theme) => {
   }
 }
 
+const routes = [
+  AboutRoute,
+  SkillsRoute,
+  ProjectsRoute,
+  ContactRoute,
+]
+
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const RightPart: React.FC<Props> = (props) => {
@@ -35,6 +51,7 @@ const RightPart: React.FC<Props> = (props) => {
 
   const theme = useTheme()
   const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
+  let location = useLocation();
 
   useEffect(() => {
     const rc = document.getElementById('container')
@@ -49,13 +66,23 @@ const RightPart: React.FC<Props> = (props) => {
     }
   }, [isLeftShowing, belowSm])
 
+  useEffect(() => {
+    document?.getElementById('right-bottom')?.scroll(0, 0)
+  }, [location])
+
   return <Grid id='right-container' container xs item direction='row' alignContent='flex-start'  >
     <Grid id='right-top' container direction='row' className={classes.root} justify='space-between' alignItems='flex-start' alignContent='flex-start'>
       <RouteLocation />
       <TopRightButtons />
     </Grid>
     <Grid id='right-bottom' style={{ height: contentHeight, maxHeight: contentHeight, overflowY: 'auto', }} item xs={12} container className={classes.content} >
-      <SkillsRoute />
+      <Switch>
+        {
+          GlobalVars.navLinks.map((item, index) => {
+            return <Route exact path={`/${item.toLowerCase()}`} component={routes[index]} />
+          })
+        }
+      </Switch>
     </Grid>
   </Grid>
 }
