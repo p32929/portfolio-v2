@@ -1,5 +1,6 @@
 import { OurIcons } from "./OurIcons"
-import { navBottomLinksInterface, TitledListItemInterface } from "./Interfaces"
+import { NavBottomLinksInterface, TitledListItemInterface } from "./Interfaces"
+import { WebImages } from "./Images"
 
 export class GlobalVars {
 
@@ -16,7 +17,7 @@ export class GlobalVars {
         "Contact",
     ]
 
-    static navBottomLinks: Array<navBottomLinksInterface> = [
+    static navBottomLinks: Array<NavBottomLinksInterface> = [
         {
             svgPath: OurIcons.whatsappIcon,
             link: 'https://api.whatsapp.com/send?phone=8801796306262'
@@ -449,5 +450,441 @@ export class GlobalVars {
 
             ]
         },
+    ]
+
+
+    static projects: Array<TitledListItemInterface> = [
+        {
+            text: "Android Apps",
+            arr: [
+                {
+                    title: 'Desplash',
+                    logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
+                    desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
+                    link: 'https://apkpure.com/desplash-beautiful-automatic-unsplash-wallpapers/p32929.desplash'
+                },
+                {
+                    title: 'The Great Postman',
+                    logo: 'https://lh3.googleusercontent.com/ni-lk3b2nTMZyC7r1wYBW6cm9eYqGAN-t6fXV-kD0lSyw1lO3kenC1We71fZjSryvFII=s180',
+                    desc: 'Powerful, Lightweight REST API client for Android',
+                    link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
+                },
+                {
+                    title: 'Sleepy - Addiction Remover',
+                    logo: 'https://lh3.googleusercontent.com/vvp6Ev33xPerWBBOtIRyAHl7k5c4wQ72hGwG3EU4JC-BTjfvb5DSJDeMABaRg0fy_KI=s180',
+                    desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
+                    link: 'https://apkpure.com/sleepy-phone-addiction-controller/p32929.lazyphone'
+                },
+                {
+                    title: 'Best CGPA Calculator',
+                    logo: 'https://lh3.googleusercontent.com/trpGkuBRWnBXNDNyts-7ePwmPtTLQ_8pKoMWi-6Iy8eBomjZ8XrVi4zQcEWrmoGLKA=s180',
+                    desc: 'A simple yet effective CGPA Calculator for University students',
+                    link: 'https://apkpure.com/best-cgpa-calculator/p32929.cgpa_calculator2'
+                },
+                {
+                    title: 'Buy Sell BD',
+                    logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmJ1eXNlbGxiZF9pY29uXzE1NTkyOTQ5NjVfMDYz/icon.png?w=170&fakeurl=1',
+                    desc: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
+                    link: 'https://apkpure.com/p/p32929.buysellbd'
+                },
+                {
+                    title: 'ExIn',
+                    logo: 'https://lh3.googleusercontent.com/X8mRJd7JajvDXoW7NaluKt2IvC3osH6czkTPoWeSYJ96U2LWLKT4xiFgvNouwf-UvEk=s180',
+                    desc: 'A Simple & user friendly income-expense tracker ',
+                    link: 'https://play.google.com/store/apps/details?id=p32929.exin'
+                },
+                {
+                    title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮ - (Discontinued)',
+                    logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
+                    desc: 'FIFA Worldcup 2018 All In One ',
+                    link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
+                },
+                {
+                    title: 'I am free',
+                    logo: 'https://lh3.googleusercontent.com/LIgX0ABT8z3MFILXFfrXK7vNO9j0hTxJ2aSdGwdcsdJUtViMWAsKXEiG65g94dV_i7JE=s180',
+                    desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
+                    link: 'https://apkpure.com/i-am-free/p32929.imfree'
+                },
+                {
+                    title: 'Awesome NCTB',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5uY3RiX2ljb25fMTU3NjU3MjcwNF8wMjI/icon.png?fakeurl=1',
+                    desc: 'Download NCTB Books easily and Free',
+                    link: 'https://apkpure.com/awesome-nctb/org.richit.nctb'
+                },
+                {
+                    title: 'বৃক্ষ ( Brikkho )',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
+                    desc: 'Learn about trees in your fingertips',
+                    link: 'https://apkpure.com/p/org.richit.brikkho'
+                },
+                {
+                    title: 'IQQuiz',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
+                    desc: 'A simple IQ game',
+                    link: 'https://apkpure.com/p/org.richit.iqquizapp'
+                },
+                {
+                    title: 'BirdsLover',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5iaXJkc2xvdmVyX2ljb25fMTU3MjAwNDIxNl8wOTE/icon.png?fakeurl=1',
+                    desc: 'Learn about birds in your fingertips',
+                    link: 'https://apkpure.com/birdslover/org.richit.birdslover'
+                },
+                {
+                    title: 'Animal Lover',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5hbmltYWxfaWNvbl8xNTc3MjkyMzIzXzAyMw/icon.png?fakeurl=1',
+                    desc: 'Learn about birds in your fingertips',
+                    link: 'https://apkpure.com/p/org.richit.animal'
+                },
+                {
+                    title: 'Jibanananda Recitation (Abritti)',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5qaWJvbmFuZG9rb2JpdGFzb21vZ3JvX2ljb25fMTU3MDEwNDExNF8wNDc/icon.png?fakeurl=1',
+                    desc: '50+ poems of Jibanananda Das with audio recitation',
+                    link: 'https://apkpure.com/jibanananda-recitation-abritti/org.richit.jibonandokobitasomogro'
+                },
+                {
+                    title: 'MyEyes',
+                    logo: 'https://image.flaticon.com/icons/svg/1614/1614505.svg',
+                    desc: 'Indoor Navigation App for Blind People',
+                    link: ''
+                },
+                {
+                    title: 'BirthdayBot',
+                    logo: 'https://image.flaticon.com/icons/svg/415/415587.svg',
+                    desc: 'Birthday wishing apps, made for individual people...',
+                    link: ''
+                },
+            ]
+        },
+        {
+            text: "WebApps",
+            arr: [
+                {
+                    title: 'SendMoney2Me',
+                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    desc: 'Ways to send me money directly',
+                    link: 'https://p32929.github.io/SendMoney2Me/'
+                },
+                {
+                    title: 'My App (V2)',
+                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    desc: 'V2 of my App - Created using ReactJS',
+                    link: 'https://p32929.github.io'
+                },
+                {
+                    title: 'Sha1ToMd5',
+                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
+                    link: 'https://p32929.github.io/Sha1ToMd5'
+                },
+                {
+                    title: 'BadgesGenerator',
+                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    desc: 'Badge generator for your github readme.',
+                    link: 'https://p32929.github.io/Badges/'
+                },
+                {
+                    title: 'My App (V1)',
+                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    desc: 'Created using ReactJS',
+                    link: 'https://p32929.github.io/Portfolio'
+                },
+                {
+                    title: 'IndecisionApp',
+                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    desc: 'My first ReactJS app',
+                    link: 'https://p32929.github.io/IndecisionApp'
+                },
+
+            ]
+        },
+        {
+            text: "Android Libraries",
+            arr: [
+                {
+                    title: 'AndroidEasySQL-Library',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'An Easier & Lazier approach to SQL database for Android',
+                    link: 'https://github.com/p32929/AndroidEasySQL-Library'
+                },
+                {
+                    title: 'FayazPermissions',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
+                    link: 'https://github.com/p32929/FayazPermissions'
+                },
+                {
+                    title: 'AndroidAppLockscreen',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
+                    link: 'https://github.com/p32929/AndroidAppLockscreen'
+                },
+                {
+                    title: 'ManufacturerBatteryOptimization',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'Simple helper class for Android Battery Optimization ignoring in some devices',
+                    link: 'https://gist.github.com/p32929/41e7af650f6a2c11e9306ab600fb9b03'
+                },
+                {
+                    title: 'MyHouseAdsAndroid',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A library for cross promoting own apps within own apps - for Android',
+                    link: 'https://github.com/p32929/MyHouseAdsAndroid'
+                },
+                {
+                    title: 'HouseAds2',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A library ( V2 ) for cross promoting own apps within own apps - for Android',
+                    link: 'https://github.com/p32929/HouseAds2'
+                },
+                {
+                    title: 'AndroidAppUpdater',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A simple, Lightweight App Updater Library for Android',
+                    link: 'https://github.com/p32929/AndroidAppUpdater'
+                },
+                {
+                    title: 'OfficeAbout',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A simple about screen library for Android for a Team of people',
+                    link: 'https://github.com/p32929/OfficeAbout'
+                },
+                {
+                    title: 'JsonViewerAndroid',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A simple JSON Viewer for Android',
+                    link: 'https://github.com/p32929/JsonViewerAndroid'
+                },
+                {
+                    title: 'Android-Receivers-Library',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A library for simpler BroadcastReceiver implementations',
+                    link: 'https://github.com/p32929/Android-Receivers-Library'
+                },
+
+            ]
+        },
+        {
+            text: "Desktop App/Scripts",
+            arr: [
+                {
+                    title: 'PotatoTimer',
+                    logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+                    desc: 'A pomotodo app that forces you to take a break - created using ElectronJS',
+                    link: 'https://github.com/p32929/Electron-Pomotodo'
+                },
+                {
+                    title: 'Shortcut-Virus-Remover',
+                    logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+                    desc: 'Shortcut virus remover app for Windows',
+                    link: 'https://github.com/p32929/Shortcut-Virus-Remover'
+                },
+                {
+                    title: 'Linux_Screen_Dimmer',
+                    logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+                    desc: 'A simple screen dimming utility for linux',
+                    link: 'https://github.com/p32929/Linux_Screen_Dimmer'
+                },
+                {
+                    title: 'MoodyLauncher',
+                    logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+                    desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
+                    link: 'https://github.com/p32929/MoodyLauncher'
+                },
+            ]
+        },
+        {
+            text: "NDAs",
+            arr: [
+                {
+                    title: 'Shajao',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'Thamao',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'GeenPunt',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'AdsHacker',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'Fast English Academy',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'Konika',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'GiftApps',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'NumberredPaste',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'ClockedAdmin',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'And More...',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                }
+            ]
+        },
+        {
+            text: "Flutter Libraries",
+            arr: [
+                {
+                    title: 'EasiestDB',
+                    logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg',
+                    desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
+                    link: 'https://pub.dev/packages/easiestdb'
+                },
+            ]
+        },
+        {
+            text: "Boilerplates",
+            arr: [
+                {
+                    title: 'ReactHtmlBoilerplate',
+                    logo: WebImages.giftIcon,
+                    desc: 'A boilerplate for normal ReactJS and HTML',
+                    link: 'https://github.com/p32929/ReactHtmlBoilerplate'
+                },
+                {
+                    title: 'electron-cra-boilerplate',
+                    logo: WebImages.giftIcon,
+                    desc: 'A boilerplate for Electron + Create React App',
+                    link: 'https://github.com/p32929/electron-cra-boilerplate'
+                },
+                {
+                    title: 'NodeJS Boilerplate',
+                    logo: WebImages.giftIcon,
+                    desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
+                    link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
+                },
+                {
+                    title: 'React-Materialui-Boilerplate',
+                    logo: WebImages.giftIcon,
+                    desc: 'A boilerplate for ReactJS + materialUI',
+                    link: 'https://github.com/p32929/React-Materialui-Boilerplate'
+                },
+                {
+                    title: 'Reactron - P32929',
+                    logo: WebImages.giftIcon,
+                    desc: 'A tiny Electron + React + React Router + Material UI + Overmind boilerplate',
+                    link: 'https://github.com/p32929/React-Materialui-Boilerplate'
+                },
+            ]
+        },
+        {
+            text: "Others",
+            arr: [
+                {
+                    title: 'CGPA_Calculator',
+                    logo: WebImages.giftIcon,
+                    desc: 'CGPA Calculator made using C',
+                    link: 'https://github.com/p32929/CGPA_Calculator'
+                },
+                {
+                    title: 'PersonalDiary',
+                    logo: WebImages.giftIcon,
+                    desc: 'A personal diary writer created using C',
+                    link: 'https://github.com/p32929/PersonalDiary'
+                },
+                {
+                    title: 'PaGeHe',
+                    logo: WebImages.giftIcon,
+                    desc: 'Password generators created using C++',
+                    link: 'https://github.com/p32929/PaGeHe'
+                },
+                {
+                    title: 'MathBlitz',
+                    logo: WebImages.giftIcon,
+                    desc: 'Simple math game created using C',
+                    link: 'https://github.com/p32929/MathBlitz'
+                },
+                {
+                    title: 'PaGeHa',
+                    logo: WebImages.giftIcon,
+                    desc: 'Password generator created using C',
+                    link: 'https://github.com/p32929/PaGeHa'
+                },
+                {
+                    title: 'TicTacToe',
+                    logo: WebImages.giftIcon,
+                    desc: 'A TicTacToe game made using C ',
+                    link: 'https://github.com/p32929/TicTacToe'
+                },
+                {
+                    title: 'Server_up_down_checker_and_notifier',
+                    logo: WebImages.giftIcon,
+                    desc: 'Server up-down checker created using python',
+                    link: 'https://github.com/p32929/MyPython3Scripts/blob/master/Server_up_down_checker_and_notifier.py'
+                },
+                {
+                    title: '.gitignore',
+                    logo: WebImages.giftIcon,
+                    desc: 'A collection of gitignore files that I use',
+                    link: 'https://github.com/p32929/.gitignore'
+                },
+                {
+                    title: 'flutter_state_management_test',
+                    logo: WebImages.giftIcon,
+                    desc: 'A state management demo for Flutter',
+                    link: 'https://github.com/p32929/flutter_state_management_test'
+                },
+                {
+                    title: 'ReduxCounter',
+                    logo: WebImages.giftIcon,
+                    desc: 'A demo for ReactJS and Redux',
+                    link: 'https://github.com/p32929/ReduxCounter'
+                },
+                {
+                    title: 'ReduxCounter',
+                    logo: WebImages.giftIcon,
+                    desc: 'A demo for ReactJS state management libraries',
+                    link: 'https://github.com/p32929/react-state-management'
+                },
+                {
+                    title: 'YandexDirectLinkGenerator',
+                    logo: WebImages.giftIcon,
+                    desc: 'Yandex Disk Direct Link Generator - BATCH',
+                    link: 'https://github.com/p32929/YandexDirectLinkGenerator'
+                },
+                {
+                    title: 'UVA_Solutions',
+                    logo: WebImages.giftIcon,
+                    desc: 'Some UVA solutions',
+                    link: 'https://github.com/p32929/UVA_Solutions'
+                },
+            ]
+        }
     ]
 }

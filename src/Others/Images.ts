@@ -4,5 +4,5 @@ export class LocalImages {
 }
 
 export class WebImages {
-    
+    static giftIcon = 'https://image.flaticon.com/icons/svg/1867/1867817.svg'
 }

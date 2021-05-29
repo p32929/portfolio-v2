@@ -1,4 +1,4 @@
-export interface navBottomLinksInterface {
+export interface NavBottomLinksInterface {
     svgPath: string,
     link: string,
 }
@@ -7,6 +7,7 @@ export interface ListItemInterface {
     title: string,
     desc?: string,
     logo: string,
+    link?: string,
 }
 
 export interface TitledListItemInterface {

@@ -14,6 +14,10 @@ const getThemeObj = (theme: Theme) => {
         root: {
             padding: 2,
         },
+        textContainer: {
+            paddingTop: 16,
+            paddingBottom: 16
+        },
         avatar: {
             margin: 16,
         },
@@ -56,10 +60,10 @@ const OurListItem: React.FC<Props> = (props) => {
 
     return <Grid container item xs={12} sm={12} md={6} lg={6} xl={4} className={classes.root}>
         <Paper elevation={4} style={{ width: '100%' }}>
-            <Grid container direction='row' alignContent='center' alignItems='center'>
+            <Grid container direction='row' >
                 <Avatar variant='square' className={classes.avatar} src={logo} />
 
-                <Grid container direction='column' item xs>
+                <Grid container direction='column' item xs className={classes.textContainer}>
                     <Typography variant='body1' className={classes.title}>{title}</Typography>
                     <Typography variant='body2' className={classes.desc}>{desc}</Typography>
                 </Grid>
