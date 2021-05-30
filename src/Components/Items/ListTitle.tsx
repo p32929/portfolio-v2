@@ -1,9 +1,9 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
-import { Button, Divider, Grid, IconButton, Theme, Typography } from "@material-ui/core";
-import { useActions, useAppState } from '../../Overmind/OvermindHelper';
+import {makeStyles} from '@material-ui/core/styles';
+import {Grid, Theme, Typography} from "@material-ui/core";
+import {useActions, useAppState} from '../../Overmind/OvermindHelper';
 import SvgHelper from '../../Helpers/SvgHelper';
-import { OurIcons } from '../../Others/OurIcons';
+import {OurIcons} from '../../Others/OurIcons';
 
 interface Props {
     title: string,
@@ -28,13 +28,13 @@ const getThemeObj = (theme: Theme) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const ListTitle: React.FC<Props> = (props) => {
-    const { } = useActions()
-    const { } = useAppState()
-    const { title, fontStyle } = props
+    const {} = useActions()
+    const {} = useAppState()
+    const {title, fontStyle} = props
     const classes = useStyles();
 
-    return <Grid container direction='row' alignItems='center' alignContent='center' className={classes.root} >
-        <SvgHelper size={18} path={OurIcons.star} />
+    return <Grid container direction='row' alignItems='center' alignContent='center' className={classes.root}>
+        <SvgHelper size={20} path={OurIcons.star}/>
         <Typography variant='body2' style={fontStyle} className={classes.text}>{title}</Typography>
     </Grid>
 
