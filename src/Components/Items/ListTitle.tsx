@@ -12,7 +12,9 @@ interface Props {
 
 const getThemeObj = (theme: Theme) => {
     return {
-
+        root: {
+            marginLeft: 8,
+        },
         text: {
             marginLeft: 8,
             marginRight: 8,
@@ -31,8 +33,8 @@ const ListTitle: React.FC<Props> = (props) => {
     const { title, fontStyle } = props
     const classes = useStyles();
 
-    return <Grid container direction='row' alignItems='center' alignContent='center' >
-        <SvgHelper size={20} path={OurIcons.star} />
+    return <Grid container direction='row' alignItems='center' alignContent='center' className={classes.root} >
+        <SvgHelper size={18} path={OurIcons.star} />
         <Typography variant='body2' style={fontStyle} className={classes.text}>{title}</Typography>
     </Grid>
 

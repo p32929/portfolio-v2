@@ -56,7 +56,7 @@ const AboutRoute: React.FC<Props> = (props) => {
 
         <Grid item container direction='column' className={classes.textContainer}>
             <ListTitle title="About me" fontStyle={{ fontSize: 20, fontWeight: 'bold', color: "#212121" }} />
-            <Typography variant='body1' className={classes.text}>
+            <Typography className={classes.text}>
                 {GlobalVars.myDetails}
             </Typography>
         </Grid>
