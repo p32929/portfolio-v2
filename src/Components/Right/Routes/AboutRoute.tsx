@@ -26,14 +26,13 @@ const getThemeObj = (theme: Theme) => {
         },
         text: {
             lineHeight: 1.3,
-            fontSize: 16,
+            fontWeight: 400,
             [theme.breakpoints.up('xl')]: {
                 fontSize: 18,
             },
             [theme.breakpoints.down('sm')]: {
                 fontSize: 14,
             },
-
         }
     }
 }
