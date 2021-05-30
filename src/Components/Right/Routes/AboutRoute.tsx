@@ -26,7 +26,10 @@ const getThemeObj = (theme: Theme) => {
         },
         text: {
             lineHeight: 1.3,
-            fontWeight: 500,
+            fontSize: 16,
+            [theme.breakpoints.up('xl')]: {
+                fontSize: 18,
+            },
         }
     }
 }
@@ -43,14 +46,14 @@ const AboutRoute: React.FC<Props> = (props) => {
     const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
 
     return <Grid className={classes.root} container item xs={12} direction='column' justify='flex-end' alignItems='center' alignContent='center'>
-        <Grid style={{ height: 0, padding: 8 }} id='avatarImageGrid' item xs container justify='center'
+        <Grid style={{ height: 0, padding: 4 }} id='avatarImageGrid' item xs container justify='center'
             alignItems='center' alignContent='center'>
             <img style={belowSm ? belowSmAvatarSize : aboveSmAvatarSize} src={LocalImages.avatar_with_laptop} />
         </Grid>
 
         <Grid item container direction='column' className={classes.textContainer}>
             <ListTitle title="About me" fontStyle={{ fontSize: 20, fontWeight: 'bold', color: "#212121" }} />
-            <Typography variant='body1' className={classes.text}>
+            <Typography variant='h6' className={classes.text}>
                 {GlobalVars.myDetails}
             </Typography>
         </Grid>
