@@ -25,7 +25,7 @@ const TopRightButtons: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid container direction='row' justify='flex-end' item xs>
+    return <Grid container direction='row' justify='flex-end' item xs={4}>
         <IconButton size='small' target="_blank" href='https://github.com/p32929/p32929.github.io/'>
             <SvgHelper
                 styles={{ padding: 8 }}

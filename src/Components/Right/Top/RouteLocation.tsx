@@ -42,8 +42,8 @@ const RouteLocation: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid item xs direction='column' container justify='center'>
-        <Grid container item xs direction='row'>
+    return <Grid item xs={8} direction='column' container justify='center'>
+        <Grid item xs>
             <Hidden mdUp>
                 <IconButton size='small' onClick={() => {
                     showLeftPart(true)
@@ -51,14 +51,16 @@ const RouteLocation: React.FC<Props> = (props) => {
                     <SvgHelper path={OurIcons.menu} styles={{ padding: 8 }} size={20} />
                 </IconButton>
             </Hidden>
-
             <Button variant='text' disabled className={classes.currentRoute}>
                 {location.pathname.replace("/", "")}
             </Button>
         </Grid>
-        <Divider style={{
-            backgroundColor: primaryColor
-        }} className={classes.divider} orientation="horizontal" flexItem />
+
+        <Grid item xs>
+            <Divider style={{
+                backgroundColor: primaryColor
+            }} className={classes.divider} orientation="horizontal" flexItem />
+        </Grid>
     </Grid>
 
 }
