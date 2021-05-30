@@ -4,7 +4,7 @@ import { Button, Divider, Grid, Hidden, IconButton, Theme } from "@material-ui/c
 import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
 import SvgHelper from '../../../Helpers/SvgHelper';
 import { OurIcons } from '../../../Others/OurIcons';
-// import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 interface Props {
 
@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const RouteLocation: React.FC<Props> = (props) => {
     const { showLeftPart } = useActions()
-    // let location = useLocation();
+    let location = useLocation();
     const { primaryColor } = useAppState()
 
     const classes = useStyles();
@@ -53,7 +53,7 @@ const RouteLocation: React.FC<Props> = (props) => {
             </Hidden>
 
             <Button variant='text' disabled className={classes.currentRoute}>
-                SKILLS
+                {location.pathname.replace("/", "")}
             </Button>
         </Grid>
         <Divider style={{
