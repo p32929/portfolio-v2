@@ -7,13 +7,12 @@ import { OurIcons } from '../../Others/OurIcons';
 
 interface Props {
     title: string,
+    fontStyle?: any
 }
 
 const getThemeObj = (theme: Theme) => {
     return {
-        root: {
-            paddingLeft: 8
-        },
+
         text: {
             marginLeft: 8,
             marginRight: 8,
@@ -29,12 +28,12 @@ const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 const ListTitle: React.FC<Props> = (props) => {
     const { } = useActions()
     const { } = useAppState()
-    const { title } = props
+    const { title, fontStyle } = props
     const classes = useStyles();
 
-    return <Grid className={classes.root} container direction='row' justify='flex-start' alignItems='center' alignContent='center' >
-        <SvgHelper size={18} path={OurIcons.star} />
-        <Typography variant='body2' className={classes.text}>{title}</Typography>
+    return <Grid container direction='row' alignItems='center' alignContent='center' >
+        <SvgHelper size={20} path={OurIcons.star} />
+        <Typography variant='body2' style={fontStyle} className={classes.text}>{title}</Typography>
     </Grid>
 
 }

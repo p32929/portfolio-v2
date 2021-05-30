@@ -1,15 +1,34 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-import { Button, Divider, Grid, Theme } from "@material-ui/core";
+import { Button, Divider, Grid, Theme, Typography } from "@material-ui/core";
 import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
 import { LocalImages } from '../../../Others/Images';
+import { state } from '../../../Overmind/OvermindState';
+import { useTheme } from "@material-ui/core/styles";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import ListTitle from '../../Items/ListTitle';
+import { GlobalVars } from '../../../Others/GlobalVars';
 
 interface Props {
 
 }
 
+const aboveSmAvatarSize = { height: '95%' }
+const belowSmAvatarSize = { height: 175 }
+
 const getThemeObj = (theme: Theme) => {
-    return {}
+    return {
+        root: {
+            padding: 8
+        },
+        textContainer: {
+            padding: 8
+        },
+        text: {
+            lineHeight: 1.3,
+            fontWeight: 500,
+        }
+    }
 }
 
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
@@ -20,8 +39,22 @@ const AboutRoute: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid container item xs={12} direction='column' justify='flex-end' alignItems='center' alignContent='center'>
-        rebinding
+    const theme = useTheme()
+    const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
+
+    return <Grid className={classes.root} container item xs={12} direction='column' justify='flex-end' alignItems='center' alignContent='center'>
+        <Grid style={{ height: 0, padding: 8 }} id='avatarImageGrid' item xs container justify='center'
+            alignItems='center' alignContent='center'>
+            <img style={belowSm ? belowSmAvatarSize : aboveSmAvatarSize} src={LocalImages.avatar_with_laptop} />
+        </Grid>
+
+        <Grid item container direction='column' className={classes.textContainer}>
+            <ListTitle title="About me" fontStyle={{ fontSize: 20, fontWeight: 'bold', color: "#212121" }} />
+            <Typography variant='body1' className={classes.text}>
+                {GlobalVars.myDetails}
+            </Typography>
+        </Grid>
+
     </Grid>
 
 }
