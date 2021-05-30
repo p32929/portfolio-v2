@@ -14,7 +14,7 @@ interface Props {
 }
 
 const aboveSmAvatarSize = { height: '95%' }
-const belowSmAvatarSize = { height: 175 }
+const belowSmAvatarSize = { height: '75%' }
 
 const getThemeObj = (theme: Theme) => {
     return {
