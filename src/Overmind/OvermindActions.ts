@@ -11,3 +11,7 @@ export const setPrimaryColor = ({ state }: Context, value: string) => {
 export const showLeftPart = ({ state }: Context, value: boolean) => {
     state.isLeftShowing = value;
 }
+
+export const showColorPickerDialog = ({ state }: Context, value: boolean) => {
+    state.isColorPickerDialogShowing = value;
+}

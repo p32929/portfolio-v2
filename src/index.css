@@ -18,7 +18,7 @@ code {
 
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-  background: #FF0000;
+  background: slategrey;
 }
 
 ::-webkit-scrollbar-thumb {

@@ -20,7 +20,7 @@ const getThemeObj = (theme: Theme) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const TopRightButtons: React.FC<Props> = (props) => {
-    const { } = useActions()
+    const { setPrimaryColor, showColorPickerDialog } = useActions()
     const { } = useAppState()
 
     const classes = useStyles();
@@ -33,7 +33,9 @@ const TopRightButtons: React.FC<Props> = (props) => {
                 size={20} />
         </IconButton>
 
-        <IconButton size='small'>
+        <IconButton size='small' onClick={() => {
+            showColorPickerDialog(true)
+        }}>
             <SvgHelper
                 styles={{ padding: 8 }}
                 path={OurIcons.circle}
