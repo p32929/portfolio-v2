@@ -78,7 +78,7 @@ const RightPart: React.FC<Props> = (props) => {
     <Grid id='right-bottom' style={{ height: contentHeight, maxHeight: contentHeight, overflowY: 'auto', }} item xs={12} container className={classes.content} >
       <Switch>
         {
-          GlobalVars.navLinks.map((item, index) => {
+          GlobalVars.routes.map((item, index) => {
             return <Route exact path={`/${item.toLowerCase()}`} component={routes[index]} />
           })
         }

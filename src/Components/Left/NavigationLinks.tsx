@@ -52,7 +52,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
         <Divider style={{ backgroundColor: primaryColor }} className={classes.divider} orientation="horizontal" flexItem />
 
         {
-            GlobalVars.navLinks.map((item, index) => {
+            GlobalVars.routes.map((item, index) => {
                 return <Button
                     activeStyle={{ backgroundColor: primaryColor, color: "white" }}
                     className={classes.link}

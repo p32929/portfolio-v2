@@ -26,7 +26,7 @@ const BottomNavigationLinks: React.FC<Props> = (props) => {
 
     return <Grid container className={classes.root} direction='row' justify='center' alignItems='center' alignContent='center'>
         {
-            GlobalVars.navBottomLinks.map((item, index) => {
+            GlobalVars.bottomLinks.map((item, index) => {
                 return <IconButton className={classes.iconButton} key={index} size='small' target="_blank" href={item.link}>
                     <SvgHelper
                         path={item.svgPath}
