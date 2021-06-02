@@ -49,7 +49,8 @@ const AboutRoute: React.FC<Props> = (props) => {
                  alignItems='center' alignContent='center'>
         <Grid style={{height: 0, padding: 4}} id='avatarImageGrid' item xs container justify='center'
               alignItems='center' alignContent='center'>
-            <img style={belowSm ? belowSmAvatarSize : aboveSmAvatarSize} src={LocalImages.avatar_with_laptop}/>
+            <img style={belowSm ? belowSmAvatarSize : aboveSmAvatarSize}
+                 src={GlobalVars.myRightAvatarImage ?? LocalImages.avatar_with_laptop}/>
         </Grid>
 
         <Grid item container direction='column'>
