@@ -64,30 +64,6 @@ Thanks to everyone for your STARS, WATCHES, FORKS, & VISITS. Special thanks to:
 
 Am I missing anyone? If yes, Let me know
 
-```
-MIT License
-
-Copyright (c) 2020 Fayaz Bin Salam
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-```
 
 # FAQ
 * Can I use it for any personal/commercial project?
@@ -102,5 +78,26 @@ SOFTWARE.
 * Can I contact you if I get stuck while trying to create my own portfolio using the forked source code?
 -> DEFINITELY! :)
 
+## Project Admin👨‍:
+
+<p align="center">
+<img width=20% src="https://avatars.githubusercontent.com/u/6418354?v=4">
+</p>
+
+<a href="https://github.com/p32929">
+<h5 align="center"><b>Fayaz Bin Salam</b></a>
+
 ## Support
 If you like my works and want to support me/my works, feel free to support or donate. My payment details can be found here: https://p32929.github.io/SendMoney2Me/
+
+## Code of Conduct
+<p align="center">
+<a href="https://github.com/p32929/p32929.github.io/blob/react/CODE_OF_CONDUCT.md">
+<img width=35% src="https://cdn-media-1.freecodecamp.org/images/1*v4jyaugHQXBSf2O4D66Onw.gif"></p>
+<h5 align="center"><b>Click to read</b></a>  
+
+## License 
+<p align="center">
+<a href="https://github.com/p32929/p32929.github.io/blob/react/LICENSE">
+<img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
+<h5 align="center"><b>MIT License</b></a> 
