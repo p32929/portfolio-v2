@@ -1,6 +1,6 @@
-import {OurIcons} from "./OurIcons"
-import {NavBottomLinksInterface, TitledListItemInterface} from "./Interfaces"
-import {WebImages} from "./Images"
+import { OurIcons } from "./OurIcons"
+import { NavBottomLinksInterface, TitledListItemInterface } from "./Interfaces"
+import { WebImages } from "./Images"
 
 export class GlobalVars {
 
@@ -911,7 +911,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Anywhere on the internet',
-                    logo: 'https://www.flaticon.com/svg/static/icons/svg/1034/1034456.svg',
+                    logo: 'https://image.flaticon.com/icons/png/512/364/364089.png',
                     link: '@p32929'
                 }
             ]
