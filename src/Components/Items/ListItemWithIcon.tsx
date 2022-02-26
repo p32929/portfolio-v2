@@ -38,7 +38,7 @@ const ListItemWithIcon: React.FC<Props> = (props) => {
         <Grid container direction='row' className={classes.itemRoot}>
             {
                 arr.map((arrItem, index) => {
-                    return <OurListItem item={arrItem} />
+                    return <OurListItem key={index} item={arrItem} />
                 })
             }
         </Grid>

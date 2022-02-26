@@ -2,6 +2,8 @@ import {OurIcons} from "./OurIcons"
 import {NavBottomLinksInterface, TitledListItemInterface} from "./Interfaces"
 import {WebImages} from "./Images"
 
+export const myGithubUsername = "p32929"
+
 export class GlobalVars {
 
     static primaryColor = "#00C853"
@@ -714,24 +716,6 @@ export class GlobalVars {
                     link: 'about:blank'
                 },
                 {
-                    title: 'GeenPunt',
-                    logo: WebImages.giftIcon,
-                    desc: '---',
-                    link: 'about:blank'
-                },
-                {
-                    title: 'AdsHacker',
-                    logo: WebImages.giftIcon,
-                    desc: '---',
-                    link: 'about:blank'
-                },
-                {
-                    title: 'Fast English Academy',
-                    logo: WebImages.giftIcon,
-                    desc: '---',
-                    link: 'about:blank'
-                },
-                {
                     title: 'Konika',
                     logo: WebImages.giftIcon,
                     desc: '---',
@@ -756,6 +740,12 @@ export class GlobalVars {
                     link: 'about:blank'
                 },
                 {
+                    title: 'BreakingMars',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
                     title: 'And More...',
                     logo: WebImages.giftIcon,
                     desc: '---',
@@ -768,130 +758,18 @@ export class GlobalVars {
             arr: [
                 {
                     title: 'EasiestDB',
-                    logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg',
+                    logo: WebImages.flutterIcon,
                     desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
                     link: 'https://pub.dev/packages/easiestdb'
                 },
+                {
+                    title: "Simply Wifi",
+                    logo: WebImages.flutterIcon,
+                    desc: " A simplified version of the wifi_iot package ",
+                    link: "https://github.com/p32929/simply_wifi_flutter"
+                }
             ]
         },
-        {
-            text: "Boilerplates",
-            arr: [
-                {
-                    title: 'ReactHtmlBoilerplate',
-                    logo: WebImages.giftIcon,
-                    desc: 'A boilerplate for normal ReactJS and HTML',
-                    link: 'https://github.com/p32929/ReactHtmlBoilerplate'
-                },
-                {
-                    title: 'electron-cra-boilerplate',
-                    logo: WebImages.giftIcon,
-                    desc: 'A boilerplate for Electron + Create React App',
-                    link: 'https://github.com/p32929/electron-cra-boilerplate'
-                },
-                {
-                    title: 'NodeJS_Express_MongoDB_OAuth2_Boilerplate',
-                    logo: WebImages.giftIcon,
-                    desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
-                    link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
-                },
-                {
-                    title: 'React-Materialui-Boilerplate',
-                    logo: WebImages.giftIcon,
-                    desc: 'A boilerplate for ReactJS + materialUI',
-                    link: 'https://github.com/p32929/React-Materialui-Boilerplate'
-                },
-                {
-                    title: 'Reactron - P32929',
-                    logo: WebImages.giftIcon,
-                    desc: 'A tiny Electron + React + React Router + Material UI + Overmind boilerplate',
-                    link: 'https://github.com/p32929/React-Materialui-Boilerplate'
-                },
-            ]
-        },
-        {
-            text: "Others",
-            arr: [
-                {
-                    title: 'CGPA_Calculator',
-                    logo: WebImages.giftIcon,
-                    desc: 'CGPA Calculator made using C',
-                    link: 'https://github.com/p32929/CGPA_Calculator'
-                },
-                {
-                    title: 'PersonalDiary',
-                    logo: WebImages.giftIcon,
-                    desc: 'A personal diary writer created using C',
-                    link: 'https://github.com/p32929/PersonalDiary'
-                },
-                {
-                    title: 'PaGeHe',
-                    logo: WebImages.giftIcon,
-                    desc: 'Password generators created using C++',
-                    link: 'https://github.com/p32929/PaGeHe'
-                },
-                {
-                    title: 'MathBlitz',
-                    logo: WebImages.giftIcon,
-                    desc: 'Simple math game created using C',
-                    link: 'https://github.com/p32929/MathBlitz'
-                },
-                {
-                    title: 'PaGeHa',
-                    logo: WebImages.giftIcon,
-                    desc: 'Password generator created using C',
-                    link: 'https://github.com/p32929/PaGeHa'
-                },
-                {
-                    title: 'TicTacToe',
-                    logo: WebImages.giftIcon,
-                    desc: 'A TicTacToe game made using C ',
-                    link: 'https://github.com/p32929/TicTacToe'
-                },
-                {
-                    title: 'Server_up_down_checker_and_notifier',
-                    logo: WebImages.giftIcon,
-                    desc: 'Server up-down checker created using python',
-                    link: 'https://github.com/p32929/MyPython3Scripts/blob/master/Server_up_down_checker_and_notifier.py'
-                },
-                {
-                    title: '.gitignore',
-                    logo: WebImages.giftIcon,
-                    desc: 'A collection of gitignore files that I use',
-                    link: 'https://github.com/p32929/.gitignore'
-                },
-                {
-                    title: 'flutter_state_management_test',
-                    logo: WebImages.giftIcon,
-                    desc: 'A state management demo for Flutter',
-                    link: 'https://github.com/p32929/flutter_state_management_test'
-                },
-                {
-                    title: 'ReduxCounter',
-                    logo: WebImages.giftIcon,
-                    desc: 'A demo for ReactJS and Redux',
-                    link: 'https://github.com/p32929/ReduxCounter'
-                },
-                {
-                    title: 'ReduxCounter',
-                    logo: WebImages.giftIcon,
-                    desc: 'A demo for ReactJS state management libraries',
-                    link: 'https://github.com/p32929/react-state-management'
-                },
-                {
-                    title: 'YandexDirectLinkGenerator',
-                    logo: WebImages.giftIcon,
-                    desc: 'Yandex Disk Direct Link Generator - BATCH',
-                    link: 'https://github.com/p32929/YandexDirectLinkGenerator'
-                },
-                {
-                    title: 'UVA_Solutions',
-                    logo: WebImages.giftIcon,
-                    desc: 'Some UVA solutions',
-                    link: 'https://github.com/p32929/UVA_Solutions'
-                },
-            ]
-        }
     ]
 
     static contacts: Array<TitledListItemInterface> = [
