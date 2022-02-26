@@ -1,6 +1,6 @@
-import { OurIcons } from "./OurIcons"
-import { NavBottomLinksInterface, TitledListItemInterface } from "./Interfaces"
-import { WebImages } from "./Images"
+import {OurIcons} from "./OurIcons"
+import {NavBottomLinksInterface, TitledListItemInterface} from "./Interfaces"
+import {WebImages} from "./Images"
 
 export class GlobalVars {
 
@@ -20,7 +20,7 @@ export class GlobalVars {
     static routes: Array<string> = [
         "About",
         "Skills",
-        "Projects",
+        "Works",
         "Contact",
     ]
 
@@ -252,7 +252,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Proton Native',
-                    logo: 'https://img.stackshare.io/service/8517/eE3nAsW.png'
+                    logo: 'http://protonnative-af51.kxcdn.com/images/icon_black.svg'
                 },
                 {
                     title: 'Tauri',
@@ -260,7 +260,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Material-UI',
-                    logo: 'https://camo.githubusercontent.com/cf05625198fe7b6ad8a302d1ce16bc99b93ec2ac/68747470733a2f2f6d6174657269616c2d75692e636f6d2f7374617469632f6c6f676f2e737667'
+                    logo: 'https://v4.mui.com/static/logo_raw.svg'
                 },
                 {
                     title: 'Node GUI',
@@ -376,11 +376,11 @@ export class GlobalVars {
                 },
                 {
                     title: 'VS Code',
-                    logo: 'https://cdn.worldvectorlogo.com/logos/visual-studio-code.svg'
+                    logo: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png'
                 },
                 {
                     title: 'Automation',
-                    logo: 'https://image.flaticon.com/icons/svg/1035/1035688.svg'
+                    logo: 'https://user-images.githubusercontent.com/6418354/155841378-9644305f-c7d1-44f1-bd5f-d626e056601a.png'
                 },
                 {
                     title: 'Gradle',
@@ -459,7 +459,7 @@ export class GlobalVars {
         },
     ]
 
-    static projects: Array<TitledListItemInterface> = [
+    static works: Array<TitledListItemInterface> = [
         {
             text: "Android Apps",
             arr: [
@@ -549,13 +549,13 @@ export class GlobalVars {
                 },
                 {
                     title: 'MyEyes',
-                    logo: 'https://image.flaticon.com/icons/svg/1614/1614505.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'Indoor Navigation App for Blind People',
                     link: ''
                 },
                 {
                     title: 'BirthdayBot',
-                    logo: 'https://image.flaticon.com/icons/svg/415/415587.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'Birthday wishing apps, made for individual people...',
                     link: ''
                 },
@@ -566,37 +566,37 @@ export class GlobalVars {
             arr: [
                 {
                     title: 'SendMoney2Me',
-                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'Ways to send me money directly',
                     link: 'https://p32929.github.io/SendMoney2Me/'
                 },
                 {
                     title: 'My App (V2)',
-                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'V2 of my App - Created using ReactJS',
                     link: 'https://p32929.github.io'
                 },
                 {
                     title: 'Sha1ToMd5',
-                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
                     link: 'https://p32929.github.io/Sha1ToMd5'
                 },
                 {
                     title: 'BadgesGenerator',
-                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'Badge generator for your github readme.',
                     link: 'https://p32929.github.io/Badges/'
                 },
                 {
                     title: 'My App (V1)',
-                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'Created using ReactJS',
                     link: 'https://p32929.github.io/Portfolio'
                 },
                 {
                     title: 'IndecisionApp',
-                    logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'My first ReactJS app',
                     link: 'https://p32929.github.io/IndecisionApp'
                 },
@@ -674,25 +674,25 @@ export class GlobalVars {
             arr: [
                 {
                     title: 'PotatoTimer',
-                    logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'A pomotodo app that forces you to take a break - created using ElectronJS',
                     link: 'https://github.com/p32929/Electron-Pomotodo'
                 },
                 {
                     title: 'Shortcut-Virus-Remover',
-                    logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'Shortcut virus remover app for Windows',
                     link: 'https://github.com/p32929/Shortcut-Virus-Remover'
                 },
                 {
                     title: 'Linux_Screen_Dimmer',
-                    logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'A simple screen dimming utility for linux',
                     link: 'https://github.com/p32929/Linux_Screen_Dimmer'
                 },
                 {
                     title: 'MoodyLauncher',
-                    logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+                    logo: WebImages.giftIcon,
                     desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
                     link: 'https://github.com/p32929/MoodyLauncher'
                 },
@@ -906,7 +906,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'WhatsApp',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
                     link: 'https://api.whatsapp.com/send?phone=8801796306262'
                 },
                 {
@@ -931,7 +931,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Wordpress',
-                    logo: 'https://lh3.googleusercontent.com/FKoZImII3S1CKxDwudC2k1EW8NMDi8FyWRk0_AufAQcixOd-kdll5H32L2lKvGIbVWIB',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155842216-94462fb1-eb1b-4ebc-a987-08293cb63cf7.pngp',
                     link: 'https://p32929.wordpress.com/'
                 },
                 {
@@ -951,22 +951,22 @@ export class GlobalVars {
             arr: [
                 {
                     title: 'LinkedIn',
-                    logo: 'https://image.flaticon.com/icons/svg/174/174857.svg',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155841027-8698cb12-7ddd-4604-a4ea-c618ddbc1cd8.png',
                     link: 'https://www.linkedin.com/in/p32929/'
                 },
                 {
                     title: 'Reddit',
-                    logo: 'https://image.flaticon.com/icons/svg/174/174866.svg',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155841029-b3fd8a2d-3f7b-4f24-b06b-4b2337ad7280.png',
                     link: 'https://www.reddit.com/user/p32929'
                 },
                 {
                     title: 'Twitter',
-                    logo: 'https://image.flaticon.com/icons/svg/733/733579.svg',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155841031-532d5d6e-797a-4da1-8064-48d266b69ab2.png',
                     link: 'https://twitter.com/p32929'
                 },
                 {
                     title: 'Instagram',
-                    logo: 'https://image.flaticon.com/icons/svg/2111/2111463.svg',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155841023-0b842621-56a3-42ec-81f1-3944034b09c7.png',
                     link: 'https://www.instagram.com/p32929/'
                 },
                 {

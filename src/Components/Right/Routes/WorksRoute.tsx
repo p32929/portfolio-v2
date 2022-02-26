@@ -15,7 +15,7 @@ const getThemeObj = (theme: Theme) => {
 
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
-const ProjectsRoute: React.FC<Props> = (props) => {
+const WorksRoute: React.FC<Props> = (props) => {
     const { } = useActions()
     const { } = useAppState()
 
@@ -23,7 +23,7 @@ const ProjectsRoute: React.FC<Props> = (props) => {
 
     return <Grid container xs={12} item direction='row'>
         {
-            GlobalVars.projects.map((item, index) => {
+            GlobalVars.works.map((item, index) => {
                 return <ListItemWithIcon item={item} />
             })
         }
@@ -31,4 +31,4 @@ const ProjectsRoute: React.FC<Props> = (props) => {
 
 }
 
-export default ProjectsRoute;
+export default WorksRoute;

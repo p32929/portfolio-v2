@@ -4,7 +4,7 @@ import { Theme, Grid, useMediaQuery, useTheme } from "@material-ui/core";
 import { useActions, useAppState } from '../Overmind/OvermindHelper';
 import RouteLocation from './Right/Top/RouteLocation';
 import TopRightButtons from './Right/Top/TopRightButtons';
-import ProjectsRoute from './Right/Routes/ProjectsRoute';
+import WorksRoute from './Right/Routes/WorksRoute';
 import ContactRoute from './Right/Routes/ContactRoute';
 import SkillsRoute from './Right/Routes/SkillsRoute';
 import AboutRoute from './Right/Routes/AboutRoute';
@@ -37,7 +37,7 @@ const getThemeObj = (theme: Theme) => {
 const routes = [
   AboutRoute,
   SkillsRoute,
-  ProjectsRoute,
+  WorksRoute,
   ContactRoute,
 ]
 
