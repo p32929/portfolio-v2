@@ -900,23 +900,23 @@ export class GlobalVars {
             arr: [
                 {
                     title: 'Skype',
-                    logo: 'https://image.flaticon.com/icons/svg/174/174869.svg',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
                     desc: 'p32929',
                     link: 'skype:p32929?chat'
                 },
                 {
                     title: 'WhatsApp',
-                    logo: 'https://image.flaticon.com/icons/svg/733/733585.svg',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
                     link: 'https://api.whatsapp.com/send?phone=8801796306262'
                 },
                 {
                     title: 'Facebook',
-                    logo: 'https://image.flaticon.com/icons/svg/124/124010.svg',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155840898-9e2327aa-a280-45e3-8266-8268242abda4.png',
                     link: 'https://www.facebook.com/p32929'
                 },
                 {
                     title: 'Anywhere on the internet',
-                    logo: 'https://image.flaticon.com/icons/png/512/364/364089.png',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155840900-91ac076a-8d2b-45dc-b346-66f72d376d4b.png',
                     link: '@p32929'
                 }
             ]
