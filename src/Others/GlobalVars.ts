@@ -931,7 +931,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Wordpress',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155842216-94462fb1-eb1b-4ebc-a987-08293cb63cf7.pngp',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155842668-283b2424-e090-4149-b8af-1f39eb2dd982.png',
                     link: 'https://p32929.wordpress.com/'
                 },
                 {
