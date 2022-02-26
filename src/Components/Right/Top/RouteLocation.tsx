@@ -1,10 +1,10 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
-import { Button, Divider, Grid, Hidden, IconButton, Theme } from "@material-ui/core";
-import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
+import {makeStyles} from '@material-ui/core/styles';
+import {Button, Divider, Grid, Hidden, IconButton, Theme} from "@material-ui/core";
+import {useActions, useAppState} from '../../../Overmind/OvermindHelper';
 import SvgHelper from '../../../Helpers/SvgHelper';
-import { OurIcons } from '../../../Others/OurIcons';
-import { useLocation } from "react-router-dom";
+import {OurIcons} from '../../../Others/OurIcons';
+import {useLocation} from "react-router-dom";
 
 interface Props {
 
@@ -36,9 +36,9 @@ const getThemeObj = (theme: Theme) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const RouteLocation: React.FC<Props> = (props) => {
-    const { showLeftPart } = useActions()
+    const {showLeftPart} = useActions()
     let location = useLocation();
-    const { primaryColor } = useAppState()
+    const {primaryColor} = useAppState()
 
     const classes = useStyles();
 
@@ -48,7 +48,9 @@ const RouteLocation: React.FC<Props> = (props) => {
                 <IconButton size='small' onClick={() => {
                     showLeftPart(true)
                 }}>
-                    <SvgHelper path={OurIcons.menu} styles={{ padding: 8 }} size={20} />
+                    <div className='bounce'>
+                        <SvgHelper path={OurIcons.menu} styles={{padding: 8}} size={20}/>
+                    </div>
                 </IconButton>
             </Hidden>
             <Button variant='text' disabled className={classes.currentRoute}>
@@ -59,7 +61,7 @@ const RouteLocation: React.FC<Props> = (props) => {
         <Grid item xs>
             <Divider style={{
                 backgroundColor: primaryColor
-            }} className={classes.divider} orientation="horizontal" flexItem />
+            }} className={classes.divider} orientation="horizontal" flexItem/>
         </Grid>
     </Grid>
 

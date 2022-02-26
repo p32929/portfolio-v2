@@ -8,6 +8,6 @@ export interface State {
 
 export const state: State = {
     primaryColor: GlobalVars.primaryColor,
-    isLeftShowing: true,
+    isLeftShowing: false,
     isColorPickerDialogShowing: false
 }
