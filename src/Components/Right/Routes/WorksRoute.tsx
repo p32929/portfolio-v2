@@ -6,6 +6,7 @@ import {GlobalVars, myGithubUsername} from '../../../Others/GlobalVars';
 import ListItemWithIcon from '../../Items/ListItemWithIcon';
 import {OurIcons} from "../../../Others/OurIcons";
 import {WebImages} from "../../../Others/Images";
+import {TitledListItemInterface} from "../../../Others/Interfaces";
 
 interface Props {
 
@@ -26,33 +27,38 @@ const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 const WorksRoute: React.FC<Props> = (props) => {
     const {} = useActions()
     const {} = useAppState()
-    const [works, setWorks] = useState([])
+    const [works, setWorks] = useState<Array<TitledListItemInterface>>([])
     const classes = useStyles();
 
-    useEffect(async () => {
+    useEffect(() => {
         if (myGithubUsername) {
-            const ab = await fetch(`https://api.github.com/users/${myGithubUsername}/repos?per_page=999`)
-            const json: Array<GithubResp> = await ab.json()
+            fetch(`https://api.github.com/users/${myGithubUsername}/repos?per_page=999`)
+                .then((data) => {
+                    data.json()
+                        .then((jsonFromFetch) => {
+                            const json: Array<GithubResp> = jsonFromFetch
 
-            var newWorks = [
-                ...GlobalVars.works
-            ]
-            var newWOrkObj = {
-                text: "Github repositories",
-                arr: []
-            }
+                            var newWorks: Array<TitledListItemInterface> = [
+                                ...GlobalVars.works
+                            ]
+                            var newWOrkObj: TitledListItemInterface = {
+                                text: "Github repositories",
+                                arr: []
+                            }
 
-            for (var i = 0; i < json.length; i++) {
-                const obj = json[i]
-                newWOrkObj.arr.push({
-                    title: obj.name,
-                    logo: WebImages.giftIcon,
-                    desc: obj.description ?? "Lots of amazingness",
-                    link: obj.html_url
+                            for (var i = 0; i < json.length; i++) {
+                                const obj = json[i]
+                                newWOrkObj.arr.push({
+                                    title: obj.name,
+                                    logo: WebImages.giftIcon,
+                                    desc: obj.description ?? "Lots of amazingness",
+                                    link: obj.html_url
+                                })
+                            }
+                            newWorks.push(newWOrkObj)
+                            setWorks(newWorks)
+                        })
                 })
-            }
-            newWorks.push(newWOrkObj)
-            setWorks(newWorks)
         }
 
     }, [])
