@@ -137,7 +137,7 @@ export class GlobalVars {
                     title: 'R',
                     logo: "https://www.r-project.org/Rlogo.png"
                 },
-
+                
 
             ]
         },
@@ -854,9 +854,15 @@ export class GlobalVars {
                 },
                 {
                     title: "Freelancer",
-                    logo: "https://lh3.googleusercontent.com/EXMdy4ai6HHl_Ze8vxC7pdQzfS0HFiZ70F2IdPq_VuYropTkrUFyPPlftbPKEbhISg",
+                    logo: "https://cdn.worldvectorlogo.com/logos/freelancer-1.svg",
                     link: "https://www.freelancer.com/u/p32929"
-                }
+                },
+                {
+                    title: "Upwork",
+                    logo: "https://cdn.worldvectorlogo.com/logos/upwork.svg",
+                    link: "https://www.freelancer.com/u/p32929"
+                },
+                
             ]
         },
         {
