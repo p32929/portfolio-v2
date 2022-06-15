@@ -58,39 +58,8 @@ const WorksRoute: React.FC<Props> = (props) => {
 
     useEffect(() => {
         if (myGithubUsername) {
-            getGithubRepos()
+            // getGithubRepos()
         }
-
-        if (myGithubUsername) {
-            fetch(`https://api.github.com/users/${myGithubUsername}/repos?per_page=999`)
-                .then((data) => {
-                    data.json()
-                        .then((jsonFromFetch) => {
-                            const json: Array<GithubResp> = jsonFromFetch
-
-                            var newWorks: Array<TitledListItemInterface> = [
-                                ...GlobalVars.works
-                            ]
-                            var newWOrkObj: TitledListItemInterface = {
-                                text: "Github repositories",
-                                arr: []
-                            }
-
-                            for (var i = 0; i < json.length; i++) {
-                                const obj = json[i]
-                                newWOrkObj.arr.push({
-                                    title: obj.name,
-                                    logo: WebImages.giftIcon,
-                                    desc: obj.description ?? "Lots of amazingness",
-                                    link: obj.html_url
-                                })
-                            }
-                            newWorks.push(newWOrkObj)
-                            setWorks(newWorks)
-                        })
-                })
-        }
-
     }, [])
 
     const getWorks = () => {
