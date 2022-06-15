@@ -1,6 +1,6 @@
 import React from 'react'
 import {makeStyles} from '@material-ui/core/styles';
-import {Avatar, Grid, IconButton, Paper, Theme, Typography} from "@material-ui/core";
+import {Avatar, Grid, IconButton, Paper, Theme, Tooltip, Typography} from "@material-ui/core";
 import {useActions, useAppState} from '../../Overmind/OvermindHelper';
 import {ListItemInterface} from '../../Others/Interfaces';
 import SvgHelper from '../../Helpers/SvgHelper';
@@ -32,7 +32,8 @@ const getThemeObj = (theme: Theme) => {
             color: "#757575",
             lineHeight: 1.25,
             overflow: 'hidden',
-        }
+        },
+        tooltip: {}
     }
 }
 
@@ -40,14 +41,22 @@ const getLinkIcon = (url: string | undefined) => {
     if (url) {
         if (url.toString().includes('http') || url.toString().includes('skype:')) {
             return <Grid style={{paddingTop: 16}}>
-                <IconButton target="_blank"
-                            href={url}
-                            size='small'>
-                    <SvgHelper
-                        path={OurIcons.linkIcon}
-                        styles={{padding: 8}}
-                        size={22}/>
-                </IconButton>
+                <Tooltip title={
+                    <Typography style={{
+                        fontSize: 12
+                    }}>
+                        {url}
+                    </Typography>
+                } arrow>
+                    <IconButton target="_blank"
+                                href={url}
+                                size='small'>
+                        <SvgHelper
+                            path={OurIcons.linkIcon}
+                            styles={{padding: 8}}
+                            size={22}/>
+                    </IconButton>
+                </Tooltip>
             </Grid>
         }
     }
