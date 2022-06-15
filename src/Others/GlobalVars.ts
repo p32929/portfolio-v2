@@ -270,6 +270,11 @@ export class GlobalVars {
                     title: 'Cordova',
                     logo: 'https://cordova.apache.org/static/img/cordova_bot.png'
                 },
+                {
+                    title: 'Svelte',
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/498px-Svelte_Logo.svg.png?20191219133350'
+                },
+
 
             ]
         },
