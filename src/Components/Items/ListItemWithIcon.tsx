@@ -37,7 +37,7 @@ const ListItemWithIcon: React.FC<Props> = (props) => {
         <ListTitle title={text} />
         <Grid container direction='row' className={classes.itemRoot}>
             {
-                arr.map((arrItem, index) => {
+                arr.sort((a, b) => a.title.localeCompare(b.title)).map((arrItem, index) => {
                     return <OurListItem key={index} item={arrItem} />
                 })
             }

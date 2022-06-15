@@ -71,7 +71,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'SQL',
-                    logo: 'https://www.svgrepo.com/show/255832/sql.svg',
+                    logo: 'https://w7.pngwing.com/pngs/28/601/png-transparent-sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo-thumbnail.png',
                 },
                 {
                     title: 'HTML',
@@ -87,11 +87,11 @@ export class GlobalVars {
                 },
                 {
                     title: 'VBScript',
-                    logo: 'https://banner2.kisspng.com/20180409/cxe/kisspng-vbscript-scripting-language-visual-basic-microsoft-analyst-5acc162b6da676.9666584115233244594491.jpg',
+                    logo: 'https://w7.pngwing.com/pngs/237/332/png-transparent-vbscript-scripting-language-visual-basic-microsoft-analyst-angle-text-rectangle-thumbnail.png',
                 },
                 {
-                    title: 'Batch',
-                    logo: 'https://cdn0.iconfinder.com/data/icons/software-4/24/console_command_prompt_shell_program-512.png',
+                    title: 'Windows Batch',
+                    logo: 'https://icon-library.com/images/batch-icon/batch-icon-13.jpg',
                 },
                 {
                     title: 'Bash/Shell/PowerShell',
@@ -137,8 +137,6 @@ export class GlobalVars {
                     title: 'R',
                     logo: "https://www.r-project.org/Rlogo.png"
                 },
-                
-
             ]
         },
         {
@@ -161,6 +159,10 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg'
                 },
                 {
+                    title: 'Redux',
+                    logo: 'https://w7.pngwing.com/pngs/669/447/png-transparent-redux-react-javascript-freecodecamp-npm-others-miscellaneous-purple-violet-thumbnail.png'
+                },
+                {
                     title: 'React Native',
                     logo: 'https://images.codedaily.io/icons/react.svg'
                 },
@@ -174,11 +176,11 @@ export class GlobalVars {
                 },
                 {
                     title: 'MongoDB',
-                    logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg'
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/mongodb-3521676-2945120.png'
                 },
                 {
                     title: 'Mongoose',
-                    logo: 'https://images.opencollective.com/proxy/images?src=https%3A%2F%2Fopencollective-production.s3-us-west-1.amazonaws.com%2F7a00cdd0-fae4-11e7-ae09-7f36f712693a.png&height=640'
+                    logo: 'https://avatars.githubusercontent.com/u/7552965?s=200&v=4'
                 },
                 {
                     title: 'OAuth2',
@@ -190,7 +192,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'NextJS',
-                    logo: 'https://foxundermoon.gallerycdn.vsassets.io/extensions/foxundermoon/next-js/0.0.2/1507561739278/Microsoft.VisualStudio.Services.Icons.Default'
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/207px-Nextjs-logo.svg.png'
                 },
                 {
                     title: 'OpenCV',
@@ -217,64 +219,28 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg'
                 },
                 {
-                    title: 'BS4',
-                    logo: 'https://funthon.files.wordpress.com/2017/05/bs.png?w=772'
+                    title: 'Beautiful soup',
+                    logo: 'https://play-lh.googleusercontent.com/yMjUC6LBh7uOCK6wUcIEf5MHZQmSqDPXoInOQLZzw0DWQsPJuvkwSymX2zI4Ok7i_BY=w240-h480'
                 },
                 {
                     title: 'Numpy',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/1200px-NumPy_logo.svg.png'
-                },
-                {
-                    title: 'Matplotlib',
-                    logo: 'https://matplotlib.org/_static/logo2_compressed.svg'
-                },
-                {
-                    title: 'Back4App',
-                    logo: 'https://opencollective-production.s3-us-west-1.amazonaws.com/ff3687f0-d07e-11e7-a850-7b3f8e88e105.png'
-                },
-                {
-                    title: 'WebExtension APIs',
-                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJZSwdd8p6dxuCSAFToE-wLoGNi47Mak6-KPixx7fIg654rZoR'
+                    logo: 'https://numpy.org/images/logo.svg'
                 },
                 {
                     title: 'QT',
                     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Qt_logo_2016.svg/1200px-Qt_logo_2016.svg.png'
                 },
                 {
-                    title: 'Chromely',
-                    logo: 'https://raw.githubusercontent.com/chromelyapps/Chromely/master/nugets/chromely.ico'
-                },
-                {
-                    title: 'NW.js',
-                    logo: 'https://nwjs.io/img/logo.png'
-                },
-                {
-                    title: 'Neutralinojs',
-                    logo: 'https://camo.githubusercontent.com/bcd2e8e127e0587f421465b88ef9e6791a9d07764412c38211ae09ae51a933c6/68747470733a2f2f63646e2e7261776769742e636f6d2f6e65757472616c696e6f6a732f6e65757472616c696e6f6a732e6769746875622e696f2f62363637663263322f646f63732f6e6c6c6f676f2e706e67'
-                },
-                {
-                    title: 'Proton Native',
-                    logo: 'http://protonnative-af51.kxcdn.com/images/icon_black.svg'
-                },
-                {
                     title: 'Tauri',
-                    logo: 'https://user-images.githubusercontent.com/2774845/75100245-79e51600-55cb-11ea-8ea3-2b12063e41fa.png'
+                    logo: 'https://raw.githubusercontent.com/tauri-apps/tauri/HEAD/app-icon.png'
                 },
                 {
                     title: 'Material-UI',
                     logo: 'https://v4.mui.com/static/logo_raw.svg'
                 },
                 {
-                    title: 'Node GUI',
-                    logo: 'https://raw.githubusercontent.com/nodegui/nodegui/master/extras/logo/nodegui.png'
-                },
-                {
-                    title: 'GSON',
-                    logo: 'https://s.appbrain.com/static/202105261605665/blob/sdk-logos/google_gson.png'
-                },
-                {
-                    title: 'Babel',
-                    logo: 'https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg'
+                    title: 'PassportJS',
+                    logo: 'https://www.passportjs.org/images/logo.svg'
                 },
                 {
                     title: 'Bootstrap',
@@ -300,6 +266,10 @@ export class GlobalVars {
                     title: 'Ionic',
                     logo: 'https://ionicframework.com/blog/wp-content/uploads/2015/05/cropped-logo.png'
                 },
+                {
+                    title: 'Cordova',
+                    logo: 'https://cordova.apache.org/static/img/cordova_bot.png'
+                },
 
             ]
         },
@@ -309,43 +279,43 @@ export class GlobalVars {
                 {
                     title: 'Bengali',
                     desc: "Native",
-                    logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097000.svg',
+                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_b_99507.webp',
                 },
                 {
                     title: 'Chittagonian',
                     desc: "Native",
-                    logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097008.svg',
+                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_c_99508.webp',
                 },
                 {
                     title: 'English',
                     desc: "Fluent",
-                    logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097023.svg',
+                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_e_99510.webp',
                 },
                 {
                     title: 'Arabic',
                     desc: "Mediocre",
-                    logo: 'https://www.flaticon.com/premium-icon/icons/svg/3096/3096991.svg',
+                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_a_99506.webp',
                 },
 
                 {
                     title: 'Hindi',
                     desc: "Conversational",
-                    logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097042.svg',
+                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_h_99513.webp',
                 },
                 {
                     title: 'Urdu',
                     desc: "Conversational",
-                    logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097115.svg',
+                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_u_99526.webp',
                 },
                 {
                     title: 'Korean',
                     desc: "Beginner",
-                    logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097055.svg',
+                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_k_99516.webp',
                 },
                 {
                     title: 'Mandarin',
                     desc: "Beginner",
-                    logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097067.svg',
+                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_k_99516.webp',
                 },
             ]
         },
@@ -390,15 +360,20 @@ export class GlobalVars {
                 },
                 {
                     title: 'Apache',
-                    logo: 'https://www.vectorlogo.zone/logos/apache/apache-ar21.svg'
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/apache-3628623-3029848.png'
                 },
                 {
                     title: 'Asana',
-                    logo: 'https://www.vectorlogo.zone/logos/asana/asana-ar21.svg'
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/asana-3521284-2944703.png'
                 },
                 {
+                    title: 'Jira',
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/jira-3628861-3030001.png'
+                },
+
+                {
                     title: 'AWS',
-                    logo: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg'
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/aws-1869025-1583149.png'
                 },
                 {
                     title: 'Expo',
@@ -429,20 +404,16 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/google/google-icon.svg'
                 },
                 {
-                    title: 'Deployd',
-                    logo: 'https://deployd.com/img/bucket/modular.png'
-                },
-                {
                     title: 'npm',
                     logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg'
                 },
                 {
                     title: 'Greasemonkey',
-                    logo: 'https://addons.cdn.mozilla.net/user-media/addon_icons/0/748-64.png?modified=1531822767'
+                    logo: 'https://addons.mozilla.org/user-media/addon_icons/0/748-64.png?modified=1531822767'
                 },
                 {
                     title: 'Tampermonkey',
-                    logo: 'https://addons.cdn.mozilla.net/user-media/addon_icons/683/683490-64.png?modified=1565719090'
+                    logo: 'https://lh3.googleusercontent.com/zoY8FwoOqPlBgFxcmFdNSK2Q4CcLmv-gw7vTjF2KMR9cEabwBsGNrHBTEMitn0Ba6OmCVJ0NcLnFGu3N97BP8Phu0g=w128-h128-e365-rj-sc0x00ffffff'
                 },
                 {
                     title: 'Linux',
@@ -862,7 +833,7 @@ export class GlobalVars {
                     logo: "https://cdn.worldvectorlogo.com/logos/upwork.svg",
                     link: "https://www.freelancer.com/u/p32929"
                 },
-                
+
             ]
         },
         {

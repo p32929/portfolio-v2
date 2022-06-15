@@ -67,7 +67,7 @@ const App: React.FC<Props> = (props) => {
         <Paper id='container' className={classes.paper} elevation={16}>
             <MemoryRouter>
                 <Route exact path="/">
-                    <Redirect to="/about"/>
+                    <Redirect to="/skills"/>
                 </Route>
 
                 <Grid container direction='row' className={classes.content}>
