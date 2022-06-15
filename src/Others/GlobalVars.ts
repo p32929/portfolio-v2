@@ -137,6 +137,11 @@ export class GlobalVars {
                     title: 'R',
                     logo: "https://www.r-project.org/Rlogo.png"
                 },
+                {
+                    title: 'Golang',
+                    logo: "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg"
+                },
+
             ]
         },
         {
@@ -164,7 +169,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'React Native',
-                    logo: 'https://images.codedaily.io/icons/react.svg'
+                    logo: 'https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg'
                 },
                 {
                     title: 'ElectronJS',
@@ -274,7 +279,46 @@ export class GlobalVars {
                     title: 'Svelte',
                     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/498px-Svelte_Logo.svg.png?20191219133350'
                 },
-
+                {
+                    title: 'Formik',
+                    logo: 'https://user-images.githubusercontent.com/4060187/61057426-4e5a4600-a3c3-11e9-9114-630743e05814.png'
+                },
+                {
+                    title: 'Socket.io',
+                    logo: 'https://socket.io/images/logo.svg'
+                },
+                {
+                    title: 'Ant Design',
+                    logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg'
+                },
+                {
+                    title: 'React Native Paper',
+                    logo: 'https://arpitbhalla.gallerycdn.vsassets.io/extensions/arpitbhalla/rnp-snippets/0.0.1/1620141921636/Microsoft.VisualStudio.Services.Icons.Default'
+                },
+                {
+                    title: 'Webpack',
+                    logo: 'https://raw.githubusercontent.com/webpack/media/master/logo/icon.png'
+                },
+                {
+                    title: 'JSDOM',
+                    logo: 'https://raw.githubusercontent.com/jsdom/jsdom/HEAD/logo.svg'
+                },
+                {
+                    title: 'Flask',
+                    logo: 'https://static.javatpoint.com/tutorial/flask/images/flask-tutorial.png'
+                },
+                {
+                    title: 'Django',
+                    logo: 'https://w7.pngwing.com/pngs/10/113/png-transparent-django-web-development-web-framework-python-software-framework-django-text-trademark-logo-thumbnail.png'
+                },
+                {
+                    title: 'Peppeteer',
+                    logo: 'https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png'
+                },
+                {
+                    title: 'Vim',
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png?20150726190850'
+                },
 
             ]
         },
@@ -328,6 +372,14 @@ export class GlobalVars {
             text: "Others",
             arr: [
                 {
+                    title: 'Docker',
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/docker-226091.png'
+                },
+                {
+                    title: 'Android Studio',
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/512px-Android_Studio_Icon_3.6.svg.png?20210301045217'
+                },
+                {
                     title: 'Git',
                     logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg'
                 },
@@ -375,10 +427,13 @@ export class GlobalVars {
                     title: 'Jira',
                     logo: 'https://cdn.iconscout.com/icon/free/png-128/jira-3628861-3030001.png'
                 },
-
                 {
                     title: 'AWS',
                     logo: 'https://cdn.iconscout.com/icon/free/png-128/aws-1869025-1583149.png'
+                },
+                {
+                    title: 'DigitalOcean',
+                    logo: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1478792253/gnlwek2zwhq369yryrzv.jpg'
                 },
                 {
                     title: 'Expo',
