@@ -525,8 +525,21 @@ export class GlobalVars {
                     logo: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/129_Fiverr_logo_logos-512.png",
                     desc: "Fiverr buyer requests"
                 },
+                {
+                    title: 'SendMoney2Me',
+                    logo: 'https://user-images.githubusercontent.com/6418354/173880188-ad66a5d1-9957-42d3-bc67-590da25c43eb.png',
+                    desc: 'Ways to send me money directly',
+                    link: 'https://p32929.github.io/SendMoney2Me/'
+                },
+                {
+                    title: 'Sha1ToMd5',
+                    logo: WebImages.giftIcon,
+                    desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
+                    link: 'https://p32929.github.io/Sha1ToMd5'
+                },
             ]
-        }
+        },
+
     ]
 
     static contacts: Array<TitledListItemInterface> = [
