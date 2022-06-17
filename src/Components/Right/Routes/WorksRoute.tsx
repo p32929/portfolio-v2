@@ -39,7 +39,7 @@ const WorksRoute: React.FC<Props> = (props) => {
             ...GlobalVars.works
         ]
         var newWOrkObj: TitledListItemInterface = {
-            text: "Github repositories",
+            text: "Others",
             arr: []
         }
 
@@ -58,7 +58,7 @@ const WorksRoute: React.FC<Props> = (props) => {
 
     useEffect(() => {
         if (myGithubUsername) {
-            // getGithubRepos()
+            getGithubRepos()
         }
     }, [])
 

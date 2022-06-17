@@ -241,7 +241,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Material-UI',
-                    logo: 'https://v4.mui.com/static/logo_raw.svg'
+                    logo: 'https://png.pngitem.com/pimgs/s/577-5779757_react-material-ui-logo-hd-png-download.png'
                 },
                 {
                     title: 'PassportJS',
@@ -537,12 +537,23 @@ export class GlobalVars {
                     desc: 'Framing Happiness',
                     link: 'https://shajao.com/'
                 },
-
                 {
                     title: 'Sha1ToMd5',
-                    logo: WebImages.giftIcon,
+                    logo: 'https://cdn.iconscout.com/icon/premium/png-128-thumb/encryption-code-1626962-1379033.png',
                     desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
                     link: 'https://p32929.github.io/Sha1ToMd5'
+                },
+                {
+                    title: 'Offer Bundle Checker',
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/layer-3307723-2747903.png',
+                    desc: 'Checks whether your bundle validity or the volume is ahead of you',
+                    link: 'https://p32929.github.io/bundle_checker/'
+                },
+                {
+                    title: 'StartPage',
+                    logo: 'https://cdn.iconscout.com/icon/premium/png-128-thumb/homepage-2580329-2151669.png',
+                    desc: ' A minimalistic custom browser startpage that can be configured to your needs. ',
+                    link: 'https://p32929.github.io/startpage/'
                 },
             ]
         },
@@ -677,6 +688,23 @@ export class GlobalVars {
                     desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
                     link: 'https://github.com/p32929/MoodyLauncher'
                 },
+                {
+                    title: 'Facebook Bot',
+                    logo: WebImages.giftIcon,
+                    desc: 'Automatically likes posts in facebook and also does relavent comments',
+                },
+                {
+                    title: 'Username Scraper',
+                    logo: WebImages.giftIcon,
+                    desc: 'Lists all the usernames commented in a post in instagram',
+                    link: 'https://github.com/p32929/MoodyLauncher'
+                },
+                {
+                    title: 'FayPomotroid',
+                    logo: 'https://github.com/p32929/FayPomotroid/blob/master/build/icons/256x256.png?raw=true',
+                    desc: 'Desktop pomodoro app that forces you to take a break',
+                    link: 'https://github.com/p32929/FayPomotroid/releases/tag/0.13.1'
+                },                
             ]
         },
         {
@@ -743,7 +771,7 @@ export class GlobalVars {
             ]
         },
         {
-            text: "Flutter Libraries",
+            text: "Flutter Packages",
             arr: [
                 {
                     title: 'EasiestDB',
@@ -757,6 +785,17 @@ export class GlobalVars {
                     desc: " A simplified version of the wifi_iot package ",
                     link: "https://github.com/p32929/simply_wifi_flutter"
                 }
+            ]
+        },
+        {
+            text: "NPM Packages",
+            arr: [
+                {
+                    title: 'fayfetch',
+                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
+                    desc: 'A simple wrapper for Fetch',
+                    link: 'https://www.npmjs.com/package/fayfetch'
+                },
             ]
         },
         {
