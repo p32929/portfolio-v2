@@ -704,7 +704,7 @@ export class GlobalVars {
                     logo: 'https://github.com/p32929/FayPomotroid/blob/master/build/icons/256x256.png?raw=true',
                     desc: 'Desktop pomodoro app that forces you to take a break',
                     link: 'https://github.com/p32929/FayPomotroid/releases/tag/0.13.1'
-                },                
+                },
             ]
         },
         {
@@ -859,26 +859,6 @@ export class GlobalVars {
                     link: 'https://github.com/p32929/'
                 },
                 {
-                    title: 'Wordpress',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155842668-283b2424-e090-4149-b8af-1f39eb2dd982.png',
-                    link: 'https://p32929.wordpress.com/'
-                },
-                {
-                    title: 'YouTube',
-                    logo: 'https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc',
-                    link: 'https://www.youtube.com/channel/UCFucp3uZ96IBYxG8755AniQ'
-                },
-                {
-                    title: 'Google Play',
-                    logo: 'https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg',
-                    link: 'https://play.google.com/store/apps/developer?id=Rich+IT&hl=en'
-                },
-            ]
-        },
-        {
-            text: "Apps I rarely use",
-            arr: [
-                {
                     title: 'LinkedIn',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841027-8698cb12-7ddd-4604-a4ea-c618ddbc1cd8.png',
                     link: 'https://www.linkedin.com/in/p32929/'
@@ -913,7 +893,6 @@ export class GlobalVars {
                     logo: "https://cdn.worldvectorlogo.com/logos/upwork.svg",
                     link: "https://www.freelancer.com/u/p32929"
                 },
-
             ]
         },
         {
