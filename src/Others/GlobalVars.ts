@@ -558,8 +558,31 @@ export class GlobalVars {
             ]
         },
         {
+            text: "iOS Apps",
+            arr: [
+                {
+                    title: "Adblock for YT",
+                    link: "https://apps.apple.com/au/app/adblock-for-youtube/id1592568016",
+                    logo: "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/65/7e/a8/657ea8d9-c3aa-6951-38c8-948c05cd96c3/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/246x0w.webp",
+                    desc: "Removes ads from YT videos, embedded videos on third party websites and streams."
+                },
+                {
+                    title: "Al Quran by Quran Touch",
+                    link: "https://apps.apple.com/gb/app/al-quran-by-quran-touch/id585240351",
+                    logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/9d/7e/ed/9d7eedd6-e567-5251-bed6-dce7e868bb57/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
+                    desc: "The most comprehensive Muslim App!"
+                },
+            ]
+        },
+        {
             text: "Android Apps",
             arr: [
+                {
+                    title: "Al Quran by Quran Touch",
+                    link: "https://apps.apple.com/gb/app/al-quran-by-quran-touch/id585240351",
+                    logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/9d/7e/ed/9d7eedd6-e567-5251-bed6-dce7e868bb57/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
+                    desc: "The most comprehensive Muslim App!"
+                },
                 {
                     title: 'Thamao',
                     logo: 'https://cdn.apkmonk.com/logos/com.thamao_150x150.png',
@@ -697,7 +720,6 @@ export class GlobalVars {
                     title: 'Username Scraper',
                     logo: WebImages.giftIcon,
                     desc: 'Lists all the usernames commented in a post in instagram',
-                    link: 'https://github.com/p32929/MoodyLauncher'
                 },
                 {
                     title: 'FayPomotroid',
@@ -843,16 +865,16 @@ export class GlobalVars {
                     logo: 'https://user-images.githubusercontent.com/6418354/155840898-9e2327aa-a280-45e3-8266-8268242abda4.png',
                     link: 'https://www.facebook.com/p32929'
                 },
+            ]
+        },
+        {
+            text: "Web Profiles",
+            arr: [
                 {
                     title: 'Anywhere on the internet',
                     logo: 'https://user-images.githubusercontent.com/6418354/155840900-91ac076a-8d2b-45dc-b346-66f72d376d4b.png',
                     link: '@p32929'
-                }
-            ]
-        },
-        {
-            text: "Website Profiles",
-            arr: [
+                },
                 {
                     title: 'GitHub',
                     logo: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
@@ -895,7 +917,7 @@ export class GlobalVars {
             arr: [
                 {
                     title: "Click on the link button",
-                    desc: 'To create your own portfolio. It will only take 3 minutes',
+                    desc: 'To create your own portfolio. It will only take around 3 minutes',
                     logo: WebImages.giftIcon,
                     link: 'https://github.com/p32929/p32929.github.io/'
                 }
