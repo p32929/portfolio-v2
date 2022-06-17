@@ -884,11 +884,6 @@ export class GlobalVars {
                     link: 'https://www.fiverr.com/users/fayazbinsalam/'
                 },
                 {
-                    title: "Freelancer",
-                    logo: "https://cdn.worldvectorlogo.com/logos/freelancer-1.svg",
-                    link: "https://www.freelancer.com/u/p32929"
-                },
-                {
                     title: "Upwork",
                     logo: "https://cdn.worldvectorlogo.com/logos/upwork.svg",
                     link: "https://www.freelancer.com/u/p32929"
