@@ -1,6 +1,6 @@
-import {OurIcons} from "./OurIcons"
-import {NavBottomLinksInterface, TitledListItemInterface} from "./Interfaces"
-import {WebImages} from "./Images"
+import { OurIcons } from "./OurIcons"
+import { NavBottomLinksInterface, TitledListItemInterface } from "./Interfaces"
+import { WebImages } from "./Images"
 
 export const myGithubUsername = "p32929"
 
@@ -532,6 +532,13 @@ export class GlobalVars {
                     link: 'https://p32929.github.io/SendMoney2Me/'
                 },
                 {
+                    title: 'Shajao',
+                    logo: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/jyjetnzpv9knl6l7qxwz',
+                    desc: 'Framing Happiness',
+                    link: 'https://shajao.com/'
+                },
+
+                {
                     title: 'Sha1ToMd5',
                     logo: WebImages.giftIcon,
                     desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
@@ -539,7 +546,242 @@ export class GlobalVars {
                 },
             ]
         },
+        {
+            text: "Android Apps",
+            arr: [
+                {
+                    title: 'Thamao',
+                    logo: 'https://cdn.apkmonk.com/logos/com.thamao_150x150.png',
+                    desc: 'বাংলাদেশে স্মার্টফোনের চুরি এবার অসম্ভব',
+                },
+                {
+                    title: 'Desplash',
+                    logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
+                    desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
+                    link: 'https://www.xda-developers.com/desplash-wallpaper-app-unsplash/'
+                },
+                {
+                    title: 'The Great Postman',
+                    logo: 'https://lh3.googleusercontent.com/ni-lk3b2nTMZyC7r1wYBW6cm9eYqGAN-t6fXV-kD0lSyw1lO3kenC1We71fZjSryvFII=s180',
+                    desc: 'Powerful, Lightweight REST API client for Android',
+                    link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
+                },
+                {
+                    title: 'Sleepy - Addiction Remover',
+                    logo: 'https://lh3.googleusercontent.com/vvp6Ev33xPerWBBOtIRyAHl7k5c4wQ72hGwG3EU4JC-BTjfvb5DSJDeMABaRg0fy_KI=s180',
+                    desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
+                    link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
+                },
+                {
+                    title: 'Best CGPA Calculator',
+                    logo: 'https://lh3.googleusercontent.com/trpGkuBRWnBXNDNyts-7ePwmPtTLQ_8pKoMWi-6Iy8eBomjZ8XrVi4zQcEWrmoGLKA=s180',
+                    desc: 'A simple yet effective CGPA Calculator for University students',
+                    link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
+                },
+                {
+                    title: 'Buy Sell BD',
+                    logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmJ1eXNlbGxiZF9pY29uXzE1NTkyOTQ5NjVfMDYz/icon.png?w=170&fakeurl=1',
+                    desc: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
+                    link: 'https://apkpure.com/p/p32929.buysellbd'
+                },
+                {
+                    title: 'ExIn',
+                    logo: 'https://lh3.googleusercontent.com/X8mRJd7JajvDXoW7NaluKt2IvC3osH6czkTPoWeSYJ96U2LWLKT4xiFgvNouwf-UvEk=s180',
+                    desc: 'A Simple & user friendly income-expense tracker ',
+                },
+                {
+                    title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮',
+                    logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
+                    desc: 'FIFA Worldcup 2018 All In One ',
+                    link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
+                },
+                {
+                    title: 'I am free',
+                    logo: 'https://lh3.googleusercontent.com/LIgX0ABT8z3MFILXFfrXK7vNO9j0hTxJ2aSdGwdcsdJUtViMWAsKXEiG65g94dV_i7JE=s180',
+                    desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
+                    link: 'https://apkpure.com/i-am-free/p32929.imfree'
+                },
+                {
+                    title: 'Awesome NCTB',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5uY3RiX2ljb25fMTU3NjU3MjcwNF8wMjI/icon.png?fakeurl=1',
+                    desc: 'Download NCTB Books easily and Free',
+                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                },
+                {
+                    title: 'বৃক্ষ ( Brikkho )',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
+                    desc: 'Learn about trees in your fingertips',
+                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                },
+                {
+                    title: 'IQQuiz',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
+                    desc: 'A simple IQ game',
+                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                },
+                {
+                    title: 'BirdsLover',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5iaXJkc2xvdmVyX2ljb25fMTU3MjAwNDIxNl8wOTE/icon.png?fakeurl=1',
+                    desc: 'Learn about birds in your fingertips',
+                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                },
+                {
+                    title: 'Animal Lover',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5hbmltYWxfaWNvbl8xNTc3MjkyMzIzXzAyMw/icon.png?fakeurl=1',
+                    desc: 'Learn about birds in your fingertips',
+                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                },
+                {
+                    title: 'Jibanananda Recitation (Abritti)',
+                    logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5qaWJvbmFuZG9rb2JpdGFzb21vZ3JvX2ljb25fMTU3MDEwNDExNF8wNDc/icon.png?fakeurl=1',
+                    desc: '50+ poems of Jibanananda Das with audio recitation',
+                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                },
+                {
+                    title: 'MyEyes',
+                    logo: WebImages.giftIcon,
+                    desc: 'Indoor Navigation App for Blind People',
+                },
+                {
+                    title: 'BirthdayBot',
+                    logo: WebImages.giftIcon,
+                    desc: 'Birthday wishing apps, made for individual people...',
+                    link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
+                },
+            ]
+        },
+        {
+            text: "Desktop App/Scripts",
+            arr: [
+                {
+                    title: 'PotatoTimer',
+                    logo: WebImages.giftIcon,
+                    desc: 'A pomotodo app that forces you to take a break - created using ElectronJS',
+                    link: 'https://github.com/p32929/Electron-Pomotodo'
+                },
+                {
+                    title: 'Shortcut-Virus-Remover',
+                    logo: WebImages.giftIcon,
+                    desc: 'Shortcut virus remover app for Windows',
+                    link: 'https://github.com/p32929/Shortcut-Virus-Remover'
+                },
+                {
+                    title: 'Linux_Screen_Dimmer',
+                    logo: WebImages.giftIcon,
+                    desc: 'A simple screen dimming utility for linux',
+                    link: 'https://github.com/p32929/Linux_Screen_Dimmer'
+                },
+                {
+                    title: 'MoodyLauncher',
+                    logo: WebImages.giftIcon,
+                    desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
+                    link: 'https://github.com/p32929/MoodyLauncher'
+                },
+            ]
+        },
+        {
+            text: "Android Libraries",
+            arr: [
+                {
+                    title: 'AndroidEasySQL-Library',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'An Easier & Lazier approach to SQL database for Android',
+                    link: 'https://github.com/p32929/AndroidEasySQL-Library'
+                },
+                {
+                    title: 'FayazPermissions',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
+                },
+                {
+                    title: 'AndroidAppLockscreen',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
+                    link: 'https://github.com/p32929/AndroidAppLockscreen'
+                },
+                {
+                    title: 'ManufacturerBatteryOptimization',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'Simple helper class for Android Battery Optimization ignoring in some devices',
+                    link: 'https://gist.github.com/p32929/41e7af650f6a2c11e9306ab600fb9b03'
+                },
+                {
+                    title: 'MyHouseAdsAndroid',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A library for cross promoting own apps within own apps - for Android',
+                    link: 'https://github.com/p32929/MyHouseAdsAndroid'
+                },
+                {
+                    title: 'HouseAds2',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A library ( V2 ) for cross promoting own apps within own apps - for Android',
+                    link: 'https://github.com/p32929/HouseAds2'
+                },
+                {
+                    title: 'AndroidAppUpdater',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A simple, Lightweight App Updater Library for Android',
+                    link: 'https://github.com/p32929/AndroidAppUpdater'
+                },
+                {
+                    title: 'OfficeAbout',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A simple about screen library for Android for a Team of people',
+                    link: 'https://github.com/p32929/OfficeAbout'
+                },
+                {
+                    title: 'JsonViewerAndroid',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A simple JSON Viewer for Android',
+                },
+                {
+                    title: 'Android-Receivers-Library',
+                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+                    desc: 'A library for simpler BroadcastReceiver implementations',
+                },
 
+            ]
+        },
+        {
+            text: "Flutter Libraries",
+            arr: [
+                {
+                    title: 'EasiestDB',
+                    logo: WebImages.flutterIcon,
+                    desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
+                    link: 'https://pub.dev/packages/easiestdb'
+                },
+                {
+                    title: "Simply Wifi",
+                    logo: WebImages.flutterIcon,
+                    desc: " A simplified version of the wifi_iot package ",
+                    link: "https://github.com/p32929/simply_wifi_flutter"
+                }
+            ]
+        },
+        {
+            text: "NDAs",
+            arr: [
+                {
+                    title: 'Konika',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'NumberredPaste',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+                {
+                    title: 'ClockedAdmin',
+                    logo: WebImages.giftIcon,
+                    desc: '---',
+                    link: 'about:blank'
+                },
+            ]
+        },
     ]
 
     static contacts: Array<TitledListItemInterface> = [
