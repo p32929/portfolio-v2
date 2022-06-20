@@ -552,8 +552,14 @@ export class GlobalVars {
                 {
                     title: 'StartPage',
                     logo: 'https://cdn.iconscout.com/icon/premium/png-128-thumb/homepage-2580329-2151669.png',
-                    desc: ' A minimalistic custom browser startpage that can be configured to your needs. ',
+                    desc: 'A minimalistic custom browser startpage that can be configured to your needs. ',
                     link: 'https://p32929.github.io/startpage/'
+                },
+                {
+                    title: 'OrderZesty',
+                    logo: 'https://orderzesty.com/wp-content/uploads/2021/10/Zesty-icon@3x-300x300.png',
+                    desc: 'Personal chef service delivering fresh signature meals.',
+                    link: 'https://orderzesty.com/'
                 },
             ]
         },
