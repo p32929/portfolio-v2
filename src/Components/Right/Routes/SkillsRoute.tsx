@@ -21,7 +21,7 @@ const SkillsRoute: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid container xs={12} item direction='row'>
+    return <Grid container xs={12} item direction='column'>
         {
             GlobalVars.skills.map((item, index) => {
                 return <ListItemWithIcon item={item} />

@@ -75,7 +75,7 @@ const RightPart: React.FC<Props> = (props) => {
       <RouteLocation />
       <TopRightButtons />
     </Grid>
-    <Grid id='right-bottom' style={{ height: contentHeight, maxHeight: contentHeight, overflowY: 'auto', }} item xs={12} container className={classes.content} >
+    <Grid id='right-bottom' style={{ height: contentHeight, maxHeight: contentHeight, overflowY: 'scroll', overflowX: 'hidden'}} item xs={12} container className={classes.content} >
       <Switch>
         {
           GlobalVars.routes.map((item, index) => {

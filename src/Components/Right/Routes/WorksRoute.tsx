@@ -70,7 +70,7 @@ const WorksRoute: React.FC<Props> = (props) => {
         }
     }
 
-    return <Grid container xs={12} item direction='row'>
+    return <Grid container xs={12} item direction='column'>
         {
             getWorks().map((item, index) => {
                 return <ListItemWithIcon key={index} item={item} />
