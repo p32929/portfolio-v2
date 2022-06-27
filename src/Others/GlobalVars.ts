@@ -315,11 +315,6 @@ export class GlobalVars {
                     title: 'Peppeteer',
                     logo: 'https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png'
                 },
-                {
-                    title: 'Vim',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png?20150726190850'
-                },
-
             ]
         },
         {
@@ -371,6 +366,10 @@ export class GlobalVars {
         {
             text: "Others",
             arr: [
+                {
+                    title: 'Vim',
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png?20150726190850'
+                },
                 {
                     title: 'Docker',
                     logo: 'https://cdn.iconscout.com/icon/free/png-128/docker-226091.png'
