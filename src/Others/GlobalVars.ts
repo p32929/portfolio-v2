@@ -241,7 +241,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Material-UI',
-                    logo: 'https://png.pngitem.com/pimgs/s/577-5779757_react-material-ui-logo-hd-png-download.png'
+                    logo: 'https://mui.com/static/logo.png'
                 },
                 {
                     title: 'PassportJS',
