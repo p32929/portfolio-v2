@@ -913,7 +913,7 @@ export class GlobalVars {
                 {
                     title: "Upwork",
                     logo: "https://cdn.worldvectorlogo.com/logos/upwork.svg",
-                    link: "https://www.freelancer.com/u/p32929"
+                    link: "https://www.upwork.com/freelancers/~017dbf657b99b0c1c1"
                 },
             ]
         },
