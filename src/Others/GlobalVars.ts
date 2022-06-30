@@ -863,7 +863,8 @@ export class GlobalVars {
                 {
                     title: 'WhatsApp',
                     logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
-                    link: 'https://api.whatsapp.com/send?phone=8801796306262'
+                    link: 'https://api.whatsapp.com/send?phone=8801796306262',
+                    desc: "+8801796306262"
                 },
                 {
                     title: 'Facebook',
