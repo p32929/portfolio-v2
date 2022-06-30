@@ -885,7 +885,7 @@ export class GlobalVars {
                 {
                     title: 'Anywhere on the internet',
                     logo: 'https://user-images.githubusercontent.com/6418354/155840900-91ac076a-8d2b-45dc-b346-66f72d376d4b.png',
-                    link: '@p32929'
+                    desc: "@p32929"
                 },
                 {
                     title: 'GitHub',
