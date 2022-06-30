@@ -870,6 +870,12 @@ export class GlobalVars {
                     logo: 'https://user-images.githubusercontent.com/6418354/155840898-9e2327aa-a280-45e3-8266-8268242abda4.png',
                     link: 'https://www.facebook.com/p32929'
                 },
+                {
+                    title: 'Email',
+                    logo: 'https://cdn3d.iconscout.com/3d/premium/thumb/email-address-4437044-3684811.png',
+                    desc: 'p32929.ceo@gmail.com',
+                    link: 'mailto:p32929.ceo@gmail.com'
+                },
             ]
         },
         {
