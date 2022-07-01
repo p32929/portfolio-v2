@@ -32,8 +32,8 @@ export class GlobalVars {
             link: 'https://api.whatsapp.com/send?phone=8801796306262'
         },
         {
-            svgPath: OurIcons.skypeIcon,
-            link: 'skype:p32929?chat'
+            svgPath: OurIcons.emailIcon,
+            link: 'mailto:p32929.ceo@gmail.com'
         },
         {
             svgPath: OurIcons.facebookIcon,
