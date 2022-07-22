@@ -34,11 +34,11 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 2. Change the repository name to `https://your-github-username.github.io/` by going into settings
 3. Clone the repository using `git clone YOUR-REPOSITORY-URL`
 4. Modify the variables in `src/Others/GlobalVars.ts` to add your own data and flavors.  
-6. To deploy the WebApp, Run this command: `npm run deploy`
+6. To deploy the WebApp, Run: `npm run predeploy` and `npm run deploy`
 
-Volla!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
+& Volla!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
 
-If the `portfolio` doesn't show ( but shows the readme file as the portfolio, in `https://your-github-username.github.io/` ), check the `settings` of your repository, and change the `source` of the `github pages` to `master` branch. If still it doesn't show, feel free to let me know via `Facebook` or `WhatsApp` 
+If it still doesn't show, feel free to let me know via `Facebook` or `WhatsApp` 
 
 ## Prerequisites
 You need to have `NodeJS` and `NPM` installed in your computer.
