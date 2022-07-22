@@ -40,7 +40,7 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 
 & Volla!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
 
-If it still doesn't show, feel free to let me know via `Facebook` or `WhatsApp` 
+If it still doesn't show, do step 6 & 7 again.
 
 ## Prerequisites
 You need to have `NodeJS` and `NPM` installed in your computer.
