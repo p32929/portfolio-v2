@@ -66,6 +66,7 @@ Thanks to everyone for your STARS, WATCHES, FORKS, & VISITS. Special thanks to:
 
 Am I missing anyone? If yes, Let me know
 
+## License
 ```
 MIT License
 
