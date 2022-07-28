@@ -145,7 +145,7 @@ export class GlobalVars {
             ]
         },
         {
-            text: "Libraries/Frameworks",
+            text: "Libraries/Frameworks/Techs",
             arr: [
                 {
                     title: 'Android App Development',
@@ -315,6 +315,40 @@ export class GlobalVars {
                     title: 'Peppeteer',
                     logo: 'https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png'
                 },
+                {
+                    title: 'Docker',
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/docker-226091.png'
+                },
+                {
+                    title: 'Git',
+                    logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg'
+                },
+                {
+                    title: 'Gradle',
+                    logo: 'https://www.vectorlogo.zone/logos/gradle/gradle-icon.svg'
+                },
+                {
+                    title: 'Expo',
+                    logo: 'https://www.vectorlogo.zone/logos/expoio/expoio-icon.svg'
+                },
+                {
+                    title: 'NgInx',
+                    logo: 'https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg'
+                },
+                {
+                    title: "DynamoDB",
+                    logo: 'https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg'
+                },
+                {
+                    title: "Dynamoose",
+                    logo: 'https://dynamoosejs.com/img/logo.svg'
+                },
+                {
+                    title: "Kubernetes",
+                    logo: 'https://kubernetes.io/images/wheel.svg'
+                },
+
+
             ]
         },
         {
@@ -371,16 +405,8 @@ export class GlobalVars {
                     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png?20150726190850'
                 },
                 {
-                    title: 'Docker',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/docker-226091.png'
-                },
-                {
                     title: 'Android Studio',
                     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/512px-Android_Studio_Icon_3.6.svg.png?20210301045217'
-                },
-                {
-                    title: 'Git',
-                    logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg'
                 },
                 {
                     title: 'GitHub',
@@ -411,10 +437,6 @@ export class GlobalVars {
                     logo: 'https://user-images.githubusercontent.com/6418354/155841378-9644305f-c7d1-44f1-bd5f-d626e056601a.png'
                 },
                 {
-                    title: 'Gradle',
-                    logo: 'https://www.vectorlogo.zone/logos/gradle/gradle-icon.svg'
-                },
-                {
                     title: 'Apache',
                     logo: 'https://cdn.iconscout.com/icon/free/png-128/apache-3628623-3029848.png'
                 },
@@ -435,20 +457,12 @@ export class GlobalVars {
                     logo: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1478792253/gnlwek2zwhq369yryrzv.jpg'
                 },
                 {
-                    title: 'Expo',
-                    logo: 'https://www.vectorlogo.zone/logos/expoio/expoio-icon.svg'
-                },
-                {
                     title: 'Figma',
                     logo: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'
                 },
                 {
                     title: 'Heroku',
                     logo: 'https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg'
-                },
-                {
-                    title: 'NgInx',
-                    logo: 'https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg'
                 },
                 {
                     title: 'Yarn',
@@ -809,8 +823,8 @@ export class GlobalVars {
                 {
                     title: "Simply Wifi",
                     logo: WebImages.flutterIcon,
-                    desc: " A simplified version of the wifi_iot package ",
-                    link: "https://github.com/p32929/simply_wifi_flutter"
+                    desc: "A simplified version of the wifi_iot package",
+                    link: "https://pub.dev/packages/simply_wifi"
                 }
             ]
         },
@@ -854,12 +868,12 @@ export class GlobalVars {
         {
             text: "Contact me",
             arr: [
-                {
-                    title: 'Skype',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
-                    desc: 'p32929',
-                    link: 'skype:p32929?chat'
-                },
+                // {
+                //     title: 'Skype',
+                //     logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
+                //     desc: 'p32929',
+                //     link: 'skype:p32929?chat'
+                // },
                 {
                     title: 'WhatsApp',
                     logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
@@ -897,11 +911,11 @@ export class GlobalVars {
                     logo: 'https://user-images.githubusercontent.com/6418354/155841027-8698cb12-7ddd-4604-a4ea-c618ddbc1cd8.png',
                     link: 'https://www.linkedin.com/in/p32929/'
                 },
-                {
-                    title: 'Reddit',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155841029-b3fd8a2d-3f7b-4f24-b06b-4b2337ad7280.png',
-                    link: 'https://www.reddit.com/user/p32929'
-                },
+                // {
+                //     title: 'Reddit',
+                //     logo: 'https://user-images.githubusercontent.com/6418354/155841029-b3fd8a2d-3f7b-4f24-b06b-4b2337ad7280.png',
+                //     link: 'https://www.reddit.com/user/p32929'
+                // },
                 {
                     title: 'Twitter',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841031-532d5d6e-797a-4da1-8064-48d266b69ab2.png',

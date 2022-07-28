@@ -41,6 +41,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
 
     return <Grid container item xs direction='column' justify='center' alignContent='stretch'>
 
+        {/* @ts-ignore */}
         <Hidden mdUp>
             <IconButton size='small' onClick={() => {
                 showLeftPart(false)
