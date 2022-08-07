@@ -40,7 +40,7 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 
 & Volla!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
 
-If it still doesn't show, do step 6 & 7 again.
+If it still doesn't show, do step 6 & 7 again. It usually takes 3-5 minutes for github pages to deploy the changes. 
 
 ## Prerequisites
 You need to have `NodeJS` and `NPM` installed in your computer.
