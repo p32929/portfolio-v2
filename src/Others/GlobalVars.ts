@@ -347,7 +347,10 @@ export class GlobalVars {
                     title: "Kubernetes",
                     logo: 'https://kubernetes.io/images/wheel.svg'
                 },
-
+                {
+                    title: 'Greasemonkey',
+                    logo: 'https://addons.mozilla.org/user-media/addon_icons/0/748-64.png?modified=1531822767'
+                },
 
             ]
         },
@@ -481,10 +484,6 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg'
                 },
                 {
-                    title: 'Greasemonkey',
-                    logo: 'https://addons.mozilla.org/user-media/addon_icons/0/748-64.png?modified=1531822767'
-                },
-                {
                     title: 'Tampermonkey',
                     logo: 'https://lh3.googleusercontent.com/zoY8FwoOqPlBgFxcmFdNSK2Q4CcLmv-gw7vTjF2KMR9cEabwBsGNrHBTEMitn0Ba6OmCVJ0NcLnFGu3N97BP8Phu0g=w128-h128-e365-rj-sc0x00ffffff'
                 },
@@ -499,6 +498,14 @@ export class GlobalVars {
                 {
                     title: 'Netify',
                     logo: 'https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg'
+                },
+                {
+                    title: 'Cloudinary',
+                    logo: 'https://avatars.githubusercontent.com/u/1460763?s=200&v=4'
+                },
+                {
+                    title: 'imgbb',
+                    logo: 'https://pipedream.com/s.v0/app_1M0hkk/logo/orig'
                 },
 
             ]
@@ -936,6 +943,32 @@ export class GlobalVars {
                     logo: "https://cdn.worldvectorlogo.com/logos/upwork.svg",
                     link: "https://www.upwork.com/freelancers/~017dbf657b99b0c1c1"
                 },
+                {
+                    title: "Medium",
+                    logo: "https://seeklogo.com/images/M/medium-logo-93CDCF6451-seeklogo.com.png",
+                    link: "https://medium.com/@p32929_77176"
+                },
+                {
+                    title: "xda",
+                    logo: "https://www.svgrepo.com/show/331651/xda-developers.svg",
+                    link: "https://forum.xda-developers.com/m/p32929.5346826/"
+                },
+                {
+                    title: "Product Hunt",
+                    logo: "https://seeklogo.com/images/P/product-hunt-logo-A144953C4C-seeklogo.com.png?v=637846885100000000",
+                    link: "https://www.producthunt.com/@p32929"
+                },
+                {
+                    title: "UVA Online Judge",
+                    logo: "https://uhunt.onlinejudge.org/images/uva.png",
+                    link: "https://uhunt.onlinejudge.org/id/590978"
+                },
+                {
+                    title: "URI Online Judge",
+                    logo: "https://user-images.githubusercontent.com/26368939/110052090-be0a0b00-7d35-11eb-8827-993190a9568e.png",
+                    link: "https://www.beecrowd.com.br/judge/en/profile/76542"
+                },
+                
             ]
         },
         {
