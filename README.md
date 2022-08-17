@@ -34,9 +34,9 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 2. Change the repository name to `https://your-github-username.github.io/` by going into settings
 3. Clone the repository using `git clone YOUR-REPOSITORY-URL`
 4. Modify the variables in `src/Others/GlobalVars.ts` to add your own data and flavors.  
-5. Check the `settings` of your repository, and change the `source` of the github pages to `master` branch
-6. Run: `npm run predeploy`
-7. Run: `npm run deploy`
+5. Run: `npm run predeploy`
+6. Run: `npm run deploy`
+7. Check the `settings` of your repository, and change the `source` of the github pages to `master` branch
 
 & Volla!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
 
