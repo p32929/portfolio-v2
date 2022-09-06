@@ -1,3 +1,5 @@
+“This project is tested with BrowserStack.”
+
 ##### The 2nd iteration of My Personal App - created using ReactJS, Overmind, Material UI etc...
 
 ![p32929](https://user-images.githubusercontent.com/6418354/108698254-2256ee80-752e-11eb-8767-aeb5a4f86536.gif)
