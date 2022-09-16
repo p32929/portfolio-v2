@@ -31,7 +31,7 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 
 ## Create your own portfolio
 1. Fork the repository ( Recommended )
-2. Change the repository name to `https://your-github-username.github.io/` by going into settings
+2. Change the repository name to `your-github-username.github.io` by going into settings
 3. Clone the repository using `git clone YOUR-REPOSITORY-URL`
 4. Modify the variables in `src/Others/GlobalVars.ts` to add your own data and flavors.  
 5. Run: `npm run predeploy`
