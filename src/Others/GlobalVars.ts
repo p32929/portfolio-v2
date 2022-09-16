@@ -715,43 +715,37 @@ export class GlobalVars {
             arr: [
                 {
                     title: 'PotatoTimer',
-                    logo: WebImages.giftIcon,
+                    logo: 'https://raw.githubusercontent.com/p32929/PotatoTimer/master/resources/icon.ico',
                     desc: 'A pomotodo app that forces you to take a break - created using ElectronJS',
                     link: 'https://github.com/p32929/Electron-Pomotodo'
                 },
                 {
                     title: 'Shortcut-Virus-Remover',
-                    logo: WebImages.giftIcon,
+                    logo: 'https://cdn-icons-png.flaticon.com/128/3223/3223766.png',
                     desc: 'Shortcut virus remover app for Windows',
                     link: 'https://github.com/p32929/Shortcut-Virus-Remover'
                 },
                 {
-                    title: 'Linux_Screen_Dimmer',
-                    logo: WebImages.giftIcon,
-                    desc: 'A simple screen dimming utility for linux',
-                    link: 'https://github.com/p32929/Linux_Screen_Dimmer'
-                },
-                {
-                    title: 'MoodyLauncher',
-                    logo: WebImages.giftIcon,
-                    desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
-                    link: 'https://github.com/p32929/MoodyLauncher'
-                },
-                {
                     title: 'Facebook Bot',
-                    logo: WebImages.giftIcon,
+                    logo: 'https://cdn-icons-png.flaticon.com/128/2504/2504903.png',
                     desc: 'Automatically likes posts in facebook and also does relavent comments',
                 },
                 {
                     title: 'Username Scraper',
-                    logo: WebImages.giftIcon,
+                    logo: 'https://cdn-icons-png.flaticon.com/128/1409/1409946.png',
                     desc: 'Lists all the usernames commented in a post in instagram',
                 },
                 {
                     title: 'FayPomotroid',
                     logo: 'https://github.com/p32929/FayPomotroid/blob/master/build/icons/256x256.png?raw=true',
-                    desc: 'Desktop pomodoro app that forces you to take a break',
-                    link: 'https://github.com/p32929/FayPomotroid/releases/tag/0.13.1'
+                    desc: 'Electron based Desktop pomodoro app that forces you to take a break',
+                    link: 'https://github.com/p32929/FayPomotroid/'
+                },
+                {
+                    title: 'Pomota',
+                    logo: 'https://github.com/p32929/pomota/blob/master/src-tauri/icons/128x128.png?raw=true',
+                    desc: 'A simple user-friendly cross-platform tauri based pomodoro timer app that forces you to take a break',
+                    link: 'https://github.com/p32929/pomota'
                 },
             ]
         },
