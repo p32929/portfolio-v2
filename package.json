@@ -4,15 +4,6 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^13.1.9",
-    "@types/jest": "^26.0.23",
-    "@types/node": "^15.6.1",
-    "@types/react": "^17.0.8",
-    "@types/react-color": "^3.0.4",
-    "@types/react-dom": "^17.0.5",
-    "@types/react-router-dom": "^5.1.7",
     "gh-pages": "^3.2.0",
     "overmind": "28.0.1",
     "overmind-react": "29.0.1",
@@ -21,7 +12,6 @@
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "typescript": "^4.2.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -52,6 +42,16 @@
     ]
   },
   "devDependencies": {
-    "serve": "^11.3.2"
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
+    "@types/react-color": "^3.0.4",
+    "@types/react-dom": "^17.0.5",
+    "@types/react-router-dom": "^5.1.7",
+    "serve": "^11.3.2",
+    "typescript": "^4.2.4"
   }
 }
