@@ -841,6 +841,17 @@ export class GlobalVars {
             ]
         },
         {
+            text: "Rust Crate",
+            arr: [
+                {
+                    title: 'Fay',
+                    logo: 'https://crates.io/assets/Cargo-Logo-Small.png',
+                    desc: 'A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands',
+                    link: 'https://crates.io/crates/fay'
+                },
+            ]
+        },
+        {
             text: "NDAs",
             arr: [
                 {
@@ -962,7 +973,7 @@ export class GlobalVars {
                     logo: "https://user-images.githubusercontent.com/26368939/110052090-be0a0b00-7d35-11eb-8827-993190a9568e.png",
                     link: "https://www.beecrowd.com.br/judge/en/profile/76542"
                 },
-                
+
             ]
         },
         {
