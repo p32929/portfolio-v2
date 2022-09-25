@@ -587,7 +587,7 @@ export class GlobalVars {
                     desc: 'A simple badge generator for your readme files',
                     link: 'https://p32929.github.io/Badges/'
                 },
-                
+
 
             ]
         },
@@ -636,13 +636,13 @@ export class GlobalVars {
                 },
                 {
                     title: 'Sleepy - Addiction Remover',
-                    logo: 'https://lh3.googleusercontent.com/vvp6Ev33xPerWBBOtIRyAHl7k5c4wQ72hGwG3EU4JC-BTjfvb5DSJDeMABaRg0fy_KI=s180',
+                    logo: 'https://user-images.githubusercontent.com/6418354/192146268-29e1bac2-e477-4010-ae03-96adecbf07e6.png',
                     desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
                     link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
                 },
                 {
                     title: 'Best CGPA Calculator',
-                    logo: 'https://lh3.googleusercontent.com/trpGkuBRWnBXNDNyts-7ePwmPtTLQ_8pKoMWi-6Iy8eBomjZ8XrVi4zQcEWrmoGLKA=s180',
+                    logo: 'https://user-images.githubusercontent.com/6418354/192146303-6e04c9ac-ffb2-4931-bb10-ef54ff7af382.png',
                     desc: 'A simple yet effective CGPA Calculator for University students',
                     link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
                 },
@@ -659,13 +659,13 @@ export class GlobalVars {
                 },
                 {
                     title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮',
-                    logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
+                    logo: 'https://cdn-icons-png.flaticon.com/128/33/33736.png',
                     desc: 'FIFA Worldcup 2018 All In One ',
                     link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
                 },
                 {
                     title: 'I am free',
-                    logo: 'https://lh3.googleusercontent.com/LIgX0ABT8z3MFILXFfrXK7vNO9j0hTxJ2aSdGwdcsdJUtViMWAsKXEiG65g94dV_i7JE=s180',
+                    logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmltZnJlZV9pY29uXzE1NzY4ODAwNzVfMDU3/icon.png?w=170&fakeurl=1',
                     desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
                     link: 'https://apkpure.com/i-am-free/p32929.imfree'
                 },
@@ -846,6 +846,11 @@ export class GlobalVars {
                     desc: 'A simple wrapper for Fetch',
                     link: 'https://www.npmjs.com/package/fayfetch'
                 },
+                {
+                    title: 'QuickCrud',
+                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
+                    desc: 'A nodejs package to write CRUD operations for Mongoose',
+                },
             ]
         },
         {
@@ -856,6 +861,11 @@ export class GlobalVars {
                     logo: 'https://crates.io/assets/Cargo-Logo-Small.png',
                     desc: 'A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands',
                     link: 'https://crates.io/crates/fay'
+                },
+                {
+                    title: 'CMDer',
+                    logo: 'https://crates.io/assets/Cargo-Logo-Small.png',
+                    link: "-----"
                 },
             ]
         },

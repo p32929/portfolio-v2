@@ -48,7 +48,7 @@ const WorksRoute: React.FC<Props> = (props) => {
             newWOrkObj?.arr?.push({
                 title: obj.name,
                 logo: WebImages.giftIcon,
-                desc: obj.description ?? "Lots of amazingness",
+                desc: obj.description,
                 link: obj.html_url
             })
         }
