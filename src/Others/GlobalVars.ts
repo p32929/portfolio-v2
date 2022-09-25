@@ -581,6 +581,13 @@ export class GlobalVars {
                     desc: 'Personal chef service delivering fresh signature meals.',
                     link: 'https://orderzesty.com/'
                 },
+                {
+                    title: 'BadgeGen',
+                    logo: 'https://raw.githubusercontent.com/p32929/Badges/master/public/android-chrome-192x192.png',
+                    desc: 'A simple badge generator for your readme files',
+                    link: 'https://p32929.github.io/Badges/'
+                },
+
             ]
         },
         {
