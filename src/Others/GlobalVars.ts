@@ -587,6 +587,7 @@ export class GlobalVars {
                     desc: 'A simple badge generator for your readme files',
                     link: 'https://p32929.github.io/Badges/'
                 },
+                
 
             ]
         },
