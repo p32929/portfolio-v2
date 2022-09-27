@@ -43,7 +43,7 @@ export class GlobalVars {
 
     static skills: Array<TitledListItemInterface> = [
         {
-            text: "Programming/Markup Languages",
+            text: "Programming / Markup Languages",
             arr: [
                 {
                     title: 'C',
@@ -145,7 +145,7 @@ export class GlobalVars {
             ]
         },
         {
-            text: "Libraries/Frameworks/Techs",
+            text: "Libraries / Frameworks / Techs",
             arr: [
                 {
                     title: 'Android App Development',
