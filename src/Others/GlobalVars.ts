@@ -719,19 +719,13 @@ export class GlobalVars {
             ]
         },
         {
-            text: "Desktop App/Scripts",
+            text: "Desktop Apps",
             arr: [
                 {
                     title: 'PotatoTimer',
                     logo: 'https://raw.githubusercontent.com/p32929/PotatoTimer/master/resources/icon.ico',
                     desc: 'A pomotodo app that forces you to take a break - created using ElectronJS',
                     link: 'https://github.com/p32929/Electron-Pomotodo'
-                },
-                {
-                    title: 'Shortcut-Virus-Remover',
-                    logo: 'https://cdn-icons-png.flaticon.com/128/3223/3223766.png',
-                    desc: 'Shortcut virus remover app for Windows',
-                    link: 'https://github.com/p32929/Shortcut-Virus-Remover'
                 },
                 {
                     title: 'Facebook Bot',
@@ -758,7 +752,24 @@ export class GlobalVars {
             ]
         },
         {
-            text: "Android Libraries",
+            text: "Command Line Interfaces ( CLIs )",
+            arr: [
+                {
+                    title: 'Shortcut-Virus-Remover',
+                    logo: 'https://cdn-icons-png.flaticon.com/128/3223/3223766.png',
+                    desc: 'Shortcut virus remover script for Windows',
+                    link: 'https://github.com/p32929/Shortcut-Virus-Remover'
+                },
+                {
+                    title: 'Fay',
+                    logo: 'https://cdn-icons-png.flaticon.com/128/4669/4669966.png',
+                    desc: 'A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands',
+                    link: 'https://crates.io/crates/fay'
+                },
+            ]
+        },
+        {
+            text: "Libraries / Packages / Crates",
             arr: [
                 {
                     title: 'AndroidEasySQL-Library',
@@ -817,12 +828,18 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
                     desc: 'A library for simpler BroadcastReceiver implementations',
                 },
-
-            ]
-        },
-        {
-            text: "Flutter Packages",
-            arr: [
+                {
+                    title: 'Fay',
+                    logo: 'https://crates.io/assets/Cargo-Logo-Small.png',
+                    desc: 'A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands',
+                    link: 'https://crates.io/crates/fay'
+                },
+                {
+                    title: 'fayfetch',
+                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
+                    desc: 'A simple wrapper for Fetch',
+                    link: 'https://www.npmjs.com/package/fayfetch'
+                },
                 {
                     title: 'EasiestDB',
                     logo: WebImages.flutterIcon,
@@ -835,38 +852,6 @@ export class GlobalVars {
                     desc: "A simplified version of the wifi_iot package",
                     link: "https://pub.dev/packages/simply_wifi"
                 }
-            ]
-        },
-        {
-            text: "NPM Packages",
-            arr: [
-                {
-                    title: 'fayfetch',
-                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
-                    desc: 'A simple wrapper for Fetch',
-                    link: 'https://www.npmjs.com/package/fayfetch'
-                },
-                {
-                    title: 'QuickCrud',
-                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
-                    desc: 'A nodejs package to write CRUD operations for Mongoose',
-                },
-            ]
-        },
-        {
-            text: "Rust Crate",
-            arr: [
-                {
-                    title: 'Fay',
-                    logo: 'https://crates.io/assets/Cargo-Logo-Small.png',
-                    desc: 'A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands',
-                    link: 'https://crates.io/crates/fay'
-                },
-                {
-                    title: 'CMDer',
-                    logo: 'https://crates.io/assets/Cargo-Logo-Small.png',
-                    link: "-----"
-                },
             ]
         },
         {
