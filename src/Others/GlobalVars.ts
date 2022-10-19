@@ -351,6 +351,10 @@ export class GlobalVars {
                     title: 'Greasemonkey',
                     logo: 'https://addons.mozilla.org/user-media/addon_icons/0/748-64.png?modified=1531822767'
                 },
+                {
+                    title: 'NestJS',
+                    logo: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg'
+                },
 
             ]
         },
