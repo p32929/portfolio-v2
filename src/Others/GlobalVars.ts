@@ -591,7 +591,12 @@ export class GlobalVars {
                     desc: 'A simple badge generator for your readme files',
                     link: 'https://p32929.github.io/Badges/'
                 },
-
+                {
+                    title: 'DramaDB',
+                    logo: 'https://dramadb.vercel.app/apple-icon.png',
+                    desc: 'A serverless hobby project that lets you filter Asian drama by country, genre, status, year and popularity',
+                    link: 'https://dramadb.vercel.app/'
+                }
 
             ]
         },
