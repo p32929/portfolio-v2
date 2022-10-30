@@ -42,10 +42,8 @@ const App: React.FC<Props> = (props) => {
     const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
 
     const getLeftPart = () => {
-        if (belowSm) {
-            if (isLeftShowing) {
-                return <LeftPart/>
-            }
+        if (belowSm && isLeftShowing) {
+            return <LeftPart/>
         } else {
             return <LeftPart/>
         }
