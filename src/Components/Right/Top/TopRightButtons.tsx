@@ -25,7 +25,7 @@ const TopRightButtons: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid container direction='row' justify='flex-end' item xs={4}>
+    return <Grid container direction='row' justifyContent='flex-end' item xs={4}>
         {/*
             PLEASE, DON'T CHANGE THIS GITHUB URL.
             ( https://github.com/p32929/p32929.github.io/ )

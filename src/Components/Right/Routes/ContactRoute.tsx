@@ -24,7 +24,7 @@ const ContactRoute: React.FC<Props> = (props) => {
     return <Grid container xs={12} item direction='column'>
         {
             GlobalVars.contacts.map((item, index) => {
-                return <ListItemWithIcon item={item} />
+                return <ListItemWithIcon key={index} item={item} />
             })
         }
     </Grid>

@@ -71,7 +71,7 @@ const App: React.FC<Props> = (props) => {
         }
     }
 
-    return <Grid container className={classes.root} justify='center' alignContent='center' alignItems='center'
+    return <Grid container className={classes.root} justifyContent='center' alignContent='center' alignItems='center'
         direction='column' style={{ backgroundColor: primaryColor }}>
         <ColorPickerDialog />
         <Paper id='container' className={classes.paper} elevation={16}>

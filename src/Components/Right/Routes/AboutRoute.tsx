@@ -45,9 +45,9 @@ const AboutRoute: React.FC<Props> = (props) => {
     const theme = useTheme()
     const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
 
-    return <Grid className={classes.root} container item xs={12} direction='column' justify='flex-end'
+    return <Grid className={classes.root} container item xs={12} direction='column' justifyContent='flex-end'
                  alignItems='center' alignContent='center'>
-        <Grid style={{height: 0, padding: 4}} id='avatarImageGrid' item xs container justify='center'
+        <Grid style={{height: 0, padding: 4}} id='avatarImageGrid' item xs container justifyContent='center'
               alignItems='center' alignContent='center'>
             <img style={belowSm ? belowSmAvatarSize : aboveSmAvatarSize}
                  src={GlobalVars.myRightAvatarImage ?? LocalImages.avatar_with_laptop}/>

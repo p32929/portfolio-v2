@@ -71,7 +71,7 @@ const RightPart: React.FC<Props> = (props) => {
   }, [location])
 
   return <Grid id='right-container' container xs item direction='row' alignContent='flex-start'  >
-    <Grid id='right-top' container direction='row' className={classes.root} justify='space-between' alignItems='flex-start' alignContent='flex-start'>
+    <Grid id='right-top' container direction='row' className={classes.root} justifyContent='space-between' alignItems='flex-start' alignContent='flex-start'>
       <RouteLocation />
       <TopRightButtons />
     </Grid>
@@ -79,7 +79,7 @@ const RightPart: React.FC<Props> = (props) => {
       <Switch>
         {
           GlobalVars.routes.map((item, index) => {
-            return <Route exact path={`/${item.toLowerCase()}`} component={routes[index]} />
+            return <Route key={index} exact path={`/${item.toLowerCase()}`} component={routes[index]} />
           })
         }
       </Switch>
