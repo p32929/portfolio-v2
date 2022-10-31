@@ -8,6 +8,6 @@
 ## Found a new bug?
 If you have found/identified a new bug that you can reproduce, here's how to report them:
 1. Make a video/gif of how to reproduce the bug
-2. Create/submit a new issue
+2. Create/submit a new issue with the video/gif file
 
 Don't make a pull request by updating this file. Thanks
