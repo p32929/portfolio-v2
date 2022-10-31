@@ -106,7 +106,7 @@ SOFTWARE.
 -> DEFINITELY! :)
 
 ## How to contribute?
-Lately, people have been making pull requests just to show their github username in the contributors list. Which I don't think is a good way to be an Open Source contributor. So, here's a few identified bugs: https://github.com/p32929/p32929.github.io/BUGS.md
+Lately, people have been making pull requests just to show their github username in the contributors list. Which I don't think is a good way to be an Open Source contributor. So, here's a few identified bugs: https://github.com/p32929/p32929.github.io/blob/react/BUGS.md
 
 If you think you can fix the bugs, you may:
 1. Fork the repository
