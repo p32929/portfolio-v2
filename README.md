@@ -106,6 +106,9 @@ SOFTWARE.
 -> DEFINITELY! :)
 
 ## How to contribute?
+Lately, people have been making pull requests just to show their github username in the contributors list. Which I don't think is a good way to be an Open Source contributor. So, here's a few identified bugs: https://github.com/p32929/p32929.github.io/BUGS.md
+
+If you think you can fix the bugs, you may:
 1. Fork the repository
 2. Clone the repository
 3. Create a new branch from the `react` branch with your github username [ Example: My github username is `p32929` ]
@@ -114,6 +117,8 @@ SOFTWARE.
 6. Commit the code
 7. Push the code in your branch
 8. Create a new pull request
+
+You're welcome...
 
 ## Support
 If you like my works and want to support me/my works, feel free to support or donate. My payment details can be found here: https://p32929.github.io/SendMoney2Me/
