@@ -23,6 +23,10 @@ interface GithubResp {
 }
 
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
+var newWOrkObj: TitledListItemInterface = {
+    text: "Others",
+    arr: []
+}
 
 const WorksRoute: React.FC<Props> = (props) => {
     const { } = useActions()
@@ -31,6 +35,7 @@ const WorksRoute: React.FC<Props> = (props) => {
     const classes = useStyles();
 
     const getGithubRepos = async () => {
+        console.debug(`getGithubRepos`)
         const data = await fetch(`https://api.github.com/users/${myGithubUsername}/repos?per_page=999`)
         const jsonFromFetch = await data.json()
         const json: Array<GithubResp> = jsonFromFetch
@@ -38,10 +43,6 @@ const WorksRoute: React.FC<Props> = (props) => {
         var newWorks: Array<TitledListItemInterface> = [
             ...GlobalVars.works
         ]
-        var newWOrkObj: TitledListItemInterface = {
-            text: "Others",
-            arr: []
-        }
 
         for (var i = 0; i < json.length; i++) {
             const obj = json[i]
@@ -56,9 +57,23 @@ const WorksRoute: React.FC<Props> = (props) => {
         setWorks(newWorks)
     }
 
+    const getFetchedWorks = () => {
+        console.debug(`getFetchedWorks`)
+        var newWorks: Array<TitledListItemInterface> = [
+            ...GlobalVars.works
+        ]
+        newWorks.push(newWOrkObj)
+        setWorks(newWorks)
+    }
+
     useEffect(() => {
         if (myGithubUsername) {
-            getGithubRepos()
+            if (newWOrkObj.arr.length === 0) {
+                getGithubRepos()
+            }
+            else {
+                getFetchedWorks()
+            }
         }
     }, [])
 
