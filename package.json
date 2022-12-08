@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:node17": "react-scripts --openssl-legacy-provider start",
     "serve": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
