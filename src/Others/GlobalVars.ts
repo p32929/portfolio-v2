@@ -839,7 +839,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Fay',
-                    logo: 'https://crates.io/assets/Cargo-Logo-Small.png',
+                    logo: 'https://crates.io/assets/cargo.png',
                     desc: 'A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands',
                     link: 'https://crates.io/crates/fay'
                 },
