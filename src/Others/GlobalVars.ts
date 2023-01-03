@@ -985,6 +985,11 @@ export class GlobalVars {
                     logo: "https://user-images.githubusercontent.com/26368939/110052090-be0a0b00-7d35-11eb-8827-993190a9568e.png",
                     link: "https://www.beecrowd.com.br/judge/en/profile/76542"
                 },
+                {
+                    title: "Buy Me a Coffee",
+                    logo: "https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-1.svg",
+                    link: "https://www.buymeacoffee.com/p32929"
+                },
 
             ]
         },
