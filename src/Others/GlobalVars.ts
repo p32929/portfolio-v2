@@ -36,8 +36,8 @@ export class GlobalVars {
             link: 'mailto:p32929.ceo@gmail.com'
         },
         {
-            svgPath: OurIcons.facebookIcon,
-            link: 'https://facebook.com/p32929'
+            svgPath: OurIcons.buymeacoffee,
+            link: 'https://www.buymeacoffee.com/p32929'
         }
     ]
 
