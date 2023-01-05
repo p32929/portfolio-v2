@@ -543,12 +543,12 @@ export class GlobalVars {
                     logo: "https://user-images.githubusercontent.com/6418354/173878148-81fc6b46-167d-4449-b2b2-de55d048c490.png",
                     desc: "Offline notes for browsers"
                 },
-                {
-                    title: "FivReq",
-                    link: "https://fivreq.netlify.app/",
-                    logo: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/129_Fiverr_logo_logos-512.png",
-                    desc: "Fiverr buyer requests"
-                },
+                // {
+                //     title: "FivReq",
+                //     link: "https://fivreq.netlify.app/",
+                //     logo: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/129_Fiverr_logo_logos-512.png",
+                //     desc: "Fiverr buyer requests"
+                // },
                 {
                     title: 'SendMoney2Me',
                     logo: 'https://user-images.githubusercontent.com/6418354/173880188-ad66a5d1-9957-42d3-bc67-590da25c43eb.png',
