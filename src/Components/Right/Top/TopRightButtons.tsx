@@ -31,14 +31,14 @@ const TopRightButtons: React.FC<Props> = (props) => {
             ( https://github.com/p32929/p32929.github.io/ )
 
             YOU MAY USE THE SOURCE CODE HOWEVER YOU WANT, BUT PLEASE,
-            KEEP THE FORK-ICON & the GITHUB-URL under the icon UNCHANGED,
+            KEEP THE GITHUB-ICON & the GITHUB-URL under the icon UNCHANGED,
             SO THAT OTHERS CAN ALSO BENIFIT FROM THE ORIGINAL REPOSITORY.
             THANKS... :)
         */}
         <IconButton size='small' target="_blank" href='https://github.com/p32929/p32929.github.io/'>
             <SvgHelper
                 styles={{ padding: 8 }}
-                path={OurIcons.fork}
+                path={OurIcons.githubIcon}
                 size={20} />
         </IconButton>
 
