@@ -7,13 +7,17 @@ import SvgHelper from '../../Helpers/SvgHelper';
 import { OurIcons } from '../../Others/OurIcons';
 
 interface Props {
-    item: ListItemInterface
+    item: ListItemInterface,
+    fromSkills?: boolean,
 }
 
 const getThemeObj = (theme: Theme) => {
     return {
         root: {
             padding: 2,
+        },
+        paper: {
+            cursor: 'pointer',
         },
         textContainer: {
             paddingTop: 16,
@@ -67,26 +71,36 @@ const OurListItem: React.FC<Props> = (props) => {
     const { } = useAppState()
 
     const classes = useStyles();
-    const { item } = props
+    const { item, fromSkills } = props
     const { logo, title, desc, link } = item
 
+    const getDescriptionTexts = () => {
+        if (!fromSkills && (desc || link)) {
+            return <Typography variant='body2' className={classes.desc}>{desc || link}</Typography>
+        }
+    }
+
+    // onClick={() => {
+    //     if (link) {
+    //         window.open(
+    //             link,
+    //             '_blank' // <- This is what makes it open in a new window.
+    //         );
+    //     }
+    // }}
+
     return <Grid container item xs={12} sm={12} md={6} lg={6} xl={4} className={classes.root}>
-        <Paper elevation={4} style={{ width: '100%' }}>
+        <Paper elevation={4} style={{ width: '100%' }} >
             <Grid container direction='row'>
                 <Avatar variant='square' className={classes.avatar} src={logo} />
 
                 <Grid container direction='column' item xs className={classes.textContainer}>
                     <Typography variant='body1' className={classes.title}>{title}</Typography>
-                    {
-                        (desc || link) &&
-                        <Typography variant='body2' className={classes.desc}>{desc || link}</Typography>
-                    }
+                    {getDescriptionTexts()}
                 </Grid>
-
                 {
                     getLinkIcon(link)
                 }
-
             </Grid>
         </Paper>
     </Grid>

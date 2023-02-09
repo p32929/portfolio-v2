@@ -2,10 +2,9 @@ import { OurIcons } from "./OurIcons"
 import { NavBottomLinksInterface, TitledListItemInterface } from "./Interfaces"
 import { WebImages } from "./Images"
 
-export const myGithubUsername = "p32929"
-
 export class GlobalVars {
 
+    //
     static primaryColor = "#00C853"
     static otherColors: Array<string> = [
         '#D50000', '#C51162', '#AA00FF', '#6200EA', '#304FFE',
@@ -13,11 +12,15 @@ export class GlobalVars {
         '#64DD17', '#AEEA00', '#FFD600', '#FFAB00', '#FF6D00',
         '#DD2C00'
     ]
+
+    //
+    static myGithubUsername = "p32929"
     static myName = 'Fayaz Bin Salam'
     static myOccupation = 'Software Engineer'
     static myDetails = 'Hello, I am Fayaz Bin Salam. I love Programming, making application/software for Mobile, Web and Desktop. For me, A Computer or A Mobile phone is nothing but some plastics and metals. But when it understands my language, it feels like a miracle!\nI started programming as a hobby since 2009. Wrote my first few scripts in Batch and VBScript. Later I learned C, C++, Java, Python, JavaScript etc, Worked in so many libraries & frameworks like ReactJS(one of my favorites), Angular2+, NodeJS, worked using so many technologies like Git, Arduino, etc. It does feel amazing to see myself improving. Hope to improve everything around me one day...'
     static myLeftAvatarImage = null
     static myRightAvatarImage = null
+    static hireMeLink = "https://forms.zohopublic.com/p32929/form/HireFayaz/formperma/sKk3M8kPKhPkXJnswhgvBNC_jfS8rgDasFp09ip-uNM";
 
     static routes: Array<string> = [
         "About",

@@ -5,9 +5,11 @@ import { useActions, useAppState } from '../../Overmind/OvermindHelper';
 import { TitledListItemInterface } from '../../Others/Interfaces';
 import ListTitle from './ListTitle';
 import OurListItem from './OurListItem';
+import { GlobalVars } from '../../Others/GlobalVars';
 
 interface Props {
-    item: TitledListItemInterface
+    item: TitledListItemInterface,
+    fromSkills?: boolean,
 }
 
 const getThemeObj = (theme: Theme) => {
@@ -28,7 +30,7 @@ const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 const ListItemWithIcon: React.FC<Props> = (props) => {
     const { } = useActions()
     const { } = useAppState()
-    const { item } = props
+    const { item, fromSkills } = props
     const { text, arr } = item
 
     const classes = useStyles();
@@ -38,7 +40,11 @@ const ListItemWithIcon: React.FC<Props> = (props) => {
         <Grid container direction='row' className={classes.itemRoot}>
             {
                 arr.sort((a, b) => a.title.localeCompare(b.title)).map((arrItem, index) => {
-                    return <OurListItem key={index} item={arrItem} />
+                    if (fromSkills && GlobalVars.hireMeLink) {
+                        arrItem.link = GlobalVars.hireMeLink
+                        console.log(`itemlink: ${arrItem.link}`)
+                    }
+                    return <OurListItem key={index} item={arrItem} fromSkills={fromSkills} />
                 })
             }
         </Grid>

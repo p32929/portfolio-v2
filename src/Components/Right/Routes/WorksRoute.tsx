@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Button, Divider, Grid, Theme } from "@material-ui/core";
 import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
-import { GlobalVars, myGithubUsername } from '../../../Others/GlobalVars';
+import { GlobalVars } from '../../../Others/GlobalVars';
 import ListItemWithIcon from '../../Items/ListItemWithIcon';
 import { OurIcons } from "../../../Others/OurIcons";
 import { WebImages } from "../../../Others/Images";
@@ -36,7 +36,7 @@ const WorksRoute: React.FC<Props> = (props) => {
 
     const getGithubRepos = async () => {
         console.debug(`getGithubRepos`)
-        const data = await fetch(`https://api.github.com/users/${myGithubUsername}/repos?per_page=999`)
+        const data = await fetch(`https://api.github.com/users/${GlobalVars.myGithubUsername}/repos?per_page=999`)
         const jsonFromFetch = await data.json()
         const json: Array<GithubResp> = jsonFromFetch
 
@@ -67,7 +67,7 @@ const WorksRoute: React.FC<Props> = (props) => {
     }
 
     useEffect(() => {
-        if (myGithubUsername) {
+        if (GlobalVars.myGithubUsername) {
             if (newWOrkObj.arr.length === 0) {
                 getGithubRepos()
             }
