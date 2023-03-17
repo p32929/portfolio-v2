@@ -919,6 +919,13 @@ export class GlobalVars {
                     desc: 'p32929.ceo@gmail.com',
                     link: 'mailto:p32929.ceo@gmail.com'
                 },
+                {
+                    title: 'Form',
+                    logo: 'https://cdn.iconscout.com/icon/premium/png-512-thumb/form-1684590-1442686.png?f=avif&w=256',
+                    desc: 'Contact me faster through the form',
+                    link: GlobalVars.helperFormLink
+                },
+
             ]
         },
         {
