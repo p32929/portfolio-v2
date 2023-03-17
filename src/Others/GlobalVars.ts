@@ -20,7 +20,8 @@ export class GlobalVars {
     static myDetails = 'Hark! I am Fayaz Bin Salam, an artful craftsman of software, weaving together intricate webs of code for mobile, web, and desktop. To me, the machines of silicon and plastic are naught but hollow shells, until they hear and heed the whispers of my command. Since 2009, I have honed my skills in the arcane art of programming, penning my first lines of code in Batch and VBScript. Through the years, I have delved deeper into the mysteries of C, C++, Java, Python, and the like, working my magic with libraries and frameworks such as ReactJS and Angular2+. The beauty of my work lies not just in its function, but in its constant evolution and growth. Indeed, I strive to kindle the spark of progress in all that surrounds me, illuminating the way towards a brighter future.'
     static myLeftAvatarImage = null
     static myRightAvatarImage = null
-    static hireMeLink = "https://forms.zohopublic.com/p32929/form/HireFayaz/formperma/sKk3M8kPKhPkXJnswhgvBNC_jfS8rgDasFp09ip-uNM";
+    static helperTexts = "We have a form available for you to write down any queries you may have, which will be sent directly to me. Would you like to view the form now?"
+    static helperFormLink = "https://forms.zohopublic.com/p32929/form/Queries/formperma/-Myh8tIzVwMWI0PlnIk6xAXgecVf9ZH_04CM_KKYG68"
 
     static routes: Array<string> = [
         "About",

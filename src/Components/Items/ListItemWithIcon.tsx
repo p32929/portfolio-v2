@@ -5,11 +5,9 @@ import { useActions, useAppState } from '../../Overmind/OvermindHelper';
 import { TitledListItemInterface } from '../../Others/Interfaces';
 import ListTitle from './ListTitle';
 import OurListItem from './OurListItem';
-import { GlobalVars } from '../../Others/GlobalVars';
 
 interface Props {
-    item: TitledListItemInterface,
-    fromSkills?: boolean,
+    item: TitledListItemInterface
 }
 
 const getThemeObj = (theme: Theme) => {
@@ -28,23 +26,22 @@ const getThemeObj = (theme: Theme) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const ListItemWithIcon: React.FC<Props> = (props) => {
-    const { } = useActions()
+    const { showHelperDialog } = useActions()
     const { } = useAppState()
-    const { item, fromSkills } = props
+    const { item } = props
     const { text, arr } = item
 
     const classes = useStyles();
 
-    return <Grid container direction='column' className={classes.root}>
-        <ListTitle title={`${text} (${arr.length}+)`} />
+    return <Grid container direction='column' className={classes.root} onClick={() => {
+        console.log(`ITEM: ${item.text}`)
+        showHelperDialog(true)
+    }}>
+        <ListTitle title={text} />
         <Grid container direction='row' className={classes.itemRoot}>
             {
                 arr.sort((a, b) => a.title.localeCompare(b.title)).map((arrItem, index) => {
-                    if (fromSkills && GlobalVars.hireMeLink) {
-                        arrItem.link = GlobalVars.hireMeLink
-                        console.log(`itemlink: ${arrItem.link}`)
-                    }
-                    return <OurListItem key={index} item={arrItem} fromSkills={fromSkills} />
+                    return <OurListItem key={index} item={arrItem} />
                 })
             }
         </Grid>
