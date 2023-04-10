@@ -71,10 +71,11 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
         if (url.toString().includes('http') || url.toString().includes('skype:')) {
             return <Grid style={{ paddingTop: 16 }}>
                 <IconButton
-                    onClick={() => {
-                        setTimeout(() => {
-                            showHelperDialog(false)
-                        }, 500)
+                    onClick={(e) => {
+                        e.stopPropagation()
+                        // setTimeout(() => {
+                        //     showHelperDialog(false)
+                        // }, 500)
                     }}
                     target="_blank"
                     href={url}
