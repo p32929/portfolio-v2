@@ -26,17 +26,14 @@ const getThemeObj = (theme: Theme) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const ListItemWithIcon: React.FC<Props> = (props) => {
-    const { showHelperDialog } = useActions()
+    const { } = useActions()
     const { } = useAppState()
     const { item } = props
     const { text, arr } = item
 
     const classes = useStyles();
 
-    return <Grid container direction='column' className={classes.root} onClick={() => {
-        console.log(`ITEM: ${item.text}`)
-        showHelperDialog(true)
-    }}>
+    return <Grid container direction='column' className={classes.root}>
         <ListTitle title={text} />
         <Grid container direction='row' className={classes.itemRoot}>
             {
