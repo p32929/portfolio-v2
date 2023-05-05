@@ -42,7 +42,7 @@ const RouteLocation: React.FC<Props> = (props) => {
 
     const classes = useStyles();
 
-    return <Grid item xs={8} direction='column' container justifyContent='center'>
+    return <Grid item xs={8} direction='column' container justifyContent='center' name='show'>
         <Grid item xs>
             {/* @ts-ignore */}
             <Hidden mdUp>
