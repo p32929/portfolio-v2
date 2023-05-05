@@ -39,7 +39,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
     const theme = useTheme()
     const belowSm = useMediaQuery(theme.breakpoints.down('sm'))
 
-    return <Grid container item xs direction='column' justifyContent='center' alignContent='stretch'>
+    return <Grid container item xs direction='column' justifyContent='center' alignContent='stretch' name='leftnavigatinoLink'>
 
         {/* @ts-ignore */}
         <Hidden mdUp>
