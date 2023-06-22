@@ -48,7 +48,7 @@ const App: React.FC<Props> = (props) => {
             setTimeout(() => {
                 showLeftPart(false)
                 hiddenLeftFirstTime = true
-            }, 750)
+            }, 700)
         }
     }
 
