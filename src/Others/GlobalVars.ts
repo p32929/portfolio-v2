@@ -229,7 +229,7 @@ export class GlobalVars {
                 },
                 {
                     title: 'Beautiful soup',
-                    logo: 'https://play-lh.googleusercontent.com/yMjUC6LBh7uOCK6wUcIEf5MHZQmSqDPXoInOQLZzw0DWQsPJuvkwSymX2zI4Ok7i_BY=w240-h480'
+                    logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/c9199eab-529b-4314-a990-c46deba899e9'
                 },
                 {
                     title: 'Numpy',
@@ -359,7 +359,15 @@ export class GlobalVars {
                     title: 'NestJS',
                     logo: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg'
                 },
-
+                {
+                    title: 'Shadcn',
+                    logo: 'https://ui.shadcn.com/favicon.ico'
+                },
+                 {
+                    title: 'Tailwind CSS',
+                    logo: 'https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/tailwind-css-icon.svg'
+                },
+                
             ]
         },
         {
@@ -600,8 +608,20 @@ export class GlobalVars {
                     logo: 'https://dramadb.vercel.app/apple-icon.png',
                     desc: 'A serverless hobby project that lets you filter Asian drama by country, genre, status, year and popularity',
                     link: 'https://dramadb.vercel.app/'
-                }
-
+                },
+                {
+                    title: 'Sh0rt',
+                    logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/a159e1d8-fabc-4f58-9391-0c3be4d14d7e',
+                    desc: 'A beautifully created URL shortener made using React Shadcn Firebase',
+                    link: 'https://sh0rt1.netlify.app/'
+                },
+                {
+                    title: 'MidnightMart',
+                    logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/6c85f00e-770d-4320-93ca-c878933c641c',
+                    desc: 'A simple website containing all my affiliate links',
+                    link: 'https://midnightmart.vercel.app/'
+                },
+                
             ]
         },
         {
