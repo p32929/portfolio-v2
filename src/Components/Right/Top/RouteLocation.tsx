@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Button, Divider, Grid, Hidden, IconButton, Theme } from "@material-ui/core";
 import { useActions, useAppState } from '../../../Overmind/OvermindHelper';
@@ -36,9 +36,9 @@ const getThemeObj = (theme: Theme) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const RouteLocation: React.FC<Props> = (props) => {
-    const { showLeftPart } = useActions()
+    const { showLeftPart, setMenuClicked } = useActions()
     let location = useLocation();
-    const { primaryColor } = useAppState()
+    const { primaryColor, isMenuClicked } = useAppState()
 
     const classes = useStyles();
 
@@ -48,8 +48,9 @@ const RouteLocation: React.FC<Props> = (props) => {
             <Hidden mdUp>
                 <IconButton size='small' onClick={() => {
                     showLeftPart(true)
+                    setMenuClicked(true)
                 }}>
-                    <div className='bounce'>
+                    <div className={isMenuClicked === true ? "" : 'bounce'}>
                         <SvgHelper path={OurIcons.menu} styles={{ padding: 8 }} size={20} />
                     </div>
                 </IconButton>
