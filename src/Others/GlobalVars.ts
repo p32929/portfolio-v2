@@ -363,11 +363,11 @@ export class GlobalVars {
                     title: 'Shadcn',
                     logo: 'https://ui.shadcn.com/favicon.ico'
                 },
-                 {
+                {
                     title: 'Tailwind CSS',
                     logo: 'https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/tailwind-css-icon.svg'
                 },
-                
+
             ]
         },
         {
@@ -621,7 +621,7 @@ export class GlobalVars {
                     desc: 'A simple website containing all my affiliate links',
                     link: 'https://midnightmart.vercel.app/'
                 },
-                
+
             ]
         },
         {
@@ -884,6 +884,17 @@ export class GlobalVars {
                     logo: WebImages.flutterIcon,
                     desc: "A simplified version of the wifi_iot package",
                     link: "https://pub.dev/packages/simply_wifi"
+                }
+            ]
+        },
+        {
+            text: "Extensions / Plugins / Addons",
+            arr: [
+                {
+                    title: 'vscode-nvim-leave-insertmode',
+                    logo: 'https://code.visualstudio.com/assets/images/code-stable.png',
+                    desc: 'This basic VSCode extension ensures that neovim is in normal mode switching between text editor panels.',
+                    link: 'https://marketplace.visualstudio.com/items?itemName=p32929.vscode-nvim-leave-insertmode'
                 }
             ]
         },
