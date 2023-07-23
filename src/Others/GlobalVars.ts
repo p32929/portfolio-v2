@@ -21,7 +21,8 @@ export class GlobalVars {
     static myLeftAvatarImage = null
     static myRightAvatarImage = null
     static helperTexts = "We have a form available for you to write down any queries you may have, which will be sent directly to me. Would you like to view the form now?"
-    static helperFormLink = "https://forms.zohopublic.com/p32929/form/Queries/formperma/-Myh8tIzVwMWI0PlnIk6xAXgecVf9ZH_04CM_KKYG68"
+    static helperFormLink = ""
+    // static helperFormLink = "https://forms.zohopublic.com/p32929/form/Queries/formperma/-Myh8tIzVwMWI0PlnIk6xAXgecVf9ZH_04CM_KKYG68"
 
     static routes: Array<string> = [
         "About",
