@@ -935,7 +935,7 @@ export class GlobalVars {
                 //     link: 'skype:p32929?chat'
                 // },
                 {
-                    title: 'WhatsApp',
+                    title: 'WhatsApp ( Recommended )',
                     logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
                     link: 'https://api.whatsapp.com/send?phone=8801796306262',
                     desc: "+8801796306262"
@@ -951,13 +951,6 @@ export class GlobalVars {
                     desc: 'p32929.ceo@gmail.com',
                     link: 'mailto:p32929.ceo@gmail.com'
                 },
-                {
-                    title: 'Form',
-                    logo: 'https://cdn.iconscout.com/icon/premium/png-512-thumb/form-1684590-1442686.png?f=avif&w=256',
-                    desc: 'Contact me faster through the form',
-                    link: GlobalVars.helperFormLink
-                },
-
             ]
         },
         {
