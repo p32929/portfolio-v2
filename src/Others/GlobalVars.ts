@@ -622,7 +622,12 @@ export class GlobalVars {
                     desc: 'A simple website containing all my affiliate links',
                     link: 'https://midnightmart.vercel.app/'
                 },
-
+                {
+                    title: "TheRealWorldFree",
+                    logo: "https://www.therlworld.com/images/Group-427319400-1.webp",
+                    desc: "Enjoy the real world for free :)",
+                    link: "https://trwfree.vercel.app/"
+                }
             ]
         },
         {
@@ -800,6 +805,13 @@ export class GlobalVars {
                     desc: 'A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands',
                     link: 'https://crates.io/crates/fay'
                 },
+                {
+                    title: 'SIIN',
+                    logo: 'https://crates.io/assets/cargo.png',
+                    desc: 'A batch installer that downloads and installs a list of apps, written in Rust ( Kinda like Ninite )',
+                    link: 'https://crates.io/crates/siin'
+                },
+
             ]
         },
         {
