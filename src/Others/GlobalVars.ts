@@ -435,7 +435,7 @@ export class GlobalVars {
             text: "Android Apps",
             arr: [
                 {
-                    title: "Al Quran by Quran Touch",
+                    title: "X - Al Quran by Quran Touch",
                     link: "https://play.google.com/store/apps/details?id=com.qurantouch.qurantouch",
                     logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/9d/7e/ed/9d7eedd6-e567-5251-bed6-dce7e868bb57/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
                     desc: "The most comprehensive Muslim App!"
