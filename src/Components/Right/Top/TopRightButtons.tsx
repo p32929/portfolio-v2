@@ -29,11 +29,6 @@ const TopRightButtons: React.FC<Props> = (props) => {
         {/*
             PLEASE, DON'T CHANGE THIS GITHUB URL.
             ( https://github.com/p32929/p32929.github.io/ )
-
-            YOU MAY USE THE SOURCE CODE HOWEVER YOU WANT, BUT PLEASE,
-            KEEP THE GITHUB-ICON & the GITHUB-URL under the icon UNCHANGED,
-            SO THAT OTHERS CAN ALSO BENIFIT FROM THE ORIGINAL REPOSITORY.
-            THANKS... :)
         */}
         <IconButton size='small' target="_blank" href='https://github.com/p32929/p32929.github.io/'>
             <SvgHelper
@@ -41,6 +36,13 @@ const TopRightButtons: React.FC<Props> = (props) => {
                 path={OurIcons.githubIcon}
                 size={20} />
         </IconButton>
+
+        {/*
+            YOU MAY USE THE SOURCE CODE HOWEVER YOU WANT, BUT PLEASE,
+            KEEP THE GITHUB-ICON & the GITHUB-URL under the icon UNCHANGED,
+            SO THAT OTHERS CAN ALSO BENIFIT FROM THE ORIGINAL REPOSITORY.
+            THANKS... :)
+        */}
 
         <IconButton size='small' onClick={() => {
             showColorPickerDialog(true)

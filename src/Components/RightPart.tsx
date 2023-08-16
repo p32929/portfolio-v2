@@ -16,6 +16,7 @@ import {
   Link,
   useLocation
 } from "react-router-dom";
+import { Constants } from '../Others/Constants';
 
 interface Props {
 
@@ -78,7 +79,7 @@ const RightPart: React.FC<Props> = (props) => {
     <Grid id='right-bottom' style={{ height: contentHeight, maxHeight: contentHeight, overflowY: 'scroll', overflowX: 'hidden'}} item xs={12} container className={classes.content} >
       <Switch>
         {
-          GlobalVars.routes.map((item, index) => {
+          Constants.routes.map((item, index) => {
             return <Route key={index} exact path={`/${item.toLowerCase()}`} component={routes[index]} />
           })
         }

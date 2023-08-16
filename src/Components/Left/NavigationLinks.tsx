@@ -8,6 +8,7 @@ import SvgHelper from '../../Helpers/SvgHelper';
 import { OurIcons } from '../../Others/OurIcons';
 import { useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { Constants } from '../../Others/Constants';
 
 interface Props {
 
@@ -53,7 +54,7 @@ const NavigationLinks: React.FC<Props> = (props) => {
         <Divider style={{ backgroundColor: primaryColor }} className={classes.divider} orientation="horizontal" flexItem />
 
         {
-            GlobalVars.routes.map((item, index) => {
+            Constants.routes.map((item, index) => {
                 return <Button
                     activeStyle={{ backgroundColor: primaryColor, color: "white" }}
                     className={classes.link}

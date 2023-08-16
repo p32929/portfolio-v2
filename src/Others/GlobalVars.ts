@@ -24,13 +24,6 @@ export class GlobalVars {
     static helperFormLink = ""
     // static helperFormLink = "https://forms.zohopublic.com/p32929/form/Queries/formperma/-Myh8tIzVwMWI0PlnIk6xAXgecVf9ZH_04CM_KKYG68"
 
-    static routes: Array<string> = [
-        "About",
-        "Skills",
-        "Works",
-        "Contact",
-    ]
-
     static bottomLinks: Array<NavBottomLinksInterface> = [
         {
             svgPath: OurIcons.whatsappIcon,
@@ -75,10 +68,6 @@ export class GlobalVars {
                     logo: 'https://www.rust-lang.org/static/images/rust-logo-blk.svg',
                 },
                 {
-                    title: 'SQL',
-                    logo: 'https://w7.pngwing.com/pngs/28/601/png-transparent-sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo-thumbnail.png',
-                },
-                {
                     title: 'HTML',
                     logo: 'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
                 },
@@ -87,32 +76,8 @@ export class GlobalVars {
                     logo: 'https://seeklogo.com/images/C/css3-logo-F1923C8D0E-seeklogo.com.png',
                 },
                 {
-                    title: 'UNIX',
-                    logo: 'https://www.vectorlogo.zone/logos/gnu/gnu-icon.svg',
-                },
-                {
-                    title: 'VBScript',
-                    logo: 'https://w7.pngwing.com/pngs/237/332/png-transparent-vbscript-scripting-language-visual-basic-microsoft-analyst-angle-text-rectangle-thumbnail.png',
-                },
-                {
-                    title: 'Windows Batch',
-                    logo: 'https://icon-library.com/images/batch-icon/batch-icon-13.jpg',
-                },
-                {
-                    title: 'Bash/Shell/PowerShell',
-                    logo: 'https://docs.microsoft.com/en-us/powershell/media/index/powershell_128.svg',
-                },
-                {
                     title: 'TypeScript',
                     logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
-                },
-                {
-                    title: 'PHP',
-                    logo: 'https://www.vectorlogo.zone/logos/php/php-icon.svg',
-                },
-                {
-                    title: 'Ruby',
-                    logo: 'https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-icon.svg',
                 },
                 {
                     title: 'Kotlin',
@@ -122,31 +87,48 @@ export class GlobalVars {
                     title: 'Dart',
                     logo: 'https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg',
                 },
+            ]
+        },
+        {
+            text: "Databases",
+            arr: [
                 {
-                    title: 'Pug',
-                    logo: 'https://www.vectorlogo.zone/logos/pugjs/pugjs-icon.svg'
+                    title: 'MongoDB',
+                    logo: 'https://cdn.iconscout.com/icon/free/png-128/mongodb-3521676-2945120.png'
                 },
                 {
-                    title: 'XML',
-                    logo: 'https://www.vectorlogo.zone/logos/w3c_xml/w3c_xml-icon.svg'
+                    title: 'SQL',
+                    logo: 'https://w7.pngwing.com/pngs/28/601/png-transparent-sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo-thumbnail.png',
                 },
                 {
-                    title: 'C#',
-                    logo: "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
+                    title: "DynamoDB",
+                    logo: 'https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg'
+                },
+            ]
+        },
+        {
+            text: "UI Component Libraries",
+            arr: [
+                {
+                    title: 'Ant Design',
+                    logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg'
                 },
                 {
-                    title: 'QML',
-                    logo: "https://s3-eu-west-1.amazonaws.com/qt-showroom/uploads/2014/08/qml_creator_icon512-300x300.png"
+                    title: 'Material-UI',
+                    logo: 'https://mui.com/static/logo.png'
                 },
                 {
-                    title: 'R',
-                    logo: "https://www.r-project.org/Rlogo.png"
+                    title: 'Shadcn',
+                    logo: 'https://ui.shadcn.com/favicon.ico'
                 },
                 {
-                    title: 'Golang',
-                    logo: "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg"
+                    title: 'Tailwind CSS',
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png?20230715030042'
                 },
-
+                {
+                    title: 'Bootstrap',
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png'
+                },
             ]
         },
         {
@@ -185,20 +167,8 @@ export class GlobalVars {
                     logo: 'https://angular.io/assets/images/logos/angular/angular.svg'
                 },
                 {
-                    title: 'MongoDB',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/mongodb-3521676-2945120.png'
-                },
-                {
                     title: 'Mongoose',
                     logo: 'https://avatars.githubusercontent.com/u/7552965?s=200&v=4'
-                },
-                {
-                    title: 'OAuth2',
-                    logo: 'https://oauth.net/images/oauth-logo-square.png'
-                },
-                {
-                    title: 'Gatsby',
-                    logo: 'https://seeklogo.com/images/G/gatsby-logo-1A245AD37F-seeklogo.com.png'
                 },
                 {
                     title: 'NextJS',
@@ -209,24 +179,12 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg'
                 },
                 {
-                    title: 'Parse',
-                    logo: 'https://www.vectorlogo.zone/logos/parseplatform/parseplatform-icon.svg'
-                },
-                {
                     title: 'Firebase',
                     logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg'
                 },
                 {
                     title: 'Flutter',
                     logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg'
-                },
-                {
-                    title: 'Tensorflow',
-                    logo: 'https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg'
-                },
-                {
-                    title: 'Unity',
-                    logo: 'https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg'
                 },
                 {
                     title: 'Beautiful soup',
@@ -237,28 +195,8 @@ export class GlobalVars {
                     logo: 'https://numpy.org/images/logo.svg'
                 },
                 {
-                    title: 'QT',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Qt_logo_2016.svg/1200px-Qt_logo_2016.svg.png'
-                },
-                {
                     title: 'Tauri',
                     logo: 'https://raw.githubusercontent.com/tauri-apps/tauri/HEAD/app-icon.png'
-                },
-                {
-                    title: 'Material-UI',
-                    logo: 'https://mui.com/static/logo.png'
-                },
-                {
-                    title: 'PassportJS',
-                    logo: 'https://www.passportjs.org/images/logo.svg'
-                },
-                {
-                    title: 'Bootstrap',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png'
-                },
-                {
-                    title: 'Adonis JS',
-                    logo: 'https://www.vectorlogo.zone/logos/adonisjs/adonisjs-icon.svg'
                 },
                 {
                     title: 'VueJS',
@@ -273,52 +211,12 @@ export class GlobalVars {
                     logo: 'https://matplotlib.org/3.1.0/_images/sphx_glr_logos2_001.png'
                 },
                 {
-                    title: 'Ionic',
-                    logo: 'https://ionicframework.com/blog/wp-content/uploads/2015/05/cropped-logo.png'
-                },
-                {
-                    title: 'Cordova',
-                    logo: 'https://cordova.apache.org/static/img/cordova_bot.png'
-                },
-                {
-                    title: 'Svelte',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/498px-Svelte_Logo.svg.png?20191219133350'
-                },
-                {
-                    title: 'Formik',
-                    logo: 'https://user-images.githubusercontent.com/4060187/61057426-4e5a4600-a3c3-11e9-9114-630743e05814.png'
-                },
-                {
                     title: 'Socket.io',
                     logo: 'https://socket.io/images/logo.svg'
                 },
                 {
-                    title: 'Ant Design',
-                    logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg'
-                },
-                {
-                    title: 'React Native Paper',
-                    logo: 'https://arpitbhalla.gallerycdn.vsassets.io/extensions/arpitbhalla/rnp-snippets/0.0.1/1620141921636/Microsoft.VisualStudio.Services.Icons.Default'
-                },
-                {
-                    title: 'Webpack',
-                    logo: 'https://raw.githubusercontent.com/webpack/media/master/logo/icon.png'
-                },
-                {
-                    title: 'JSDOM',
-                    logo: 'https://raw.githubusercontent.com/jsdom/jsdom/HEAD/logo.svg'
-                },
-                {
                     title: 'Flask',
                     logo: 'https://static.javatpoint.com/tutorial/flask/images/flask-tutorial.png'
-                },
-                {
-                    title: 'Django',
-                    logo: 'https://w7.pngwing.com/pngs/10/113/png-transparent-django-web-development-web-framework-python-software-framework-django-text-trademark-logo-thumbnail.png'
-                },
-                {
-                    title: 'Peppeteer',
-                    logo: 'https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png'
                 },
                 {
                     title: 'Docker',
@@ -329,10 +227,6 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg'
                 },
                 {
-                    title: 'Gradle',
-                    logo: 'https://www.vectorlogo.zone/logos/gradle/gradle-icon.svg'
-                },
-                {
                     title: 'Expo',
                     logo: 'https://www.vectorlogo.zone/logos/expoio/expoio-icon.svg'
                 },
@@ -341,80 +235,10 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg'
                 },
                 {
-                    title: "DynamoDB",
-                    logo: 'https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg'
-                },
-                {
-                    title: "Dynamoose",
-                    logo: 'https://dynamoosejs.com/img/logo.svg'
-                },
-                {
-                    title: "Kubernetes",
-                    logo: 'https://kubernetes.io/images/wheel.svg'
-                },
-                {
-                    title: 'Greasemonkey',
-                    logo: 'https://addons.mozilla.org/user-media/addon_icons/0/748-64.png?modified=1531822767'
-                },
-                {
                     title: 'NestJS',
                     logo: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg'
                 },
-                {
-                    title: 'Shadcn',
-                    logo: 'https://ui.shadcn.com/favicon.ico'
-                },
-                {
-                    title: 'Tailwind CSS',
-                    logo: 'https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/tailwind-css-icon.svg'
-                },
 
-            ]
-        },
-        {
-            text: "Human Languages",
-            arr: [
-                {
-                    title: 'Bengali',
-                    desc: "Native",
-                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_b_99507.webp',
-                },
-                {
-                    title: 'Chittagonian',
-                    desc: "Native",
-                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_c_99508.webp',
-                },
-                {
-                    title: 'English',
-                    desc: "Fluent",
-                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_e_99510.webp',
-                },
-                {
-                    title: 'Arabic',
-                    desc: "Mediocre",
-                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_a_99506.webp',
-                },
-
-                {
-                    title: 'Hindi',
-                    desc: "Conversational",
-                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_h_99513.webp',
-                },
-                {
-                    title: 'Urdu',
-                    desc: "Conversational",
-                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_u_99526.webp',
-                },
-                {
-                    title: 'Korean',
-                    desc: "Beginner",
-                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_k_99516.webp',
-                },
-                {
-                    title: 'Mandarin',
-                    desc: "Beginner",
-                    logo: 'https://images.all-free-download.com/images/graphicwebp/letter_k_99516.webp',
-                },
             ]
         },
         {
@@ -429,40 +253,8 @@ export class GlobalVars {
                     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/512px-Android_Studio_Icon_3.6.svg.png?20210301045217'
                 },
                 {
-                    title: 'GitHub',
-                    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg'
-                },
-                {
-                    title: 'GitLab',
-                    logo: 'https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg'
-                },
-                {
-                    title: 'Arduino',
-                    logo: 'https://www.vectorlogo.zone/logos/arduino/arduino-icon.svg'
-                },
-                {
-                    title: 'IntelliJ IDEA',
-                    logo: 'https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png'
-                },
-                {
-                    title: 'Webstorm',
-                    logo: 'https://cdn.worldvectorlogo.com/logos/webstorm-icon.svg'
-                },
-                {
                     title: 'VS Code',
                     logo: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png'
-                },
-                {
-                    title: 'Automation',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155841378-9644305f-c7d1-44f1-bd5f-d626e056601a.png'
-                },
-                {
-                    title: 'Apache',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/apache-3628623-3029848.png'
-                },
-                {
-                    title: 'Asana',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/asana-3521284-2944703.png'
                 },
                 {
                     title: 'Jira',
@@ -489,20 +281,16 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg'
                 },
                 {
-                    title: 'Facebook SDKs',
-                    logo: 'https://www.vectorlogo.zone/logos/facebook/facebook-icon.svg'
-                },
-                {
-                    title: 'Google SDKs',
-                    logo: 'https://www.vectorlogo.zone/logos/google/google-icon.svg'
-                },
-                {
                     title: 'npm',
                     logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg'
                 },
                 {
                     title: 'Tampermonkey',
                     logo: 'https://lh3.googleusercontent.com/zoY8FwoOqPlBgFxcmFdNSK2Q4CcLmv-gw7vTjF2KMR9cEabwBsGNrHBTEMitn0Ba6OmCVJ0NcLnFGu3N97BP8Phu0g=w128-h128-e365-rj-sc0x00ffffff'
+                },
+                {
+                    title: 'Greasemonkey',
+                    logo: 'https://addons.mozilla.org/user-media/addon_icons/0/748-64.png?modified=1531822767'
                 },
                 {
                     title: 'Linux',
@@ -512,19 +300,6 @@ export class GlobalVars {
                     title: 'Adobe Photoshop',
                     logo: 'https://www.adobe.com/content/dam/cc/icons/photoshop-mobile.svg'
                 },
-                {
-                    title: 'Netify',
-                    logo: 'https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg'
-                },
-                {
-                    title: 'Cloudinary',
-                    logo: 'https://avatars.githubusercontent.com/u/1460763?s=200&v=4'
-                },
-                {
-                    title: 'imgbb',
-                    logo: 'https://pipedream.com/s.v0/app_1M0hkk/logo/orig'
-                },
-
             ]
         },
     ]
@@ -533,17 +308,6 @@ export class GlobalVars {
         {
             text: "Web Apps",
             arr: [
-                {
-                    title: "BreakingMars",
-                    logo: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/lg6nxfb2dttgtng5kobb",
-                    desc: '#1 Leading & Effortless Prospect Perceiving Platform',
-                    link: "https://www.breakingmars.com/"
-                },
-                {
-                    title: "Voomnow",
-                    desc: "Next generation audio recorder",
-                    logo: "https://user-images.githubusercontent.com/6418354/173876916-e27cb77f-49f1-4190-be54-4c1ddaa2973d.svg"
-                },
                 {
                     title: "s3cr3tm3",
                     link: "https://s3cr3tm3.netlify.app/",
@@ -563,16 +327,10 @@ export class GlobalVars {
                     desc: "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more"
                 },
                 {
-                    title: 'SendMoney2Me',
+                    title: 'X - SendMoney2Me',
                     logo: 'https://user-images.githubusercontent.com/6418354/173880188-ad66a5d1-9957-42d3-bc67-590da25c43eb.png',
                     desc: 'Ways to send me money directly',
                     link: 'https://p32929.github.io/SendMoney2Me/'
-                },
-                {
-                    title: 'Shajao',
-                    logo: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/jyjetnzpv9knl6l7qxwz',
-                    desc: 'Framing Happiness',
-                    link: 'https://shajao.com/'
                 },
                 {
                     title: 'Sha1ToMd5',
@@ -605,7 +363,7 @@ export class GlobalVars {
                     link: 'https://p32929.github.io/Badges/'
                 },
                 {
-                    title: 'DramaDB',
+                    title: 'X - DramaDB',
                     logo: 'https://dramadb.vercel.app/apple-icon.png',
                     desc: 'A serverless hobby project that lets you filter Asian drama by country, genre, status, year and popularity',
                     link: 'https://dramadb.vercel.app/'
@@ -628,6 +386,32 @@ export class GlobalVars {
                     desc: "Enjoy the real world for free :)",
                     link: "https://trwfree.vercel.app/"
                 }
+            ]
+        },
+        {
+            text: "NDAs",
+            arr: [
+                {
+                    title: "BreakingMars",
+                    logo: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/lg6nxfb2dttgtng5kobb",
+                    desc: '#1 Leading & Effortless Prospect Perceiving Platform',
+                },
+                {
+                    title: "Voomnow",
+                    desc: "Next generation audio recorder",
+                    logo: "https://user-images.githubusercontent.com/6418354/173876916-e27cb77f-49f1-4190-be54-4c1ddaa2973d.svg"
+                },
+                {
+                    title: 'Shajao',
+                    logo: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/jyjetnzpv9knl6l7qxwz',
+                    desc: 'Framing Happiness',
+                },
+                {
+                    title: 'ChargeOnSite',
+                    logo: 'https://static.wixstatic.com/media/182a81_c4e4ee2bac6d4389a866239475519bdf~mv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/182a81_c4e4ee2bac6d4389a866239475519bdf~mv2.png',
+                    desc: 'Charge OnSite',
+                },
+
             ]
         },
         {
@@ -657,100 +441,100 @@ export class GlobalVars {
                     desc: "The most comprehensive Muslim App!"
                 },
                 {
-                    title: 'Thamao',
+                    title: 'X - Thamao',
                     logo: 'https://cdn.apkmonk.com/logos/com.thamao_150x150.png',
                     desc: 'বাংলাদেশে স্মার্টফোনের চুরি এবার অসম্ভব',
                 },
                 {
-                    title: 'Desplash',
+                    title: 'X - Desplash',
                     logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
                     desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
                     link: 'https://www.xda-developers.com/desplash-wallpaper-app-unsplash/'
                 },
                 {
-                    title: 'The Great Postman',
+                    title: 'X - The Great Postman',
                     logo: 'https://lh3.googleusercontent.com/ni-lk3b2nTMZyC7r1wYBW6cm9eYqGAN-t6fXV-kD0lSyw1lO3kenC1We71fZjSryvFII=s180',
                     desc: 'Powerful, Lightweight REST API client for Android',
                     link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
                 },
                 {
-                    title: 'Sleepy - Addiction Remover',
+                    title: 'X - Sleepy - Addiction Remover',
                     logo: 'https://user-images.githubusercontent.com/6418354/192146268-29e1bac2-e477-4010-ae03-96adecbf07e6.png',
                     desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
                     link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'Best CGPA Calculator',
+                    title: 'X - Best CGPA Calculator',
                     logo: 'https://user-images.githubusercontent.com/6418354/192146303-6e04c9ac-ffb2-4931-bb10-ef54ff7af382.png',
                     desc: 'A simple yet effective CGPA Calculator for University students',
                     link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'Buy Sell BD',
+                    title: 'X - Buy Sell BD',
                     logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmJ1eXNlbGxiZF9pY29uXzE1NTkyOTQ5NjVfMDYz/icon.png?w=170&fakeurl=1',
                     desc: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
                     link: 'https://apkpure.com/p/p32929.buysellbd'
                 },
                 {
-                    title: 'ExIn',
+                    title: 'X - ExIn',
                     logo: 'https://lh3.googleusercontent.com/X8mRJd7JajvDXoW7NaluKt2IvC3osH6czkTPoWeSYJ96U2LWLKT4xiFgvNouwf-UvEk=s180',
                     desc: 'A Simple & user friendly income-expense tracker ',
                 },
                 {
-                    title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮',
+                    title: 'X - ফিফা ওয়ার্ল্ডকাপ ২০১৮',
                     logo: 'https://cdn-icons-png.flaticon.com/128/33/33736.png',
                     desc: 'FIFA Worldcup 2018 All In One ',
                     link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
                 },
                 {
-                    title: 'I am free',
+                    title: 'X - I am free',
                     logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmltZnJlZV9pY29uXzE1NzY4ODAwNzVfMDU3/icon.png?w=170&fakeurl=1',
                     desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
                     link: 'https://apkpure.com/i-am-free/p32929.imfree'
                 },
                 {
-                    title: 'Awesome NCTB',
+                    title: 'X - Awesome NCTB',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5uY3RiX2ljb25fMTU3NjU3MjcwNF8wMjI/icon.png?fakeurl=1',
                     desc: 'Download NCTB Books easily and Free',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'বৃক্ষ ( Brikkho )',
+                    title: 'X - বৃক্ষ ( Brikkho )',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
                     desc: 'Learn about trees in your fingertips',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'IQQuiz',
+                    title: 'X - IQQuiz',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
                     desc: 'A simple IQ game',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'BirdsLover',
+                    title: 'X - BirdsLover',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5iaXJkc2xvdmVyX2ljb25fMTU3MjAwNDIxNl8wOTE/icon.png?fakeurl=1',
                     desc: 'Learn about birds in your fingertips',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'Animal Lover',
+                    title: 'X - Animal Lover',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5hbmltYWxfaWNvbl8xNTc3MjkyMzIzXzAyMw/icon.png?fakeurl=1',
                     desc: 'Learn about birds in your fingertips',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'Jibanananda Recitation (Abritti)',
+                    title: 'X - Jibanananda Recitation (Abritti)',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5qaWJvbmFuZG9rb2JpdGFzb21vZ3JvX2ljb25fMTU3MDEwNDExNF8wNDc/icon.png?fakeurl=1',
                     desc: '50+ poems of Jibanananda Das with audio recitation',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'MyEyes',
+                    title: 'X - MyEyes',
                     logo: WebImages.giftIcon,
                     desc: 'Indoor Navigation App for Blind People',
                 },
                 {
-                    title: 'BirthdayBot',
+                    title: 'X - BirthdayBot',
                     logo: WebImages.giftIcon,
                     desc: 'Birthday wishing apps, made for individual people...',
                     link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
@@ -767,12 +551,12 @@ export class GlobalVars {
                     link: 'https://github.com/p32929/Electron-Pomotodo'
                 },
                 {
-                    title: 'Facebook Bot',
+                    title: 'X - Facebook Bot',
                     logo: 'https://cdn-icons-png.flaticon.com/128/2504/2504903.png',
                     desc: 'Automatically likes posts in facebook and also does relavent comments',
                 },
                 {
-                    title: 'Username Scraper',
+                    title: 'X - Username Scraper',
                     logo: 'https://cdn-icons-png.flaticon.com/128/1409/1409946.png',
                     desc: 'Lists all the usernames commented in a post in instagram',
                 },
@@ -824,7 +608,7 @@ export class GlobalVars {
                     link: 'https://github.com/p32929/AndroidEasySQL-Library'
                 },
                 {
-                    title: 'FayazPermissions',
+                    title: 'X - FayazPermissions',
                     logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
                     desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
                 },
@@ -911,41 +695,12 @@ export class GlobalVars {
                 }
             ]
         },
-        {
-            text: "NDAs",
-            arr: [
-                {
-                    title: 'Konika',
-                    logo: WebImages.giftIcon,
-                    desc: '---',
-                    link: 'about:blank'
-                },
-                {
-                    title: 'NumberredPaste',
-                    logo: WebImages.giftIcon,
-                    desc: '---',
-                    link: 'about:blank'
-                },
-                {
-                    title: 'ClockedAdmin',
-                    logo: WebImages.giftIcon,
-                    desc: '---',
-                    link: 'about:blank'
-                },
-            ]
-        },
     ]
 
     static contacts: Array<TitledListItemInterface> = [
         {
             text: "Contact me",
             arr: [
-                // {
-                //     title: 'Skype',
-                //     logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
-                //     desc: 'p32929',
-                //     link: 'skype:p32929?chat'
-                // },
                 {
                     title: 'WhatsApp ( Recommended )',
                     logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
@@ -966,7 +721,7 @@ export class GlobalVars {
             ]
         },
         {
-            text: "Web Profiles",
+            text: "Others",
             arr: [
                 {
                     title: 'Anywhere on the internet',
@@ -983,11 +738,6 @@ export class GlobalVars {
                     logo: 'https://user-images.githubusercontent.com/6418354/155841027-8698cb12-7ddd-4604-a4ea-c618ddbc1cd8.png',
                     link: 'https://www.linkedin.com/in/p32929/'
                 },
-                // {
-                //     title: 'Reddit',
-                //     logo: 'https://user-images.githubusercontent.com/6418354/155841029-b3fd8a2d-3f7b-4f24-b06b-4b2337ad7280.png',
-                //     link: 'https://www.reddit.com/user/p32929'
-                // },
                 {
                     title: 'Twitter',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841031-532d5d6e-797a-4da1-8064-48d266b69ab2.png',
@@ -1038,7 +788,12 @@ export class GlobalVars {
                     logo: "https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-1.svg",
                     link: "https://www.buymeacoffee.com/p32929"
                 },
-
+                {
+                    title: 'Skype',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
+                    desc: 'p32929',
+                    link: 'skype:p32929?chat'
+                },
             ]
         },
         {
