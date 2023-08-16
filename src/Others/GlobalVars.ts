@@ -369,10 +369,10 @@ export class GlobalVars {
                     link: 'https://dramadb.vercel.app/'
                 },
                 {
-                    title: 'Sh0rt',
+                    title: 'Sh0Sh0',
                     logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/a159e1d8-fabc-4f58-9391-0c3be4d14d7e',
-                    desc: 'A beautifully created URL shortener made using React Shadcn Firebase',
-                    link: 'https://sh0rt1.netlify.app/'
+                    desc: 'A beautifully created Absolutely FREE URL shortener for everyone made using React Shadcn Firebase. ',
+                    link: 'https://sh0sh0.netlify.app/'
                 },
                 {
                     title: 'MidnightMart',
