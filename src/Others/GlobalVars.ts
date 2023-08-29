@@ -671,6 +671,12 @@ export class GlobalVars {
                     link: 'https://www.npmjs.com/package/fayfetch'
                 },
                 {
+                    title: 'fjsondb',
+                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
+                    desc: 'A fast and simple JSON database for NodeJS',
+                    link: 'https://www.npmjs.com/package/fjsondb'
+                },
+                {
                     title: 'EasiestDB',
                     logo: WebImages.flutterIcon,
                     desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
