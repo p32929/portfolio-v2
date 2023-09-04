@@ -677,6 +677,12 @@ export class GlobalVars {
                     link: 'https://www.npmjs.com/package/fjsondb'
                 },
                 {
+                    title: 'str_template',
+                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
+                    desc: 'A fast and simple string templating library, written in TypeScript ( Supports both Client side and Server side JavaScript / TypeScript )',
+                    link: 'https://www.npmjs.com/package/str-template-ts'
+                },
+                {
                     title: 'EasiestDB',
                     logo: WebImages.flutterIcon,
                     desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
