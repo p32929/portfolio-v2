@@ -357,8 +357,8 @@ export class GlobalVars {
                     link: 'https://orderzesty.com/'
                 },
                 {
-                    title: 'BadgeGen',
-                    logo: 'https://raw.githubusercontent.com/p32929/Badges/master/public/android-chrome-192x192.png',
+                    title: 'X - BadgeGen',
+                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/4a50bec7-cc78-4ef9-aa8c-1e383103d59e',
                     desc: 'A simple badge generator for your readme files',
                     link: 'https://p32929.github.io/Badges/'
                 },
