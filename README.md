@@ -1,12 +1,12 @@
 ## Table of Contents
 
-- [Documentation](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#documentation)
-- [Share](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#share)
-- [Prerequisities]
-- [Run the Project]
-- [Create Your Own Portfolio](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire-1/README.md#create-your-own-portfolio))
+- [Documentation](#documentation)
+- [Share](#share)
+- [Prerequisities](#prerequisities)
+- [Run the Project](#run-the-project)
+- [Create Your Own Portfolio](#create-your-own-portfolio))
 - [Thanks](#thanks)
-- [License](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#license)
+- [License](#license)
 
 ## Documentation
 
