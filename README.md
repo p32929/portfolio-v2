@@ -1,3 +1,20 @@
+## Table of contents
+
+- 📋 [Documentation](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#documentation)
+- 🚀 [Features](#features)
+- 📦 [Installation](#installation)
+- 💻 [Usage](#usage)
+- 📚 [CodeSandbox Templates](#codesandbox-templates)
+- 📖 [`create-react-app` Templates](#create-react-app-templates)
+- 📝 [Contributing](#contributing)
+- 💖 [Support](#support-chakra-ui)
+- 🙌 [Testimonials](#testimonials)
+- 🏆 [Awards and Mentions](#awards-and-mentions)
+- ✨ [Contributors](#contributors)
+- ⚖️ [License](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#license)
+
+## Documentation
+
 ##### The 2nd iteration of My Personal App - created using ReactJS, Overmind, Material UI etc...
 
 ![p32929](https://user-images.githubusercontent.com/6418354/108698254-2256ee80-752e-11eb-8767-aeb5a4f86536.gif)
