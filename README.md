@@ -2,7 +2,7 @@
 
 - [My Personal App](#my-personal-app)
 - [Share](#share)
-- [Prerequisities](#prerequisities)
+- [Prerequisities](#prerequisites)
 - [Run the Project](#run-the-project)
 - [Create Your Own Portfolio](#create-your-own-portfolio)
 - [Thanks](#thanks)
