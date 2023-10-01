@@ -1,14 +1,12 @@
 ## Table of Contents
 
-- 📋 [Documentation](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#documentation)
-- 🚀 [Share](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#share)
-- 📦 [Create Your Own Portfolio](#create your own portfolio)
-- 💻 [Usage](#usage)
-- 📝 [Contributing](#contributing)
-- 💖 [Support](#support-chakra-ui)
-- 🙌 [Testimonials](#testimonials)
-- ✨ [Contributors](#contributors)
-- ⚖️ [License](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#license)
+- [Documentation](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#documentation)
+- [Share](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#share)
+- [Prerequisities]
+- [Run the Project]
+- [Create Your Own Portfolio](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire-1/README.md#create-your-own-portfolio))
+- [Thanks](#thanks)
+- [License](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#license)
 
 ## Documentation
 
@@ -47,7 +45,7 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 You need to have `NodeJS` and `NPM` installed in your computer.
 If you don't have them installed, install them from here: https://nodejs.org/en/download/
 
-## Run the project
+## Run the Project
 1. Fork the repository ( Recommended )
 2. Clone your forked repository using `git clone YOUR-REPOSITORY-URL`
 3. Install all the dependencies using this command:
