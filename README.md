@@ -1,15 +1,12 @@
-## Table of contents
+## Table of Contents
 
 - 📋 [Documentation](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#documentation)
-- 🚀 [Features](#features)
-- 📦 [Installation](#installation)
+- 🚀 [Share](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#share)
+- 📦 [Create Your Own Portfolio](#create your own portfolio)
 - 💻 [Usage](#usage)
-- 📚 [CodeSandbox Templates](#codesandbox-templates)
-- 📖 [`create-react-app` Templates](#create-react-app-templates)
 - 📝 [Contributing](#contributing)
 - 💖 [Support](#support-chakra-ui)
 - 🙌 [Testimonials](#testimonials)
-- 🏆 [Awards and Mentions](#awards-and-mentions)
 - ✨ [Contributors](#contributors)
 - ⚖️ [License](https://github.com/natashasthilaire/natashasthilaire/natashasthilaire/README.md#license)
 
@@ -46,16 +43,17 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 [![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://p32929.github.io/)
 [![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://p32929.github.io/)
 
-## Create your own portfolio
+## Create Your Own Portfolio
 1. Fork the repository ( Recommended )
 2. Change the repository name to `your-github-username.github.io` by going into settings
 3. Clone the repository using `git clone YOUR-REPOSITORY-URL`
 4. Modify the variables in `src/Others/GlobalVars.ts` to add your own data and flavors.  
-5. Run: `npm run predeploy`
-6. Run: `npm run deploy`
-7. Check the `settings` of your repository, and change the `source` of the github pages to `master` branch
+5. Run `npm i react-scripts@latest`
+6. Run: `npm run predeploy`
+7. Run: `npm run deploy`
+8. Check the `settings` of your repository, and change the `source` of the github pages to `master` branch
 
-& Volla!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
+& Voila!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
 
 If it still doesn't show, do step 5 & 6 again. It usually takes 3-5 minutes for github pages to deploy the changes. 
 
