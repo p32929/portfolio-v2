@@ -1,7 +1,6 @@
 ## Table of Contents
 
 - [My Personal App](#my-personal-app)
-- [Share](#share)
 - [Prerequisities](#prerequisites)
 - [Run the Project](#run-the-project)
 - [Create Your Own Portfolio](#create-your-own-portfolio)
@@ -21,29 +20,6 @@ My Personal App is a customizable digital portfolio. This app enables you to cre
 [![](https://badgen.net/github/release/p32929/p32929.github.io)]() [![](https://badgen.net/github/release/p32929/p32929.github.io/stable)]() [![](https://badgen.net/github/tag/p32929/p32929.github.io)]() [![](https://badgen.net/github/watchers/p32929/p32929.github.io)]() [![](https://badgen.net/github/checks/p32929/p32929.github.io)]() [![](https://badgen.net/github/status/p32929/p32929.github.io)]() [![](https://badgen.net/github/stars/p32929/p32929.github.io)]() [![](https://badgen.net/github/forks/p32929/p32929.github.io)]() [![](https://badgen.net/github/issues/p32929/p32929.github.io)]() [![](https://badgen.net/github/open-issues/p32929/p32929.github.io)]() [![](https://badgen.net/github/closed-issues/p32929/p32929.github.io)]() [![](https://badgen.net/github/label-issues/p32929/p32929.github.io/help-wanted/open)]() [![](https://badgen.net/github/prs/p32929/p32929.github.io)]() [![](https://badgen.net/github/open-prs/p32929/p32929.github.io)]() [![](https://badgen.net/github/closed-prs/p32929/p32929.github.io)]() [![](https://badgen.net/github/merged-prs/p32929/p32929.github.io)]() [![](https://badgen.net/github/commits/p32929/p32929.github.io)]() [![](https://badgen.net/github/last-commit/p32929/p32929.github.io)]() [![](https://badgen.net/github/branches/p32929/p32929.github.io)]() [![](https://badgen.net/github/releases/p32929/p32929.github.io)]() [![](https://badgen.net/github/tags/p32929/p32929.github.io)]() [![](https://badgen.net/github/license/p32929/p32929.github.io)]() [![](https://badgen.net/github/contributors/p32929/p32929.github.io)]() [![](https://badgen.net/github/dependents-pkg/p32929/p32929.github.io)]() 
 
 Visit Live: https://p32929.github.io/
-
-## Share
-Sharing this repository with your friends is just one click away from here
-
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/p32929.github.io/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/p32929.github.io/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/p32929.github.io/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/p32929.github.io/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/p32929.github.io/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/p32929.github.io/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/p32929.github.io/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/p32929.github.io/)
-
-or Share my portfolio link ( https://p32929.github.io/ ) with your friends in just a click
-
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://p32929.github.io/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://p32929.github.io/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://p32929.github.io/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://p32929.github.io/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://p32929.github.io/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://p32929.github.io/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://p32929.github.io/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://p32929.github.io/)
 
 ## Prerequisites
 You need to have `NodeJS` and `NPM` installed in your computer.
@@ -138,4 +114,25 @@ If you think you can fix the bugs, you may:
 You're welcome...
 
 ## Support
+Sharing this repository with your friends is just one click away from here
+
+[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/p32929.github.io/)
+[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/p32929.github.io/)
+[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/p32929.github.io/)
+[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/p32929.github.io/)
+[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/p32929.github.io/)
+[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/p32929.github.io/)
+[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/p32929.github.io/)
+[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/p32929.github.io/)
+
+or Share my portfolio link ( https://p32929.github.io/ ) with your friends in just a click
+
+[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://p32929.github.io/)
+[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://p32929.github.io/)
+[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://p32929.github.io/)
+[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://p32929.github.io/)
+[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://p32929.github.io/)
+[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://p32929.github.io/)
+[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://p32929.github.io/)
+[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://p32929.github.io/)
 [![buymeacoffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/p32929)
