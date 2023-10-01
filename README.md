@@ -43,6 +43,18 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 [![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://p32929.github.io/)
 [![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://p32929.github.io/)
 
+## Prerequisites
+You need to have `NodeJS` and `NPM` installed in your computer.
+If you don't have them installed, install them from here: https://nodejs.org/en/download/
+
+## Run the project
+1. Fork the repository ( Recommended )
+2. Clone your forked repository using `git clone YOUR-REPOSITORY-URL`
+3. Install all the dependencies using this command:
+`npm install`
+4. Run the project using this command:
+`npm start`
+
 ## Create Your Own Portfolio
 1. Fork the repository ( Recommended )
 2. Change the repository name to `your-github-username.github.io` by going into settings
@@ -56,18 +68,6 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 & Voila!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
 
 If it still doesn't show, do step 5 & 6 again. It usually takes 3-5 minutes for github pages to deploy the changes. 
-
-## Prerequisites
-You need to have `NodeJS` and `NPM` installed in your computer.
-If you don't have them installed, install them from here: https://nodejs.org/en/download/
-
-## Run the project
-1. Fork the repository ( Recommended )
-2. Clone your forked repository using `git clone YOUR-REPOSITORY-URL`
-3. Install all the dependencies using this command:
-`npm install`
-4. Run the project using this command:
-`npm start`
 
 ## Thanks
 Thanks to everyone for your STARS, WATCHES, FORKS, & VISITS. Special thanks to:
