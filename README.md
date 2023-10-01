@@ -8,7 +8,7 @@
 - [Thanks](#thanks)
 - [License](#license)
 - [FAQ](#faq)
-- [How to Contribute?](#How-to-contribute?)
+- [How to Contribute?](#how-to-contribute)
 - [Support](#support)
 
 ## My Personal App
