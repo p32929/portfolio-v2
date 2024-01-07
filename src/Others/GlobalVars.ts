@@ -87,6 +87,10 @@ export class GlobalVars {
                     title: 'Dart',
                     logo: 'https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg',
                 },
+                {
+                    title: 'Go',
+                    logo: 'https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg',
+                },
             ]
         },
         {
@@ -103,6 +107,10 @@ export class GlobalVars {
                 {
                     title: "DynamoDB",
                     logo: 'https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg'
+                },
+                {
+                    title: "PostgreSQL",
+                    logo: 'https://wiki.postgresql.org/images/thumb/a/a4/PostgreSQL_logo.3colors.svg/540px-PostgreSQL_logo.3colors.svg.png'
                 },
             ]
         },
@@ -327,10 +335,10 @@ export class GlobalVars {
                     desc: "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more"
                 },
                 {
-                    title: 'X - SendMoney2Me',
+                    title: 'SendMoney2Me',
                     logo: 'https://user-images.githubusercontent.com/6418354/173880188-ad66a5d1-9957-42d3-bc67-590da25c43eb.png',
                     desc: 'Ways to send me money directly',
-                    link: 'https://p32929.github.io/SendMoney2Me/'
+                    link: 'https://p32929.github.io/SendMoney2MeV1/'
                 },
                 {
                     title: 'Sha1ToMd5',
@@ -345,22 +353,16 @@ export class GlobalVars {
                     link: 'https://p32929.github.io/bundle_checker/'
                 },
                 {
-                    title: 'StartPage',
+                    title: '* StartPage',
                     logo: 'https://cdn.iconscout.com/icon/premium/png-128-thumb/homepage-2580329-2151669.png',
                     desc: 'A minimalistic custom browser startpage that can be configured to your needs. ',
                     link: 'https://p32929.github.io/startpage/'
                 },
                 {
-                    title: 'OrderZesty',
+                    title: '* OrderZesty',
                     logo: 'https://orderzesty.com/wp-content/uploads/2021/10/Zesty-icon@3x-300x300.png',
                     desc: 'Personal chef service delivering fresh signature meals.',
                     link: 'https://orderzesty.com/'
-                },
-                {
-                    title: 'X - BadgeGen',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/4a50bec7-cc78-4ef9-aa8c-1e383103d59e',
-                    desc: 'A simple badge generator for your readme files',
-                    link: 'https://p32929.github.io/Badges/'
                 },
                 {
                     title: 'DramaDB',
@@ -369,19 +371,19 @@ export class GlobalVars {
                     link: 'https://dramadb.vercel.app/'
                 },
                 {
-                    title: 'Sh0Sh0',
+                    title: '* Sh0Sh0',
                     logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/a159e1d8-fabc-4f58-9391-0c3be4d14d7e',
                     desc: 'A beautifully created Absolutely FREE URL shortener for everyone made using React Shadcn Firebase. ',
                     link: 'https://sh0sh0.netlify.app/'
                 },
                 {
-                    title: 'MidnightMart',
+                    title: '* MidnightMart',
                     logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/6c85f00e-770d-4320-93ca-c878933c641c',
                     desc: 'A simple website containing all my affiliate links',
                     link: 'https://midnightmart.vercel.app/'
                 },
                 {
-                    title: "TheRealWorldFree",
+                    title: "* TheRealWorldFree",
                     logo: "https://www.therlworld.com/images/Group-427319400-1.webp",
                     desc: "Enjoy the real world for free :)",
                     link: "https://trwfree.vercel.app/"
@@ -435,106 +437,106 @@ export class GlobalVars {
             text: "Android Apps",
             arr: [
                 {
-                    title: "X - Al Quran by Quran Touch",
+                    title: "Al Quran by Quran Touch",
                     link: "https://play.google.com/store/apps/details?id=com.qurantouch.qurantouch",
                     logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/9d/7e/ed/9d7eedd6-e567-5251-bed6-dce7e868bb57/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
                     desc: "The most comprehensive Muslim App!"
                 },
                 {
-                    title: 'X - Thamao',
+                    title: 'Thamao',
                     logo: 'https://cdn.apkmonk.com/logos/com.thamao_150x150.png',
                     desc: 'বাংলাদেশে স্মার্টফোনের চুরি এবার অসম্ভব',
                 },
                 {
-                    title: 'X - Desplash',
+                    title: 'Desplash',
                     logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
                     desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
                     link: 'https://www.xda-developers.com/desplash-wallpaper-app-unsplash/'
                 },
                 {
-                    title: 'X - The Great Postman',
+                    title: 'The Great Postman',
                     logo: 'https://lh3.googleusercontent.com/ni-lk3b2nTMZyC7r1wYBW6cm9eYqGAN-t6fXV-kD0lSyw1lO3kenC1We71fZjSryvFII=s180',
                     desc: 'Powerful, Lightweight REST API client for Android',
                     link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
                 },
                 {
-                    title: 'X - Sleepy - Addiction Remover',
+                    title: 'Sleepy - Addiction Remover',
                     logo: 'https://user-images.githubusercontent.com/6418354/192146268-29e1bac2-e477-4010-ae03-96adecbf07e6.png',
                     desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
                     link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'X - Best CGPA Calculator',
+                    title: 'Best CGPA Calculator',
                     logo: 'https://user-images.githubusercontent.com/6418354/192146303-6e04c9ac-ffb2-4931-bb10-ef54ff7af382.png',
                     desc: 'A simple yet effective CGPA Calculator for University students',
                     link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'X - Buy Sell BD',
+                    title: 'Buy Sell BD',
                     logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmJ1eXNlbGxiZF9pY29uXzE1NTkyOTQ5NjVfMDYz/icon.png?w=170&fakeurl=1',
                     desc: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
                     link: 'https://apkpure.com/p/p32929.buysellbd'
                 },
                 {
-                    title: 'X - ExIn',
+                    title: 'ExIn',
                     logo: 'https://lh3.googleusercontent.com/X8mRJd7JajvDXoW7NaluKt2IvC3osH6czkTPoWeSYJ96U2LWLKT4xiFgvNouwf-UvEk=s180',
                     desc: 'A Simple & user friendly income-expense tracker ',
                 },
                 {
-                    title: 'X - ফিফা ওয়ার্ল্ডকাপ ২০১৮',
+                    title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮',
                     logo: 'https://cdn-icons-png.flaticon.com/128/33/33736.png',
                     desc: 'FIFA Worldcup 2018 All In One ',
                     link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
                 },
                 {
-                    title: 'X - I am free',
+                    title: 'I am free',
                     logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmltZnJlZV9pY29uXzE1NzY4ODAwNzVfMDU3/icon.png?w=170&fakeurl=1',
                     desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
                     link: 'https://apkpure.com/i-am-free/p32929.imfree'
                 },
                 {
-                    title: 'X - Awesome NCTB',
+                    title: 'Awesome NCTB',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5uY3RiX2ljb25fMTU3NjU3MjcwNF8wMjI/icon.png?fakeurl=1',
                     desc: 'Download NCTB Books easily and Free',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'X - বৃক্ষ ( Brikkho )',
+                    title: 'বৃক্ষ ( Brikkho )',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
                     desc: 'Learn about trees in your fingertips',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'X - IQQuiz',
+                    title: 'IQQuiz',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
                     desc: 'A simple IQ game',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'X - BirdsLover',
+                    title: 'BirdsLover',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5iaXJkc2xvdmVyX2ljb25fMTU3MjAwNDIxNl8wOTE/icon.png?fakeurl=1',
                     desc: 'Learn about birds in your fingertips',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'X - Animal Lover',
+                    title: 'Animal Lover',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5hbmltYWxfaWNvbl8xNTc3MjkyMzIzXzAyMw/icon.png?fakeurl=1',
                     desc: 'Learn about birds in your fingertips',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'X - Jibanananda Recitation (Abritti)',
+                    title: 'Jibanananda Recitation (Abritti)',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5qaWJvbmFuZG9rb2JpdGFzb21vZ3JvX2ljb25fMTU3MDEwNDExNF8wNDc/icon.png?fakeurl=1',
                     desc: '50+ poems of Jibanananda Das with audio recitation',
                     link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
                 },
                 {
-                    title: 'X - MyEyes',
+                    title: 'MyEyes',
                     logo: WebImages.giftIcon,
                     desc: 'Indoor Navigation App for Blind People',
                 },
                 {
-                    title: 'X - BirthdayBot',
+                    title: 'BirthdayBot',
                     logo: WebImages.giftIcon,
                     desc: 'Birthday wishing apps, made for individual people...',
                     link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
@@ -551,12 +553,12 @@ export class GlobalVars {
                     link: 'https://github.com/p32929/Electron-Pomotodo'
                 },
                 {
-                    title: 'X - Facebook Bot',
+                    title: 'Facebook Bot',
                     logo: 'https://cdn-icons-png.flaticon.com/128/2504/2504903.png',
                     desc: 'Automatically likes posts in facebook and also does relavent comments',
                 },
                 {
-                    title: 'X - Username Scraper',
+                    title: 'Username Scraper',
                     logo: 'https://cdn-icons-png.flaticon.com/128/1409/1409946.png',
                     desc: 'Lists all the usernames commented in a post in instagram',
                 },
@@ -608,7 +610,7 @@ export class GlobalVars {
                     link: 'https://github.com/p32929/AndroidEasySQL-Library'
                 },
                 {
-                    title: 'X - FayazPermissions',
+                    title: 'FayazPermissions',
                     logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
                     desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
                 },
