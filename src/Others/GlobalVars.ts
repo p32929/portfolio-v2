@@ -377,7 +377,7 @@ export class GlobalVars {
                     link: 'https://sh0sh0.netlify.app/'
                 },
                 {
-                    title: '* MidnightMart',
+                    title: 'MidnightMart',
                     logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/6c85f00e-770d-4320-93ca-c878933c641c',
                     desc: 'A simple website containing all my affiliate links',
                     link: 'https://midnightmart.vercel.app/'
