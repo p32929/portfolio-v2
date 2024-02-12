@@ -318,13 +318,15 @@ export class GlobalVars {
                     title: "Duas",
                     link: "https://p32929.github.io/duas/",
                     logo: "https://p32929.github.io/duas/favicon.png",
-                    desc: "A collection of duas I try to regularly recite"
+                    desc: "A collection of duas I try to regularly recite - created using flutter web",
+                    featured: true,
                 },
                 {
                     title: "dobd.xyz",
                     link: "https://www.dobd.xyz/",
                     logo: "https://www.dobd.xyz/android-chrome-512x512.png",
-                    desc: "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more"
+                    desc: "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more",
+                    featured: true,
                 },
                 {
                     title: 'StartPage',
@@ -336,13 +338,15 @@ export class GlobalVars {
                     title: "s3cr3tm3",
                     link: "https://s3cr3tm3.netlify.app/",
                     logo: "https://user-images.githubusercontent.com/6418354/173877444-59dbdd3d-1b5d-4b92-ad53-30fada9362d2.png",
-                    desc: "Share secret messages secretely"
+                    desc: "Share secret messages secretely",
+                    featured: true,
                 },
                 {
                     title: 'OrderZesty',
                     logo: 'https://orderzesty.com/wp-content/uploads/2021/10/Zesty-icon@3x-300x300.png',
                     desc: 'Personal chef service delivering fresh signature meals.',
-                    link: 'https://orderzesty.com/'
+                    link: 'https://orderzesty.com/',
+                    featured: true,
                 },
                 {
                     title: 'DramaDB',
@@ -354,7 +358,7 @@ export class GlobalVars {
                     title: 'Sh0Sh0',
                     logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/a159e1d8-fabc-4f58-9391-0c3be4d14d7e',
                     desc: 'A beautifully created Absolutely FREE URL shortener for everyone made using React Shadcn Firebase. ',
-                    link: 'https://sh0sh0.netlify.app/'
+                    link: 'https://sh0sh0.netlify.app/',
                 },
                 {
                     title: "TheRealWorldFree",
@@ -420,7 +424,8 @@ export class GlobalVars {
                     title: 'Thamao',
                     logo: 'https://cdn.apkmonk.com/logos/com.thamao_150x150.png',
                     desc: 'বাংলাদেশে স্মার্টফোনের চুরি এবার অসম্ভব',
-                    link: 'https://www.apkmonk.com/app/com.thamao/'
+                    link: 'https://www.apkmonk.com/app/com.thamao/',
+                    featured: true,
                 },
                 {
                     title: 'Desplash',
@@ -445,7 +450,8 @@ export class GlobalVars {
                     title: 'Best CGPA Calculator',
                     logo: 'https://user-images.githubusercontent.com/6418354/192146303-6e04c9ac-ffb2-4931-bb10-ef54ff7af382.png',
                     desc: 'A simple yet effective CGPA Calculator for University students',
-                    link: 'https://apkcombo.com/es/cgpa-calculator-for-update-see-the-description/p32929.cgpa_calculator/'
+                    link: 'https://apkcombo.com/es/cgpa-calculator-for-update-see-the-description/p32929.cgpa_calculator/',
+                    featured: true,
                 },
                 {
                     title: 'Buy Sell BD',
@@ -535,7 +541,8 @@ export class GlobalVars {
                     title: 'Pomota',
                     logo: 'https://github.com/p32929/pomota/blob/master/src-tauri/icons/128x128.png?raw=true',
                     desc: 'A simple user-friendly cross-platform tauri based pomodoro timer app that forces you to take a break',
-                    link: 'https://github.com/p32929/pomota'
+                    link: 'https://github.com/p32929/pomota',
+                    featured: true,
                 },
                 {
                     title: 'google-calender-widget',
@@ -579,11 +586,6 @@ export class GlobalVars {
                     logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
                     desc: 'An Easier & Lazier approach to SQL database for Android',
                     link: 'https://github.com/p32929/AndroidEasySQL-Library'
-                },
-                {
-                    title: 'FayazPermissions',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
                 },
                 {
                     title: 'AndroidAppLockscreen',
@@ -671,7 +673,7 @@ export class GlobalVars {
                     title: "audio_duration",
                     logo: WebImages.flutterIcon,
                     desc: "Just a simple flutter package to get the duration of any audio file ( like: mp3 ) in milliseconds",
-                    link: "https://pub.dev/packages/audio_duration"
+                    link: "https://pub.dev/packages/audio_duration",
                 }
             ]
         },
