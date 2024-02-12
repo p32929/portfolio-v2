@@ -14,9 +14,6 @@ export class GlobalVars {
     ]
 
     //
-    // static myGithubUsername = ""
-    static myGithubUsername = "p32929"
-
     static myName = 'Fayaz Bin Salam'
     static myOccupation = 'Software Engineer'
     static myDetails = 'Hark! I am Fayaz Bin Salam, an artful craftsman of software, weaving together intricate webs of code for mobile, web, and desktop. To me, the machines of silicon and plastic are naught but hollow shells, until they hear and heed the whispers of my command. Since 2009, I have honed my skills in the arcane art of programming, penning my first lines of code in Batch and VBScript. Through the years, I have delved deeper into the mysteries of C, C++, Java, Python, and the like, working my magic with libraries and frameworks such as ReactJS and Angular2+. The beauty of my work lies not just in its function, but in its constant evolution and growth. Indeed, I strive to kindle the spark of progress in all that surrounds me, illuminating the way towards a brighter future.'
@@ -24,7 +21,6 @@ export class GlobalVars {
     static myRightAvatarImage = null
     static helperTexts = "We have a form available for you to write down any queries you may have, which will be sent directly to me. Would you like to view the form now?"
     static helperFormLink = ""
-    // static helperFormLink = "https://forms.zohopublic.com/p32929/form/Queries/formperma/-Myh8tIzVwMWI0PlnIk6xAXgecVf9ZH_04CM_KKYG68"
 
     static bottomLinks: Array<NavBottomLinksInterface> = [
         {
@@ -388,7 +384,7 @@ export class GlobalVars {
                     title: 'ChargeOnSite',
                     logo: 'https://static.wixstatic.com/media/182a81_c4e4ee2bac6d4389a866239475519bdf~mv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/182a81_c4e4ee2bac6d4389a866239475519bdf~mv2.png',
                     desc: 'Charge OnSite',
-                    link: "https://www.chargeonsite.com/"
+                    link: "https://www.chargeonsite.com/",
                 },
             ]
         },
@@ -399,13 +395,15 @@ export class GlobalVars {
                     title: "Adblock for YT",
                     link: "https://apps.apple.com/au/app/adblock-for-youtube/id1592568016",
                     logo: "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/65/7e/a8/657ea8d9-c3aa-6951-38c8-948c05cd96c3/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/246x0w.webp",
-                    desc: "Removes ads from YT videos, embedded videos on third party websites and streams."
+                    desc: "Removes ads from YT videos, embedded videos on third party websites and streams.",
+                    featured: true
                 },
                 {
                     title: "Al Quran by Quran Touch",
                     link: "https://apps.apple.com/gb/app/al-quran-by-quran-touch/id585240351",
                     logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/9d/7e/ed/9d7eedd6-e567-5251-bed6-dce7e868bb57/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
-                    desc: "The most comprehensive Muslim App!"
+                    desc: "The most comprehensive Muslim App!",
+                    featured: true
                 },
             ]
         },
@@ -428,7 +426,8 @@ export class GlobalVars {
                     title: 'Desplash',
                     logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
                     desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
-                    link: 'https://apkcombo.com/es/desplash-beautiful-automatic-unsplash-wallpapers/p32929.desplash/'
+                    link: 'https://www.xda-developers.com/desplash-wallpaper-app-unsplash/',
+                    featured: true,
                 },
                 {
                     title: 'The Great Postman',
@@ -506,7 +505,8 @@ export class GlobalVars {
                     title: 'MathLover (Simple, Infinite, Math game)',
                     logo: 'https://lh3.googleusercontent.com/GaisH_-MeK2c_ct4kp5qbqxbJPE-q4isTdZswR4CocgB8sLNCFk4beXdlmaaFuveKUwd',
                     desc: 'MathLover is a simple, infinite mathematical problem solving game for everyone.',
-                    link: 'https://apkcombo.com/es/mathlover-simple-infinite-math-game/org.richit.mathblitz/'
+                    link: 'https://apkcombo.com/es/mathlover-simple-infinite-math-game/org.richit.mathblitz/',
+                    featured: true,
                 },
                 {
                     title: 'Hospitals BD',
@@ -541,7 +541,8 @@ export class GlobalVars {
                     title: 'google-calender-widget',
                     logo: 'https://duckduckgo.com/i/e2d8001c.png',
                     desc: 'An unofficial google calendar desktop widget for Windows, Mac and Linux ',
-                    link: 'https://github.com/p32929/google-calender-widget'
+                    link: 'https://github.com/p32929/google-calender-widget',
+                    featured: true,
                 },
             ]
         },
@@ -552,7 +553,8 @@ export class GlobalVars {
                     title: 'Shortcut-Virus-Remover',
                     logo: 'https://cdn-icons-png.flaticon.com/128/3223/3223766.png',
                     desc: 'Shortcut virus remover script for Windows',
-                    link: 'https://github.com/p32929/Shortcut-Virus-Remover'
+                    link: 'https://github.com/p32929/Shortcut-Virus-Remover',
+                    featured: true,
                 },
                 {
                     title: 'Fay',
@@ -686,7 +688,8 @@ export class GlobalVars {
                     title: 'one-console-log',
                     logo: 'https://code.visualstudio.com/assets/images/code-stable.png',
                     desc: 'A modified version of the turbo-console-log that adds only one line of console instead of multiples.',
-                    link: 'https://marketplace.visualstudio.com/items?itemName=p32929.one-console-log'
+                    link: 'https://marketplace.visualstudio.com/items?itemName=p32929.one-console-log',
+                    featured: true,
                 }
             ]
         },

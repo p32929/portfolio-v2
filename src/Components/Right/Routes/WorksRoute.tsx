@@ -23,10 +23,6 @@ interface GithubResp {
 }
 
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
-var newWOrkObj: TitledListItemInterface = {
-    text: "Others",
-    arr: []
-}
 
 const WorksRoute: React.FC<Props> = (props) => {
     const { } = useActions()
@@ -34,47 +30,54 @@ const WorksRoute: React.FC<Props> = (props) => {
     const [works, setWorks] = useState<Array<TitledListItemInterface>>([])
     const classes = useStyles();
 
-    const getGithubRepos = async () => {
-        console.debug(`getGithubRepos`)
-        const data = await fetch(`https://api.github.com/users/${GlobalVars.myGithubUsername}/repos?per_page=999`)
-        const jsonFromFetch = await data.json()
-        const json: Array<GithubResp> = jsonFromFetch
+    // const getGithubRepos = async () => {
+    //     console.debug(`getGithubRepos`)
+    //     const data = await fetch(`https://api.github.com/users/${GlobalVars.myGithubUsername}/repos?per_page=999`)
+    //     const jsonFromFetch = await data.json()
+    //     const json: Array<GithubResp> = jsonFromFetch
 
-        var newWorks: Array<TitledListItemInterface> = [
-            ...GlobalVars.works
-        ]
+    //     var newWorks: Array<TitledListItemInterface> = [
+    //         ...getWorks()
+    //     ]
+    //     var newWOrkObj: TitledListItemInterface = {
+    //         text: "Others",
+    //         arr: []
+    //     }
 
-        for (var i = 0; i < json.length; i++) {
-            const obj = json[i]
-            newWOrkObj?.arr?.push({
-                title: obj.name,
-                logo: WebImages.giftIcon,
-                desc: obj.description,
-                link: obj.html_url
-            })
+    //     for (var i = 0; i < json.length; i++) {
+    //         const obj = json[i]
+    //         newWOrkObj?.arr?.push({
+    //             title: obj.name,
+    //             logo: WebImages.giftIcon,
+    //             desc: obj.description,
+    //             link: obj.html_url
+    //         })
+    //     }
+    //     newWorks.push(newWOrkObj)
+    //     setWorks(newWorks)
+    // }
+
+    const addFeaturedItems = () => {
+        const featuredItems: TitledListItemInterface = {
+            text: "Featured",
+            arr: [],
         }
-        newWorks.push(newWOrkObj)
-        setWorks(newWorks)
-    }
-
-    const getFetchedWorks = () => {
-        console.debug(`getFetchedWorks`)
+        for (var i = 0; i < getWorks().length; i++) {
+            for (var j = 0; j < getWorks()[i].arr.length; j++) {
+                if (getWorks()[i].arr[j]?.featured) {
+                    featuredItems.arr.push(getWorks()[i].arr[j])
+                }
+            }
+        }
         var newWorks: Array<TitledListItemInterface> = [
-            ...GlobalVars.works
+            featuredItems,
+            ...getWorks(),
         ]
-        newWorks.push(newWOrkObj)
         setWorks(newWorks)
     }
 
     useEffect(() => {
-        if (GlobalVars.myGithubUsername) {
-            if (newWOrkObj.arr.length === 0) {
-                getGithubRepos()
-            }
-            else {
-                getFetchedWorks()
-            }
-        }
+        addFeaturedItems()
     }, [])
 
     const getWorks = () => {

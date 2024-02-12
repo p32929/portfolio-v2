@@ -16,10 +16,6 @@ export const showColorPickerDialog = ({ state }: Context, value: boolean) => {
     state.isColorPickerDialogShowing = value;
 }
 
-export const showHelperDialog = ({ state }: Context, value: boolean) => {
-    state.isHelperDialogShowing = value;
-}
-
 export const setMenuClicked = ({ state }: Context, value: boolean) => {
     state.isMenuClicked = value;
 }

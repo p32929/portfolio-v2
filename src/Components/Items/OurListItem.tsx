@@ -64,7 +64,7 @@ interface LinkIconProps {
 }
 
 const LinkIcon: React.FC<LinkIconProps> = (props) => {
-    const { showHelperDialog } = useActions()
+    const {  } = useActions()
     const { url } = props
 
     const isLinkString = () => {
@@ -89,9 +89,6 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
                 <IconButton
                     onClick={(e) => {
                         e.stopPropagation()
-                        // setTimeout(() => {
-                        //     showHelperDialog(false)
-                        // }, 500)
                     }}
                     target="_blank"
                     href={url}
@@ -111,7 +108,7 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
 const useStyles = makeStyles((theme: Theme) => (getThemeObj(theme)))
 
 const OurListItem: React.FC<Props> = (props) => {
-    const { showHelperDialog } = useActions()
+    const {  } = useActions()
     const { } = useAppState()
 
     const classes = useStyles();
@@ -121,7 +118,7 @@ const OurListItem: React.FC<Props> = (props) => {
     return <Grid container item xs={12} sm={12} md={6} lg={6} xl={4} className={classes.root}>
         <Paper elevation={4} style={{ width: '100%' }} onClick={() => {
             if (!link) {
-                showHelperDialog(true)
+                //
             }
         }}>
             <Grid container direction='row'>

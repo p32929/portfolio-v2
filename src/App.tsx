@@ -9,7 +9,6 @@ import { useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { MemoryRouter, Route, Redirect } from 'react-router-dom';
 import ColorPickerDialog from './Components/Dialogs/ColorPickerDialog';
-import HelperDialog from './Components/Dialogs/HelperDialog';
 
 interface Props {
 
@@ -75,7 +74,6 @@ const App: React.FC<Props> = (props) => {
     return <Grid container className={classes.root} justifyContent='center' alignContent='center' alignItems='center'
         direction='column' style={{ backgroundColor: primaryColor }}>
         <ColorPickerDialog />
-        <HelperDialog />
         <Paper id='container' className={classes.paper} elevation={16}>
             <MemoryRouter>
                 <Route exact path="/">

@@ -8,6 +8,7 @@ export interface ListItemInterface {
     desc?: string,
     logo: string,
     link?: string,
+    featured?: boolean
 }
 
 export interface TitledListItemInterface {
