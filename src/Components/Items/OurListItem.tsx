@@ -36,28 +36,28 @@ const getThemeObj = (theme: Theme) => {
     }
 }
 
-const getLinkIcon = (url: string | undefined) => {
-    if (url) {
-        if (url.toString().includes('http') || url.toString().includes('skype:')) {
-            return <Grid style={{ paddingTop: 16 }}>
-                <IconButton
-                    onClick={() => {
-                        setTimeout(() => {
+// const getLinkIcon = (url: string | undefined) => {
+//     if (url) {
+//         if (url.toString().includes('http') || url.toString().includes('skype:')) {
+//             return <Grid style={{ paddingTop: 16 }}>
+//                 <IconButton
+//                     onClick={() => {
+//                         setTimeout(() => {
 
-                        }, 500)
-                    }}
-                    target="_blank"
-                    href={url}
-                    size='small'>
-                    <SvgHelper
-                        path={OurIcons.linkIcon}
-                        styles={{ padding: 8 }}
-                        size={22} />
-                </IconButton>
-            </Grid>
-        }
-    }
-}
+//                         }, 500)
+//                     }}
+//                     target="_blank"
+//                     href={url}
+//                     size='small'>
+//                     <SvgHelper
+//                         path={OurIcons.linkIcon}
+//                         styles={{ padding: 8 }}
+//                         size={22} />
+//                 </IconButton>
+//             </Grid>
+//         }
+//     }
+// }
 
 interface LinkIconProps {
     url: string | undefined;
@@ -67,8 +67,24 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
     const { showHelperDialog } = useActions()
     const { url } = props
 
+    const isLinkString = () => {
+        const linkStrings = [
+            'http',
+            'skype:',
+            'mailto:'
+        ]
+
+        for (var i = 0; i < linkStrings.length; i++) {
+            if ((props?.url ?? "").toString().toLowerCase().includes(linkStrings[i])) {
+                return true
+            }
+        }
+
+        return false
+    }
+
     if (url) {
-        if (url.toString().includes('http') || url.toString().includes('skype:')) {
+        if (isLinkString()) {
             return <Grid style={{ paddingTop: 16 }}>
                 <IconButton
                     onClick={(e) => {

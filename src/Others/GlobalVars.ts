@@ -34,8 +34,8 @@ export class GlobalVars {
             link: 'mailto:p32929.ceo@gmail.com'
         },
         {
-            svgPath: OurIcons.facebookIcon,
-            link: 'https://facebook.com/p32929'
+            svgPath: OurIcons.downloadIcon,
+            link: 'https://docs.google.com/document/d/1W5U6FuZVPI6kfSDzjc5mJ0vEfey8tvxnb48tEku17lI/edit?usp=sharing'
         }
     ]
 
@@ -731,6 +731,11 @@ export class GlobalVars {
                     logo: 'https://cdn3d.iconscout.com/3d/premium/thumb/email-address-4437044-3684811.png',
                     desc: 'p32929.ceo@gmail.com',
                     link: 'mailto:p32929.ceo@gmail.com'
+                },
+                {
+                    title: 'Download Resume',
+                    logo: 'https://cdn3d.iconscout.com/3d/premium/thumb/cv-6617242-5501765.png?f=webp',
+                    link: 'https://docs.google.com/document/d/1W5U6FuZVPI6kfSDzjc5mJ0vEfey8tvxnb48tEku17lI/edit?usp=sharing'
                 },
             ]
         },
