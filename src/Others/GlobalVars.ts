@@ -14,7 +14,9 @@ export class GlobalVars {
     ]
 
     //
+    // static myGithubUsername = ""
     static myGithubUsername = "p32929"
+
     static myName = 'Fayaz Bin Salam'
     static myOccupation = 'Software Engineer'
     static myDetails = 'Hark! I am Fayaz Bin Salam, an artful craftsman of software, weaving together intricate webs of code for mobile, web, and desktop. To me, the machines of silicon and plastic are naught but hollow shells, until they hear and heed the whispers of my command. Since 2009, I have honed my skills in the arcane art of programming, penning my first lines of code in Batch and VBScript. Through the years, I have delved deeper into the mysteries of C, C++, Java, Python, and the like, working my magic with libraries and frameworks such as ReactJS and Angular2+. The beauty of my work lies not just in its function, but in its constant evolution and growth. Indeed, I strive to kindle the spark of progress in all that surrounds me, illuminating the way towards a brighter future.'
@@ -317,16 +319,10 @@ export class GlobalVars {
             text: "Web Apps",
             arr: [
                 {
-                    title: "s3cr3tm3",
-                    link: "https://s3cr3tm3.netlify.app/",
-                    logo: "https://user-images.githubusercontent.com/6418354/173877444-59dbdd3d-1b5d-4b92-ad53-30fada9362d2.png",
-                    desc: "Share secret messages secretely"
-                },
-                {
-                    title: "FaNote",
-                    link: "https://fanote.netlify.app/",
-                    logo: "https://user-images.githubusercontent.com/6418354/173878148-81fc6b46-167d-4449-b2b2-de55d048c490.png",
-                    desc: "Offline notes for browsers"
+                    title: "Duas",
+                    link: "https://p32929.github.io/duas/",
+                    logo: "https://p32929.github.io/duas/favicon.png",
+                    desc: "A collection of duas I try to regularly recite"
                 },
                 {
                     title: "dobd.xyz",
@@ -335,31 +331,19 @@ export class GlobalVars {
                     desc: "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more"
                 },
                 {
-                    title: 'SendMoney2Me',
-                    logo: 'https://user-images.githubusercontent.com/6418354/173880188-ad66a5d1-9957-42d3-bc67-590da25c43eb.png',
-                    desc: 'Ways to send me money directly',
-                    link: 'https://p32929.github.io/SendMoney2MeV1/'
-                },
-                {
-                    title: 'Sha1ToMd5',
-                    logo: 'https://cdn.iconscout.com/icon/premium/png-128-thumb/encryption-code-1626962-1379033.png',
-                    desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
-                    link: 'https://p32929.github.io/Sha1ToMd5'
-                },
-                {
-                    title: 'Offer Bundle Checker',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/layer-3307723-2747903.png',
-                    desc: 'Checks whether your bundle validity or the volume is ahead of you',
-                    link: 'https://p32929.github.io/bundle_checker/'
-                },
-                {
-                    title: '* StartPage',
+                    title: 'StartPage',
                     logo: 'https://cdn.iconscout.com/icon/premium/png-128-thumb/homepage-2580329-2151669.png',
                     desc: 'A minimalistic custom browser startpage that can be configured to your needs. ',
                     link: 'https://p32929.github.io/startpage/'
                 },
                 {
-                    title: '* OrderZesty',
+                    title: "s3cr3tm3",
+                    link: "https://s3cr3tm3.netlify.app/",
+                    logo: "https://user-images.githubusercontent.com/6418354/173877444-59dbdd3d-1b5d-4b92-ad53-30fada9362d2.png",
+                    desc: "Share secret messages secretely"
+                },
+                {
+                    title: 'OrderZesty',
                     logo: 'https://orderzesty.com/wp-content/uploads/2021/10/Zesty-icon@3x-300x300.png',
                     desc: 'Personal chef service delivering fresh signature meals.',
                     link: 'https://orderzesty.com/'
@@ -371,49 +355,41 @@ export class GlobalVars {
                     link: 'https://dramadb.vercel.app/'
                 },
                 {
-                    title: '* Sh0Sh0',
+                    title: 'Sh0Sh0',
                     logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/a159e1d8-fabc-4f58-9391-0c3be4d14d7e',
                     desc: 'A beautifully created Absolutely FREE URL shortener for everyone made using React Shadcn Firebase. ',
                     link: 'https://sh0sh0.netlify.app/'
                 },
                 {
-                    title: 'MidnightMart',
-                    logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/6c85f00e-770d-4320-93ca-c878933c641c',
-                    desc: 'A simple website containing all my affiliate links',
-                    link: 'https://midnightmart.vercel.app/'
-                },
-                {
-                    title: "* TheRealWorldFree",
+                    title: "TheRealWorldFree",
                     logo: "https://www.therlworld.com/images/Group-427319400-1.webp",
                     desc: "Enjoy the real world for free :)",
                     link: "https://trwfree.vercel.app/"
-                }
-            ]
-        },
-        {
-            text: "NDAs",
-            arr: [
+                },
                 {
                     title: "BreakingMars",
-                    logo: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/lg6nxfb2dttgtng5kobb",
+                    logo: "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/lg6nxfb2dttgtng5kobb",
                     desc: '#1 Leading & Effortless Prospect Perceiving Platform',
+                    link: "https://web.archive.org/web/20220413085335/https://www.breakingmars.com/"
                 },
                 {
                     title: "Voomnow",
                     desc: "Next generation audio recorder",
-                    logo: "https://user-images.githubusercontent.com/6418354/173876916-e27cb77f-49f1-4190-be54-4c1ddaa2973d.svg"
+                    logo: "https://user-images.githubusercontent.com/6418354/173876916-e27cb77f-49f1-4190-be54-4c1ddaa2973d.svg",
+                    link: "https://web.archive.org/web/20220326215025/https://www.voomnow.com/"
                 },
                 {
                     title: 'Shajao',
-                    logo: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/jyjetnzpv9knl6l7qxwz',
+                    logo: 'https://sdn.signalhire.co/storage/company/1dfc/9704/f9d3/ff49/cdce/31bb/c4d7/0628.webp',
                     desc: 'Framing Happiness',
+                    link: "https://web.archive.org/web/20191222090655/https://shajao.com/"
                 },
                 {
                     title: 'ChargeOnSite',
                     logo: 'https://static.wixstatic.com/media/182a81_c4e4ee2bac6d4389a866239475519bdf~mv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/182a81_c4e4ee2bac6d4389a866239475519bdf~mv2.png',
                     desc: 'Charge OnSite',
+                    link: "https://www.chargeonsite.com/"
                 },
-
             ]
         },
         {
@@ -438,7 +414,7 @@ export class GlobalVars {
             arr: [
                 {
                     title: "Al Quran by Quran Touch",
-                    link: "https://play.google.com/store/apps/details?id=com.qurantouch.qurantouch",
+                    link: "https://www.apkmonk.com/app/com.qurantouch.qurantouchhd.app/",
                     logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/9d/7e/ed/9d7eedd6-e567-5251-bed6-dce7e868bb57/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
                     desc: "The most comprehensive Muslim App!"
                 },
@@ -446,94 +422,97 @@ export class GlobalVars {
                     title: 'Thamao',
                     logo: 'https://cdn.apkmonk.com/logos/com.thamao_150x150.png',
                     desc: 'বাংলাদেশে স্মার্টফোনের চুরি এবার অসম্ভব',
+                    link: 'https://www.apkmonk.com/app/com.thamao/'
                 },
                 {
                     title: 'Desplash',
                     logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
                     desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
-                    link: 'https://www.xda-developers.com/desplash-wallpaper-app-unsplash/'
+                    link: 'https://apkcombo.com/es/desplash-beautiful-automatic-unsplash-wallpapers/p32929.desplash/'
                 },
                 {
                     title: 'The Great Postman',
                     logo: 'https://lh3.googleusercontent.com/ni-lk3b2nTMZyC7r1wYBW6cm9eYqGAN-t6fXV-kD0lSyw1lO3kenC1We71fZjSryvFII=s180',
                     desc: 'Powerful, Lightweight REST API client for Android',
-                    link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
+                    link: 'https://apkcombo.com/es/rest-api-client-the-great-postman/p32929.greatpostman/'
                 },
                 {
                     title: 'Sleepy - Addiction Remover',
                     logo: 'https://user-images.githubusercontent.com/6418354/192146268-29e1bac2-e477-4010-ae03-96adecbf07e6.png',
                     desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
-                    link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
+                    link: 'https://apkcombo.com/es/sleepy-phone-addiction-controller/p32929.lazyphone/'
                 },
                 {
                     title: 'Best CGPA Calculator',
                     logo: 'https://user-images.githubusercontent.com/6418354/192146303-6e04c9ac-ffb2-4931-bb10-ef54ff7af382.png',
                     desc: 'A simple yet effective CGPA Calculator for University students',
-                    link: 'https://github.com/p32929/my_android_apps/releases/tag/all'
+                    link: 'https://apkcombo.com/es/cgpa-calculator-for-update-see-the-description/p32929.cgpa_calculator/'
                 },
                 {
                     title: 'Buy Sell BD',
                     logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmJ1eXNlbGxiZF9pY29uXzE1NTkyOTQ5NjVfMDYz/icon.png?w=170&fakeurl=1',
                     desc: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
-                    link: 'https://apkpure.com/p/p32929.buysellbd'
+                    link: 'https://apkcombo.com/es/buy-sell-bd-buy-sell-everything-easily-in-bd/p32929.buysellbd/'
                 },
                 {
                     title: 'ExIn',
                     logo: 'https://lh3.googleusercontent.com/X8mRJd7JajvDXoW7NaluKt2IvC3osH6czkTPoWeSYJ96U2LWLKT4xiFgvNouwf-UvEk=s180',
                     desc: 'A Simple & user friendly income-expense tracker ',
-                },
-                {
-                    title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮',
-                    logo: 'https://cdn-icons-png.flaticon.com/128/33/33736.png',
-                    desc: 'FIFA Worldcup 2018 All In One ',
-                    link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
+                    link: "https://apkcombo.com/es/exin-discontinued/p32929.exin/",
                 },
                 {
                     title: 'I am free',
                     logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmltZnJlZV9pY29uXzE1NzY4ODAwNzVfMDU3/icon.png?w=170&fakeurl=1',
                     desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
-                    link: 'https://apkpure.com/i-am-free/p32929.imfree'
+                    link: 'https://apkcombo.com/es/i-am-free/p32929.imfree/'
                 },
                 {
                     title: 'Awesome NCTB',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5uY3RiX2ljb25fMTU3NjU3MjcwNF8wMjI/icon.png?fakeurl=1',
                     desc: 'Download NCTB Books easily and Free',
-                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                    link: 'https://apkcombo.com/es/awesome-nctb/org.richit.nctb/'
                 },
                 {
                     title: 'বৃক্ষ ( Brikkho )',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
                     desc: 'Learn about trees in your fingertips',
-                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                    link: 'https://apkcombo.com/es/%E0%A6%AC%E0%A7%83%E0%A6%95%E0%A7%8D%E0%A6%B7-brikkho/org.richit.brikkho/'
                 },
                 {
                     title: 'IQQuiz',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
                     desc: 'A simple IQ game',
-                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                    link: 'https://apkcombo.com/es/iqquiz/org.richit.iqquizapp/'
                 },
                 {
                     title: 'BirdsLover',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5iaXJkc2xvdmVyX2ljb25fMTU3MjAwNDIxNl8wOTE/icon.png?fakeurl=1',
                     desc: 'Learn about birds in your fingertips',
-                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                    link: 'https://apkcombo.com/es/birdslover/org.richit.birdslover/'
                 },
                 {
                     title: 'Animal Lover',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5hbmltYWxfaWNvbl8xNTc3MjkyMzIzXzAyMw/icon.png?fakeurl=1',
                     desc: 'Learn about birds in your fingertips',
-                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                    link: 'https://apkcombo.com/es/animal-lover/org.richit.animal/'
                 },
                 {
                     title: 'Jibanananda Recitation (Abritti)',
                     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5qaWJvbmFuZG9rb2JpdGFzb21vZ3JvX2ljb25fMTU3MDEwNDExNF8wNDc/icon.png?fakeurl=1',
                     desc: '50+ poems of Jibanananda Das with audio recitation',
-                    link: 'https://github.com/richinfotech/rich_android_apps/releases/tag/all'
+                    link: 'https://apkcombo.com/es/jibanananda-recitation-abritti/org.richit.jibonandokobitasomogro/'
                 },
                 {
-                    title: 'MyEyes',
-                    logo: WebImages.giftIcon,
-                    desc: 'Indoor Navigation App for Blind People',
+                    title: 'MathLover (Simple, Infinite, Math game)',
+                    logo: 'https://lh3.googleusercontent.com/GaisH_-MeK2c_ct4kp5qbqxbJPE-q4isTdZswR4CocgB8sLNCFk4beXdlmaaFuveKUwd',
+                    desc: 'MathLover is a simple, infinite mathematical problem solving game for everyone.',
+                    link: 'https://apkcombo.com/es/mathlover-simple-infinite-math-game/org.richit.mathblitz/'
+                },
+                {
+                    title: 'Hospitals BD',
+                    logo: 'https://lh3.googleusercontent.com/MMfY8vG1YfAFh1w6iHEp8NXCwl-NSCUDmfPkUAWmqhSGfO3JR7vBvw_XZzV8JxrDag',
+                    desc: 'Get nearest Hospital Information in Bangladesh in your fingertips',
+                    link: 'https://apkcombo.com/es/hospitals-bd/org.richit.contacthospitals/'
                 },
                 {
                     title: 'BirthdayBot',
@@ -553,26 +532,16 @@ export class GlobalVars {
                     link: 'https://github.com/p32929/Electron-Pomotodo'
                 },
                 {
-                    title: 'Facebook Bot',
-                    logo: 'https://cdn-icons-png.flaticon.com/128/2504/2504903.png',
-                    desc: 'Automatically likes posts in facebook and also does relavent comments',
-                },
-                {
-                    title: 'Username Scraper',
-                    logo: 'https://cdn-icons-png.flaticon.com/128/1409/1409946.png',
-                    desc: 'Lists all the usernames commented in a post in instagram',
-                },
-                {
-                    title: 'FayPomotroid',
-                    logo: 'https://github.com/p32929/FayPomotroid/blob/master/build/icons/256x256.png?raw=true',
-                    desc: 'Electron based Desktop pomodoro app that forces you to take a break',
-                    link: 'https://github.com/p32929/FayPomotroid/'
-                },
-                {
                     title: 'Pomota',
                     logo: 'https://github.com/p32929/pomota/blob/master/src-tauri/icons/128x128.png?raw=true',
                     desc: 'A simple user-friendly cross-platform tauri based pomodoro timer app that forces you to take a break',
                     link: 'https://github.com/p32929/pomota'
+                },
+                {
+                    title: 'google-calender-widget',
+                    logo: 'https://duckduckgo.com/i/e2d8001c.png',
+                    desc: 'An unofficial google calendar desktop widget for Windows, Mac and Linux ',
+                    link: 'https://github.com/p32929/google-calender-widget'
                 },
             ]
         },
@@ -695,6 +664,12 @@ export class GlobalVars {
                     logo: WebImages.flutterIcon,
                     desc: "A simplified version of the wifi_iot package",
                     link: "https://pub.dev/packages/simply_wifi"
+                },
+                {
+                    title: "audio_duration",
+                    logo: WebImages.flutterIcon,
+                    desc: "Just a simple flutter package to get the duration of any audio file ( like: mp3 ) in milliseconds",
+                    link: "https://pub.dev/packages/audio_duration"
                 }
             ]
         },
@@ -706,6 +681,12 @@ export class GlobalVars {
                     logo: 'https://code.visualstudio.com/assets/images/code-stable.png',
                     desc: 'This basic VSCode extension ensures that neovim is in normal mode switching between text editor panels.',
                     link: 'https://marketplace.visualstudio.com/items?itemName=p32929.vscode-nvim-leave-insertmode'
+                },
+                {
+                    title: 'one-console-log',
+                    logo: 'https://code.visualstudio.com/assets/images/code-stable.png',
+                    desc: 'A modified version of the turbo-console-log that adds only one line of console instead of multiples.',
+                    link: 'https://marketplace.visualstudio.com/items?itemName=p32929.one-console-log'
                 }
             ]
         },
