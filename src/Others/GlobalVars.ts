@@ -390,6 +390,14 @@ export class GlobalVars {
                     desc: 'Charge OnSite',
                     link: "https://www.chargeonsite.com/",
                 },
+                {
+                    title: 'MathFinity',
+                    logo: 'https://p32929.github.io/mathfinity/icons/Icon-192.png',
+                    desc: 'Simple, infinite & fun math game for everyone',
+                    link: "https://p32929.github.io/mathfinity/",
+                    featured: true,
+                },
+
             ]
         },
         {
@@ -512,7 +520,6 @@ export class GlobalVars {
                     logo: 'https://lh3.googleusercontent.com/GaisH_-MeK2c_ct4kp5qbqxbJPE-q4isTdZswR4CocgB8sLNCFk4beXdlmaaFuveKUwd',
                     desc: 'MathLover is a simple, infinite mathematical problem solving game for everyone.',
                     link: 'https://apkcombo.com/es/mathlover-simple-infinite-math-game/org.richit.mathblitz/',
-                    featured: true,
                 },
                 {
                     title: 'Hospitals BD',
