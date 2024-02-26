@@ -33,7 +33,7 @@ export class GlobalVars {
         },
         {
             svgPath: OurIcons.downloadIcon,
-            link: 'https://docs.google.com/document/d/1W5U6FuZVPI6kfSDzjc5mJ0vEfey8tvxnb48tEku17lI/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1vRgTCQ-UvzjGXK7s-TR5VpmjHZ7OmSmOs5G69znPhqA/edit?usp=sharing'
         }
     ]
 
@@ -715,20 +715,10 @@ export class GlobalVars {
                     desc: "+8801796306262"
                 },
                 {
-                    title: 'Facebook',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155840898-9e2327aa-a280-45e3-8266-8268242abda4.png',
-                    link: 'https://www.facebook.com/p32929'
-                },
-                {
                     title: 'Email',
                     logo: 'https://cdn3d.iconscout.com/3d/premium/thumb/email-address-4437044-3684811.png',
                     desc: 'p32929.ceo@gmail.com',
                     link: 'mailto:p32929.ceo@gmail.com'
-                },
-                {
-                    title: 'Download Resume',
-                    logo: 'https://cdn3d.iconscout.com/3d/premium/thumb/cv-6617242-5501765.png?f=webp',
-                    link: 'https://docs.google.com/document/d/1W5U6FuZVPI6kfSDzjc5mJ0vEfey8tvxnb48tEku17lI/edit?usp=sharing'
                 },
             ]
         },
@@ -749,6 +739,11 @@ export class GlobalVars {
                     title: 'LinkedIn',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841027-8698cb12-7ddd-4604-a4ea-c618ddbc1cd8.png',
                     link: 'https://www.linkedin.com/in/p32929/'
+                },
+                {
+                    title: 'Facebook',
+                    logo: 'https://user-images.githubusercontent.com/6418354/155840898-9e2327aa-a280-45e3-8266-8268242abda4.png',
+                    link: 'https://www.facebook.com/p32929'
                 },
                 {
                     title: 'Twitter',
