@@ -586,6 +586,23 @@ export class GlobalVars {
             ]
         },
         {
+            text: "Automations",
+            arr: [
+                {
+                    title: 'Dingtone Bot',
+                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
+                    desc: 'A bot made using Python and UIAutomator2 to automate watching ads on certain apps to get credits',
+                    link: 'https://drive.google.com/file/d/159D_tco3qkpgh2a3CWz-f0ixPEpeUN8V/view?usp=sharing'
+                },
+                {
+                    title: 'one-console-log',
+                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
+                    desc: 'Indeed-Linkedin bot',
+                    link: 'https://drive.google.com/file/d/10Xc4Y0Z5KXxKhb9StF3bQfivYHHeNZsa/view?usp=sharing',
+                }
+            ]
+        },
+        {
             text: "Libraries / Packages / Crates",
             arr: [
                 {
