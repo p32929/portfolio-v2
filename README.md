@@ -130,4 +130,4 @@ V1: https://p32929.github.io/portfolio-v1/ ( Source: https://github.com/p32929/p
 
 V2: https://p32929.github.io/portfolio-v2/ ( Source: https://github.com/p32929/portfolio-v2 )
 
-Current ( V3 ) : https://p32929.github.io/ ( Source: https://github.com/p32929/p32929.github.io )
+V3 : https://p32929.github.io/ ( Source: https://github.com/p32929/p32929.github.io )
