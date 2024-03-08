@@ -2,6 +2,7 @@
   "name": "p32929-fayaz-bin-salam",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "overmind": "28.0.1",
