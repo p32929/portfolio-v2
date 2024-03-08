@@ -590,13 +590,13 @@ export class GlobalVars {
             arr: [
                 {
                     title: 'Dingtone Bot',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
                     desc: 'A bot made using Python and UIAutomator2 to automate watching ads on certain apps to get credits',
                     link: 'https://drive.google.com/file/d/159D_tco3qkpgh2a3CWz-f0ixPEpeUN8V/view?usp=sharing'
                 },
                 {
                     title: 'Indeed-Linkedin bot',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
                     desc: 'An automation bot created using playwright to automate applying jobs on Indeed and Linkedin',
                     link: 'https://drive.google.com/file/d/10Xc4Y0Z5KXxKhb9StF3bQfivYHHeNZsa/view?usp=sharing',
                 }
