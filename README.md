@@ -31,17 +31,17 @@ or Share my portfolio link ( https://p32929.github.io/ ) with your friends in ju
 
 ## All my portfolio websites:
 
-<a href="https://ibb.co/yhLM7qV"><img src="https://i.ibb.co/q0b4Vpx/Fayaz-Bin-Salam-Portfolio.png" alt="Fayaz-Bin-Salam-Portfolio" border="0" /></a>
+<a href="https://ibb.co/yhLM7qV"><img src="https://i.ibb.co/q0b4Vpx/Fayaz-Bin-Salam-Portfolio.png" alt="Fayaz-Bin-Salam-Portfolio" border="0" height="160px" /></a>
 
 V1: https://p32929.github.io/portfolio-v1/ ( Source: https://github.com/p32929/portfolio-v1 )
 
-<a href="https://ibb.co/g4zjz6s"><img src="https://i.ibb.co/bbzWz7p/Fayaz-Bin-Salam.png" alt="Fayaz-Bin-Salam" border="0" /></a>
+<a href="https://ibb.co/g4zjz6s"><img src="https://i.ibb.co/bbzWz7p/Fayaz-Bin-Salam.png" alt="Fayaz-Bin-Salam" border="0" height="160px" /></a>
 
 V2: https://p32929.github.io/portfolio-v2/ ( Source: https://github.com/p32929/portfolio-v2 )
 
-<a href="https://ibb.co/R2XJrK0"><img src="https://i.ibb.co/kKLPbT8/310210036-71ea6422-8087-4521-a10e-718e8cf17dd2.png" alt="310210036-71ea6422-8087-4521-a10e-718e8cf17dd2" border="0" /></a>
+<a href="https://ibb.co/R2XJrK0"><img src="https://i.ibb.co/kKLPbT8/310210036-71ea6422-8087-4521-a10e-718e8cf17dd2.png" alt="310210036-71ea6422-8087-4521-a10e-718e8cf17dd2" border="0" height="160px" /></a>
 
-Current (V3) : https://p32929.github.io/ ( Source: https://github.com/p32929/p32929.github.io )
+Current ( V3 ) : https://p32929.github.io/ ( Source: https://github.com/p32929/p32929.github.io )
 
 ## Create your own portfolio
 1. Fork the repository ( Recommended )
