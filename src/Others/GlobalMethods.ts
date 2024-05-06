@@ -3,8 +3,9 @@ export class GlobalMethods {
         console.debug("Web");
 
         return {
-            width: `calc(100% - 316px)`,
-            height: `calc(100% - 168px)`
+            marginLeft: `10%`,
+            marginRight: `10%`,
+            minHeight: `80vh`
         }
     }
 
