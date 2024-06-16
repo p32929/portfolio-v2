@@ -11,8 +11,8 @@ interface Props {
 
 }
 
-const aboveSmAvatarSize = {height: '95%'}
-const belowSmAvatarSize = {height: '75%'}
+const aboveSmAvatarSize = {height: '95%', pointerEvents: 'none'}
+const belowSmAvatarSize = {height: '75%', pointerEvents: 'none'}
 
 const getThemeObj = (theme: Theme) => {
     return {
@@ -50,10 +50,11 @@ const AboutRoute: React.FC<Props> = (props) => {
         <Grid style={{height: 0, padding: 4}} id='avatarImageGrid' item xs container justifyContent='center'
               alignItems='center' alignContent='center'>
             <img style={belowSm ? belowSmAvatarSize : aboveSmAvatarSize}
-                 src={GlobalVars.myRightAvatarImage ?? LocalImages.avatar_with_laptop}/>
+                 src={GlobalVars.myRightAvatarImage ?? LocalImages.avatar_with_laptop}
+                 alt='Porfile Avatar'/>
         </Grid>
 
-        <Grid item container direction='column'>
+        <Grid item container direction='row'>
             <ListTitle title="About me" fontStyle={{fontSize: 20, fontWeight: 'bold', color: "#212121"}}/>
             <Typography className={classes.text}>
                 {GlobalVars.myDetails}

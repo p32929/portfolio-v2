@@ -46,6 +46,9 @@ If it still doesn't show, do step 5 & 6 again. It usually takes 3-5 minutes for 
 You need to have `NodeJS` and `NPM` installed in your computer.
 If you don't have them installed, install them from here: https://nodejs.org/en/download/
 
+For Newer machines, use NVM to control the Node version because Node 18 will not work in this project. Recommended Node version: 16.20.2
+Install NVM here: https://github.com/nvm-sh/nvm
+
 ## Run the project
 1. Fork the repository ( Recommended )
 2. Clone your forked repository using `git clone YOUR-REPOSITORY-URL`
