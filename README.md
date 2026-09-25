@@ -140,4 +140,4 @@ I do fixed-price delivery work on my own projects. One invoice, one date, no hou
 | **Production-hardening sprint** — 72 hours on this project, for your load and your security review | **$999** |
 | **Ongoing capacity** — one project-week of my time reserved every month | **$9,000 / month** |
 
-Full details → **[p32929.github.io/hire](https://p32929.github.io/hire/)** · Email **[fayazbinsalam@uberip.com](mailto:fayazbinsalam@uberip.com)** — scoping and quotes are free and I answer within one business day.
+Full details → **[p32929.github.io/hire](https://p32929.github.io/hire/)** · Email **[fayazdevinbox@uberip.com](mailto:fayazdevinbox@uberip.com)** — scoping and quotes are free and I answer within one business day.
